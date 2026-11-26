@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-26",
+  "items": [
+    {
+      "ticker": "INSM",
+      "price": 170.14999389648438,
+      "category": 3,
+      "confidence": "high"
+    },
+    {
+      "ticker": "KYMR",
+      "price": 173.9199981689453,
+      "category": 2,
+      "confidence": "high"
+    },
+    {
+      "ticker": "ANF",
+      "price": 168.10000610351562,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "DLTR",
+      "price": 154.64999389648438,
+      "category": 1,
+      "confidence": "high"
+    },
+    {
+      "ticker": "URBN",
+      "price": 85.58000183105469,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "MDT",
+      "price": 96.12999725341797,
+      "category": 1,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PRI",
+      "price": 292.739990234375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "ZS",
+      "price": 231.6199951171875,
+      "category": 3,
+      "confidence": "high"
+    },
+    {
+      "ticker": "BBY",
+      "price": 99.62000274658203,
+      "category": 1,
+      "confidence": "low"
+    },
+    {
+      "ticker": "SEZL",
+      "price": 145.80999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "UTMD",
+      "price": 72.3499984741211,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "PFGC",
+      "price": 109.52999877929688,
+      "category": 6,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PKG",
+      "price": 240.99000549316406,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

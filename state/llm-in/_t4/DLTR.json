@@ -1,0 +1,284 @@
+{
+ "ticker": "DLTR",
+ "news": [
+  {
+   "title": "Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook. Here's What's Behind the Gains.",
+   "url": "https://www.nasdaq.com/articles/dollar-trees-customer-traffic-jumped-38-comparable-sales-beat-its-outlook-heres-whats",
+   "date": "2026-11-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Dollar Tree: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-3-key-takeaways-long-term-investors",
+   "date": "2026-11-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Dollar Tree (DLTR) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-dltr-q3-2026-earnings-call-transcript",
+   "date": "2026-11-24",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "Dollar Tree Q3 Earnings Call Highlights",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-q3-earnings-call-highlights",
+   "date": "2026-11-24",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Dollar Tree (DLTR) Reports Q3 Earnings: What Key Metrics Have to Say",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-dltr-reports-q3-earnings-what-key-metrics-have-say",
+   "date": "2026-11-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Dollar Tree, Inc. Reports Third Quarter Net Sales Increase of 6.9% to $5.1 billion",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-inc-reports-third-quarter-net-sales-increase-69-51-billion",
+   "date": "2026-11-24",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Dollar Tree Inc. Q3 Sales Increase",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-inc-q3-sales-increase",
+   "date": "2026-11-24",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Dollar Tree Q3 26 Earnings Conference Call At 8:00 AM ET",
+   "url": "https://www.nasdaq.com/articles/dollar-tree-q3-26-earnings-conference-call-8-00-am-et",
+   "date": "2026-11-24",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Dollar Tree shoppers may soon pay more or get less",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-ceo-makes-price-001500610.html",
+   "date": "2026-11-26",
+   "publisher": "TheStreet",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Wall Street Gravitates To Reliable Retailer Costco In Rocky Market. But This Test Looms.",
+   "url": "https://finance.yahoo.com/m/7a4a70d2-82a7-313f-b7bb-a323a8e6795c/wall-street-gravitates-to.html",
+   "date": "2026-11-25",
+   "publisher": "Investor's Business Daily",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Jefferies & Co Adjusts Dollar Tree Price Target to $150 From $135",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-co-adjusts-dollar-tree-164522134.html",
+   "date": "2026-11-25",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Tariffs Strike Again: Trump Announces Tariffs Up to 20% on China and the EU. Walmart Already Navigated “Over $2 Billion”",
+   "url": "https://finance.yahoo.com/economy/policy/articles/tariffs-strike-again-trump-announces-153041860.html",
+   "date": "2026-11-25",
+   "publisher": "TIKR",
+   "via": "Yahoo"
+  },
+  {
+   "title": "UBS Adjusts Dollar Tree Price Target to $180 From $165, Maintains Buy Rating",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-dollar-tree-price-141029828.html",
+   "date": "2026-11-25",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Goldman Sachs Adjusts Price Target on Dollar Tree to $149 From $131",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-132009248.html",
+   "date": "2026-11-25",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-24",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000136/dltr-20261124.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000128/dltr-20261103.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-09-25",
+   "itemsKo": [
+    "5.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000116/dltr-20260924.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000108/dltr-20260827.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000101/dltr-20260806.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-02",
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000075/dltr-20260701.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000935703&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-08-01",
+    "derived": false,
+    "revenue": 4886500000,
+    "profit": 690100000,
+    "netIncome": 514500000,
+    "margin": 14.1,
+    "yoy": {
+     "revenue": 7,
+     "profit": 198.7,
+     "netIncome": 173.1,
+     "priorEnd": "2025-08-02"
+    }
+   },
+   {
+    "periodEnd": "2026-05-02",
+    "derived": false,
+    "revenue": 4970500000,
+    "profit": 473300000,
+    "netIncome": 347300000,
+    "margin": 9.5,
+    "yoy": {
+     "revenue": 7.2,
+     "profit": 23.2,
+     "netIncome": 1.1,
+     "priorEnd": "2025-05-03"
+    }
+   },
+   {
+    "periodEnd": "2026-01-31",
+    "derived": true,
+    "revenue": 5446100000,
+    "profit": 694700000,
+    "netIncome": 506100000,
+    "margin": 12.8,
+    "yoy": {
+     "revenue": 9,
+     "profit": 30.2,
+     "netIncome": 113.7,
+     "priorEnd": "2025-02-01"
+    }
+   },
+   {
+    "periodEnd": "2025-11-01",
+    "derived": false,
+    "revenue": 4746300000,
+    "profit": 343300000,
+    "netIncome": 244600000,
+    "margin": 7.2,
+    "yoy": {
+     "revenue": 9.4,
+     "profit": 3.8,
+     "netIncome": 4.8,
+     "priorEnd": "2024-11-02"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 3,
+  "reports": [
+   {
+    "date": "2026-06-02",
+    "broker": "키움증권",
+    "analyst": "박상준",
+    "title": "[달러 트리 (NAS:DLTR)] 달러 트리는 뿌리가 깊어요",
+    "summary": "- 미국의 다이소, 저가의 생활/이벤트용 용품을 판매- multi-price 전략을 통한 basket size 확대와 단위당 이익 개선 도모- 고유가로 인한 트래픽 둔화 우려를 trade-down 소비행태의 수혜로 방어 가능",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlcizimlgxxggmgcgxeegx.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-04-07",
+    "broker": "키움증권",
+    "analyst": "박상준",
+    "title": "[달러 트리 (NAS:DLTR)] 달러 트리에서는 돈이 자라요",
+    "summary": "- 미국의 다이소, 저가의 생활/이벤트용 용품을 판매- multi-price 전략을 통한 basket size 확대와 단위당 이익 개선 도모- Trade-down 경향과 Multi-price 전략을 통해, 실적 개선 흐름 지속 전망",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqzzekcexikxqigcgxeegx.pdf",
+    "pages": "5"
+   },
+   {
+    "date": "2026-02-02",
+    "broker": "키움증권",
+    "analyst": "박상준",
+    "title": "[달러 트리 (NAS:DLTR)] Trade-down 소비 추세의 수혜주",
+    "summary": "- 미국의 다이소, 저가의 생활/이벤트용 용품을 판매- multi-price 전략을 통한 basket size 확대와 단위당 이익 개선 도모- Trade-down 경향에 따른 구조적 수혜 지속",
+    "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxmmmcmieieeligcgxeegx.pdf",
+    "pages": "4"
+   }
+  ]
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 6.56,
+  "saleNy": 6.05,
+  "epsCy": 37.9,
+  "epsNy": -0.53,
+  "cyTrend": 0.02,
+  "nyTrend": -0.29,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.02,
+    7.24,
+    9.02
+   ],
+   "ni": [
+    173.09,
+    1.14,
+    "흑자전환"
+   ],
+   "opm": [
+    14.11,
+    9.51,
+    12.75
+   ],
+   "updated": "2026-09-08 09:56:22"
+  }
+ }
+}

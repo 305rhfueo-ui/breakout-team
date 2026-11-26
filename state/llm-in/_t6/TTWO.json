@@ -1,0 +1,862 @@
+{
+ "ticker": "TTWO",
+ "date": "2026-11-26",
+ "session": "2026-11-24",
+ "source": "list",
+ "plan": {
+  "ticker": "TTWO",
+  "name": "테이크 투 인터랙티브 소프트웨어",
+  "sector": "Communication Services",
+  "industry": "Electronic Gaming & Multimedia",
+  "price": 220.41000366210938,
+  "grade": "B",
+  "state": "pre",
+  "pivot": 237.41,
+  "stop": 223.64,
+  "distToPivotPct": -4.24,
+  "distToPivotAdr": -0.7,
+  "riskPerSharePct": 5.8,
+  "adrPct": 6.06,
+  "extensionAdr": 0.79,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 15,
+   "baseWeeks": 3,
+   "depthPct": 16.6,
+   "priorMovePct": 29.1,
+   "higherLows": 1,
+   "contraction": 1.55,
+   "closeRange10Adr": 1.7,
+   "surf10": 0.79,
+   "surf20": 1.13,
+   "slope20": 1.54,
+   "baseLow": 197.95,
+   "lastSwingLow": 200.01
+  },
+  "reasons": [
+   "✗ 선행 상승 +29%",
+   "베이스 3주",
+   "깊이 16.6%",
+   "저점 상승 1회",
+   "진폭 1.55배 · 10일 종가폭 1.7 ADR",
+   "10일선 +0.8 ADR · 20일선 +1.1 ADR",
+   "20일선 기울기 +1.54%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2103277534659898,
+    "pct": 86.9702434625789
+   },
+   "m3": {
+    "v": 0.11204794779458904,
+    "pct": 60.36970243462579
+   },
+   "m6": {
+    "v": 0.15392256773717344,
+    "pct": 49.368800721370604
+   }
+  },
+  "ret1m": 9.5,
+  "ret3m": 0.32,
+  "ret6m": 1.74,
+  "marketCap": "39.31B",
+  "volx": 1.18,
+  "volSurgeWk": 0.71,
+  "high52": 82.88,
+  "newHigh52": false,
+  "adr": 5.9,
+  "div50": 6.29,
+  "div200": 0.83,
+  "targetStatus": true,
+  "saleCy": 27.55,
+  "saleNy": 5.42,
+  "epsCy": -247.57,
+  "epsNy": 167.42,
+  "cyTrend": 30.17,
+  "nyTrend": 20.97,
+  "est": {
+   "cyCur": 2.39063,
+   "cy30": 1.83661,
+   "nyCur": 6.39299,
+   "ny30": 5.28477
+  },
+  "fs": {
+   "sale": [
+    2,
+    6.15,
+    24.94
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    "적자축소"
+   ],
+   "opm": [
+    -2.31,
+    0.65,
+    -2.28
+   ],
+   "updated": "2026-09-08 10:32:36"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-26",
+  "nameKo": "테이크 투 인터랙티브 소프트웨어",
+  "nameEn": "TAKE TWO INTERACTIVE SOFTWARE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000946581&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1497000000,
+     "profit": -117500000,
+     "netIncome": -54000000,
+     "margin": -7.8,
+     "yoy": {
+      "revenue": -15.6,
+      "profit": -19.9,
+      "netIncome": 59.7,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1533900000,
+     "profit": -35500000,
+     "netIncome": -34100000,
+     "margin": -2.3,
+     "yoy": {
+      "revenue": 2,
+      "profit": -264.4,
+      "netIncome": -186.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": true,
+     "revenue": 1679800000,
+     "profit": 10900000,
+     "netIncome": -59500000,
+     "margin": 0.6,
+     "yoy": {
+      "revenue": 6.1,
+      "profit": 100.3,
+      "netIncome": 98.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": false,
+     "revenue": 1699000000,
+     "profit": -38700000,
+     "netIncome": -92900000,
+     "margin": -2.3,
+     "yoy": {
+      "revenue": 24.9,
+      "profit": 70.7,
+      "netIncome": 25.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Grand Theft Auto VI Is Finally Here. Is Take-Two Stock a Buy?",
+     "url": "https://www.nasdaq.com/articles/grand-theft-auto-vi-finally-here-take-two-stock-buy",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Take-Two Interactive vs. Anthropic: Which Market-Moving Stock Is the Better Buy?",
+     "url": "https://www.nasdaq.com/articles/take-two-interactive-vs-anthropic-which-market-moving-stock-better-buy",
+     "date": "2026-11-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Analysts See 40% Boost for Take-Two Stock on Blowout Grand Theft Auto VI Sales. Are They Right?",
+     "url": "https://www.nasdaq.com/articles/analysts-see-40-boost-take-two-stock-blowout-grand-theft-auto-vi-sales-are-they-right",
+     "date": "2026-11-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Take-Two Interactive Software, Inc. Subsidiary Rockstar Games Announces Grand Theft Auto VI Day One Retail Sales of $3.79 Billion",
+     "url": "https://www.nasdaq.com/articles/take-two-interactive-software-inc-subsidiary-rockstar-games-announces-grand-theft-auto-vi",
+     "date": "2026-11-20",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Should You Buy Take-Two Interactive After the GTA VI Release?",
+     "url": "https://www.nasdaq.com/articles/should-you-buy-take-two-interactive-after-gta-vi-release",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Take-Two Stock's Winning the Game Today",
+     "url": "https://www.nasdaq.com/articles/why-take-two-stocks-winning-game-today",
+     "date": "2026-11-18",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-20",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/ttwo-20261120.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-09",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo-20261109.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "중요 계약 체결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/ttwo-20260928.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "5.03",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026063032/ttwo-20260917.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-21",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037260/ttwo-20260521.htm"
+   }
+  ],
+  "krReports": {
+   "total": 7,
+   "reports": [
+    {
+     "date": "2026-11-17",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 다가오는 판단의 시간",
+     "summary": "- NBA 2K27과 GTA V 호조로 FY2Q27 매출은 가이던스에 대체로 부합- 당사가 분석한 내년 1분기까지 GTA VI 누적 판매량 기대치는 4천만 장 수준- 관련 마일스톤을 달성하기 위한 게임성, 프레임 및 최적화 이슈 등이 주 포인트",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkmzzczexziiegcgxeegx.pdf",
+     "pages": "6"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 높아지는 시장 눈높이와 본격적인 출시 모멘텀 도래",
+     "summary": "- NBA 2K26 성과로 FY1Q27 매출액 $1,534M으로 시장 컨센서스 3% 상회- GTA VI의 전례 없는 사전 판매량에도 FY2027E 가이던스는 보수적으로 유지- 본격적인 출시 모멘텀과 높아지고 있는 시장의 눈높이에 따른 주가 상승 기대",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxzkliqkiqlgcgxeegx.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "신한투자증권",
+     "analyst": "강석오",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] <GTA6> 기대감 지속",
+     "summary": "- 기존 IP(NBA 2K·GTA 온라인)가 견조한 흐름 보였으나 모바일 부문 부진, 일회성 비용으로 수익성 하락. 다만  출시 기대감은 지속- 테이크투는 FY1Q27 매출액 15.3억달러(YoY +2%, QoQ -8.7%), Net Bookings 13.9억달러(YoY -2.6%, 이하 전년동기 대비)를 기록. 와 의 견조한 판매가 실적 견인하며 Net Bookings 가 이던스 13.2~13.7억달러를 상회.- 미공개 외부 개발사 타이틀 개발 중단에 따른 개발비 손상차손 4,340만달 러가 반영되며 영업손실 3,550만달러로 적자전환. 대형 타이틀 개발 및 라 이선스 관련 현금 지출이 지속되며 영업활동현금흐름도 -1.69억달러로 악 화",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqeqlcklclkzkgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-06-17",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 보수적 가이던스 제시로 인한 반대급부 존재",
+     "summary": "- Rockstar Games, 2K, Zynga 등 대형 레이블을 보유한 게임 유통 기업- FY2027E 가이던스가 컨센서스를 하회하며 실적 발표 이후 주가는 하락- 다만 GTA VI의 실제 성과는 가이던스와 컨센서스를 상회할 가능성 존재",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlexkmkxqckzkcgcgxeegx.pdf",
+     "pages": "7"
+    },
+    {
+     "date": "2026-06-08",
+     "broker": "신한투자증권",
+     "analyst": "강석오",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 방아쇠를 당길 시간",
+     "summary": "-  출시로 FY27 최대 실적 전망. 주가는 초기 판매량뿐 아니라 FY28 이후 높아진 실적 눈높이 유지 여부에 민감하게 반응할 전망- 테이크투는 FY4Q26 Net Bookings 15.8억달러(YoY -0.1%, QoQ -10.1%) 로 가이던스 상단 15.6억달러를 상회. 와 가 견조 한 RCS 견인해 Zynga 인수 후 분기 최대 Net Bookings 경신. , 모바일 캐주얼, 의 RCS는 전년동기대비 각각 10%, 7%, 5% 성장하며 주요 라이브서비스 전반의 견조한 흐름 지속. 특히 <레드데드리 뎀션2>는 누적 판매량 8,500만장 돌파하며 장기 흥행력을 재확인- FY27 Net Bookings 가이던스는 80~82억달러(YoY +19~22%)로 제시. 하 반기  출시 효과가 본격화되며 분기별 매출은 상저하고 흐름을 보일 전망. FY1Q27 Net Bookings 가이던스는 13.2억~13.7억달러로 신작 출시 전 공백과 모바일·의 RCS 둔화를 반영한 것으로 판단",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlclqekkceigicgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-03-04",
+     "broker": "키움증권",
+     "analyst": "김진구",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 단기 우려는 제한적, GTA VI 판매량은 시장 컨센서스 상회 여지 존재",
+     "summary": "- Rockstar Games, 2K, Zynga 등 대형 레이블을 보유한 게임 유통 기업- FY3Q26 Bookings는 컨센서스를 +6% 상회, FY2026E 연간 가이던스 상향 조정- 노이즈로 낮아진 밸류에이션 매력은 GTA VI 출시일에 가까워지면서 부각될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqgzqqcmkqecgigcgxeegx.pdf",
+     "pages": "9"
+    },
+    {
+     "date": "2025-11-27",
+     "broker": "신한투자증권",
+     "analyst": "고준혁, 강석오",
+     "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 2026.11.19<GTA6> 출시",
+     "summary": "- 실적발표 이후,  출시 지연으로 주가가 -8% 급락. 게임의 완성도를 높이기 위한 조치로 장기적 성장에는 변화가 없어 매수의 기회로 판단- 테이크투 인터랙티브(TTWO)는 FY2Q26  순 결제액(Net Bookings) 19.6 억 달러(YoY +33%, 이하 전년동기대비)를 기록. 반복 소비자 지출 14.1억 달러( +20%)로 순 결제액의 73%를 차지하며 가이던스(+1%) 상회.  IP의 호실적으로 <보더랜드4>와 의 부진을 만회- 누적 4.5억 장이 판매된 초대형 프랜차이즈의 신작  출시 지연. 완성도를 높이기 위한 조치이나 출시까지 공백이 길어진 것은 우려 사항. 그럼에도  출시 후 파급력은 변함이 없다고 판단. 첫분기 2,500만 ~3,000만 장 판매가 예상. FY27 실적과 밸류에이션의 전면적 재평가 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxkemmxmxxzemmgcgxeegx.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "TTWO-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "김진구",
+   "date": "2026-11-17",
+   "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 다가오는 판단의 시간",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmkmzzczexziiegcgxeegx.pdf",
+   "pages": "6"
+  },
+  {
+   "file": "TTWO-report2.pdf",
+   "broker": "키움증권",
+   "analyst": "김진구",
+   "date": "2026-08-21",
+   "title": "[테이크 투 인터랙티브 소프트웨어 (NAS:TTWO)] 높아지는 시장 눈높이와 본격적인 출시 모멘텀 도래",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqgxzkliqkiqlgcgxeegx.pdf",
+   "pages": "7"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "How GTA VI’s blockbuster launch fuels a booming content economy",
+   "url": "https://www.cnbc.com/2026/11/20/gta-vi-launch-streaming-content-economy.html",
+   "date": "2026-11-20",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Thursday's stock stories: What’s likely to move the market in the next session",
+   "url": "https://www.cnbc.com/2026/11/18/thursdays-big-stock-stories-whats-likely-to-move-the-market.html",
+   "date": "2026-11-18",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "How the 'GTA VI' release could reshape gaming, streaming and even paid time off",
+   "url": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+   "date": "2026-11-14",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "GTA VI will generate years of high margin recurring revenue for Take-Two",
+   "url": "https://www.cnbc.com/video/2026/11/20/gta-6-will-generate-years-of-high-margin-revenue-for-take-two.html",
+   "date": "2026-11-20",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Options Action: Take-Two shares surge",
+   "url": "https://www.cnbc.com/video/2026/11/18/options-action-take-two-shares-surge.html",
+   "date": "2026-11-18",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Why GTA 6 could become gaming’s biggest launch",
+   "url": "https://www.cnbc.com/video/2026/11/14/why-rockstar-games-gta-6-could-become-gamings-biggest-launch.html",
+   "date": "2026-11-14",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "LightShed's Brandon Ross: GTA 6 could be biggest video game launch ever",
+   "url": "https://www.cnbc.com/video/2026/11/13/lightsheds-brandon-ross-gta-6-could-be-biggest-video-game-launch-ever.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "GTA 6's massive launch on deck: Here's what you need to know",
+   "url": "https://www.cnbc.com/video/2026/11/13/gta-6s-massive-launch-on-deck-heres-what-you-need-to-know.html",
+   "date": "2026-11-13",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "TTWO",
+  "fetchedAt": "2026-11-26",
+  "source": "한국투자증권 Open API",
+  "per": 131.27,
+  "pbr": 11.58,
+  "eps": 1.73,
+  "bps": 19.62,
+  "shares": 187213000,
+  "marketCapM": 42561,
+  "high52": 265.94,
+  "high52Date": "2026-07-07",
+  "low52": 183.86,
+  "low52Date": "2026-10-30",
+  "last": 227.34,
+  "prevClose": 220.41,
+  "nameKo": "테이크 투 인터랙티브 소프트웨어",
+  "nameEn": "TAKE TWO INTERACTIVE SOFTWARE INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 187213000
+ },
+ "estimates": {
+  "ticker": "TTWO",
+  "url": "https://finance.yahoo.com/quote/TTWO/analysis/",
+  "fetchedAt": "2026-11-26",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "eps": 0.97,
+    "epsLow": 0.9,
+    "epsHigh": 1.09,
+    "epsYearAgo": 1.46,
+    "epsAnalysts": 20,
+    "epsGrowth": -33.6,
+    "epsCur": "USD",
+    "rev": 1655304900,
+    "revAnalysts": 18,
+    "revYearAgo": 1960500000,
+    "revGrowth": -15.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.57,
+    "epsLow": 0.63,
+    "epsHigh": 4.67,
+    "epsYearAgo": -0.32,
+    "epsAnalysts": 9,
+    "epsGrowth": "n/m",
+    "epsCur": "USD",
+    "rev": 2019977760,
+    "revAnalysts": 17,
+    "revYearAgo": 1580300000,
+    "revGrowth": 27.8,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "eps": 2.91,
+    "epsLow": 0.41,
+    "epsHigh": 7.18,
+    "epsYearAgo": -1.62,
+    "epsAnalysts": 15,
+    "epsGrowth": 279.7,
+    "epsCur": "USD",
+    "rev": 9081688870,
+    "revAnalysts": 20,
+    "revYearAgo": 6721000000,
+    "revGrowth": 35.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "eps": 6.57,
+    "epsLow": 3.04,
+    "epsHigh": 11.96,
+    "epsYearAgo": 2.91,
+    "epsAnalysts": 15,
+    "epsGrowth": 125.7,
+    "epsCur": "USD",
+    "rev": 9126679860,
+    "revAnalysts": 20,
+    "revYearAgo": 9081688870,
+    "revGrowth": 0.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-09-30",
+    "cur": "USD",
+    "now": 0.97,
+    "d7": -0.5,
+    "d30": -0.8,
+    "d90": 2.8,
+    "ago90": 0.94,
+    "up7": 0,
+    "up30": 0,
+    "down7": 2,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.65,
+    "d7": 73.3,
+    "d30": -9.7,
+    "d90": -9.4,
+    "ago90": 0.72,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.91,
+    "d7": 44.1,
+    "d30": 58.5,
+    "d90": 51.9,
+    "ago90": 1.92,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-03-31",
+    "cur": "USD",
+    "now": 6.57,
+    "d7": 9.8,
+    "d30": 24.3,
+    "d90": 24.2,
+    "ago90": 5.29,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -0.29,
+    "estimate": -0.86,
+    "surprisePct": 66.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.32,
+    "estimate": -0.52,
+    "surprisePct": 38.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.5,
+    "estimate": -0.27,
+    "surprisePct": -87.1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-09-30",
+    "actual": 1.46,
+    "estimate": 0.93,
+    "surprisePct": 56.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 3,
+   "ptLowered": 3,
+   "total": 11,
+   "recent": [
+    {
+     "date": "2026-11-23",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 293,
+     "ptPrior": 293
+    },
+    {
+     "date": "2026-11-23",
+     "firm": "Wedbush",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 295,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-11-23",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 350,
+     "ptPrior": 330
+    },
+    {
+     "date": "2026-11-23",
+     "firm": "Baird",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 275,
+     "ptPrior": 270
+    },
+    {
+     "date": "2026-11-18",
+     "firm": "Freedom Capital Markets",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 293,
+     "ptPrior": 293
+    },
+    {
+     "date": "2026-11-10",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 295,
+     "ptPrior": 300
+    },
+    {
+     "date": "2026-11-10",
+     "firm": "BTIG",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 262,
+     "ptPrior": 262
+    },
+    {
+     "date": "2026-11-07",
+     "firm": "Macquarie",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 300,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "BTIG",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 262,
+     "ptPrior": 313
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 330,
+     "ptPrior": 368
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-09",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 227.34,
+   "ma20": 211.78,
+   "ma50": 207.68,
+   "ma150": 223.44,
+   "distMA50": 9.47,
+   "periodHigh": 265.94,
+   "pullbackFromHigh": -14.51,
+   "volRatio20": 0.88,
+   "dryUpRatio": 1.31
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 232.16,
+    "h": 232.99,
+    "l": 223.16,
+    "c": 226.95,
+    "v": 3289600,
+    "clsPos": 39,
+    "gapPct": 0.37
+   },
+   {
+    "d": "2026-11-13",
+    "o": 230.29,
+    "h": 233.33,
+    "l": 226.68,
+    "c": 227.82,
+    "v": 3015400,
+    "clsPos": 17,
+    "gapPct": 1.47
+   },
+   {
+    "d": "2026-11-16",
+    "o": 233.82,
+    "h": 235.94,
+    "l": 212.15,
+    "c": 213.47,
+    "v": 6004900,
+    "clsPos": 6,
+    "gapPct": 2.63
+   },
+   {
+    "d": "2026-11-17",
+    "o": 215.69,
+    "h": 220.13,
+    "l": 201.66,
+    "c": 203.93,
+    "v": 6262400,
+    "clsPos": 12,
+    "gapPct": 1.04
+   },
+   {
+    "d": "2026-11-18",
+    "o": 212.64,
+    "h": 222.65,
+    "l": 210.5,
+    "c": 216.61,
+    "v": 12135700,
+    "clsPos": 50,
+    "gapPct": 4.27
+   },
+   {
+    "d": "2026-11-19",
+    "o": 214.73,
+    "h": 225.69,
+    "l": 208.2,
+    "c": 208.65,
+    "v": 8298000,
+    "clsPos": 3,
+    "gapPct": -0.87
+   },
+   {
+    "d": "2026-11-20",
+    "o": 209.5,
+    "h": 218.69,
+    "l": 200.01,
+    "c": 210,
+    "v": 10644400,
+    "clsPos": 53,
+    "gapPct": 0.41
+   },
+   {
+    "d": "2026-11-23",
+    "o": 209.71,
+    "h": 214.36,
+    "l": 202.75,
+    "c": 209.36,
+    "v": 6443800,
+    "clsPos": 57,
+    "gapPct": -0.14
+   },
+   {
+    "d": "2026-11-24",
+    "o": 208.92,
+    "h": 226.26,
+    "l": 206.55,
+    "c": 220.41,
+    "v": 6206800,
+    "clsPos": 70,
+    "gapPct": -0.21
+   },
+   {
+    "d": "2026-11-25",
+    "o": 218.89,
+    "h": 227.99,
+    "l": 214.15,
+    "c": 227.34,
+    "v": 4892500,
+    "clsPos": 95,
+    "gapPct": -0.69
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TTWO-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/TTWO-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": {
+  "nVerdict": "부분 충족",
+  "headline": "새 동력은 11월 19일 나올 GTA VI 하나 — 아직 매출은 없고 숫자는 역성장",
+  "researchedOn": "2026-11-11"
+ }
+}

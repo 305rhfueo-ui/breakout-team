@@ -1,0 +1,225 @@
+{
+ "ticker": "INSM",
+ "news": [
+  {
+   "title": "AGIO Stock Rises 8.4%: Is a Buyout on the Cards Post SNY/INSM Deal?",
+   "url": "https://www.nasdaq.com/articles/agio-stock-rises-84-buyout-cards-post-sny-insm-deal",
+   "date": "2026-11-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share",
+   "url": "https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-17500-share",
+   "date": "2026-11-24",
+   "publisher": "Fintel"
+  },
+  {
+   "title": "Sanofi (SNY) To Acquire Insmed In $41 Billion Deal To Expand Respiratory Disease Portfolio; Stock Up",
+   "url": "https://www.nasdaq.com/articles/sanofi-sny-acquire-insmed-41-billion-deal-expand-respiratory-disease-portfolio-stock",
+   "date": "2026-11-24",
+   "publisher": "RTTNews"
+  },
+  {
+   "title": "Insmed's Stock Rises 21% on Reports of Buyout Interest From Sanofi",
+   "url": "https://www.nasdaq.com/articles/insmeds-stock-rises-21-reports-buyout-interest-sanofi",
+   "date": "2026-11-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Insmed Sees BRINSUPRI Reaching $7 Billion in Peak Sales, Expects Cash-Flow Positive Year Ahead",
+   "url": "https://www.nasdaq.com/articles/insmed-sees-brinsupri-reaching-7-billion-peak-sales-expects-cash-flow-positive-year-ahead",
+   "date": "2026-11-17",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Insmed (INSM) Boards Back $39.1 Billion All Cash Deal and Set 2027 Timeline",
+   "url": "https://finance.yahoo.com/healthcare/articles/insmed-insm-boards-back-39-011732940.html",
+   "date": "2026-11-26",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Top Midday Gainers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-gainers-190024348.html",
+   "date": "2026-11-25",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Sanofi's Insmed Acquisition Provides Growth Visibility Beyond Dupixent, RBC Says",
+   "url": "https://finance.yahoo.com/healthcare/articles/sanofi-apos-insmed-acquisition-provides-160426753.html",
+   "date": "2026-11-25",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  },
+  {
+   "title": "At 72, She Will Be Prescribed the First Pill for Her Lung Disease, Listed at About $88,000 a Year. Medicare Part D Will Cap What She Pays, but Nearly the Whole Cap Will Land in January",
+   "url": "https://finance.yahoo.com/healthcare/articles/72-she-prescribed-first-pill-150258416.html",
+   "date": "2026-11-25",
+   "publisher": "24/7 Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-24",
+   "itemsKo": [
+    "중요 계약 체결",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126045364/ef20086426_8-k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126041097/ef20084500_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-20",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126040177/ef20084030_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-05",
+   "itemsKo": [
+    "임원 변동",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126038529/ef20083216_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-06",
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126031502/ef20079469_8k.htm"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-16",
+   "itemsKo": [
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126028602/ef20078093_8k.htm"
+  }
+ ],
+ "financials": {
+  "profitLabel": "영업이익",
+  "marginLabel": "영업이익률",
+  "unit": "USD",
+  "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001104506&type=10-Q",
+  "quarters": [
+   {
+    "periodEnd": "2026-09-30",
+    "derived": false,
+    "revenue": 524428000,
+    "profit": -89369000,
+    "netIncome": -100319000,
+    "margin": -17,
+    "yoy": {
+     "revenue": 268.4,
+     "profit": 75.6,
+     "netIncome": 72.9,
+     "priorEnd": "2025-09-30"
+    }
+   },
+   {
+    "periodEnd": "2026-06-30",
+    "derived": false,
+    "revenue": 425486000,
+    "profit": -1548000,
+    "netIncome": -13242000,
+    "margin": -0.4,
+    "yoy": {
+     "revenue": 296.1,
+     "profit": 99.5,
+     "netIncome": 95.9,
+     "priorEnd": "2025-06-30"
+    }
+   },
+   {
+    "periodEnd": "2026-03-31",
+    "derived": false,
+    "revenue": 305964000,
+    "profit": -153320000,
+    "netIncome": -163563000,
+    "margin": -50.1,
+    "yoy": {
+     "revenue": 229.6,
+     "profit": 38.2,
+     "netIncome": 36.3,
+     "priorEnd": "2025-03-31"
+    }
+   },
+   {
+    "periodEnd": "2025-12-31",
+    "derived": true,
+    "revenue": 263843000,
+    "profit": -319748000,
+    "netIncome": -328485000,
+    "margin": -121.2,
+    "yoy": {
+     "revenue": 152.6,
+     "profit": -38.8,
+     "netIncome": -39.5,
+     "priorEnd": "2024-12-31"
+    }
+   }
+  ]
+ },
+ "krReports": {
+  "total": 0,
+  "reports": []
+ },
+ "site": {
+  "targetStatus": false,
+  "saleCy": 206.9,
+  "saleNy": 60.68,
+  "epsCy": -74.5,
+  "epsNy": -139.21,
+  "cyTrend": 2.88,
+  "nyTrend": -19.51,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    296.11,
+    229.62,
+    152.62
+   ],
+   "ni": [
+    "적자축소",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -0.36,
+    -50.11,
+    -121.19
+   ],
+   "updated": "2026-09-08 06:31:01"
+  }
+ }
+}

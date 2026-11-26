@@ -5392,7 +5392,292 @@ window.TEAM5_DATA = {
           "name": "스펙트럼 브랜즈 홀딩스"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-11-26",
+        "carried": false,
+        "headline": "기술주에서 방어주로 자금이 옮겨 가는 가운데 P&G·엘프·킴벌리클라크의 실적과 인수 소식이 겹쳐 생활용품이 상위로 올라왔다.",
+        "summary": "생활용품 업종은 업종 순위 10위로, 한 달 새 11계단 올랐다. CNBC는 기술주에서 방어주로 넘어가는 흐름을 전했고, 업종 대표 종목들의 실적과 인수 뉴스가 이어졌다. P&G는 매출 성장세가 회복됐고 엘프 뷰티는 연간 가이던스를 올렸다. 킴벌리클라크는 케뷰 인수를 마무리했다. 다만 P&G 원가 부담과 크로락스 마진 압박이 남아 있어 이익 개선이 이어지는지가 관건이다.",
+        "whyLeading": [
+          {
+            "id": "w1",
+            "statement": "CNBC 투자클럽은 기술주에서 방어주로 넘어가는 흐름이 진행 중이라고 전했다. 방어적 성격의 생활용품 업종으로 수요가 옮겨 간 배경이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/investingclub/2026/11/17/a-generational-flight-from-tech-to-defensive-stocks-is-underway-how-were-capitalizing.html",
+                "date": "2026-11-17",
+                "quote": "A generational flight from tech to defensive stocks is underway. How we’re capitalizing",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w2",
+            "statement": "P&G는 1분기 실적이 시장 기대를 웃돌았다. 빨래·가정용품이 매출을 끌어 4% 성장했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+                "date": "2026-10-22",
+                "quote": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxeegx.pdf",
+                "date": "2026-10-22",
+                "quote": "- 유기적 +4%, 11개 분기 감속 궤적에서 이탈- 코어 EPS 2.00달러로 컨센 6.2% 상회",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w3",
+            "statement": "엘프 뷰티는 매출이 51% 늘고 연간 가이던스를 올렸다. 신한투자증권은 점유율 상승을 실적 배경으로 꼽았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+                "date": "2026-11-04",
+                "quote": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+                "publisher": "신한투자증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeegx.pdf",
+                "date": "2026-11-06",
+                "quote": "- 연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "w4",
+            "statement": "킴벌리클라크가 케뷰 인수를 마무리했다. Zacks는 시너지 21억 달러가 이익을 끌어올릴 수 있는지 짚었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Kimberly-Clark closes its big acquisition of Kenvue. What to expect next",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
+                "date": "2026-11-02",
+                "quote": "Kimberly-Clark closes its big acquisition of Kenvue. What to expect next",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "KMB's Kenvue Deal: Could $2.1 Billion in Synergies Lift Earnings?",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kmbs-kenvue-deal-could-21-billion-synergies-lift-earnings",
+                "date": "2026-11-19",
+                "quote": "KMB's Kenvue Deal: Could $2.1 Billion in Synergies Lift Earnings?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [
+          {
+            "ticker": "PG",
+            "role": "세계 최대 생활용품 회사로 성장세 회복이 확인된 업종 대표주",
+            "why": [
+              {
+                "id": "l1a",
+                "statement": "1분기 매출이 4% 늘며 실적이 기대를 웃돌았다. 대신증권은 물량 주도 성장으로 바뀌었다고 평가했다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
+                    "date": "2026-10-22",
+                    "quote": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  },
+                  {
+                    "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+                    "publisher": "대신증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxeegx.pdf",
+                    "date": "2026-10-22",
+                    "quote": "- 유기적 +4%, 11개 분기 감속 궤적에서 이탈- 코어 EPS 2.00달러로 컨센 6.2% 상회",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 17.72,
+            "rnk1": 15.46,
+            "name": "프록터 앤드 갬블"
+          },
+          {
+            "ticker": "ELF",
+            "role": "점유율을 넓히며 업종에서 가장 빠르게 성장하는 화장품 기업",
+            "why": [
+              {
+                "id": "l2a",
+                "statement": "매출이 51% 늘고 연간 가이던스를 올렸다. 신한투자증권은 점유율 상승이 실적을 이끈다고 봤다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+                    "date": "2026-11-04",
+                    "quote": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  },
+                  {
+                    "title": "[엘프 뷰티 (NYS:ELF)] rhode가 점유율 캐리 중!",
+                    "publisher": "신한투자증권(연합인포맥스)",
+                    "url": "https://rreport.einfomax.co.kr/report/eqmimeqekgxqckzgcgxeegx.pdf",
+                    "date": "2026-11-06",
+                    "quote": "- 연간 가이던스 상향, 본업 상황 좋아!- FY27 2Q Review: 호실적, 점유율 상승 + 비용 발생 이연",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 0.5,
+            "rnk1": 55.59,
+            "name": "엘프 뷰티"
+          },
+          {
+            "ticker": "KMB",
+            "role": "케뷰 인수로 사업 규모를 키운 기저귀·위생용품 대기업",
+            "why": [
+              {
+                "id": "l3a",
+                "statement": "케뷰 인수를 마무리했고, Zacks는 시너지 21억 달러가 이익에 미칠 영향을 다뤘다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "Kimberly-Clark closes its big acquisition of Kenvue. What to expect next",
+                    "publisher": "CNBC",
+                    "url": "https://www.cnbc.com/investingclub/2026/11/02/kimberly-clark-closes-its-acquisition-of-tylenol-maker-kenvue-what-to-expect-next.html",
+                    "date": "2026-11-02",
+                    "quote": "Kimberly-Clark closes its big acquisition of Kenvue. What to expect next",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  },
+                  {
+                    "title": "KMB's Kenvue Deal: Could $2.1 Billion in Synergies Lift Earnings?",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/kmbs-kenvue-deal-could-21-billion-synergies-lift-earnings",
+                    "date": "2026-11-19",
+                    "quote": "KMB's Kenvue Deal: Could $2.1 Billion in Synergies Lift Earnings?",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 25.38,
+            "rnk1": 41.7,
+            "name": "킴벌리클라크"
+          },
+          {
+            "ticker": "CHD",
+            "role": "온라인 판매가 성장 동력으로 거론되는 생활용품 기업",
+            "why": [
+              {
+                "id": "l4a",
+                "statement": "전자상거래 매출이 20% 급증해 디지털이 성장 동력인지가 논의됐다.",
+                "evidence_level": "sourced",
+                "sources": [
+                  {
+                    "title": "CHD's E-Commerce Sales Surge 20%: Is Digital Its Growth Engine?",
+                    "publisher": "Zacks(나스닥)",
+                    "url": "https://www.nasdaq.com/articles/chds-e-commerce-sales-surge-20-digital-its-growth-engine",
+                    "date": "2026-11-19",
+                    "quote": "CHD's E-Commerce Sales Surge 20%: Is Digital Its Growth Engine?",
+                    "verified": "ok",
+                    "httpStatus": 200
+                  }
+                ]
+              }
+            ],
+            "rnk6": 22.68,
+            "rnk1": 18.35,
+            "name": "처치 앤드 드와이트"
+          }
+        ],
+        "risks": [
+          {
+            "id": "r1",
+            "statement": "P&G는 원가 부담이 커지면서 마진이 줄었다. 비용 압력이 이어지면 이익 개선이 꺾일 수 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "[프록터 앤드 갬블 (NYS:PG)] [27Q1 Review] 주당순이익 6.2% 상회, 물량 주도 성장 전환, 투자의견 매수 상향",
+                "publisher": "대신증권(연합인포맥스)",
+                "url": "https://rreport.einfomax.co.kr/report/eqmgqekleilzzllgcgxeegx.pdf",
+                "date": "2026-10-22",
+                "quote": "- 원가 역풍 주당 0.79달러 확대, 마진 -80bp",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "statement": "크로락스는 실적 발표에서 물가와 마진 압박이 부각됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CLX Q1 Earnings Call Highlights Inflation and Margin Pressures",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/clx-q1-earnings-call-highlights-inflation-and-margin-pressures",
+                "date": "2026-11-03",
+                "quote": "CLX Q1 Earnings Call Highlights Inflation and Margin Pressures",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "statement": "킴벌리클라크는 낮은 밸류에이션에도 케뷰 통합 위험이 남아 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Is KMB Worth Buying as Low Valuation Meets Kenvue Integration Risk?",
+                "publisher": "Zacks(나스닥)",
+                "url": "https://www.nasdaq.com/articles/kmb-worth-buying-low-valuation-meets-kenvue-integration-risk",
+                "date": "2026-11-19",
+                "quote": "Is KMB Worth Buying as Low Valuation Meets Kenvue Integration Risk?",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "sourceGap": "업종 전체를 다룬 증권사 리포트는 없었고, 종목별 CNBC 기사 제목과 연합인포맥스 리포트 요약만으로 작성했다(본문 미열람).",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장(w1~w4, l1a~l4a, r1~r3)이 제시된 출처의 제목·인용문과 정확히 일치합니다. 숫자(4%, 51%, 21억 달러=2.1B), 날짜(2026-10-22~11-19, 모두 6개월 이내), 사실(P&G 4% 성장·ELF 51% 증가·KMB 케뷰 인수 완료·CHD e커머스 20% 급증)이 모두 출처에 명시되어 있고, 각 근거가 해당 회사의 실제 사업 성과(실적·인수·수익성장)를 직접 뒷받침합니다."
+        },
+        "evidenceCount": 59
+      }
     }
   ]
 };

@@ -520,8 +520,364 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-26",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "S&P, 엔비디아 신용등급 강등 경고",
+        "easy": "신용평가사 S&P 가 엔비디아 신용등급을 앞으로 90일 안에 한 단계 내릴 수 있다고 경고했다. 실적이 나빠서가 아니라 CEO 관련 보도와 수출 규제 위반 의혹으로 회사의 경영·지배구조에 허점이 드러났다고 봤기 때문이다. 후계자 계획이 없어 한 사람에게 회사가 지나치게 의존한다는 지적도 함께 나왔다. 밴스 부통령은 법무부로부터 젠슨 황이 수사 대상이 아니라는 확인을 받았다고 말했다.",
+        "whyMatters": "반도체와 AI 인프라 업종 전반에 나쁜 소식이고, 엔비디아에 매출을 의존하는 서버·전력·네트워크 장비 쪽까지 심리가 함께 눌린다. 등급이 실제로 내려가는지, 수출 규제 의혹이 공식 수사로 번지는지를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+            "date": "2026-11-26",
+            "quote": "News regarding the CEO and questions regarding potential export control violations have exposed vulnerabilities in Nvidia's management and governance framework",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+            "date": "2026-11-25",
+            "quote": "I was told by the Department of Justice and multiple officials in our national security apparatus that he was under no investigation.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "미국, 14개 교역국에 새 관세 추진",
+        "easy": "미국 정부가 중국·EU·일본·인도를 포함한 14개 교역 상대에 새 관세를 매기겠다고 제안했다. 상대국이 제조업 설비를 필요 이상으로 키워 놓았다는 조사 결과를 근거로 들었다. 세율은 대체로 15~20% 이고, 기존 관세에 그대로 더해지지는 않는다고 설명했다. 시행은 몇 달 뒤로 예상돼 당장 비용이 늘지는 않는다.",
+        "whyMatters": "부품을 해외에서 들여오는 소비재·자동차·기계 업종에 원가 부담이 되고, 반대로 미국 안에서 만드는 철강·산업재에는 보호 효과가 생긴다. 최종 세율과 품목이 확정되는 시점, 상대국 보복 여부를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+            "date": "2026-11-25",
+            "quote": "The Trump administration is proposing new Section 301 tariffs on China, the EU, Japan and India, following investigations into alleged structural excess capacity in manufacturing sectors.",
+            "verified": "ok",
+            "httpStatus": 200
+          },
+          {
+            "title": "US announces new tariffs on host of countries including China",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-26",
+            "quote": "US announces new tariffs on host of countries including China",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "지금 조정이 더 깊어질 수 있다는 진단",
+        "easy": "시장에서는 이번 하락이 끝나기 전에 한 번 더 깊어질 수 있다는 진단이 나왔다. 지수가 몇몇 AI 대형주 주가에 과도하게 좌우되는 구조가 원인으로 지목됐다. 그래서 그 종목들이 흔들리면 지수 전체와 연금 계좌 평가액까지 같이 흔들린다. 전망이라 맞는다는 보장은 없지만, 추세가 아래를 향하는 지금은 참고할 만하다.",
+        "whyMatters": "지수 비중이 큰 반도체·소프트웨어에 부담이 크고, 비중이 작은 헬스케어·필수소비재가 상대적으로 버티는 국면이다. 조정이 멈추는지 보려면 하락할 때 거래량이 줄어드는지를 지켜보면 된다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Why this stock-market selloff is probably going to get worse before it gets better",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
+            "date": "2026-11-26",
+            "quote": "Why this stock-market selloff is probably going to get worse before it gets better",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "We are living in perilous times if Nvidia's Jensen Huang dictates your 401(k) balance",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+            "date": "2026-11-26",
+            "quote": "We are living in perilous times if Nvidia's Jensen Huang dictates your 401(k) balance",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "오라클·CoreWeave 가 급락 뒤 반등했다",
+        "easy": "오라클과 CoreWeave 등 AI 관련 기술주가 큰 하락 뒤 하루 반등했다. 앞서 AI 투자 열기가 식는다는 우려로 오라클 주가가 3년 만의 최저 수준까지 밀렸던 영향이다. 반면 엔비디아는 앞선 반등분의 상당 부분을 되돌렸는데, 저가 매수에 들어온 자금이 차익을 실현했기 때문이다. 하락 뒤 하루 반등은 추세가 바뀐 신호로 보기 어렵다.",
+        "whyMatters": "AI 데이터센터에 돈을 빌려 설비를 깔아 둔 CoreWeave·오라클 같은 쪽이 변동성의 중심이고, 같은 흐름에 올라탄 반도체 장비도 함께 움직인다. 반등이 하루로 끝나지 않고 며칠 이어지는지를 지켜보면 된다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+            "date": "2026-11-25",
+            "quote": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+            "verified": "unverified",
+            "httpStatus": 401
+          },
+          {
+            "title": "Nvidia's stock has given back a big chunk of Monday's rally as dip buyers cash in",
+            "publisher": "MarketWatch",
+            "url": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+            "date": "2026-11-25",
+            "quote": "Nvidia's stock has given back a big chunk of Monday's rally as dip buyers cash in",
+            "verified": "unverified",
+            "httpStatus": 401
+          }
+        ]
+      },
+      {
+        "headline": "아시아 기술주 반등, 코스피가 선두",
+        "easy": "아시아 증시가 간밤 미국 상승을 따라 올랐고 기술주가 전날 급락에서 되돌아왔다. 한국 코스피는 1.73%, 코스닥은 2.32% 올랐는데 한국은행이 예상대로 기준금리를 0.25%p 올린 뒤의 흐름이다. 반등은 일본 반도체 관련 기업들이 이끌었다. 미국장이 열리기 전 아시아 반도체 흐름은 당일 분위기를 미리 보는 창이다.",
+        "whyMatters": "일본·한국 반도체 공급망이 먼저 반등하면 미국 반도체 장비·메모리 쪽 심리도 따라붙는 경우가 많다. 다만 하루치 반등이라 미국장 개장 뒤에도 유지되는지를 지켜보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "South Korea's Kospi leads gains as tech rebound lifts Asia markets",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+            "date": "2026-11-26",
+            "quote": "South Korea's Kospi gained 1.73%, while the small-cap Kosdaq index advanced 2.32% after the country's central bank hiked benchmark lending rates by an expected 25 basis points.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "법원이 FCC 의 ABC 조기 심사를 막았다",
+        "easy": "법원이 통신 규제기관 FCC 가 디즈니 소유 ABC 방송국 면허를 조기에 재심사하려던 절차를 일단 중단시켰다. FCC 는 ABC 의 다양성·형평성·포용 정책을 문제 삼아 조기 재심사를 시작했었다. 판사는 디즈니가 요청한 가처분을 받아들이고 FCC 의 소송 각하 요구는 기각했다. 면허가 흔들릴 위험이 당장은 미뤄진 것이다.",
+        "whyMatters": "디즈니와 지상파 방송 업종에는 불확실성이 줄어드는 소식이고, 규제 압박을 받던 다른 미디어 기업에도 선례가 된다. 본안 소송 결과와 FCC 의 항고 여부를 지켜보면 된다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html",
+            "date": "2026-11-26",
+            "quote": "Judge Loren L. AliKhan granted Disney the preliminary injunction it sought and denied the FCC's attempt to dismiss the suit.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "새로 사기에 좋은 때는 아니다. QQQ 종가는 633.93 이고 10일선이 20일선 아래로 내려간 지 27거래일째여서, 단기 흐름이 중기 흐름을 계속 밑돌고 있다. 오늘 뉴스는 지수를 끌어온 AI 대형주 쪽에서 신용등급 경고와 차익 실현이 겹쳤다는 뜻이고, 실제 주도 자리는 종목 수로 보면 헬스케어가 40%, 경기소비재가 16% 로 이미 바뀌어 있다. 빚내서 산 주식(마진부채)이 1년 전보다 22.4% 늘어난 상태라, 하락이 길어지면 담보 부족으로 강제로 파는 물량이 나올 수 있다는 점은 조심해야 한다. 이번 주에는 관세 제안에 대한 상대국 반응과 AI 대형주 반등이 하루로 끝나는지, 그리고 단기선이 중기선 위로 다시 올라서는지를 지켜보면 된다.",
+    "keyRisks": [
+      "엔비디아 지배구조 리스크: 신용등급이 실제로 내려가면 회사 돈 빌리는 비용이 오르고, 엔비디아에 매출을 의존하는 반도체·AI 인프라 업종까지 심리가 같이 눌린다.",
+      "관세 확대: 중국·EU·일본·인도까지 포함된 15~20% 세율 제안이라, 해외 부품을 쓰는 소비재·자동차·기계는 원가가 오르고 상대국 보복 가능성도 남아 있다.",
+      "빚으로 산 주식 규모: 지금은 정상 범위지만 증가 속도가 빨라, 하락이 길어질 때 담보 부족으로 어쩔 수 없이 파는 물량이 늘어날 수 있다.",
+      "하루 반등 착각: 오라클·CoreWeave 반등과 아시아 기술주 상승은 급락 뒤 하루치 되돌림이라, 추세가 바뀐 신호로 읽으면 고점에 사게 된다."
+    ],
+    "easySummary": [
+      "S&P 가 엔비디아 신용등급을 90일 안에 내릴 수 있다고 경고했다 — 실적이 아니라 경영·지배구조 문제다.",
+      "미국이 중국·EU·일본·인도 등 14개국에 15~20% 새 관세를 제안했고 시행은 몇 달 뒤로 예상된다.",
+      "오라클·CoreWeave 와 아시아 기술주가 반등했지만 하루치라, 추세는 여전히 아래를 향한다."
+    ],
+    "candidateCount": 22,
+    "verified": {
+      "checked": 169,
+      "ok": 274,
+      "unverified": 3,
+      "dead": 1,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/dollar-trees-customer-traffic-jumped-38-comparable-sales-beat-its-outlook-heres-whats-behind-gains"
+        }
+      ],
+      "numberCut": 29,
+      "numberCuts": [
+        {
+          "sentence": "직전 분기(5~7월) 영업이익이 1년 전보다 약 3배로 늘었고 영업이익률이 14.1%로 올랐다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "한 달 새 25%, 6개월 새 41% 올라 기대가 이미 많이 반영됐다.",
+          "missing": [
+            "25",
+            "41"
+          ]
+        },
+        {
+          "sentence": "주가수익비율이 29배로 높아져, 기대에 못 미치는 결과가 나오면 주가가 되돌려질 수 있다.",
+          "missing": [
+            "29"
+          ]
+        },
+        {
+          "sentence": "3분기 매출이 4.3억 달러로 1년 전보다 50% 늘었고, 회사 설립 후 처음으로 분기 흑자(영업이익 약 5,600만 달러)를 냈다.",
+          "missing": [
+            "5,600만 달러",
+            "50"
+          ]
+        },
+        {
+          "sentence": "직전 분기 영업적자 5,600만 달러에서 흑자로 돌아섰다.",
+          "missing": [
+            "5,600만 달러"
+          ]
+        },
+        {
+          "sentence": "직전 분기 영업이익은 1년 전보다 2.5% 줄었고, 2025년 11월 분기는 67.5% 줄었다.",
+          "missing": [
+            "67.5"
+          ]
+        },
+        {
+          "sentence": "주가는 8월 27일 고점 224달러에서 약 22% 내려와 있다.",
+          "missing": [
+            "22"
+          ]
+        },
+        {
+          "sentence": "주가는 1년 최고가보다 크게 낮고 3개월 -30.5%로 약세다.",
+          "missing": [
+            "30.5"
+          ]
+        },
+        {
+          "sentence": "최근 분기(9월 마감)는 매출이 1년 전보다 15.6% 줄고 영업손실 1.2억 달러를 냈다.",
+          "missing": [
+            "1.2억 달러"
+          ]
+        },
+        {
+          "sentence": "1년 새 주가가 5배 넘게 올라 기대가 이미 크게 반영됐다.",
+          "missing": [
+            "5"
+          ]
+        },
+        {
+          "sentence": "10월 말 건선 2b상에서 환자의 61%가 피부 완전 개선에 도달했다고 발표했다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "사노피가 INSM을 주당 175달러, 약 410억 달러에 사겠다고 11월 24일 발표했다.",
+          "missing": [
+            "410억 달러"
+          ]
+        },
+        {
+          "sentence": "현재가는 170.31달러로 인수가보다 약 3% 낮고, 규제 승인이 늦어지거나 무산되면 급락할 수 있다.",
+          "missing": [
+            "170.31",
+            "3"
+          ]
+        },
+        {
+          "sentence": "LG Chem과 계약을 고쳐 비만 신약 개발용으로 최대 7억 5천만 달러 자금을 확보했다.",
+          "missing": [
+            "7억 5"
+          ]
+        },
+        {
+          "sentence": "자회사 설비(FLNG 1) 터빈 고장으로 가동이 멈췄고 복구가 12월 초로 잡혔다.",
+          "missing": [
+            "1"
+          ]
+        },
+        {
+          "sentence": "키메라는 아토피 피부염 약 임상 데이터, 오루카는 건선 2b상 결과가 재료였다.",
+          "missing": [
+            "2b"
+          ]
+        },
+        {
+          "sentence": "같은 날 8-K에 임원 변동 항목이 올랐다.",
+          "missing": [
+            "8"
+          ]
+        },
+        {
+          "sentence": "매출 증가율이 3월 분기 33.9%에서 9월 분기 19.2%로 낮아졌고, 내년 매출 전망 증가율은 11.7%다.",
+          "missing": [
+            "33.9",
+            "19.2"
+          ]
+        },
+        {
+          "sentence": "11월 초 매출 10억 달러대 잠재력과 주요 촉매를 다룬 기사가 나왔다.",
+          "missing": [
+            "10억 달러"
+          ]
+        },
+        {
+          "sentence": "직전 3개 분기 매출은 0이었다.",
+          "missing": [
+            "3"
+          ]
+        },
+        {
+          "sentence": "주가는 보고서 후 17% 하락, 반박 후 10% 반등했다.",
+          "missing": [
+            "17",
+            "10"
+          ]
+        },
+        {
+          "sentence": "10월 6일 3억 5천만 달러 규모 공모 가격이 결정됐다.",
+          "missing": [
+            "3억 5"
+          ]
+        },
+        {
+          "sentence": "10월 3억 5천만 달러 공모로 주식 수가 늘어 기존 주주 몫이 희석됐다.",
+          "missing": [
+            "3억 5"
+          ]
+        },
+        {
+          "sentence": "직전 3개 분기는 전년비 -1.0~-2.3%.",
+          "missing": [
+            "3",
+            "1.0",
+            "2.3"
+          ]
+        },
+        {
+          "sentence": "직전 분기까지 영업이익률 22~24%.",
+          "missing": [
+            "22"
+          ]
+        },
+        {
+          "sentence": "2026-11-05 넥스타가 분기 순매출 사상 최대 21억 달러를 발표했다.",
+          "missing": [
+            "11",
+            "05"
+          ]
+        },
+        {
+          "sentence": "2026-10-13 TEGNA가 디즈니와 ABC 제휴를 13개 시장에서 갱신했다.",
+          "missing": [
+            "10"
+          ]
+        },
+        {
+          "sentence": "2026-10-21 CNBC는 정치광고 지출에서 지상파 방송이 여전히 지배적이라고 보도했다.",
+          "missing": [
+            "10",
+            "21"
+          ]
+        },
+        {
+          "sentence": "2026-11-25 임원 고용계약 체결 8-K가 공시됐다.",
+          "missing": [
+            "11",
+            "25",
+            "8"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-26"
   }
 };

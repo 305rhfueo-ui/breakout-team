@@ -1,0 +1,864 @@
+{
+ "ticker": "AMGN",
+ "date": "2026-11-26",
+ "session": "2026-11-24",
+ "source": "list",
+ "plan": {
+  "ticker": "AMGN",
+  "name": "암젠",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "price": 473.94000244140625,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 483.99,
+  "stop": 471.42,
+  "distToPivotPct": -3.05,
+  "distToPivotAdr": -1.14,
+  "riskPerSharePct": 2.6,
+  "adrPct": 2.68,
+  "extensionAdr": 1.03,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 19,
+   "baseWeeks": 3.8,
+   "depthPct": 10.2,
+   "priorMovePct": 29.3,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 3,
+   "surf10": 1.03,
+   "surf20": 0.68,
+   "slope20": 0.39,
+   "baseLow": 434.51,
+   "lastSwingLow": 434.51
+  },
+  "reasons": [
+   "✗ 선행 상승 +29%",
+   "베이스 3.8주",
+   "깊이 10.2%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.94배 · 10일 종가폭 3 ADR",
+   "10일선 +1 ADR · 20일선 +0.7 ADR",
+   "20일선 기울기 +0.39%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.17941676662776734,
+    "pct": 79.48602344454464
+   },
+   "m3": {
+    "v": 0.2176777743972935,
+    "pct": 85.43733092876465
+   },
+   "m6": {
+    "v": 0.5239027821024159,
+    "pct": 93.82326420198378
+   }
+  },
+  "ret1m": 6.41,
+  "ret3m": 10.89,
+  "ret6m": 38.73,
+  "marketCap": "235.64B",
+  "volx": 1.18,
+  "volSurgeWk": 1.07,
+  "high52": 98.49,
+  "newHigh52": false,
+  "adr": 2.72,
+  "div50": 9.85,
+  "div200": 24.8,
+  "targetStatus": false,
+  "saleCy": 7.49,
+  "saleNy": 4.54,
+  "epsCy": 7.84,
+  "epsNy": 6.68,
+  "cyTrend": 2.33,
+  "nyTrend": 2.66,
+  "est": {
+   "cyCur": 23.5527,
+   "cy30": 23.01604,
+   "nyCur": 25.12565,
+   "ny30": 24.47562
+  },
+  "fs": {
+   "sale": [
+    9.53,
+    5.76,
+    8.58
+   ],
+   "ni": [
+    65.85,
+    5.14,
+    112.6
+   ],
+   "opm": [
+    34.95,
+    30.94,
+    27.57
+   ],
+   "updated": "2026-09-09 07:40:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-26",
+  "nameKo": "암젠",
+  "nameEn": "AMGEN INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000318154&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 10365000000,
+     "profit": 3710000000,
+     "netIncome": 3864000000,
+     "margin": 35.8,
+     "yoy": {
+      "revenue": 8.5,
+      "profit": 46.9,
+      "netIncome": 20.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 10054000000,
+     "profit": 3514000000,
+     "netIncome": 2375000000,
+     "margin": 35,
+     "yoy": {
+      "revenue": 9.5,
+      "profit": 32.3,
+      "netIncome": 65.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 8618000000,
+     "profit": 2666000000,
+     "netIncome": 1819000000,
+     "margin": 30.9,
+     "yoy": {
+      "revenue": 5.8,
+      "profit": 126.3,
+      "netIncome": 5.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 9866000000,
+     "profit": 2720000000,
+     "netIncome": 1333000000,
+     "margin": 27.6,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 17.7,
+      "netIncome": 112.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Amgen (AMGN) Crossed Above the 20-Day Moving Average: What That Means for Investors",
+     "url": "https://www.nasdaq.com/articles/amgen-amgn-crossed-above-20-day-moving-average-what-means-investors",
+     "date": "2026-11-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amgen (AMGN) Clears Patent Hurdle For Planned U.S. Lauch Of Opdivo Biosimilar",
+     "url": "https://www.nasdaq.com/articles/amgen-amgn-clears-patent-hurdle-planned-us-lauch-opdivo-biosimilar",
+     "date": "2026-11-25",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Amgen SECURES Pathway for U.S. Launch of Biosimilar to Opdivo® Following Settlement Agreement",
+     "url": "https://www.nasdaq.com/articles/amgen-secures-pathway-us-launch-biosimilar-opdivor-following-settlement-agreement",
+     "date": "2026-11-25",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Novo vs. Amgen: Which Healthcare Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/novo-vs-amgen-which-healthcare-stock-better-buy-now",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Amgen Inc. (AMGN): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-amgen-inc-amgn-here-what-you-need-know",
+     "date": "2026-11-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amgen vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/amgen-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2027",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-24",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000119312526475833/amgn-20261124.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000153/amgn-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000144/amgn-20261026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000124/amgn-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "1.05"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000119/amgn-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000119312526232786/amgn-20260519.htm"
+   }
+  ],
+  "krReports": {
+   "total": 11,
+   "reports": [
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [26Q3 Preview] 예고된 영업비용 증가폭과 가이던스 달성 경로가 관건, 투자의견 매수 유지",
+     "summary": "- 두 자릿수 외형 성장이 비용 증가를 흡수하는지가 이번 분기의 관건- denosumab 침식 속도와 성장동력의 상쇄력을 함께 봐야 한다- 매출 상회 시 밸류에이션 프리미엄 정당화, 하회 시 되돌림 압력",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월 - 2차에서 1차로 처방 환자군 확대 기대",
+     "summary": "- Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] 테즈스파이어, 호산구성 식도염 임상서 52주 조직학적 관해 입증 - 천식 적응증을 넘어 신규 성장동력 가능성",
+     "summary": "- 테즈스파이어, 호산구성 식도염 임상서 위약 대비 관해율 압도- 52주까지 효과 유지, 삼킴곤란 증상도 개선- 승인 적응증 확대 시 신규 성장동력, 시점은 미확정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] Imdelltra-Imfinzi 병용요법 생존율 개선 확인",
+     "summary": "- Imdelltra+Imfinzi 병용, 소세포폐암 생존율 유의미 개선 확인- 유지요법 적응증 확대 시 Imdelltra 처방군 확대 잠재력- denosumab 침식 상쇄 흐름과 결 맞으나 즉각 손익 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqemgimlgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] IMDELLTRA·임핀지 병용 1차 소세포폐암 3상서 생존 개선 - 성장동력 제품의 적응증 확장 신호",
+     "summary": "- IMDELLTRA+임핀지, 1차 소세포폐암 3상서 생존 개선- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품- 승인·매출 반영은 아직 여러 분기 소요될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] 영국 규제당국, Tavneos 신규 처방 중단·승인 철회 예고 - 미국 FDA 철회 심사에 힘 싣는 해외 판례",
+     "summary": "- 영국, Tavneos 신규처방 중단·2027년 3월 승인 철회 예고- EU 철회에 이은 해외 판례, 미국 FDA 청문 부담 가중 소지- 미국 매출 비중 작아 전체 실적 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllicxqgzeqmlxgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] Repatha 고위험군 사망위험 감소 데이터 공개 - 1차 예방 적응증 확대 모멘텀 강화",
+     "summary": "- Repatha, 첫 심장마비·뇌졸중 고위험군 사망위험 감소 데이터 발표- 2분기 매출 37% 성장한 핵심 성장동력, CHMP 긍정의견과 결 같아- Prolia·Xgeva 침식·TAVNEOS 리스크는 별개로 여전",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgeeczqzzqmmgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] TEZSPIRE, 호산구성 식도염 3상 주요지표 모두 충족 - 천식 너머 적응증 확장으로 성장동력 연장",
+     "summary": "- TEZSPIRE, 호산구성 식도염 3상 주요지표 모두 충족- 천식 넘어 새 적응증 확장, 매출 반영은 승인 이후- 목표주가 상회 구간, 단기 주가 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxmlzzlellxgcgxeegx.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "AMGN-report1.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-26",
+   "title": "[암젠 (NAS:AMGN)] [26Q3 Preview] 예고된 영업비용 증가폭과 가이던스 달성 경로가 관건, 투자의견 매수 유지",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegx.pdf",
+   "pages": "5"
+  },
+  {
+   "file": "AMGN-report2.pdf",
+   "broker": "대신증권",
+   "analyst": "조재운",
+   "date": "2026-10-26",
+   "title": "[암젠 (NAS:AMGN)] [Issue & News] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월 - 2차에서 1차로 처방 환자군 확대 기대",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegx.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Amgen says drug combo slashes risk of death by 58% in patients with lung cancer",
+   "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+   "date": "2026-10-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
+   "url": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Novo shares slide as drugmaker lays out post-Wegovy growth strategy",
+   "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
+   "date": "2026-09-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cholesterol drug setback casts doubt over multibillion-dollar race",
+   "url": "https://www.cnbc.com/2026/09/08/novartis-cholesterol-setback-drug-race-eli-lilly-amgen.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Dow rises nearly 300 points to snap three-day slide as Treasury yields cool",
+   "url": "https://www.cnbc.com/2026/09/01/stock-market-today-live-updates.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Explosive Options' Bob Lang on why he likes Amgen",
+   "url": "https://www.cnbc.com/video/2026/11/10/explosive-options-bob-lang-on-why-he-likes-amgen.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Amgen reports revenue and earnings beat, stock shows little change in extended trading",
+   "url": "https://www.cnbc.com/video/2026/11/03/amgen-reports-revenue-and-earnings-beat-stock-shows-little-change-in-extended-trading.html",
+   "date": "2026-11-03",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Committee stocks on the move: EQT Corporation, Amgen and Lockheed Martin",
+   "url": "https://www.cnbc.com/video/2026/10/26/committee-stocks-on-the-move-eqt-corporation-amgen-and-lockheed-martin.html",
+   "date": "2026-10-26",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "AMGN",
+  "fetchedAt": "2026-11-26",
+  "source": "한국투자증권 Open API",
+  "per": 29.15,
+  "pbr": 17.68,
+  "eps": 16.1,
+  "bps": 26.53,
+  "shares": 540912000,
+  "marketCapM": 253818,
+  "high52": 481.2104,
+  "high52Date": "2026-11-05",
+  "low52": 304.3633,
+  "low52Date": "2025-12-11",
+  "last": 469.24,
+  "prevClose": 473.935,
+  "nameKo": "암젠",
+  "nameEn": "AMGEN INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 540912000
+ },
+ "estimates": {
+  "ticker": "AMGN",
+  "url": "https://finance.yahoo.com/quote/AMGN/analysis/",
+  "fetchedAt": "2026-11-26",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 5.61,
+    "epsLow": 5.13,
+    "epsHigh": 6.08,
+    "epsYearAgo": 5.29,
+    "epsAnalysts": 27,
+    "epsGrowth": 6,
+    "epsCur": "USD",
+    "rev": 10476922550,
+    "revAnalysts": 23,
+    "revYearAgo": 9866000000,
+    "revGrowth": 6.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 5.7,
+    "epsLow": 4.96,
+    "epsHigh": 6.09,
+    "epsYearAgo": 5.15,
+    "epsAnalysts": 9,
+    "epsGrowth": 10.7,
+    "epsCur": "USD",
+    "rev": 9482994860,
+    "revAnalysts": 7,
+    "revYearAgo": 8618000000,
+    "revGrowth": 10,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 23.55,
+    "epsLow": 22.97,
+    "epsHigh": 25.79,
+    "epsYearAgo": 21.84,
+    "epsAnalysts": 34,
+    "epsGrowth": 7.8,
+    "epsCur": "USD",
+    "rev": 39502088230,
+    "revAnalysts": 31,
+    "revYearAgo": 36751000000,
+    "revGrowth": 7.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 25.13,
+    "epsLow": 23.53,
+    "epsHigh": 26.56,
+    "epsYearAgo": 23.55,
+    "epsAnalysts": 34,
+    "epsGrowth": 6.7,
+    "epsCur": "USD",
+    "rev": 41295538170,
+    "revAnalysts": 32,
+    "revYearAgo": 39502088230,
+    "revGrowth": 4.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 5.61,
+    "d7": -0.7,
+    "d30": -2.9,
+    "d90": -3.4,
+    "ago90": 5.8,
+    "up7": 5,
+    "up30": 6,
+    "down7": 16,
+    "down30": 18
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 5.7,
+    "d7": -0.3,
+    "d30": 1.5,
+    "d90": 1.9,
+    "ago90": 5.59,
+    "up7": 4,
+    "up30": 4,
+    "down7": 4,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 23.55,
+    "d7": 0.1,
+    "d30": 2.3,
+    "d90": 2.2,
+    "ago90": 23.04,
+    "up7": 24,
+    "up30": 25,
+    "down7": 0,
+    "down30": 2
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 25.13,
+    "d7": 0.3,
+    "d30": 2.7,
+    "d90": 3,
+    "ago90": 24.4,
+    "up7": 20,
+    "up30": 23,
+    "down7": 3,
+    "down30": 5
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 6.45,
+    "estimate": 5.78,
+    "surprisePct": 11.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 6.29,
+    "estimate": 5.62,
+    "surprisePct": 12,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 5.15,
+    "estimate": 4.77,
+    "surprisePct": 8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 5.29,
+    "estimate": 4.73,
+    "surprisePct": 11.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 3,
+   "initiations": 1,
+   "ptRaised": 28,
+   "ptLowered": 5,
+   "total": 36,
+   "recent": [
+    {
+     "date": "2026-11-24",
+     "firm": "CICC",
+     "action": "init",
+     "from": null,
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 550,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-11-23",
+     "firm": "Mizuho",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 388,
+     "ptPrior": 352
+    },
+    {
+     "date": "2026-11-19",
+     "firm": "Piper Sandler",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 542,
+     "ptPrior": 457
+    },
+    {
+     "date": "2026-11-16",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 430,
+     "ptPrior": 400
+    },
+    {
+     "date": "2026-11-12",
+     "firm": "Argus Research",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 515,
+     "ptPrior": 460
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Freedom Broker",
+     "action": "down",
+     "from": "Buy",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 470,
+     "ptPrior": 450
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Leerink Partners",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 464,
+     "ptPrior": 395
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 435,
+     "ptPrior": 378
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "Canaccord Genuity",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 440,
+     "ptPrior": 384
+    },
+    {
+     "date": "2026-11-04",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 530,
+     "ptPrior": 470
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-02",
+   "upcoming": true,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 469.24,
+   "ma20": 460.74,
+   "ma50": 435.62,
+   "ma150": 392.47,
+   "distMA50": 7.72,
+   "periodHigh": 483.99,
+   "pullbackFromHigh": -3.05,
+   "volRatio20": 1.16,
+   "dryUpRatio": 1.2
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 471.86,
+    "h": 474,
+    "l": 466.92,
+    "c": 467.06,
+    "v": 2827600,
+    "clsPos": 2,
+    "gapPct": 0.8
+   },
+   {
+    "d": "2026-11-13",
+    "o": 467.53,
+    "h": 468,
+    "l": 462.22,
+    "c": 465.67,
+    "v": 2122100,
+    "clsPos": 60,
+    "gapPct": 0.1
+   },
+   {
+    "d": "2026-11-16",
+    "o": 472.75,
+    "h": 474.4,
+    "l": 461.72,
+    "c": 462.32,
+    "v": 1924400,
+    "clsPos": 5,
+    "gapPct": 1.52
+   },
+   {
+    "d": "2026-11-17",
+    "o": 455.52,
+    "h": 463.49,
+    "l": 453.03,
+    "c": 457.93,
+    "v": 2034700,
+    "clsPos": 47,
+    "gapPct": -1.47
+   },
+   {
+    "d": "2026-11-18",
+    "o": 453.53,
+    "h": 455.09,
+    "l": 441.63,
+    "c": 443.89,
+    "v": 2583300,
+    "clsPos": 17,
+    "gapPct": -0.96
+   },
+   {
+    "d": "2026-11-19",
+    "o": 443.5,
+    "h": 444.27,
+    "l": 435.25,
+    "c": 438.82,
+    "v": 2506500,
+    "clsPos": 40,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-11-20",
+    "o": 443.05,
+    "h": 445.49,
+    "l": 434.51,
+    "c": 435.64,
+    "v": 4942300,
+    "clsPos": 10,
+    "gapPct": 0.96
+   },
+   {
+    "d": "2026-11-23",
+    "o": 442.98,
+    "h": 452.53,
+    "l": 440,
+    "c": 449.04,
+    "v": 3430000,
+    "clsPos": 72,
+    "gapPct": 1.68
+   },
+   {
+    "d": "2026-11-24",
+    "o": 452.25,
+    "h": 474.13,
+    "l": 450,
+    "c": 473.94,
+    "v": 3318800,
+    "clsPos": 99,
+    "gapPct": 0.71
+   },
+   {
+    "d": "2026-11-25",
+    "o": 472.75,
+    "h": 475.81,
+    "l": 464.09,
+    "c": 469.24,
+    "v": 3391900,
+    "clsPos": 44,
+    "gapPct": -0.25
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AMGN-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AMGN-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

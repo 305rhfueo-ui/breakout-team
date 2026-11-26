@@ -1,0 +1,207 @@
+{
+ "ticker": "URBN",
+ "news": [
+  {
+   "title": "Urban Outfitters (URBN) Q3 2027 Earnings Call Transcript",
+   "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-q3-2027-earnings-call-transcript",
+   "date": "2026-11-25",
+   "publisher": "The Motley Fool"
+  },
+  {
+   "title": "What Urban Outfitters (URBN) Said on Its Q3 Earnings Call",
+   "url": "https://www.nasdaq.com/articles/what-urban-outfitters-urbn-said-its-q3-earnings-call",
+   "date": "2026-11-25",
+   "publisher": "MarketBeat"
+  },
+  {
+   "title": "Compared to Estimates, Urban Outfitters (URBN) Q3 Earnings: A Look at Key Metrics",
+   "url": "https://www.nasdaq.com/articles/compared-estimates-urban-outfitters-urbn-q3-earnings-look-key-metrics",
+   "date": "2026-11-25",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Urban Outfitters (URBN) Beats Q3 Earnings Estimates",
+   "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-beats-q3-earnings-estimates",
+   "date": "2026-11-24",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Urban Outfitters Stock Record Quarter Meets Holiday Caution",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/urban-outfitters-stock-record-quarter-221304032.html",
+   "date": "2026-11-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Urban Outfitters earnings analysis: questions answered and next catalysts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/urban-outfitters-earnings-analysis-questions-205056745.html",
+   "date": "2026-11-25",
+   "publisher": "Investing.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Urban Outfitters Notches a Record, But Comparable Sales Fall Short",
+   "url": "https://finance.yahoo.com/m/e35ba371-d4b3-313f-a2f5-fbbd239b61fd/urban-outfitters-notches-a.html",
+   "date": "2026-11-25",
+   "publisher": "Barrons.com",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Urban Outfitters Stock Crashed on Wednesday",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-urban-outfitters-stock-crashed-182319554.html",
+   "date": "2026-11-25",
+   "publisher": "Motley Fool",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Why Urban Outfitters (URBN) Is Back In The Spotlight",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/why-urban-outfitters-urbn-back-181114615.html",
+   "date": "2026-11-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Record Sales, Segment Growth Push Urban Outfitters Towards Highs",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/record-sales-segment-growth-push-175133718.html",
+   "date": "2026-11-25",
+   "publisher": "FX Empire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Urban Outfitters (URBN) Stock Could Be A Cash Flow Bargain",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/urban-outfitters-urbn-stock-could-171030099.html",
+   "date": "2026-11-25",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-25",
+   "reportDate": "2026-11-24",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526477264/urbn-20261124.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-27",
+   "reportDate": "2026-08-26",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526369924/urbn-20260826.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-06-05",
+   "reportDate": "2026-06-03",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526259496/d158763d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-26",
+   "reportDate": "2026-05-19",
+   "items": [
+    "1.01",
+    "2.03",
+    "9.01"
+   ],
+   "itemsKo": [
+    "중요 계약 체결",
+    "2.03",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526239316/d147336d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526233928/urbn-20260520.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-26",
+   "reportDate": "2026-02-25",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "기타 중요사건",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/912615/000119312526074606/urbn-20260225.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 9.56,
+  "saleNy": 6.98,
+  "epsCy": 40.76,
+  "epsNy": -3.23,
+  "cyTrend": 0.2,
+  "nyTrend": 0.55,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    10.44,
+    11.42,
+    10.12
+   ],
+   "ni": [
+    67.28,
+    6.79,
+    -19.98
+   ],
+   "opm": [
+    17.37,
+    9.43,
+    8.81
+   ],
+   "updated": "2026-09-07 07:41:44"
+  }
+ }
+}

@@ -1,0 +1,790 @@
+{
+ "ticker": "RVMD",
+ "date": "2026-11-26",
+ "session": "2026-11-24",
+ "source": "list",
+ "plan": {
+  "ticker": "RVMD",
+  "name": "레볼루션 메디신",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 181.1699981689453,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 211.41,
+  "stop": 201.85,
+  "distToPivotPct": -16.91,
+  "distToPivotAdr": -3.11,
+  "riskPerSharePct": 4.52,
+  "adrPct": 5.44,
+  "extensionAdr": 0.76,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 20,
+   "baseWeeks": 4,
+   "depthPct": 25.1,
+   "priorMovePct": 20.2,
+   "higherLows": 0,
+   "contraction": 0.68,
+   "closeRange10Adr": 2.3,
+   "surf10": 0.76,
+   "surf20": -0.41,
+   "slope20": -2.39,
+   "baseLow": 158.34,
+   "lastSwingLow": 158.34
+  },
+  "reasons": [
+   "✗ 선행 상승 +20%",
+   "베이스 4주",
+   "✗ 깊이 25.1%",
+   "✗ 저점 상승 0회",
+   "진폭 0.68배 · 10일 종가폭 2.3 ADR",
+   "✗ 10일선 +0.8 ADR · 20일선 -0.4 ADR",
+   "✗ 20일선 기울기 -2.39%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.08816751747710029,
+    "pct": 49.27862939585212
+   },
+   "m3": {
+    "v": -0.009878164697491476,
+    "pct": 31.244364292155097
+   },
+   "m6": {
+    "v": 0.30022586324767675,
+    "pct": 71.73128944995491
+   }
+  },
+  "ret1m": -2.71,
+  "ret3m": -11.87,
+  "ret6m": 16.37,
+  "marketCap": "34.87B",
+  "volx": 1.52,
+  "volSurgeWk": 1.31,
+  "high52": 80.77,
+  "newHigh52": false,
+  "adr": 5.33,
+  "div50": -4.05,
+  "div200": 11.63,
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 247.22,
+  "epsCy": 37.43,
+  "epsNy": -66.69,
+  "cyTrend": -14.73,
+  "nyTrend": -53.11,
+  "est": {
+   "cyCur": -8.17694,
+   "cy30": -9.58893,
+   "nyCur": -2.72381,
+   "ny30": -5.80939
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-20 06:47:20"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-26",
+  "nameKo": "레볼루션 메디신",
+  "nameEn": "REVOLUTION MEDICINES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001628171&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 197559000,
+     "profit": -373149000,
+     "netIncome": -407457000,
+     "margin": -188.9,
+     "yoy": {
+      "revenue": null,
+      "profit": -18.4,
+      "netIncome": -33.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -361626000,
+     "netIncome": -364591000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -67.2,
+      "netIncome": -87.5,
+      "priorEnd": "2024-12-31"
+     }
+    },
+    {
+     "periodEnd": "2025-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -315269000,
+     "netIncome": -305206000,
+     "margin": null,
+     "yoy": {
+      "revenue": null,
+      "profit": -79.4,
+      "netIncome": -95.3,
+      "priorEnd": "2024-09-30"
+     }
+    },
+    {
+     "periodEnd": "2024-12-31",
+     "derived": true,
+     "revenue": 0,
+     "profit": -216310000,
+     "netIncome": -194476000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -20.2,
+      "netIncome": -20.7,
+      "priorEnd": "2023-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Revolution Medicines Drugged a Target Scientists Called &quot;Undruggable&quot; for Decades. Buy the Stock Hand Over Fist?",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-drugged-target-scientists-called-undruggable-decades-buy-stock-hand",
+     "date": "2026-11-20",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "EC Approves Revolution's RASONQUE For Pancreatic Ductal Adenocarcinoma In All EU Member States",
+     "url": "https://www.nasdaq.com/articles/ec-approves-revolutions-rasonque-pancreatic-ductal-adenocarcinoma-all-eu-member-states",
+     "date": "2026-11-16",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Wall Street Analysts Think Revolution Medicines (RVMD) Could Surge 33.34%: Read This Before Placing a Bet",
+     "url": "https://www.nasdaq.com/articles/wall-street-analysts-think-revolution-medicines-rvmd-could-surge-3334-read-placing-bet",
+     "date": "2026-11-10",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RASONQUE's Midas Touch, Billion-Dollar Sales Potential And The Catalysts That Put RVMD  In Focus",
+     "url": "https://www.nasdaq.com/articles/rasonques-midas-touch-billion-dollar-sales-potential-and-catalysts-put-rvmd-focus",
+     "date": "2026-11-10",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Revolution Medicines' Pancreatic Cancer Drug Nearly Doubled Survival. Is the High-Flying Stock Still a Buy?",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-pancreatic-cancer-drug-nearly-doubled-survival-high-flying-stock",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Why Royalty Pharma Investors Could Be the Quiet Winners From Revolution Medicines' Groundbreaking Pancreatic Cancer Drug",
+     "url": "https://www.nasdaq.com/articles/why-royalty-pharma-investors-could-be-quiet-winners-revolution-medicines-groundbreaking",
+     "date": "2026-11-08",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Revolution Medicines (RVMD) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/revolution-medicines-rvmd-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Revolution Medicines (RVMD) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-revolution-medicines-rvmd-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526447193/rvmd-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "2.03",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000162817126000004/rvmd-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526377362/rvmd-20260827.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526366931/rvmd-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526335039/rvmd-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-22",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1628171/000119312526276718/d123125d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-06-23",
+     "broker": "신한투자증권",
+     "analyst": "이호철, 엄민용",
+     "title": "[레볼루션 메디신 (NAS:RVMD)] 혁명, 궤도에 오르다",
+     "summary": "- ASCO 2026 Plenary Session에서 다락손라십(multi-RAS 타깃)의 췌장암 2L 3상 데이터 공개. 마땅한 표준치료가 없던 영역에서 생존기간 두 배 가 까이 개선 성공. Next-키트루다를 예고하는 데이터로 판단- RASolute 302(췌장암 2L 3상)에서 mOS* 13.2개월(vs. 화학요법 6.7개월), mPFS* 7.2개월(vs. 화학요법 3.6개월) 발표. 기대 수명 1년 미만인 췌장암 에서 혁명 수준 약효. 안전성도 3등급 이상 치료 관련 부작용 43.6%(vs. 화학요법 57.5%)로 양호. 기존 치료 패러다임 교체 가능한 데이터로 판단- RAS 변이는 전체 암의 20% 이상에서 발견되는 거대 미충족 수요 영역. 췌장암, 대장암, 비소세포폐암 등 다수 대형 적응증을 모두 공략할 수 있 다는 점이 핵심 강점. 레볼루션은 고유 기술인 삼중 복합체 플랫폼 활용해 기존 회사들이 타깃하지 못했던 RAS 변이 공략 성공",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlgeqegqiezqlggcgxeegx.pdf",
+     "pages": "11"
+    },
+    {
+     "date": "2026-04-20",
+     "broker": "키움증권",
+     "analyst": "허혜민",
+     "title": "[레볼루션 메디신 (NAS:RVMD)] 성공하면 혁명 아닙니까",
+     "summary": "- 다양한 암종에 대한 RAS(ON) 변이 저해제를 개발하는 신약 개발 바이오텍- 췌장암(PDAC) 2차 치료제 3상 긍정적 결과 발표로 신고가 기록- 보유 중인 RAS 저해제 파이프라인의 전반적인 가치 제고 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxxilzgcxxgzzgcgxeegx.pdf",
+     "pages": "9"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "RVMD-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "허혜민",
+   "date": "2026-04-20",
+   "title": "[레볼루션 메디신 (NAS:RVMD)] 성공하면 혁명 아닙니까",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqxxilzgcxxgzzgcgxeegx.pdf",
+   "pages": "9"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Biotechs buck a sluggish IPO market, but investors should tread warily",
+   "url": "https://www.cnbc.com/2026/10/28/biotech-ipo-market-investor-risks.html",
+   "date": "2026-10-28",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Lightning Round: Penguin Solutions and Revolution Medicines",
+   "url": "https://www.cnbc.com/video/2026/10/27/lightning-round-penguin-solutions-and-revolution-medicines.html",
+   "date": "2026-10-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Watch CNBC's full interview with Revolution Medicines CEO Mark Goldsmith",
+   "url": "https://www.cnbc.com/video/2026/08/27/watch-cnbcs-full-interview-with-revolution-medicines-ceo-mark-goldsmith.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Revolution Medicines CEO Mark Goldsmith on FDA approval: 'A monumental step forward'",
+   "url": "https://www.cnbc.com/video/2026/08/27/revolution-medicines-ceo-mark-goldsmith-on-fda-approval-a-monumental-step-forward.html",
+   "date": "2026-08-27",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Stempoint Capital's Michelle Ross talks her biotech investing playbook",
+   "url": "https://www.cnbc.com/video/2026/08/10/stempoint-capitals-michelle-ross-talks-her-biotech-investing-playbook.html",
+   "date": "2026-08-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "RVMD",
+  "fetchedAt": "2026-11-26",
+  "source": "한국투자증권 Open API",
+  "per": 19.93,
+  "pbr": 15.82,
+  "eps": 8.81,
+  "bps": 11.11,
+  "shares": 216292000,
+  "marketCapM": 37996,
+  "high52": 224.31,
+  "high52Date": "2026-08-27",
+  "low52": 73,
+  "low52Date": "2025-12-16",
+  "last": 175.67,
+  "prevClose": 181.17,
+  "nameKo": "레볼루션 메디신",
+  "nameEn": "REVOLUTION MEDICINES INC",
+  "listedOn": "2020-02-12",
+  "exchange": "나스닥",
+  "listedShares": 216292000
+ },
+ "estimates": {
+  "ticker": "RVMD",
+  "url": "https://finance.yahoo.com/quote/RVMD/analysis/",
+  "fetchedAt": "2026-11-26",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -1.09,
+    "epsLow": -2.27,
+    "epsHigh": 0,
+    "epsYearAgo": -1.86,
+    "epsAnalysts": 21,
+    "epsGrowth": 41.4,
+    "epsCur": "USD",
+    "rev": 410421790,
+    "revAnalysts": 20,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -0.72,
+    "epsLow": -2.35,
+    "epsHigh": 0.38,
+    "epsYearAgo": -2.29,
+    "epsAnalysts": 11,
+    "epsGrowth": 68.4,
+    "epsCur": "USD",
+    "rev": 482471400,
+    "revAnalysts": 10,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -8.18,
+    "epsLow": -9.51,
+    "epsHigh": -7.18,
+    "epsYearAgo": -5.95,
+    "epsAnalysts": 23,
+    "epsGrowth": -37.4,
+    "epsCur": "USD",
+    "rev": 610555970,
+    "revAnalysts": 22,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": -2.72,
+    "epsLow": -8.84,
+    "epsHigh": 2.49,
+    "epsYearAgo": -8.18,
+    "epsAnalysts": 23,
+    "epsGrowth": 66.7,
+    "epsCur": "USD",
+    "rev": 2119944880,
+    "revAnalysts": 23,
+    "revYearAgo": 610555970,
+    "revGrowth": 247.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.09,
+    "d7": -0.3,
+    "d30": 44.9,
+    "d90": 46.3,
+    "ago90": -2.03,
+    "up7": 11,
+    "up30": 14,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -0.72,
+    "d7": 10.7,
+    "d30": 60.4,
+    "d90": 61.9,
+    "ago90": -1.9,
+    "up7": 7,
+    "up30": 7,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -8.18,
+    "d7": 2.2,
+    "d30": 14.7,
+    "d90": 15.4,
+    "ago90": -9.66,
+    "up7": 12,
+    "up30": 14,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": -2.72,
+    "d7": 13.6,
+    "d30": 52.7,
+    "d90": 58.7,
+    "ago90": -6.59,
+    "up7": 12,
+    "up30": 14,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -1.9,
+    "estimate": -2.38,
+    "surprisePct": 20.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -3.06,
+    "estimate": -2.06,
+    "surprisePct": -48.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -2.29,
+    "estimate": -1.84,
+    "surprisePct": -24.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -1.86,
+    "estimate": -1.56,
+    "surprisePct": -18.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 1,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 3,
+   "ptRaised": 16,
+   "ptLowered": 1,
+   "total": 24,
+   "recent": [
+    {
+     "date": "2026-11-23",
+     "firm": "RBC Capital",
+     "action": "reit",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Maintains",
+     "pt": 321,
+     "ptPrior": 321
+    },
+    {
+     "date": "2026-11-17",
+     "firm": "HC Wainwright & Co.",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 350,
+     "ptPrior": 350
+    },
+    {
+     "date": "2026-11-13",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 247,
+     "ptPrior": 272
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "HC Wainwright & Co.",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 350,
+     "ptPrior": 280
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 270,
+     "ptPrior": 250
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 321,
+     "ptPrior": 260
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 222,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Truist Securities",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 261,
+     "ptPrior": 241
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 298,
+     "ptPrior": 275
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 340,
+     "ptPrior": 320
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 175.67,
+   "ma20": 179.56,
+   "ma50": 188.4,
+   "ma150": 181.32,
+   "distMA50": -6.76,
+   "periodHigh": 224.31,
+   "pullbackFromHigh": -21.68,
+   "volRatio20": 0.96,
+   "dryUpRatio": 1.25
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 181.32,
+    "h": 181.32,
+    "l": 176,
+    "c": 176.35,
+    "v": 3222100,
+    "clsPos": 7,
+    "gapPct": 0.34
+   },
+   {
+    "d": "2026-11-13",
+    "o": 176.02,
+    "h": 176.06,
+    "l": 168.62,
+    "c": 172.29,
+    "v": 2654100,
+    "clsPos": 49,
+    "gapPct": -0.19
+   },
+   {
+    "d": "2026-11-16",
+    "o": 172,
+    "h": 173.59,
+    "l": 165.95,
+    "c": 166.87,
+    "v": 2553400,
+    "clsPos": 12,
+    "gapPct": -0.17
+   },
+   {
+    "d": "2026-11-17",
+    "o": 166.78,
+    "h": 167.99,
+    "l": 161.69,
+    "c": 162.69,
+    "v": 2689300,
+    "clsPos": 16,
+    "gapPct": -0.05
+   },
+   {
+    "d": "2026-11-18",
+    "o": 162.35,
+    "h": 163.04,
+    "l": 158.34,
+    "c": 159.82,
+    "v": 2339800,
+    "clsPos": 31,
+    "gapPct": -0.21
+   },
+   {
+    "d": "2026-11-19",
+    "o": 160.5,
+    "h": 166.99,
+    "l": 158.51,
+    "c": 159.43,
+    "v": 3351400,
+    "clsPos": 11,
+    "gapPct": 0.43
+   },
+   {
+    "d": "2026-11-20",
+    "o": 161.61,
+    "h": 169.51,
+    "l": 160.22,
+    "c": 161.2,
+    "v": 4739300,
+    "clsPos": 11,
+    "gapPct": 1.37
+   },
+   {
+    "d": "2026-11-23",
+    "o": 167.54,
+    "h": 171.28,
+    "l": 165.01,
+    "c": 168.19,
+    "v": 3553600,
+    "clsPos": 51,
+    "gapPct": 3.93
+   },
+   {
+    "d": "2026-11-24",
+    "o": 168.56,
+    "h": 182.42,
+    "l": 168.56,
+    "c": 181.17,
+    "v": 4359500,
+    "clsPos": 91,
+    "gapPct": 0.22
+   },
+   {
+    "d": "2026-11-25",
+    "o": 177.55,
+    "h": 179.1,
+    "l": 170.76,
+    "c": 175.67,
+    "v": 2899200,
+    "clsPos": 59,
+    "gapPct": -2
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RVMD-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RVMD-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

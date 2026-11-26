@@ -49,9 +49,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:31:01"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "INSM",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 24일 사노피가 인스메드를 주당 175달러 현금에 인수하기로 합병 계약을 맺었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share",
+                "publisher": "Fintel",
+                "url": "https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-17500-share",
+                "date": "2026-11-24",
+                "quote": "Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "인수 규모는 약 410억 달러로 보도됐고, 사노피는 호흡기 질환 사업을 넓히려는 목적이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Sanofi (SNY) To Acquire Insmed In $41 Billion Deal To Expand Respiratory Disease Portfolio; Stock Up",
+                "publisher": "RTTNews",
+                "url": "https://www.nasdaq.com/articles/sanofi-sny-acquire-insmed-41-billion-deal-expand-respiratory-disease-portfolio-stock",
+                "date": "2026-11-24",
+                "quote": "Sanofi (SNY) To Acquire Insmed In $41 Billion Deal To Expand Respiratory Disease Portfolio; Stock Up",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "인스메드는 희귀 폐질환 치료제를 만드는 바이오 기업으로, 신약 BRINSUPRI 판매로 분기 매출 5.2억 달러를 냈다. 아직 영업적자 상태다.",
+        "volumeExplanation": "사노피가 인스메드를 주당 175달러 현금으로 인수한다고 11월 24일 발표해 거래량이 평소의 약 11배로 터졌다. 공식 발표 뒤에는 인수가 부근으로 매매가 몰렸다. 거래가 성사되고 가격 상한이 인수가에 묶이는지가 앞으로의 확인 대상이다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c2"
+          ],
+          "reason": "c2의 '이틀 전' 표현이 source date와 불일치. Statement에서 '11월 24일에서 이틀 전 보도'는 11월 22일을 의미하나, source date는 2026-11-23(1일 전). Quote에도 명시 없음.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "사노피가 인스메드를 주당 175달러 현금으로 인수한다고 11월 24일 발표해 거래량이 평소의 약 11배로 터졌다. 인수 협상 보도로 먼저 21% 올랐고, 공식 발표 뒤에는 인수가 부근으로 매매가 몰렸다. 거래가 성사되고 가격 상한이 인수가에 묶이는지가 앞으로의 확인 대상이다.",
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -131,42 +181,31 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
-            "evidence_level": "no_source",
+            "statement": "11월 23일 Kymera가 아토피 피부염 먹는 약 KT-621의 2b상 임상(BROADEN2)에서 긍정적 결과를 발표했다. 주사제 듀피젠트를 겨냥한 먹는 알약이라는 점이 주목받았다.",
+            "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621",
-                "publisher": "Fintel(나스닥)",
+                "publisher": "Fintel (Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/kymera-therapeutics-announces-positive-results-broaden2-phase-2b-clinical-trial-kt-621",
                 "date": "2026-11-23",
                 "quote": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis",
                 "verified": "ok",
                 "httpStatus": 200
               }
-            ],
-            "statementOriginal": "11월 23일 Kymera가 먹는 STAT6 억제제 KT-621의 아토피피부염 2b상(BROADEN2) 임상에서 긍정적 결과를 발표했고, 같은 날 관련 8-K를 냈다.",
-            "stripped": true
+            ]
           },
           {
             "id": "c2",
-            "statement": "데이터 공개 다음 날 주가가 약 30% 급등했고, 3상 진입 기대가 언급됐다.",
+            "statement": "발표 다음 날인 11월 24일 주가가 약 30% 급등했고 3상 진입이 거론됐다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
-                "publisher": "Zacks(나스닥)",
+                "publisher": "Zacks (Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data",
                 "date": "2026-11-24",
                 "quote": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
-                "publisher": "RTTNews(나스닥)",
-                "url": "https://www.nasdaq.com/articles/kymeras-kt-621-posts-strong-phase-2-results-eczema-advances-toward-phase-3-stock",
-                "date": "2026-11-23",
-                "quote": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -174,12 +213,12 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c3",
-            "statement": "급등 직후 17.5억 달러 규모 증자(공모)를 확정해 물량이 크게 거래됐다.",
+            "statement": "임상 직후 17.5억 달러 규모 주식 공모를 확정해 새 주식이 대량 거래됐고, 25일 마감됐다. 새 주식 발행으로 기존 주주 몫은 줄어든다.",
             "evidence_level": "sourced",
             "sources": [
               {
                 "title": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
-                "publisher": "RTTNews(나스닥)",
+                "publisher": "RTTNews (Nasdaq)",
                 "url": "https://www.nasdaq.com/articles/kymera-kymr-prices-upsized-175-billion-stock-offering-following-positive-clinical-data",
                 "date": "2026-11-24",
                 "quote": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
@@ -189,18 +228,18 @@ window.TEAM4_DATA = {
             ]
           }
         ],
-        "company": "Kymera Therapeutics는 단백질 분해 기술로 먹는 면역·염증 질환 신약을 개발하는 임상 단계 바이오 기업이다. 아직 제품 매출은 없고 제휴 수익과 적자 속에 임상 결과로 평가받는다.",
-        "volumeExplanation": "11월 23일 아토피피부염 2b상 긍정 결과가 나오자 24일 주가가 약 30% 급등하며 거래량이 터졌다. 같은 날 17.5억 달러 증자까지 확정돼 대규모 매매가 겹쳤다.",
+        "company": "Kymera Therapeutics는 특정 단백질을 분해하는 신약을 개발하는 임상 단계 바이오 기업이다. 아직 제품 매출은 없고 제휴 수익으로 연구비를 충당한다.",
+        "volumeExplanation": "11월 23일 아토피 피부염 먹는 약 임상 2b상 호결과가 나오며 24일 주가가 30% 급등했고 거래량이 터졌다. 이어 17.5억 달러 공모가 확정되며 25일까지 거래가 이어졌다. 3상 설계와 공모 이후 주가 방향이 이 이야기의 맞고 틀림을 가른다.",
         "confidence": "high",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
-          "reason": ""
+          "reason": "모든 주장이 quote·출처 제목과 일치. 임상 결과(11월 23일), 주가 급등(30%, 11월 24일), 공모($1.75B) 모두 source에서 확인됨."
         },
         "categoryName": "바이오·FDA·임상",
         "isHighlight": false,
-        "researchedOn": "2026-11-25",
-        "carried": true
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -309,9 +348,59 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:20:51"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "ANF",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c2",
+            "statement": "매출이 16분기 연속 늘었고 이익이 크게 뛰었다는 평가가 나왔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Abercrombie & Fitch Grew Sales for the 16th Straight Quarter as Earnings Jumped 62%. Here's What's Behind the Streak.",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/abercrombie-fitch-grew-sales-16th-straight-quarter-earnings-jumped-62-heres-whats-behind",
+                "date": "2026-11-25",
+                "quote": "Abercrombie & Fitch Grew Sales for the 16th Straight Quarter as Earnings Jumped 62%.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 설명회에서 회사가 연간 전망을 높였다. 다만 운송비 부담도 함께 언급됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ANF Q3 Earnings Call Details Higher Outlook and Freight Costs",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/anf-q3-earnings-call-details-higher-outlook-and-freight-costs",
+                "date": "2026-11-25",
+                "quote": "ANF Q3 Earnings Call Details Higher Outlook and Freight Costs",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Abercrombie & Fitch는 Abercrombie와 Hollister 브랜드로 캐주얼 의류를 팔아 돈을 버는 미국 의류 소매업체다.",
+        "volumeExplanation": "11월 24일 발표한 3분기 실적이 좋았고(매출 16분기 연속 증가, 이익 62% 증가) 회사가 전망을 높이면서 거래량이 평소의 4배 넘게 늘었다. 다음 분기 매출과 이익이 이 전망대로 나오는지가 이 상승의 지속 여부를 가른다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "c1"
+          ],
+          "reason": "c1의 구체적인 숫자(12.7억 달러·$1.27B, 4.8%, 순이익 29.9%)가 source quote에 없음. Title과 quote 모두 발표 사실만 담고 구체 숫자 미포함. c2·c3은 정상.",
+          "narrativeFixed": true
+        },
+        "volumeExplanationOriginal": "11월 24일 발표한 3분기 실적이 좋았고 회사가 전망을 높이면서 거래량이 평소의 4배 넘게 늘었다. 다음 분기 매출과 이익이 이 전망대로 나오는지가 이 상승의 지속 여부를 가른다.",
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -385,9 +474,71 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:56:22"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "DLTR",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 24일 발표한 3분기 순매출은 51억 달러로 1년 전보다 6.9% 늘었다. 이 실적 발표가 거래량 급증의 직접 계기다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dollar Tree, Inc. Reports Third Quarter Net Sales Increase of 6.9% to $5.1 billion",
+                "publisher": "Fintel (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/dollar-tree-inc-reports-third-quarter-net-sales-increase-69-51-billion",
+                "date": "2026-11-24",
+                "quote": "Dollar Tree, Inc. Reports Third Quarter Net Sales Increase of 6.9% to $5.1 billion",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "방문 고객 수가 3.8% 늘었고 동일점포 매출이 회사 전망을 웃돌았다. 매출 증가가 객수 확대에서 나왔다는 점이 실적 호평의 근거다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook. Here's What's Behind the Gains.",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/dollar-trees-customer-traffic-jumped-38-comparable-sales-beat-its-outlook-heres-whats",
+                "date": "2026-11-25",
+                "quote": "Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook. Here's What's Behind the Gains.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 발표 직후 SEC 8-K 공시(실적 발표 항목)가 제출됐다. 이 공시가 시장 반응의 출발점이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Dollar Tree 8-K (실적 발표, Reg FD 공시)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000136/dltr-20261124.htm",
+                "date": "2026-11-24",
+                "quote": "8-K 2026-11-24 실적 발표, Reg FD 공시, 재무제표·첨부",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "미국 최대 균일가 할인점 체인 중 하나로, 생활용품과 식료품을 저가에 팔아 돈을 번다. 경기가 나빠져 소비자가 싼 곳을 찾을수록 유리한 사업이다.",
+        "volumeExplanation": "11월 24일 3분기 실적에서 매출이 1년 전보다 6.9% 늘고 방문 고객 수와 동일점포 매출이 회사 전망을 웃돌아, 다음 날 거래가 크게 늘었다. 앞으로 객수 증가가 이어지는지가 이 이야기가 맞는지 가르는 확인 조건이다.",
+        "confidence": "high",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장이 quote·출처 제목과 일치. 매출 증가($5.1B·51억 달러, 6.9%), 고객 수 증가(3.8%), 실적 발표(11월 24일) 모두 source quote에 명시됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -475,9 +626,55 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:41:44"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "URBN",
+        "category": 1,
+        "company": "미국 의류 소매업체로 Urban Outfitters, Anthropologie, Free People 브랜드를 매장과 온라인으로 판매해 돈을 번다.",
+        "volumeExplanation": "11월 24일 장 마감 후 3분기 실적이 나왔고, 시장 예상치를 웃돌았다는 평가가 나왔다. 실적 공개 뒤 첫 거래일에 거래량이 평소의 2.7배로 늘었다.",
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "3분기 실적을 11월 24일 발표했고, 주당순이익이 증권사 예상치를 웃돌았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Urban Outfitters (URBN) Beats Q3 Earnings Estimates",
+                "publisher": "Zacks (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-beats-q3-earnings-estimates",
+                "date": "2026-11-24",
+                "quote": "Urban Outfitters (URBN) Beats Q3 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "실적 발표 다음 날 3분기 실적 컨퍼런스콜이 열려 경영진이 실적과 전망을 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Urban Outfitters (URBN) Q3 2027 Earnings Call Transcript",
+                "publisher": "The Motley Fool (Nasdaq)",
+                "url": "https://www.nasdaq.com/articles/urban-outfitters-urbn-q3-2027-earnings-call-transcript",
+                "date": "2026-11-25",
+                "quote": "Urban Outfitters (URBN) Q3 2027 Earnings Call Transcript",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "모든 주장이 quote·출처 제목과 일치. 실적 발표(11월 24일), 예상치 초과(beats), 컨퍼런스콜 개최(11월 25일) 모두 source에서 확인됨."
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1191,9 +1388,89 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:59:26"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "MDT",
+        "category": 1,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "11월 24일 분기 실적을 발표했다. 이익은 시장 예상치와 같은 수준이었고 순이익은 1년 전보다 4.5% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Medtronic (MDT) Matches Q2 Earnings Estimates",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/medtronic-mdt-matches-q2-earnings-estimates",
+                "date": "2026-11-24",
+                "quote": "Medtronic (MDT) Matches Q2 Earnings Estimates",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Medtronic reports 4.5% YoY profit rise in Q2 yet maintains prior FY27 outlook",
+                "publisher": "Medical Device Network",
+                "url": "https://finance.yahoo.com/healthcare/articles/medtronic-reports-4-5-yoy-112646337.html",
+                "date": "2026-11-25",
+                "quote": "Medtronic reports 4.5% YoY profit rise in Q2 yet maintains prior FY27 outlook",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "statement": "회사는 올해 전망(가이던스)을 올리지 않고 기존 그대로 유지했다. 미니메드 분할 이후의 전망도 실적 발표에서 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "MDT Q2 Earnings Call Details Outlook After MiniMed Split",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/mdt-q2-earnings-call-details-outlook-after-minimed-split",
+                "date": "2026-11-25",
+                "quote": "MDT Q2 Earnings Call Details Outlook After MiniMed Split",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "statement": "실적 다음 날 증권사들이 목표주가를 줄줄이 조정했다. 도이체방크는 92달러에서 99달러로, 바클레이즈는 95달러에서 100달러로 올렸고, RBC·UBS·리어링크는 소폭 내렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "Deutsche Bank Raises Price Target on Medtronic to $99 From $92, Keeps Hold Rating",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-raises-price-target-130007766.html",
+                "date": "2026-11-25",
+                "quote": "Deutsche Bank Raises Price Target on Medtronic to $99 From $92, Keeps Hold Rating",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Barclays Adjusts Medtronic Price Target to $100 From $95",
+                "publisher": "MT Newswires",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-medtronic-price-target-123248480.html",
+                "date": "2026-11-25",
+                "quote": "Barclays Adjusts Medtronic Price Target to $100 From $95",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "메드트로닉은 심장·신경·수술용 의료기기를 만들어 병원에 파는 세계 최대급 의료기기 회사다. 최근 당뇨 기기 사업(미니메드)을 분할했다.",
+        "volumeExplanation": "11월 24일 분기 실적 발표 직후 거래가 늘었다. 이익은 예상치와 같았고 전망은 유지됐으며, 이튿날 증권사들이 목표주가를 엇갈리게 조정하며 거래가 이어졌다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [],
+          "reason": "c3에서 도이체방크·바클레이즈의 목표주가 조정은 출처 명시, 하지만 RBC·UBS·리어링크 소폭 하향에 대한 근거 없음"
+        },
+        "categoryName": "어닝 서프라이즈/가이던스 상향",
+        "isHighlight": true,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1975,9 +2252,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-21 06:26:19"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PRI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Primerica는 중산층 가정에 생명보험과 투자상품을 방문 판매 조직으로 파는 보험·금융 회사다. 보험료와 수수료가 주 수입이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2584,7 +2881,7 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "11월 23일 CrowdStrike가 Zscaler를 439억 달러에 인수하기로 했다. 같은 날 Zscaler는 중요 계약 체결 8-K를 냈다.",
+            "statement": "11월 23일 CrowdStrike가 Zscaler를 439억 달러에 인수한다고 발표했다. 인수가를 받는 쪽으로 주가가 움직이는 구도가 이 거래량의 출발점이다.",
             "evidence_level": "sourced",
             "sources": [
               {
@@ -2597,22 +2894,6 @@ window.TEAM4_DATA = {
                 "httpStatus": 200
               },
               {
-                "title": "Zscaler 8-K (중요 계약 체결·Reg FD 공시)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000119312526471211/d115803d8k.htm",
-                "date": "2026-11-23",
-                "quote": "8-K 2026-11-23: 중요 계약 체결, Reg FD 공시, 재무제표·첨부",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c2",
-            "statement": "발표 당일 주가가 급등했다. 이후 인수가 가치가 줄었고 증권사 7곳이 투자의견을 낮췄다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
                 "title": "Why Zscaler Stock Rocketed Higher Today",
                 "publisher": "The Motley Fool",
                 "url": "https://www.nasdaq.com/articles/why-zscaler-stock-rocketed-higher-today",
@@ -2620,47 +2901,40 @@ window.TEAM4_DATA = {
                 "quote": "Why Zscaler Stock Rocketed Higher Today",
                 "verified": "ok",
                 "httpStatus": 200
-              },
-              {
-                "title": "7 Firms Downgraded Zscaler After CrowdStrike's $43.9 Billion Deal. Is There Still Money to Make?",
-                "publisher": "TIKR",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/7-firms-downgraded-zscaler-crowdstrike-210442923.html",
-                "date": "2026-11-24",
-                "quote": "7 Firms Downgraded Zscaler After CrowdStrike's $43.9 Billion Deal. Is There Still Money to Make?",
-                "verified": "ok",
-                "httpStatus": 200
               }
             ]
           },
           {
-            "id": "c3",
-            "statement": "25일에는 DA Davidson이 투자의견을 중립에서 매수로 올렸다.",
+            "id": "c2",
+            "statement": "발표 당일 Zscaler는 중요 계약 체결 공시(8-K)를 냈고, 실적 발표도 같은 날 함께 나왔다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "DA Davidson Upgrades Zscaler to Buy from Neutral",
-                "publisher": "Fintel",
-                "url": "https://www.nasdaq.com/articles/da-davidson-upgrades-zscaler-buy-neutral",
-                "date": "2026-11-25",
-                "quote": "DA Davidson Upgrades Zscaler to Buy from Neutral",
+                "title": "Zscaler 8-K (중요 계약 체결, 2026-11-23)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/1713683/000119312526471211/d115803d8k.htm",
+                "date": "2026-11-23",
+                "quote": "8-K 2026-11-23 중요 계약 체결 · Reg FD 공시 · 재무제표·첨부",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "company": "Zscaler는 기업 네트워크 접속을 클라우드에서 보호하는 보안 소프트웨어를 구독 방식으로 팔아 돈을 번다. 최근 분기 매출은 1년 전보다 약 25% 늘었지만 영업적자 상태다.",
-        "volumeExplanation": "11월 23일 CrowdStrike가 439억 달러에 Zscaler를 인수한다고 발표해 주가가 급등했고 거래가 몰렸다. 이후 증권사 7곳의 의견 하향과 DA Davidson의 상향이 이어지며 25일에도 거래량이 평소의 6배 넘게 유지됐다.",
+        "company": "Zscaler는 기업 네트워크 접속을 클라우드에서 보호하는 보안 소프트웨어를 구독 형태로 판매해 돈을 번다. 최근 분기 매출은 8.98억 달러로 1년 전보다 약 25% 늘었지만 영업은 적자다.",
+        "volumeExplanation": "11월 23일 CrowdStrike가 Zscaler를 439억 달러에 인수한다고 발표하면서 주가가 급등했고, 이후 11월 25일 증권사 상향·하향이 엇갈리며 거래가 평소의 2배 넘게 이어졌다. 인수가 마무리될 때까지 주가가 인수 조건 근처에서 움직이는지가 이 이야기가 맞는지 확인하는 기준이다.",
         "confidence": "high",
         "factcheck": {
-          "verdict": "pass",
-          "removed": [],
-          "reason": ""
+          "verdict": "partial",
+          "removed": [
+            "c3"
+          ],
+          "reason": "c3에서 Jefferies에 대한 출처 없음, 목표가 260달러는 Scotiabank의 것인데 statement에서는 Jefferies에 붙어 있음"
         },
         "categoryName": "대형 파트너십·공급계약",
         "isHighlight": false,
-        "researchedOn": "2026-11-25",
-        "carried": true
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2747,15 +3021,24 @@ window.TEAM4_DATA = {
         "claims": [
           {
             "id": "c1",
-            "statement": "11월 24일 3분기 실적이 시장 예상치를 웃돌았다(이익·매출 모두).",
+            "statement": "11월 24일 3분기 실적을 공시(8-K)했고 같은 날 실적 설명회가 열렸다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "Best Buy (BBY) Q3 Earnings and Revenues Beat Estimates",
-                "publisher": "Zacks (Nasdaq)",
-                "url": "https://www.nasdaq.com/articles/best-buy-bby-q3-earnings-and-revenues-beat-estimates",
+                "title": "Best Buy 8-K (item 2.02 실적 발표)",
+                "publisher": "SEC EDGAR",
+                "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000045/bby-20261124.htm",
                 "date": "2026-11-24",
-                "quote": "Best Buy (BBY) Q3 Earnings and Revenues Beat Estimates",
+                "quote": "8-K | filingDate 2026-11-24 | items 2.02, 9.01 (실적 발표)",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "Best Buy (BBY) Q3 2027 Earnings Call Transcript",
+                "publisher": "The Motley Fool",
+                "url": "https://www.nasdaq.com/articles/best-buy-bby-q3-2027-earnings-call-transcript",
+                "date": "2026-11-24",
+                "quote": "Best Buy (BBY) Q3 2027 Earnings Call Transcript",
                 "verified": "ok",
                 "httpStatus": 200
               }
@@ -2763,49 +3046,24 @@ window.TEAM4_DATA = {
           },
           {
             "id": "c2",
-            "statement": "회사가 같은 날 실적 발표(8-K 항목 2.02)를 냈고, 연간 전망을 올렸다는 보도가 나왔다.",
+            "statement": "실적 발표 직후 Zacks가 BBY를 강한 모멘텀 종목으로 소개하는 기사를 연달아 냈다.",
             "evidence_level": "sourced",
             "sources": [
               {
-                "title": "How Investors Are Reacting To Best Buy (BBY) Raised Full Year Outlook",
-                "publisher": "Simply Wall St.",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-best-buy-bby-232725132.html",
-                "date": "2026-11-24",
-                "quote": "How Investors Are Reacting To Best Buy (BBY) Raised Full Year Outlook",
-                "verified": "ok",
-                "httpStatus": 200
-              },
-              {
-                "title": "Best Buy 8-K (item 2.02 실적 발표)",
-                "publisher": "SEC EDGAR",
-                "url": "https://www.sec.gov/Archives/edgar/data/764478/000076447826000045/bby-20261124.htm",
-                "date": "2026-11-24",
-                "quote": "8-K items 2.02, 9.01 (실적 발표, 재무제표·첨부)",
-                "verified": "ok",
-                "httpStatus": 200
-              }
-            ]
-          },
-          {
-            "id": "c3",
-            "statement": "증권사 Truist는 교체 수요가 넓어지며 매출 성장이 빨라진다고 평가했다.",
-            "evidence_level": "sourced",
-            "sources": [
-              {
-                "title": "Best Buy's Sales Growth Accelerates as Replacement Cycle Broadens, Truist Says",
-                "publisher": "MT Newswires",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/best-buy-apos-sales-growth-202721682.html",
-                "date": "2026-11-24",
-                "quote": "Best Buy's Sales Growth Accelerates as Replacement Cycle Broadens, Truist Says",
+                "title": "Here's Why Best Buy (BBY) is a Strong Momentum Stock",
+                "publisher": "Zacks",
+                "url": "https://www.nasdaq.com/articles/heres-why-best-buy-bby-strong-momentum-stock",
+                "date": "2026-11-25",
+                "quote": "Here's Why Best Buy (BBY) is a Strong Momentum Stock",
                 "verified": "ok",
                 "httpStatus": 200
               }
             ]
           }
         ],
-        "company": "Best Buy는 미국 최대 가전 전문 소매업체로, 컴퓨터·휴대폰·게임기 등을 매장과 온라인에서 팔아 돈을 번다.",
-        "volumeExplanation": "11월 24일 3분기 실적이 예상치를 넘고 연간 전망이 올라가면서 다음 거래일 거래량이 평소보다 크게 늘었다. 컴퓨터·휴대폰 교체 수요가 넓어지고 있다는 평가도 매수세를 부른 것으로 보인다.",
-        "confidence": "medium",
+        "company": "미국 최대 가전 전문 유통업체로, 매장과 온라인에서 가전·전자제품을 팔아 돈을 번다.",
+        "volumeExplanation": "11월 24일 3분기 실적 발표 뒤 모멘텀 관련 기사가 이어지며 거래량이 평소의 2배 넘게 늘었다. 다만 실적이 예상치를 얼마나 넘었는지는 확인한 원문이 없다.",
+        "confidence": "low",
         "factcheck": {
           "verdict": "pass",
           "removed": [],
@@ -2813,8 +3071,8 @@ window.TEAM4_DATA = {
         },
         "categoryName": "어닝 서프라이즈/가이던스 상향",
         "isHighlight": true,
-        "researchedOn": "2026-11-25",
-        "carried": true
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3565,9 +3823,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:25:14"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "SEZL",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Sezzle은 소비자가 물건값을 나눠 내는 후불결제(BNPL) 서비스를 운영하며, 가맹점 수수료와 이용자 구독료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -4206,9 +4484,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:12:12"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "UTMD",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "산모·신생아 병원용 의료기기(태아 감시 소모품, 진공 분만 기구, 혈압 모니터링 제품)를 만들어 파는 소형 의료기기 회사입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. 출처 비어있음이 주장과 일치하고 volumeExplanation도 현재 상태 반영."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "유타 메디컬 프라덕츠",
@@ -4742,9 +5040,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 07:55:16"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PFGC",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Performance Food Group은 레스토랑·편의점·학교 등에 식자재와 소비재를 도매 유통해 돈을 번다. 유통 마진이 얇아 물량과 효율이 이익을 좌우한다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. 출처 비어있음이 주장과 일치하고 volumeExplanation도 현재 상태 반영."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -5395,9 +5713,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:23:22"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PKG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "PKG(Packaging Corporation of America)는 골판지 상자와 포장재를 만들어 파는 미국 포장 기업이다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 분류. 출처 비어있음이 주장과 일치하고 volumeExplanation도 현재 상태 반영."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-26",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -6053,14 +6391,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 3,
+    "done": 13,
     "total": 13,
-    "cap": null,
-    "pending": 10,
+    "cap": 13,
+    "pending": 0,
     "failed": 0,
-    "carried": 3,
+    "carried": 0,
     "ineligible": 0,
-    "note": "13종목 중 3종목을 조사했습니다. 그중 3종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 10종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -6078,5 +6416,44 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재 2건(소매·식품)이고 업종이 겹치지는 않는다. 오늘은 CrowdStrike의 Zscaler 인수 소식이 보안 소프트웨어 쪽에 몰렸지만, 이는 실적·기술 호재가 아니라 계약 유형이다.",
     "caution": "호재 두 건 모두 실적 발표 기반이라 이미 주가에 반영됐을 수 있고, SJM은 매출이 줄었다는 보도가 있다. 5번(산업 기술 돌파) 해당 종목은 없고, 차트 상태는 확인하지 않았으니 직접 보고 판단해야 한다.",
     "researchedOn": "2026-11-25"
+  },
+  "llm": {
+    "highlights": [
+      {
+        "ticker": "ANF",
+        "category": 1,
+        "oneLine": "매출이 16분기 연속 늘고 이익이 크게 뛰었으며, 연간 전망을 높였다(운송비 부담은 언급)."
+      },
+      {
+        "ticker": "DLTR",
+        "category": 1,
+        "oneLine": "3분기 순매출 51억 달러(전년 대비 6.9% 증가), 방문 고객 3.8% 증가, 동일점포 매출이 회사 전망 상회."
+      },
+      {
+        "ticker": "URBN",
+        "category": 1,
+        "oneLine": "11월 24일 3분기 실적 발표에서 주당순이익이 증권사 예상치를 웃돌았다."
+      },
+      {
+        "ticker": "MDT",
+        "category": 1,
+        "oneLine": "이익은 예상치와 같은 수준, 순이익 4.5% 증가. 연간 전망은 올리지 않고 유지해 서프라이즈는 약하다."
+      },
+      {
+        "ticker": "BBY",
+        "category": 1,
+        "oneLine": "11월 24일 3분기 실적 공시. 실적 수치는 입력에 없고 Zacks의 모멘텀 소개 기사만 확인된다."
+      }
+    ],
+    "sectorSignal": "실적 호재가 소매·유통 업종(의류 ANF·URBN, 할인점 DLTR, 가전 유통 BBY)에 몰려 있다. 의료기기 MDT까지 합쳐 실적 발표 5건이고, 산업 기술 돌파 호재는 없다.",
+    "caution": "BBY·URBN은 구체적 수치(증가율·가이던스 변화)가 입력에 없고, MDT는 전망을 올리지 않아 서프라이즈로 보기 어렵다. 가장 근거가 뚜렷한 것은 ANF와 DLTR이다. 가격·차트는 보지 않았으므로 이미 오른 뒤인지는 직접 확인해야 한다.",
+    "researchedOn": "2026-11-26"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "1": 5,
+    "2": 1,
+    "3": 2,
+    "6": 5
   }
 };

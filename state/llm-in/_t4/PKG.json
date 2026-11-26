@@ -1,0 +1,176 @@
+{
+ "ticker": "PKG",
+ "news": [
+  {
+   "title": "Why Is Packaging Corp. (PKG) Down 4.8% Since Last Earnings Report?",
+   "url": "https://www.nasdaq.com/articles/why-packaging-corp-pkg-down-48-last-earnings-report",
+   "date": "2026-11-20",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Has Packaging Corporation of America (PKG) Outpaced Other Industrial Products Stocks This Year?",
+   "url": "https://www.nasdaq.com/articles/has-packaging-corporation-america-pkg-outpaced-other-industrial-products-stocks-year",
+   "date": "2026-11-13",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Packaging Corp. (PKG) Is Up 3.85% in One Week: What You Should Know",
+   "url": "https://www.nasdaq.com/articles/packaging-corp-pkg-385-one-week-what-you-should-know",
+   "date": "2026-11-03",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Why Packaging Corp. (PKG) is a Top Momentum Stock for the Long-Term",
+   "url": "https://www.nasdaq.com/articles/why-packaging-corp-pkg-top-momentum-stock-long-term",
+   "date": "2026-10-28",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "Here's Why Packaging Corp. (PKG) is a Strong Growth Stock",
+   "url": "https://www.nasdaq.com/articles/heres-why-packaging-corp-pkg-strong-growth-stock",
+   "date": "2026-10-23",
+   "publisher": "Zacks"
+  },
+  {
+   "title": "What Packaging Corp Doubters Got Wrong",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/packaging-corp-doubters-got-wrong-071050428.html",
+   "date": "2026-11-20",
+   "publisher": "Simply Wall St.",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Has Packaging Corporation of America (PKG) Outpaced Other Industrial Products Stocks This Year?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/packaging-corporation-america-pkg-outpaced-134003647.html",
+   "date": "2026-11-13",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-22",
+   "reportDate": "2026-10-21",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526428056/pkg-20261021.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-23",
+   "reportDate": "2026-07-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526312651/pkg-20260722.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-13",
+   "reportDate": "2026-05-12",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526221672/d148522d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-23",
+   "reportDate": "2026-04-22",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526171009/pkg-20260422.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-03",
+   "reportDate": "2026-02-25",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "임원 변동",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526087363/d118764d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-01-28",
+   "reportDate": "2026-01-27",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/75677/000119312526025053/pkg-20260127.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 12.21,
+  "saleNy": 8.81,
+  "epsCy": 7.83,
+  "epsNy": 35.66,
+  "cyTrend": 0.95,
+  "nyTrend": 7.94,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    14.67,
+    10.59,
+    10.13
+   ],
+   "ni": [
+    -20.38,
+    -16.14,
+    -54.07
+   ],
+   "opm": [
+    11.7,
+    10.61,
+    7.13
+   ],
+   "updated": "2026-09-08 10:23:22"
+  }
+ }
+}

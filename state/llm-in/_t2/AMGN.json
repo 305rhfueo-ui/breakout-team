@@ -1,0 +1,361 @@
+{
+ "ticker": "AMGN",
+ "sector": "Healthcare",
+ "industry": "Drug Manufacturers - General",
+ "nameKo": "암젠",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.49,
+  "saleNy": 4.54,
+  "epsCy": 7.84,
+  "epsNy": 6.68,
+  "est": {
+   "cyCur": 23.5527,
+   "cy30": 23.01604,
+   "nyCur": 25.12565,
+   "ny30": 24.47562
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    9.53,
+    5.76,
+    8.58
+   ],
+   "ni": [
+    65.85,
+    5.14,
+    112.6
+   ],
+   "opm": [
+    34.95,
+    30.94,
+    27.57
+   ],
+   "updated": "2026-09-09 07:40:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-26",
+  "nameKo": "암젠",
+  "nameEn": "AMGEN INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000318154&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 10365000000,
+     "profit": 3710000000,
+     "netIncome": 3864000000,
+     "margin": 35.8,
+     "yoy": {
+      "revenue": 8.5,
+      "profit": 46.9,
+      "netIncome": 20.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 10054000000,
+     "profit": 3514000000,
+     "netIncome": 2375000000,
+     "margin": 35,
+     "yoy": {
+      "revenue": 9.5,
+      "profit": 32.3,
+      "netIncome": 65.9,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 8618000000,
+     "profit": 2666000000,
+     "netIncome": 1819000000,
+     "margin": 30.9,
+     "yoy": {
+      "revenue": 5.8,
+      "profit": 126.3,
+      "netIncome": 5.1,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 9866000000,
+     "profit": 2720000000,
+     "netIncome": 1333000000,
+     "margin": 27.6,
+     "yoy": {
+      "revenue": 8.6,
+      "profit": 17.7,
+      "netIncome": 112.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Amgen (AMGN) Crossed Above the 20-Day Moving Average: What That Means for Investors",
+     "url": "https://www.nasdaq.com/articles/amgen-amgn-crossed-above-20-day-moving-average-what-means-investors",
+     "date": "2026-11-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amgen (AMGN) Clears Patent Hurdle For Planned U.S. Lauch Of Opdivo Biosimilar",
+     "url": "https://www.nasdaq.com/articles/amgen-amgn-clears-patent-hurdle-planned-us-lauch-opdivo-biosimilar",
+     "date": "2026-11-25",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Amgen SECURES Pathway for U.S. Launch of Biosimilar to Opdivo® Following Settlement Agreement",
+     "url": "https://www.nasdaq.com/articles/amgen-secures-pathway-us-launch-biosimilar-opdivor-following-settlement-agreement",
+     "date": "2026-11-25",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Novo vs. Amgen: Which Healthcare Stock Is the Better Buy Now?",
+     "url": "https://www.nasdaq.com/articles/novo-vs-amgen-which-healthcare-stock-better-buy-now",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Investors Heavily Search Amgen Inc. (AMGN): Here is What You Need to Know",
+     "url": "https://www.nasdaq.com/articles/investors-heavily-search-amgen-inc-amgn-here-what-you-need-know",
+     "date": "2026-11-20",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Amgen vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/amgen-vs-vertex-pharmaceuticals-which-healthcare-stock-better-buy-2027",
+     "date": "2026-11-13",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-24",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000119312526475833/amgn-20261124.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000153/amgn-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000144/amgn-20261026.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000124/amgn-20260804.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-31",
+    "itemsKo": [
+     "1.05"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000119/amgn-20260729.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-20",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/318154/000119312526232786/amgn-20260519.htm"
+   }
+  ],
+  "krReports": {
+   "total": 11,
+   "reports": [
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [26Q3 Preview] 예고된 영업비용 증가폭과 가이던스 달성 경로가 관건, 투자의견 매수 유지",
+     "summary": "- 두 자릿수 외형 성장이 비용 증가를 흡수하는지가 이번 분기의 관건- denosumab 침식 속도와 성장동력의 상쇄력을 함께 봐야 한다- 매출 상회 시 밸류에이션 프리미엄 정당화, 하회 시 되돌림 압력",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-26",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] 임핀지 병용 1차 치료 3상, 생존 중앙값 21.1개월 - 2차에서 1차로 처방 환자군 확대 기대",
+     "summary": "- Imdelltra+Imfinzi 병용, 1차 소세포폐암서 사망위험 58%↓- 생존기간 중앙값 21.1개월 vs 12.7개월, 1년생존 80%대 53%- 2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-10-20",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] 테즈스파이어, 호산구성 식도염 임상서 52주 조직학적 관해 입증 - 천식 적응증을 넘어 신규 성장동력 가능성",
+     "summary": "- 테즈스파이어, 호산구성 식도염 임상서 위약 대비 관해율 압도- 52주까지 효과 유지, 삼킴곤란 증상도 개선- 승인 적응증 확대 시 신규 성장동력, 시점은 미확정",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqmgzileqlgkkxzgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] Imdelltra-Imfinzi 병용요법 생존율 개선 확인",
+     "summary": "- Imdelltra+Imfinzi 병용, 소세포폐암 생존율 유의미 개선 확인- 유지요법 적응증 확대 시 Imdelltra 처방군 확대 잠재력- denosumab 침식 상쇄 흐름과 결 맞으나 즉각 손익 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqemgimlgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] IMDELLTRA·임핀지 병용 1차 소세포폐암 3상서 생존 개선 - 성장동력 제품의 적응증 확장 신호",
+     "summary": "- IMDELLTRA+임핀지, 1차 소세포폐암 3상서 생존 개선- IMDELLTRA는 최근 분기 매출 115% 성장 성장동력 제품- 승인·매출 반영은 아직 여러 분기 소요될 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllmegxqcmmgilgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] 영국 규제당국, Tavneos 신규 처방 중단·승인 철회 예고 - 미국 FDA 철회 심사에 힘 싣는 해외 판례",
+     "summary": "- 영국, Tavneos 신규처방 중단·2027년 3월 승인 철회 예고- EU 철회에 이은 해외 판례, 미국 FDA 청문 부담 가중 소지- 미국 매출 비중 작아 전체 실적 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllicxqgzeqmlxgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] [Issue & News] Repatha 고위험군 사망위험 감소 데이터 공개 - 1차 예방 적응증 확대 모멘텀 강화",
+     "summary": "- Repatha, 첫 심장마비·뇌졸중 고위험군 사망위험 감소 데이터 발표- 2분기 매출 37% 성장한 핵심 성장동력, CHMP 긍정의견과 결 같아- Prolia·Xgeva 침식·TAVNEOS 리스크는 별개로 여전",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqllgeeczqzzqmmgcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "대신증권",
+     "analyst": "조재운",
+     "title": "[암젠 (NAS:AMGN)] TEZSPIRE, 호산구성 식도염 3상 주요지표 모두 충족 - 천식 너머 적응증 확장으로 성장동력 연장",
+     "summary": "- TEZSPIRE, 호산구성 식도염 3상 주요지표 모두 충족- 천식 넘어 새 적응증 확장, 매출 반영은 승인 이후- 목표주가 상회 구간, 단기 주가 영향은 제한적",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlqlxmlzzlellxgcgxeegx.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Amgen says drug combo slashes risk of death by 58% in patients with lung cancer",
+   "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+   "date": "2026-10-24",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
+   "url": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
+   "date": "2026-09-22",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Novo shares slide as drugmaker lays out post-Wegovy growth strategy",
+   "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
+   "date": "2026-09-21",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Cholesterol drug setback casts doubt over multibillion-dollar race",
+   "url": "https://www.cnbc.com/2026/09/08/novartis-cholesterol-setback-drug-race-eli-lilly-amgen.html",
+   "date": "2026-09-08",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Dow rises nearly 300 points to snap three-day slide as Treasury yields cool",
+   "url": "https://www.cnbc.com/2026/09/01/stock-market-today-live-updates.html",
+   "date": "2026-09-01",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Explosive Options' Bob Lang on why he likes Amgen",
+   "url": "https://www.cnbc.com/video/2026/11/10/explosive-options-bob-lang-on-why-he-likes-amgen.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "AMGN",
+  "fetchedAt": "2026-11-26",
+  "source": "한국투자증권 Open API",
+  "per": 29.15,
+  "pbr": 17.68,
+  "eps": 16.1,
+  "bps": 26.53,
+  "shares": 540912000,
+  "marketCapM": 253818,
+  "high52": 481.2104,
+  "high52Date": "2026-11-05",
+  "low52": 304.3633,
+  "low52Date": "2025-12-11",
+  "last": 469.24,
+  "prevClose": 473.935,
+  "nameKo": "암젠",
+  "nameEn": "AMGEN INC",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 540912000
+ }
+}

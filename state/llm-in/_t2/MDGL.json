@@ -1,0 +1,280 @@
+{
+ "ticker": "MDGL",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "매드리걸 파머슈티컬스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 65.32,
+  "saleNy": 37.93,
+  "epsCy": -82.87,
+  "epsNy": -576.15,
+  "est": {
+   "cyCur": -2.18,
+   "cy30": -6.4925,
+   "nyCur": 10.38,
+   "ny30": 9.625
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    71.17,
+    126.84,
+    210.77
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자축소"
+   ],
+   "opm": [
+    -15.46,
+    -29.78,
+    -18.56
+   ],
+   "updated": "2026-09-07 06:55:32"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-26",
+  "nameKo": "매드리걸 파머슈티컬스",
+  "nameEn": "MADRIGAL PHARMACEUTICALS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001157601&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 431268000,
+     "profit": 55989000,
+     "netIncome": 55442000,
+     "margin": 13,
+     "yoy": {
+      "revenue": 50.1,
+      "profit": 149.1,
+      "netIncome": 148.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 364252000,
+     "profit": -56308000,
+     "netIncome": -57939000,
+     "margin": -15.5,
+     "yoy": {
+      "revenue": 71.2,
+      "profit": -19.3,
+      "netIncome": -37,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 311337000,
+     "profit": -92723000,
+     "netIncome": -94391000,
+     "margin": -29.8,
+     "yoy": {
+      "revenue": 126.8,
+      "profit": -16.9,
+      "netIncome": -28.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 321083000,
+     "profit": -59609000,
+     "netIncome": -58575000,
+     "margin": -18.6,
+     "yoy": {
+      "revenue": 210.8,
+      "profit": 11,
+      "netIncome": 1.4,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Madrigal Pharmaceuticals Sees Rezdiffra Growth Runway, Plans New MASH Study",
+     "url": "https://www.nasdaq.com/articles/madrigal-pharmaceuticals-sees-rezdiffra-growth-runway-plans-new-mash-study",
+     "date": "2026-11-23",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Madrigal (MDGL) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/madrigal-mdgl-q3-2026-earnings-call-transcript",
+     "date": "2026-11-03",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Madrigal Pharmaceuticals (MDGL) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-madrigal-pharmaceuticals-mdgl-said-its-q3-earnings-call",
+     "date": "2026-11-03",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Madrigal Swings To Q3 Profit As Rezdiffra Sales Jump 50%",
+     "url": "https://www.nasdaq.com/articles/madrigal-swings-q3-profit-rezdiffra-sales-jump-50",
+     "date": "2026-11-03",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Madrigal Pharmaceuticals, Inc. Reports Third-Quarter 2026 Net Revenues of $431.3 million and Achieves First Quarter of Profitability",
+     "url": "https://www.nasdaq.com/articles/madrigal-pharmaceuticals-inc-reports-third-quarter-2026-net-revenues-4313-million-and",
+     "date": "2026-11-03",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Madrigal (MDGL) Q3 Earnings and Revenues Beat Estimates",
+     "url": "https://www.nasdaq.com/articles/madrigal-mdgl-q3-earnings-and-revenues-beat-estimates",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Madrigal (MDGL) Report Negative Earnings Next Week? What You Should Know",
+     "url": "https://www.nasdaq.com/articles/will-madrigal-mdgl-report-negative-earnings-next-week-what-you-should-know",
+     "date": "2026-10-27",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Institutional Investors Are Loading Up on Madrigal Pharmaceuticals Stock. Should You?",
+     "url": "https://www.nasdaq.com/articles/institutional-investors-are-loading-madrigal-pharmaceuticals-stock-should-you",
+     "date": "2026-09-10",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-03",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026069093/mdgl-20261103.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-12",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026055962/mdgl-20260811.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-30",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026050775/mdgl-20260730.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-17",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1157601/000110465926075130/tm2617490d2_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026030896/mdgl-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-04-28",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1157601/000162828026027956/mdgl-20260422.htm"
+   }
+  ],
+  "krReports": {
+   "total": 2,
+   "reports": [
+    {
+     "date": "2026-07-31",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[매드리걸 파머슈티컬스 (NAS:MDGL)] 새로운 모멘텀이 필요한 시점",
+     "summary": "- MASH, 간경변증 등 간질환 약물의 선도적 입지에도 기회 보다 우려가 큰 상황. 비미국 지역에서 상용화, 적응증 확장 및 후속 제품 임상 결과 등 추가 상승 모멘텀 부재. 기대감 회복 위한 성과가 필요한 시점- 2Q26 매출, Non-GAAP EPS 각 3.6억달러(+71.1% YoY, +17.0% QoQ), -1.99달러 기록해 컨센서스(매출: 3.5억달러, EPS: -2.5달러) 상회. 매출 및 투약 환자는 꾸준히 증가하고 있으나 성장세는 둔화돼 반등 재료 필요. 애 로우 헤드와 라이선스 계약, 마케팅 채널 확대 등 비용 증가도 매출 증가 호재를 상쇄하는 요인으로 작용- 비미국 지역의 매출 증가 제한적. 독일에서는 상업화 진행되고 있으나 프 랑스, 영국은 미국의 MFN 정책으로 상환 가격 협상 및 보험 적용 지연돼 수요 증가 제한적. 올해까지 유럽 내 매출 비중은 미미할 전망. 아시아 주 요국에서는 아직 임상 단계로 단기간내 시판 어려울 것으로 예상",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqlzklimqqlqizegcgxeegx.pdf",
+     "pages": "5"
+    },
+    {
+     "date": "2026-05-07",
+     "broker": "신한투자증권",
+     "analyst": "하헌호",
+     "title": "[매드리걸 파머슈티컬스 (NAS:MDGL)] 실적으로 견고한 입지 인증",
+     "summary": "- 높아진 눈 높이 상회하는 실적. 꺼지지 않은 성장 모멘텀- 1Q26 Review: 견조한 매출 성장세. 선두 지위 유지 위한 공격적 투자- MASH 약물 선두기업으로 추가 실적 성장, 주가 상승 여력 잔존",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqqlekcqzimglzkgcgxeegx.pdf",
+     "pages": "4"
+    }
+   ]
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "MDGL",
+  "fetchedAt": "2026-11-26",
+  "source": "한국투자증권 Open API",
+  "per": 33.36,
+  "pbr": 15.92,
+  "eps": 12.88,
+  "bps": 27,
+  "shares": 23229600,
+  "marketCapM": 9983,
+  "high52": 615,
+  "high52Date": "2025-12-24",
+  "low52": 353.54,
+  "low52Date": "2026-11-04",
+  "last": 429.75,
+  "prevClose": 429.8,
+  "nameKo": "매드리걸 파머슈티컬스",
+  "nameEn": "MADRIGAL PHARMACEUTICALS INC",
+  "listedOn": "2016-07-25",
+  "exchange": "나스닥",
+  "listedShares": 23229600
+ }
+}
