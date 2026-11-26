@@ -1,5 +1,5 @@
 window.CHARTCHECK_DATA = {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "items": [
     {
       "ticker": "MANH",
@@ -7,10 +7,10 @@ window.CHARTCHECK_DATA = {
       "source": "T3",
       "reasons": [
         "최근 2주 가격 흔들림이 그 전 2주의 0.75배로 줄었다",
-        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.1, 최저 0.08)",
+        "가격 변동폭이 최근 석 달 중 가장 좁은 수준(0.09, 최저 0.08)",
         "넘어야 할 선 $263.47 바로 아래(-4.36%)",
         "최근 2주 종가가 2.12% 안에서만 움직였다",
-        "1년 최고가의 94.76% 자리"
+        "1년 최고가의 95.64% 자리"
       ],
       "flags": [
         "contract10",
@@ -41,6 +41,26 @@ window.CHARTCHECK_DATA = {
       ],
       "resistance": 182.71,
       "price": 176.9,
+      "barGap": false
+    },
+    {
+      "ticker": "PAYC",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.68배로 줄었다",
+        "넘어야 할 선 $248.95 바로 아래(-0.59%)",
+        "최근 2주 종가가 1.81% 안에서만 움직였다",
+        "1년 최고가의 90.06% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 248.95,
+      "price": 247.49,
       "barGap": false
     },
     {
@@ -87,7 +107,7 @@ window.CHARTCHECK_DATA = {
         "최근 1주 거래량이 한 달 평균의 0.68배로 줄었다(팔 사람이 줄어듦)",
         "넘어야 할 선 $158.81 바로 아래(-4.17%)",
         "최근 2주 종가가 2.15% 안에서만 움직였다",
-        "1년 최고가의 91.5% 자리"
+        "1년 최고가의 95.83% 자리"
       ],
       "flags": [
         "volDry",
@@ -107,7 +127,7 @@ window.CHARTCHECK_DATA = {
         "최근 1주는 더 조용하다(그 전 1주의 0.61배)",
         "최근 1주 거래량이 한 달 평균의 0.61배로 줄었다(팔 사람이 줄어듦)",
         "넘어야 할 선 $122.2 바로 아래(-2.32%)",
-        "1년 최고가의 97.49% 자리"
+        "1년 최고가의 97.68% 자리"
       ],
       "flags": [
         "contract5",
@@ -117,6 +137,26 @@ window.CHARTCHECK_DATA = {
       ],
       "resistance": 122.2,
       "price": 119.36,
+      "barGap": false
+    },
+    {
+      "ticker": "BCO",
+      "score": 6,
+      "source": "T3",
+      "reasons": [
+        "최근 2주 가격 흔들림이 그 전 2주의 0.68배로 줄었다",
+        "넘어야 할 선 $124.32 바로 아래(-0.89%)",
+        "최근 2주 종가가 2.57% 안에서만 움직였다",
+        "1년 최고가의 90.99% 자리"
+      ],
+      "flags": [
+        "contract10",
+        "nearResist",
+        "tightCloses",
+        "high52"
+      ],
+      "resistance": 124.32,
+      "price": 123.21,
       "barGap": false
     },
     {
@@ -138,31 +178,13 @@ window.CHARTCHECK_DATA = {
       "barGap": false
     },
     {
-      "ticker": "PAYC",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.68배로 줄었다",
-        "넘어야 할 선 $248.95 바로 아래(-0.59%)",
-        "최근 2주 종가가 1.81% 안에서만 움직였다"
-      ],
-      "flags": [
-        "contract10",
-        "nearResist",
-        "tightCloses"
-      ],
-      "resistance": 248.95,
-      "price": 247.49,
-      "barGap": false
-    },
-    {
       "ticker": "THC",
       "score": 5,
       "source": "T3",
       "reasons": [
         "최근 2주 가격 흔들림이 그 전 2주의 0.77배로 줄었다",
         "넘어야 할 선 $283.05 바로 아래(-0.85%)",
-        "1년 최고가의 91.26% 자리"
+        "1년 최고가의 93.1% 자리"
       ],
       "flags": [
         "contract10",
@@ -172,31 +194,17 @@ window.CHARTCHECK_DATA = {
       "resistance": 283.05,
       "price": 280.65,
       "barGap": false
-    },
-    {
-      "ticker": "GKOS",
-      "score": 5,
-      "source": "T3",
-      "reasons": [
-        "최근 2주 가격 흔들림이 그 전 2주의 0.6배로 줄었다",
-        "최근 1주 거래량이 한 달 평균의 0.48배로 줄었다(팔 사람이 줄어듦)",
-        "1년 최고가의 99.8% 자리"
-      ],
-      "flags": [
-        "contract10",
-        "volDry",
-        "high52"
-      ],
-      "resistance": null,
-      "price": 259.9,
-      "barGap": false
     }
   ],
-  "total": 12,
+  "total": 16,
   "shown": 10,
   "cap": 10,
   "beyondCap": [
+    "CAKE(5)",
+    "GKOS(5)",
     "SYNA(5)",
-    "KOD(5)"
+    "KOD(5)",
+    "EL(5)",
+    "OLLI(5)"
   ]
 };
