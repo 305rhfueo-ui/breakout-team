@@ -1,0 +1,151 @@
+{
+ "ticker": "WPM",
+ "sector": "Basic Materials",
+ "industry": "Gold",
+ "nameKo": "휘턴 프레셔스 메탈스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 53.85,
+  "saleNy": 9.39,
+  "epsCy": 48.56,
+  "epsNy": 8.6,
+  "est": {
+   "cyCur": 4.48501,
+   "cy30": 4.56567,
+   "nyCur": 4.87067,
+   "ny30": 4.89176
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    84.65,
+    91.63,
+    127.25
+   ],
+   "ni": [
+    85.87,
+    129.17,
+    533.32
+   ],
+   "opm": [
+    71.79,
+    74.85,
+    74.68
+   ],
+   "updated": "2026-09-08 06:30:40"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "휘턴 프레셔스 메탈스",
+  "nameEn": "WHEATON PRECIOUS METALS CORP",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Analyst Favorites: Wheaton Precious Metals Ranks As a Top Metals Pick",
+     "url": "https://www.nasdaq.com/articles/analyst-favorites-wheaton-precious-metals-ranks-top-metals-pick-0",
+     "date": "2026-11-23",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "TECK or WPM: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/teck-or-wpm-which-better-value-stock-right-now",
+     "date": "2026-11-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - WPM",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-wpm",
+     "date": "2026-11-12",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Can Wheaton Precious Metals Sustain Its Record Production Growth?",
+     "url": "https://www.nasdaq.com/articles/can-wheaton-precious-metals-sustain-its-record-production-growth",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "WPM Q3 Earnings Call Highlights Production Growth and Expansion Plans",
+     "url": "https://www.nasdaq.com/articles/wpm-q3-earnings-call-highlights-production-growth-and-expansion-plans",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wheaton Precious Metals Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-metals-q3-earnings-call-highlights",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Wheaton Precious (WPM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-wpm-q3-2026-earnings-call-transcript",
+     "date": "2026-11-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Wheaton Precious Metals Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-metals-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Watch CNBC's full interview with Wheaton Precious Metals CEO Haytham Hodaly",
+   "url": "https://www.cnbc.com/video/2026/08/07/watch-cnbcs-full-interview-with-wheaton-precious-metals-ceo-haytham-hodaly.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Wheaton Precious Metals CEO Haytham Hodaly: Our growth going forward is more gold than anything else",
+   "url": "https://www.cnbc.com/video/2026/08/07/wheaton-precious-metals-ceo-haytham-hodaly-our-growth-going-forward-is-more-gold-than-anything-else.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "WPM",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 27.14,
+  "pbr": 5.55,
+  "eps": 4.52,
+  "bps": 22.09,
+  "shares": 454189000,
+  "marketCapM": 55684,
+  "high52": 164.7649,
+  "high52Date": "2026-03-02",
+  "low52": 100.6819,
+  "low52Date": "2025-11-25",
+  "last": 122.6,
+  "prevClose": 116.6,
+  "nameKo": "휘턴 프레셔스 메탈스",
+  "nameEn": "WHEATON PRECIOUS METALS CORP",
+  "listedOn": "2017-05-16",
+  "exchange": "뉴욕거래소",
+  "listedShares": 454189000
+ }
+}

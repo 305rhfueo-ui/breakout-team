@@ -1,0 +1,684 @@
+{
+ "ticker": "CDW",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "CDW",
+  "name": "CDW",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "price": 174.97000122070312,
+  "grade": "—",
+  "state": "none",
+  "pivot": null,
+  "stop": null,
+  "distToPivotPct": null,
+  "distToPivotAdr": null,
+  "riskPerSharePct": null,
+  "adrPct": 5.52,
+  "extensionAdr": 0.71,
+  "breakDate": null,
+  "metrics": null,
+  "reasons": [
+   "쉬는 구간 없음"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.2065024644548863,
+    "pct": 81.10910730387737
+   },
+   "m3": {
+    "v": 0.27221030393498735,
+    "pct": 90.6672678088368
+   },
+   "m6": {
+    "v": 0.42590669025024264,
+    "pct": 88.86384129846708
+   }
+  },
+  "ret1m": 8.02,
+  "ret3m": 16.9,
+  "ret6m": 32.69,
+  "marketCap": "21.84B",
+  "volx": 1.01,
+  "volSurgeWk": 1.19,
+  "high52": 99.64,
+  "newHigh52": false,
+  "adr": 5.52,
+  "div50": 14.36,
+  "div200": 29.66,
+  "targetStatus": false,
+  "saleCy": 12.74,
+  "saleNy": 5.63,
+  "epsCy": 12.78,
+  "epsNy": 10.18,
+  "cyTrend": 2.91,
+  "nyTrend": 3.2,
+  "est": {
+   "cyCur": 11.30049,
+   "cy30": 10.98092,
+   "nyCur": 12.45046,
+   "ny30": 12.06461
+  },
+  "fs": {
+   "sale": [
+    9.97,
+    9.25,
+    6.27
+   ],
+   "ni": [
+    1.18,
+    4.67,
+    5.79
+   ],
+   "opm": [
+    6.52,
+    6.62,
+    7.82
+   ],
+   "updated": "2026-09-08 10:05:34"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "CDW",
+  "nameEn": "CDW CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402057&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 6754500000,
+     "profit": 489500000,
+     "netIncome": 309800000,
+     "margin": 7.2,
+     "yoy": {
+      "revenue": 17.7,
+      "profit": 10.4,
+      "netIncome": 6.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 6572200000,
+     "profit": 428600000,
+     "netIncome": 274400000,
+     "margin": 6.5,
+     "yoy": {
+      "revenue": 10,
+      "profit": 2,
+      "netIncome": 1.2,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 5679800000,
+     "profit": 376000000,
+     "netIncome": 235400000,
+     "margin": 6.6,
+     "yoy": {
+      "revenue": 9.2,
+      "profit": 4,
+      "netIncome": 4.7,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 5511000000,
+     "profit": 430700000,
+     "netIncome": 279500000,
+     "margin": 7.8,
+     "yoy": {
+      "revenue": 6.3,
+      "profit": 5.4,
+      "netIncome": 5.8,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "CDW Ex-Dividend Reminder - 11/25/26",
+     "url": "https://www.nasdaq.com/articles/cdw-ex-dividend-reminder-11-25-26",
+     "date": "2026-11-24",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "CDW Launches Advanced AI Tools to Boost Enterprise Adoption",
+     "url": "https://www.nasdaq.com/articles/cdw-launches-advanced-ai-tools-boost-enterprise-adoption",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why CDW (CDW) is a Top Momentum Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-cdw-cdw-top-momentum-stock-long-term",
+     "date": "2026-11-17",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why CDW (CDW) is a Top Value Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-cdw-cdw-top-value-stock-long-term-0",
+     "date": "2026-11-16",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Should Value Investors Buy CDW (CDW) Stock?",
+     "url": "https://www.nasdaq.com/articles/should-value-investors-buy-cdw-cdw-stock",
+     "date": "2026-11-13",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CDW Consensus Price Target Increased 15.28% to $183.71",
+     "url": "https://www.nasdaq.com/articles/cdw-consensus-price-target-increased-1528-18371",
+     "date": "2026-11-10",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "CDW (CDW) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "url": "https://www.nasdaq.com/articles/cdw-cdw-q3-earnings-how-key-metrics-compare-wall-street-estimates",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "CDW (CDW) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/cdw-cdw-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000106/cdw-20261015.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000119312526396653/d240122d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000119312526392039/d180681d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000064/cdw-20260803.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-20260805.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Final Trade: BCS, SBUX, GOOGL, CDW",
+   "url": "https://www.cnbc.com/video/2026/11/10/final-trade-bcs-sbux-googl-cdw.html",
+   "date": "2026-11-10",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "CDW",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 21.03,
+  "pbr": 8.3,
+  "eps": 8.32,
+  "bps": 21.09,
+  "shares": 124809000,
+  "marketCapM": 21838,
+  "high52": 175.61,
+  "high52Date": "2026-11-25",
+  "low52": 95.6906,
+  "low52Date": "2026-05-12",
+  "last": 174.97,
+  "prevClose": 163.48,
+  "nameKo": "CDW",
+  "nameEn": "CDW CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 124809000
+ },
+ "estimates": {
+  "ticker": "CDW",
+  "url": "https://finance.yahoo.com/quote/CDW/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 2.86,
+    "epsLow": 2.83,
+    "epsHigh": 2.94,
+    "epsYearAgo": 2.57,
+    "epsAnalysts": 10,
+    "epsGrowth": 11.3,
+    "epsCur": "USD",
+    "rev": 6221517190,
+    "revAnalysts": 8,
+    "revYearAgo": 5511000000,
+    "revGrowth": 12.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 2.59,
+    "epsLow": 2.41,
+    "epsHigh": 2.86,
+    "epsYearAgo": 2.28,
+    "epsAnalysts": 9,
+    "epsGrowth": 13.8,
+    "epsCur": "USD",
+    "rev": 6204790440,
+    "revAnalysts": 6,
+    "revYearAgo": 5679800000,
+    "revGrowth": 9.2,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 11.3,
+    "epsLow": 11.27,
+    "epsHigh": 11.39,
+    "epsYearAgo": 10.02,
+    "epsAnalysts": 10,
+    "epsGrowth": 12.8,
+    "epsCur": "USD",
+    "rev": 25280539280,
+    "revAnalysts": 9,
+    "revYearAgo": 22424100000,
+    "revGrowth": 12.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 12.45,
+    "epsLow": 11.75,
+    "epsHigh": 13.28,
+    "epsYearAgo": 11.3,
+    "epsAnalysts": 10,
+    "epsGrowth": 10.2,
+    "epsCur": "USD",
+    "rev": 26703575280,
+    "revAnalysts": 9,
+    "revYearAgo": 25280539280,
+    "revGrowth": 5.6,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 2.86,
+    "d7": 0,
+    "d30": 1.3,
+    "d90": 1.4,
+    "ago90": 2.82,
+    "up7": 6,
+    "up30": 5,
+    "down7": 1,
+    "down30": 2
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 2.59,
+    "d7": 0,
+    "d30": 2,
+    "d90": 3.1,
+    "ago90": 2.52,
+    "up7": 4,
+    "up30": 4,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 11.3,
+    "d7": 0,
+    "d30": 2.9,
+    "d90": 3.4,
+    "ago90": 10.93,
+    "up7": 7,
+    "up30": 7,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 12.45,
+    "d7": 0,
+    "d30": 3.2,
+    "d90": 4.3,
+    "ago90": 11.94,
+    "up7": 7,
+    "up30": 7,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 3.26,
+    "estimate": 2.98,
+    "surprisePct": 9.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 2.91,
+    "estimate": 2.8,
+    "surprisePct": 4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 2.28,
+    "estimate": 2.29,
+    "surprisePct": -0.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.57,
+    "estimate": 2.44,
+    "surprisePct": 5.1,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 5,
+   "ptLowered": 1,
+   "total": 6,
+   "recent": [
+    {
+     "date": "2026-11-16",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 164,
+     "ptPrior": 148
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 195,
+     "ptPrior": 159
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 195,
+     "ptPrior": 170
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 170,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-21",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 148,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-09-08",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Raises",
+     "pt": 150,
+     "ptPrior": 123
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2027-02-03",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 174.97,
+   "ma20": 164.57,
+   "ma50": 153.62,
+   "ma150": 140.03,
+   "distMA50": 13.9,
+   "periodHigh": 222.92,
+   "pullbackFromHigh": -21.51,
+   "volRatio20": 0.94,
+   "dryUpRatio": 0.82
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 173.75,
+    "h": 174.51,
+    "l": 170.39,
+    "c": 172.79,
+    "v": 1022100,
+    "clsPos": 58,
+    "gapPct": 0.39
+   },
+   {
+    "d": "2026-11-13",
+    "o": 173.3,
+    "h": 173.82,
+    "l": 170.5,
+    "c": 171.65,
+    "v": 1509300,
+    "clsPos": 35,
+    "gapPct": 0.3
+   },
+   {
+    "d": "2026-11-16",
+    "o": 171.65,
+    "h": 171.75,
+    "l": 165.33,
+    "c": 165.82,
+    "v": 1374500,
+    "clsPos": 8,
+    "gapPct": 0
+   },
+   {
+    "d": "2026-11-17",
+    "o": 166.01,
+    "h": 166.53,
+    "l": 162.36,
+    "c": 163.07,
+    "v": 1068100,
+    "clsPos": 17,
+    "gapPct": 0.11
+   },
+   {
+    "d": "2026-11-18",
+    "o": 163.18,
+    "h": 169.91,
+    "l": 161.03,
+    "c": 169.01,
+    "v": 1317400,
+    "clsPos": 90,
+    "gapPct": 0.07
+   },
+   {
+    "d": "2026-11-19",
+    "o": 169.3,
+    "h": 170.85,
+    "l": 166.5,
+    "c": 167.61,
+    "v": 1291800,
+    "clsPos": 26,
+    "gapPct": 0.17
+   },
+   {
+    "d": "2026-11-20",
+    "o": 167.38,
+    "h": 170.58,
+    "l": 160.97,
+    "c": 161.78,
+    "v": 1356200,
+    "clsPos": 8,
+    "gapPct": -0.14
+   },
+   {
+    "d": "2026-11-23",
+    "o": 167.04,
+    "h": 172.23,
+    "l": 165,
+    "c": 170.06,
+    "v": 1306400,
+    "clsPos": 70,
+    "gapPct": 3.25
+   },
+   {
+    "d": "2026-11-24",
+    "o": 169.94,
+    "h": 170.84,
+    "l": 160.03,
+    "c": 164.16,
+    "v": 1230800,
+    "clsPos": 38,
+    "gapPct": -0.07
+   },
+   {
+    "d": "2026-11-25",
+    "o": 160.69,
+    "h": 175.61,
+    "l": 158.28,
+    "c": 174.97,
+    "v": 1542300,
+    "clsPos": 96,
+    "gapPct": -2.11
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CDW-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CDW-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

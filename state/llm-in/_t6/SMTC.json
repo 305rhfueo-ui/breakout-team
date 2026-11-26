@@ -1,0 +1,732 @@
+{
+ "ticker": "SMTC",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "SMTC",
+  "name": "셈텍",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "price": 92.93000030517578,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 201.99,
+  "stop": 192.41,
+  "distToPivotPct": -53.99,
+  "distToPivotAdr": -5.24,
+  "riskPerSharePct": 4.74,
+  "adrPct": 10.31,
+  "extensionAdr": -0.98,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 61.3,
+   "priorMovePct": 95.9,
+   "higherLows": 0,
+   "contraction": 0.94,
+   "closeRange10Adr": 3.4,
+   "surf10": -0.98,
+   "surf20": -1.79,
+   "slope20": -8.79,
+   "baseLow": 78.18,
+   "lastSwingLow": 90
+  },
+  "reasons": [
+   "선행 상승 +96%",
+   "베이스 8주",
+   "✗ 깊이 61.3%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.94배 · 10일 종가폭 3.4 ADR",
+   "✗ 10일선 -1 ADR · 20일선 -1.8 ADR",
+   "✗ 20일선 기울기 -8.79%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.24134523285440135,
+    "pct": 2.2091974752028856
+   },
+   "m3": {
+    "v": -0.19419231031344944,
+    "pct": 7.258791704238051
+   },
+   "m6": {
+    "v": -0.285692010008236,
+    "pct": 7.529305680793508
+   }
+  },
+  "ret1m": -36.77,
+  "ret3m": -29.74,
+  "ret6m": -38.47,
+  "marketCap": "8.67B",
+  "volx": 1.03,
+  "volSurgeWk": 1.04,
+  "high52": 46.01,
+  "newHigh52": false,
+  "adr": 10.31,
+  "div50": -35.5,
+  "div200": -26.98,
+  "targetStatus": false,
+  "saleCy": 45.99,
+  "saleNy": 37.85,
+  "epsCy": 117.3,
+  "epsNy": 84.6,
+  "cyTrend": 1.67,
+  "nyTrend": 2.79,
+  "est": {
+   "cyCur": 3.71588,
+   "cy30": 3.6549,
+   "nyCur": 6.85953,
+   "ny30": 6.67364
+  },
+  "fs": {
+   "sale": [
+    32.72,
+    15.92,
+    9.3
+   ],
+   "ni": [
+    "흑자전환",
+    37.31,
+    -176.12
+   ],
+   "opm": [
+    16.31,
+    8.86,
+    -6.66
+   ],
+   "updated": "2026-09-08 10:19:05"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "셈텍",
+  "nameEn": "SEMTECH CORP",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000088941&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-04-26",
+     "derived": false,
+     "revenue": 291018000,
+     "profit": 25791000,
+     "netIncome": 26563000,
+     "margin": 8.9,
+     "yoy": {
+      "revenue": 15.9,
+      "profit": -28.3,
+      "netIncome": 37.3,
+      "priorEnd": "2025-04-27"
+     }
+    },
+    {
+     "periodEnd": "2026-01-25",
+     "derived": true,
+     "revenue": 274355000,
+     "profit": -18267000,
+     "netIncome": -29795000,
+     "margin": -6.7,
+     "yoy": {
+      "revenue": 9.3,
+      "profit": -186,
+      "netIncome": -176.1,
+      "priorEnd": "2025-01-26"
+     }
+    },
+    {
+     "periodEnd": "2025-10-26",
+     "derived": false,
+     "revenue": 266971000,
+     "profit": 31057000,
+     "netIncome": -2862000,
+     "margin": 11.6,
+     "yoy": {
+      "revenue": 12.7,
+      "profit": 74.6,
+      "netIncome": 62.3,
+      "priorEnd": "2024-10-27"
+     }
+    },
+    {
+     "periodEnd": "2025-07-27",
+     "derived": false,
+     "revenue": 257589000,
+     "profit": -16192000,
+     "netIncome": -27064000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 19.6,
+      "profit": -308.4,
+      "netIncome": 84.1,
+      "priorEnd": "2024-07-28"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Semtech: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/semtech-3-key-takeaways-long-term-investors",
+     "date": "2026-11-25",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Semtech (SMTC) Q3 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-q3-2027-earnings-call-transcript",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Semtech Q3 Earnings Call Points to $1 Billion in Data Center Sales",
+     "url": "https://www.nasdaq.com/articles/semtech-q3-earnings-call-points-1-billion-data-center-sales",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Semtech Corporation Announces Third Quarter of Fiscal Year 2027 Results with Net Sales of $423.0 million",
+     "url": "https://www.nasdaq.com/articles/semtech-corporation-announces-third-quarter-fiscal-year-2027-results-net-sales-4230",
+     "date": "2026-11-24",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "What Semtech (SMTC) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-semtech-smtc-said-its-q3-earnings-call",
+     "date": "2026-11-24",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Semtech (SMTC) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-q3-earnings-taking-look-key-metrics-versus-estimates",
+     "date": "2026-11-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Semtech Q3 Swings To Profit, Issues Q4 Outlook",
+     "url": "https://www.nasdaq.com/articles/semtech-q3-swings-profit-issues-q4-outlook",
+     "date": "2026-11-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Semtech (SMTC) Q3 Earnings and Revenues Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/semtech-smtc-q3-earnings-and-revenues-surpass-estimates",
+     "date": "2026-11-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-23",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-20261123.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-15",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000041/smtc-20261015.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-25",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-20260825.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000119312526347716/d123711d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000022/smtc-20260706.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-08",
+    "itemsKo": [
+     "임원 변동",
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000019/smtc-20260602.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "SMTC",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 61.77,
+  "pbr": 11.58,
+  "eps": 1.5,
+  "bps": 8.02,
+  "shares": 93325600,
+  "marketCapM": 8673,
+  "high52": 201.99,
+  "high52Date": "2026-10-02",
+  "low52": 61.8,
+  "low52Date": "2025-11-25",
+  "last": 92.93,
+  "prevClose": 86.46,
+  "nameKo": "셈텍",
+  "nameEn": "SEMTECH CORP",
+  "listedOn": null,
+  "exchange": "나스닥",
+  "listedShares": 93325600
+ },
+ "estimates": {
+  "ticker": "SMTC",
+  "url": "https://finance.yahoo.com/quote/SMTC/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2027-01-31",
+    "eps": 1.32,
+    "epsLow": 1.19,
+    "epsHigh": 1.35,
+    "epsYearAgo": 0.44,
+    "epsAnalysts": 15,
+    "epsGrowth": 200.7,
+    "epsCur": "USD",
+    "rev": 477667360,
+    "revAnalysts": 14,
+    "revYearAgo": 274400000,
+    "revGrowth": 74.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-04-30",
+    "eps": 1.44,
+    "epsLow": 1.18,
+    "epsHigh": 1.66,
+    "epsYearAgo": 0.51,
+    "epsAnalysts": 14,
+    "epsGrowth": 183.1,
+    "epsCur": "USD",
+    "rev": 467711690,
+    "revAnalysts": 13,
+    "revYearAgo": 291000000,
+    "revGrowth": 60.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 3.72,
+    "epsLow": 3.52,
+    "epsHigh": 3.76,
+    "epsYearAgo": 1.71,
+    "epsAnalysts": 15,
+    "epsGrowth": 117.3,
+    "epsCur": "USD",
+    "rev": 1532925230,
+    "revAnalysts": 15,
+    "revYearAgo": 1050000000,
+    "revGrowth": 46,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 6.86,
+    "epsLow": 5.84,
+    "epsHigh": 7.52,
+    "epsYearAgo": 3.72,
+    "epsAnalysts": 15,
+    "epsGrowth": 84.6,
+    "epsCur": "USD",
+    "rev": 2113182910,
+    "revAnalysts": 15,
+    "revYearAgo": 1532925230,
+    "revGrowth": 37.8,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 1.32,
+    "d7": 2.3,
+    "d30": 2.3,
+    "d90": 13,
+    "ago90": 1.17,
+    "up7": 12,
+    "up30": 12,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-04-30",
+    "cur": "USD",
+    "now": 1.44,
+    "d7": 2.7,
+    "d30": 2.7,
+    "d90": 18.1,
+    "ago90": 1.22,
+    "up7": 13,
+    "up30": 13,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 3.72,
+    "d7": 1.7,
+    "d30": 1.7,
+    "d90": 7.6,
+    "ago90": 3.45,
+    "up7": 11,
+    "up30": 11,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 6.86,
+    "d7": 2.8,
+    "d30": 2.8,
+    "d90": 22,
+    "ago90": 5.62,
+    "up7": 14,
+    "up30": 14,
+    "down7": 0,
+    "down30": 0
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-10-31",
+    "actual": 1.17,
+    "estimate": 1.13,
+    "surprisePct": 3.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-07-31",
+    "actual": 0.71,
+    "estimate": 0.61,
+    "surprisePct": 15.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": 0.51,
+    "estimate": 0.45,
+    "surprisePct": 12.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 0.44,
+    "estimate": 0.43,
+    "surprisePct": 2,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 1,
+   "downgrades": 0,
+   "initiations": 1,
+   "ptRaised": 3,
+   "ptLowered": 8,
+   "total": 15,
+   "recent": [
+    {
+     "date": "2026-11-24",
+     "firm": "Craig-Hallum",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 160,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-11-24",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 145,
+     "ptPrior": 145
+    },
+    {
+     "date": "2026-11-24",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 157,
+     "ptPrior": 176
+    },
+    {
+     "date": "2026-11-24",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 185,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-11-19",
+     "firm": "Susquehanna",
+     "action": "main",
+     "from": "Positive",
+     "to": "Positive",
+     "ptAction": "Lowers",
+     "pt": 170,
+     "ptPrior": 200
+    },
+    {
+     "date": "2026-11-16",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 200,
+     "ptPrior": 230
+    },
+    {
+     "date": "2026-11-16",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Equal-Weight",
+     "to": "Equal-Weight",
+     "ptAction": "Lowers",
+     "pt": 176,
+     "ptPrior": 205
+    },
+    {
+     "date": "2026-11-09",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 190,
+     "ptPrior": 210
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Maintains",
+     "pt": 215,
+     "ptPrior": 215
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Northland Capital Markets",
+     "action": "up",
+     "from": "Market Perform",
+     "to": "Outperform",
+     "ptAction": "Announces",
+     "pt": 186,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-23",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 92.93,
+   "ma20": 110.11,
+   "ma50": 144.08,
+   "ma150": 140.72,
+   "distMA50": -35.5,
+   "periodHigh": 201.99,
+   "pullbackFromHigh": -53.99,
+   "volRatio20": 1.19,
+   "dryUpRatio": 1.29
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 116.2,
+    "h": 121.77,
+    "l": 110.51,
+    "c": 119.44,
+    "v": 2564000,
+    "clsPos": 79,
+    "gapPct": -7.2
+   },
+   {
+    "d": "2026-11-13",
+    "o": 117.33,
+    "h": 119.66,
+    "l": 108.45,
+    "c": 114.59,
+    "v": 2119900,
+    "clsPos": 55,
+    "gapPct": -1.77
+   },
+   {
+    "d": "2026-11-16",
+    "o": 105.6,
+    "h": 108.9,
+    "l": 102.29,
+    "c": 105.3,
+    "v": 3548100,
+    "clsPos": 46,
+    "gapPct": -7.85
+   },
+   {
+    "d": "2026-11-17",
+    "o": 107.28,
+    "h": 108.5,
+    "l": 99.77,
+    "c": 106.77,
+    "v": 2266300,
+    "clsPos": 80,
+    "gapPct": 1.88
+   },
+   {
+    "d": "2026-11-18",
+    "o": 109.28,
+    "h": 109.39,
+    "l": 102.18,
+    "c": 104.25,
+    "v": 1679000,
+    "clsPos": 29,
+    "gapPct": 2.35
+   },
+   {
+    "d": "2026-11-19",
+    "o": 107.88,
+    "h": 111.67,
+    "l": 100.47,
+    "c": 101.81,
+    "v": 2302300,
+    "clsPos": 12,
+    "gapPct": 3.48
+   },
+   {
+    "d": "2026-11-20",
+    "o": 97.25,
+    "h": 98,
+    "l": 85.59,
+    "c": 87.63,
+    "v": 3842900,
+    "clsPos": 16,
+    "gapPct": -4.48
+   },
+   {
+    "d": "2026-11-23",
+    "o": 104.5,
+    "h": 106,
+    "l": 99.73,
+    "c": 104.13,
+    "v": 6055800,
+    "clsPos": 70,
+    "gapPct": 19.25
+   },
+   {
+    "d": "2026-11-24",
+    "o": 91.57,
+    "h": 96.41,
+    "l": 84.79,
+    "c": 86.46,
+    "v": 6729100,
+    "clsPos": 14,
+    "gapPct": -12.06
+   },
+   {
+    "d": "2026-11-25",
+    "o": 80.58,
+    "h": 92.99,
+    "l": 78.18,
+    "c": 92.93,
+    "v": 4280400,
+    "clsPos": 100,
+    "gapPct": -6.8
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SMTC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/SMTC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

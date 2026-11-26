@@ -1,1 +1,1864 @@
-{"date":"2026-11-26","team":2,"researched":[{"ticker":"DLTR","company":"미국의 다이소 같은 저가 생활용품 할인점 체인을 운영하는 회사. 불황에 소비자가 싼 곳으로 옮겨 오는 흐름의 수혜를 받는다.","lead":"3분기 실적이 예상보다 좋게 나오면서 주가가 52주 최고가(11월 24일)를 새로 썼다. 방문 고객이 3.8% 늘고 같은 점포 매출이 회사 전망을 웃돌았다. 다음 분기에도 방문객 증가와 이익률 개선이 이어지는지 확인되지 않으면 이 상승은 힘을 잃는다.","whyRose":[{"id":"w1","statement":"3분기에 방문 고객이 3.8% 늘고 같은 점포 매출이 회사 전망을 넘어섰다. 11월 24일 발표 직후 주가가 신고가를 기록했다.","evidence_level":"sourced","sources":[{"title":"Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook. Here's What's Behind the Gains.","publisher":"The Motley Fool","url":"https://www.nasdaq.com/articles/dollar-trees-customer-traffic-jumped-38-comparable-sales-beat-its-outlook-heres-whats","date":"2026-11-25","quote":"Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook."}]},{"id":"w2","statement":"직전 분기(5~7월) 영업이익이 1년 전보다 약 3배로 늘었고 영업이익률이 14.1%로 올랐다. 이익 체력이 좋아졌다는 인식이 퍼졌다.","evidence_level":"sourced","sources":[{"title":"SEC 실적표 (분기 2026-08-01)","publisher":"SEC EDGAR","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000935703&type=10-Q","date":"2026-08-01","quote":"revenue 4886500000, profit 690100000, margin 14.1, yoy profit 198.7"}]},{"id":"w3","statement":"소매주 전반이 실적 이후 반등했고 달러 트리도 함께 올랐다. 경기가 불안할수록 저가 매장으로 소비가 옮겨 간다는 시각도 받쳐 줬다.","evidence_level":"sourced","sources":[{"title":"This dollar store stock will get a boost from a shaky economy, Loop Capital says","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/01/this-dollar-store-stock-will-benefit-from-a-shaky-economy-loop-capital-says.html","date":"2026-10-01","quote":"This dollar store stock will get a boost from a shaky economy, Loop Capital says"}]}],"counterpoint":[{"id":"c1","statement":"한 달 새 25%, 6개월 새 41% 올라 기대가 이미 많이 반영됐다. 주가수익비율 18.6배로 오른 만큼 다음 분기 실적이 기대에 못 미치면 되돌림이 커질 수 있다.","evidence_level":"sourced","sources":[{"title":"한국투자증권 Open API 시세","publisher":"한국투자증권","url":"https://openapi.koreainvestment.com:9443","date":"2026-11-26","quote":"per 18.59, high52 156.99, high52Date 2026-11-24, last 152.21, prevClose 154.65"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["소비 다운트레이드","할인점","소매"],"confidence":"medium","factcheck":{"verdict":"pass","removed":[],"reasons":["모든 주장의 숫자·날짜가 출처에서 확인됨"]}},{"ticker":"AMGN","company":"바이오 신약과 바이오시밀러(복제 바이오의약품)를 만드는 대형 제약사. 골다공증약, 콜레스테롤약 Repatha, 폐암약 Imdelltra 등을 판다.","lead":"암젠은 3분기 실적이 좋았고 신약 임상 결과와 바이오시밀러 출시 길이 열리면서 52주 고점 부근까지 올랐다. 3분기 매출은 1년 전보다 8.5% 늘었고 영업이익은 46.9% 늘었다. 골다공증약 Prolia 매출 감소가 새 성장 제품으로 메워지지 않으면 이 이야기는 흔들린다.","whyRose":[{"id":"w1","statement":"3분기 매출 103.7억 달러로 1년 전보다 8.5% 늘었고, 영업이익은 46.9% 늘어 영업이익률이 35.8%까지 올랐다.","evidence_level":"sourced","sources":[{"title":"Amgen 8-K 실적 발표","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/318154/000031815426000153/amgn-20261103.htm","date":"2026-11-03","quote":"실적 발표 · 재무제표·첨부 (2026-09-30 분기 매출 10,365,000,000 USD, 영업이익 3,710,000,000 USD, 영업이익률 35.8%, 전년 대비 매출 +8.5%, 영업이익 +46.9%)"}]},{"id":"w2","statement":"11월 25일 합의로 옵디보 바이오시밀러의 미국 출시 길이 열렸다. 특허 걸림돌이 사라져 새 매출원이 생긴다는 기대가 붙었다.","evidence_level":"sourced","sources":[{"title":"Amgen SECURES Pathway for U.S. Launch of Biosimilar to Opdivo Following Settlement Agreement","publisher":"Fintel","url":"https://www.nasdaq.com/articles/amgen-secures-pathway-us-launch-biosimilar-opdivor-following-settlement-agreement","date":"2026-11-25","quote":"Amgen SECURES Pathway for U.S. Launch of Biosimilar to Opdivo® Following Settlement Agreement"}]},{"id":"w3","statement":"폐암약 Imdelltra를 임핀지와 함께 1차 치료에 쓴 3상에서 사망 위험이 58% 줄었다. 처방 환자군이 넓어질 수 있다는 평가다.","evidence_level":"sourced","sources":[{"title":"Amgen says drug combo slashes risk of death by 58% in patients with lung cancer","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html","date":"2026-10-24","quote":"Amgen says drug combo slashes risk of death by 58% in patients with lung cancer"},{"title":"암젠 Issue & News 임핀지 병용 1차 치료 3상","publisher":"대신증권","url":"https://rreport.einfomax.co.kr/report/eqmgmxmzgcklqzggcgxeegx.pdf","date":"2026-10-26","quote":"2차→1차 적응증 확장 시 성장동력 추가, 승인일정은 미제공"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"counterpoint":[{"id":"c1","statement":"골다공증약 Prolia·Xgeva 매출이 복제약에 밀려 줄고 있다. 새 성장 제품이 이를 메우는 속도가 관건이다.","evidence_level":"sourced","sources":[{"title":"암젠 26Q3 Preview","publisher":"대신증권","url":"https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegx.pdf","date":"2026-10-26","quote":"denosumab 침식 속도와 성장동력의 상쇄력을 함께 봐야 한다"}]},{"id":"c2","statement":"주가수익비율이 29배로 높아져, 기대에 못 미치는 결과가 나오면 주가가 되돌려질 수 있다.","evidence_level":"sourced","sources":[{"title":"암젠 26Q3 Preview","publisher":"대신증권","url":"https://rreport.einfomax.co.kr/report/eqmickmclklkqexgcgxeegx.pdf","date":"2026-10-26","quote":"매출 상회 시 밸류에이션 프리미엄 정당화, 하회 시 되돌림 압력"}]}],"themeTags":["바이오 대형주","바이오시밀러","폐암 신약"],"confidence":"medium","factcheck":{"verdict":"pass","removed":[],"reasons":["모든 주장의 숫자·날짜가 출처에서 확인됨"]}},{"ticker":"MDGL","company":"지방간염(MASH) 치료제 레즈디프라(Rezdiffra)를 파는 바이오 회사. 이 약 하나가 매출 대부분이다.","lead":"MDGL은 3분기에 처음 흑자를 내며 매출이 1년 전보다 50% 늘어 반등의 근거를 얻었다. 레즈디프라의 성장 여력이 남아 있고 회사가 새 MASH 임상시험을 계획한다는 점도 받쳐 주고 있다.","whyRose":[{"id":"w1","statement":"3분기 매출이 4.3억 달러로 1년 전보다 50% 늘었고, 회사 설립 후 처음으로 분기 흑자(영업이익 약 5,600만 달러)를 냈다. 직전 분기 영업적자 5,600만 달러에서 흑자로 돌아섰다.","evidence_level":"sourced","sources":[{"title":"Madrigal Pharmaceuticals, Inc. Reports Third-Quarter 2026 Net Revenues of $431.3 million and Achieves First Quarter of Profitability","publisher":"Fintel","url":"https://www.nasdaq.com/articles/madrigal-pharmaceuticals-inc-reports-third-quarter-2026-net-revenues-4313-million-and","date":"2026-11-03","quote":"Madrigal Pharmaceuticals, Inc. Reports Third-Quarter 2026 Net Revenues of $431.3 million and Achieves First Quarter of Profitability"}]},{"id":"w2","statement":"실적이 증권사 예상치를 웃돌았다. 매출·이익 모두 시장 기대보다 좋았다는 평가다.","evidence_level":"sourced","sources":[{"title":"Madrigal (MDGL) Q3 Earnings and Revenues Beat Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/madrigal-mdgl-q3-earnings-and-revenues-beat-estimates","date":"2026-11-03","quote":"Madrigal (MDGL) Q3 Earnings and Revenues Beat Estimates"}]},{"id":"w3","statement":"11월 23일 기사는 레즈디프라의 성장 여력이 남아 있고 회사가 새 MASH 임상시험을 계획한다고 전했다. 신규 임상이 약의 적용 범위를 넓힐 수 있다는 기대로 이어질 수 있다.","evidence_level":"sourced","sources":[{"title":"Madrigal Pharmaceuticals Sees Rezdiffra Growth Runway, Plans New MASH Study","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/madrigal-pharmaceuticals-sees-rezdiffra-growth-runway-plans-new-mash-study","date":"2026-11-23","quote":"Madrigal Pharmaceuticals Sees Rezdiffra Growth Runway, Plans New MASH Study"}]}],"counterpoint":[{"id":"c1","statement":"신한투자증권은 7월 리포트에서 매출 성장세가 둔화되고 유럽·아시아 매출 확대가 제한적이어서 추가 상승 재료가 부족하다고 봤다.","evidence_level":"sourced","sources":[{"title":"[매드리걸 파머슈티컬스 (NAS:MDGL)] 새로운 모멘텀이 필요한 시점","publisher":"신한투자증권","url":"https://rreport.einfomax.co.kr/report/eqlzklimqqlqizegcgxeegx.pdf","date":"2026-07-31","quote":"매출 및 투약 환자는 꾸준히 증가하고 있으나 성장세는 둔화돼 반등 재료 필요."}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["MASH 치료제","바이오 상용화"],"confidence":"medium","factcheck":{"verdict":"partial","removed":["c2"],"reasons":["c2는 evidence_level이 'sourced'이지만 sources가 비어있어 근거가 없음. 반대 주장의 근거 부재"],"leadFixed":true},"leadOriginal":"MDGL은 3분기에 처음 흑자를 내며 매출이 1년 전보다 50% 늘어 반등의 근거를 얻었다. 다만 52주 고점보다 30% 가까이 낮고 한 달 수익률도 -2%라, 이번 반등은 실적 확인 뒤 낙폭이 일부 회복되는 단계로 보인다. 다음 분기에도 흑자와 매출 증가세가 이어지는지가 확인되지 않으면 이 이야기는 약해진다."},{"ticker":"PODD","company":"인슐린 펌프(패치형 '옴니팟')를 만드는 의료기기 회사. 당뇨 환자용 기기와 소모품 판매로 돈을 번다.","lead":"인슐릿은 11월 초 발표한 3분기 실적에서 영업이익이 1년 전보다 61% 늘며 반등의 근거가 됐다. 다만 주가는 52주 고점 대비 크게 낮아 '급등'보다 8월 저점 이후 회복 단계에 가깝다. 다음 분기에도 매출·이익 증가세가 이어지는지 확인되지 않으면 이 이야기는 약해진다.","whyRose":[{"id":"w1","statement":"3분기(9월 말) 매출은 8.42억 달러로 1년 전보다 19.2% 늘었다. 영업이익은 1.9억 달러로 61.3% 증가했고 영업이익률은 22.5%까지 올랐다.","evidence_level":"sourced","sources":[{"title":"SEC EDGAR 10-Q 분기 실적표 (인슐릿)","publisher":"SEC EDGAR","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001145197&type=10-Q","date":"2026-09-30","quote":"\"periodEnd\": \"2026-09-30\", \"revenue\": 842000000, \"profit\": 189800000, \"margin\": 22.5, \"yoy\": {\"revenue\": 19.2, \"profit\": 61.3}"}]},{"id":"w2","statement":"실적 발표 직후 11월 중순 주가가 20일 평균선을 다시 넘었다는 기사가 나왔다. 단기 반등 흐름을 보여 준다.","evidence_level":"sourced","sources":[{"title":"Insulet (PODD) Just Overtook the 20-Day Moving Average","publisher":"Zacks","url":"https://www.nasdaq.com/articles/insulet-podd-just-overtook-20-day-moving-average","date":"2026-11-12","quote":"Insulet (PODD) Just Overtook the 20-Day Moving Average"}]},{"id":"w3","statement":"9월 CNBC는 직전 실적이 좋았는데도 시장이 낮아진 가이던스(회사 전망)에 집중해 매수 기회가 생겼다고 평가했다.","evidence_level":"sourced","sources":[{"title":"Insulet crushed its most recent earnings, but the market's focus on its slightly lowered outlook has presented a buying opportunity","publisher":"CNBC","url":"https://www.cnbc.com/video/2026/09/01/insulet-crushed-its-most-recent-earnings-but-the-markets-focus-on-its-slightly-lowered-outlook-has-presented-a-buying-opportunity.html","date":"2026-09-01","quote":"Insulet crushed its most recent earnings, but the market's focus on its slightly lowered outlook has presented a buying opportunity"}]}],"counterpoint":[{"id":"c1","statement":"주가는 지난 1년간 52주 고점(342달러)에서 크게 내려온 상태다. 현재 142.68달러로 최근 3개월·6개월 수익률도 마이너스라 추세 전환은 확정되지 않았다.","evidence_level":"sourced","sources":[{"title":"한국투자증권 Open API 시세","publisher":"한국투자증권","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001145197&type=10-Q","date":"2026-11-26","quote":"\"high52\": 342.13, \"low52\": 126.4, \"last\": 142.68"}]},{"id":"c2","statement":"11월 하순 CFO 교체와 이사 선임이 잇따랐다. 경영진 변화가 실행에 미칠 영향은 아직 알 수 없다.","evidence_level":"sourced","sources":[{"title":"Insulet Corporation Appoints Todd Trapp as Chief Financial Officer","publisher":"Fintel","url":"https://www.nasdaq.com/articles/insulet-corporation-appoints-todd-trapp-chief-financial-officer","date":"2026-11-24","quote":"Insulet Corporation Appoints Todd Trapp as Chief Financial Officer"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["당뇨 의료기기","실적 반등"],"confidence":"medium","factcheck":{"verdict":"pass","removed":[],"reasons":["모든 주장의 숫자·날짜가 출처에서 확인됨"]}},{"ticker":"DKS","company":"미국 최대 스포츠용품 유통 체인 딕스 스포팅 굿즈. 인수한 풋라커(Foot Locker)까지 합쳐 신발·의류·장비를 매장과 온라인으로 판다.","lead":"3분기 실적이 시장 예상을 웃돌고 풋라커 정상화 기대가 붙으면서 소매주와 함께 올랐다. 근거는 핵심 사업 동일매장 매출 2.6% 증가와 풋라커 개선이다. 다만 6개월로 보면 여전히 크게 빠진 상태라, 풋라커 이익률 회복이 확인되지 않으면 이 반등 이야기는 약해진다.","whyRose":[{"id":"w1","statement":"11월 24일 발표한 3분기 실적이 매출·주당순이익 모두 증권사 예상을 웃돌았다.","evidence_level":"sourced","sources":[{"title":"Dick's Sporting Goods (DKS) Q3 Earnings and Revenues Surpass Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/dicks-sporting-goods-dks-q3-earnings-and-revenues-surpass-estimates","date":"2026-11-24","quote":"Dick's Sporting Goods (DKS) Q3 Earnings and Revenues Surpass Estimates"}]},{"id":"w2","statement":"핵심 사업 동일매장 매출이 2.6% 늘었고 풋라커도 0.5% 증가해, 신제품과 시장점유율 확대가 성장을 이끌었다고 경영진이 설명했다.","evidence_level":"sourced","sources":[{"title":"Retail turnarounds are taking hold just in time for the holiday season","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html","date":"2026-11-24","quote":"Quarterly comparable sales rose 2.6% at the core business and 0.5% at Foot Locker."}]},{"id":"w3","statement":"소득 계층 전반에서 소비가 늘어 연말 쇼핑 시즌 전 소매주 투자 심리가 좋아졌다.","evidence_level":"sourced","sources":[{"title":"Retail turnarounds are taking hold just in time for the holiday season","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html","date":"2026-11-24","quote":"All income demographics grew"}]}],"counterpoint":[{"id":"c1","statement":"풋라커 인수 이후 영업이익률이 지난해 같은 분기보다 크게 낮다. 직전 분기 영업이익은 1년 전보다 2.5% 줄었고, 2025년 11월 분기는 67.5% 줄었다.","evidence_level":"sourced","sources":[{"title":"SEC 10-Q 분기 실적","publisher":"SEC EDGAR","url":"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001089063&type=10-Q","date":"2026-08-01","quote":"periodEnd 2026-08-01 revenue 5586815000 profit 440756000 yoy profit -2.5"}]},{"id":"c2","statement":"풋라커 동일매장 매출 증가율은 0.5%에 그쳐 회복 속도가 느리다.","evidence_level":"sourced","sources":[{"title":"Retail turnarounds are taking hold just in time for the holiday season","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html","date":"2026-11-24","quote":"Quarterly comparable sales rose 2.6% at the core business and 0.5% at Foot Locker."}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["소매 턴어라운드","스포츠용품","연말 쇼핑 시즌"],"confidence":"medium","factcheck":{"verdict":"pass","removed":[],"reasons":["모든 주장의 숫자·날짜가 출처에서 확인됨"]}},{"ticker":"RVMD","company":"RAS 유전자 변이 암을 겨냥한 표적 항암제를 개발하는 바이오텍. 췌장암 치료제 RASONQUE가 미국에 이어 유럽에서도 승인되며 매출이 막 시작됐다.","lead":"최근 한 달은 8월 고점 뒤 조정(-2.7%)이지만, 6개월로는 16% 올랐다. 받쳐 준 재료는 췌장암 신약의 3상 성과와 11월 16일 유럽 승인, 3분기 첫 매출 1.98억 달러다. 신약 판매가 기대만큼 늘지 않거나 적자 폭이 계속 커지면 이 이야기가 흔들린다.","whyRose":[{"id":"w1","statement":"췌장암 2차 치료 3상에서 생존기간이 화학요법의 거의 두 배였다. 6월 증권사 리포트는 이를 기존 치료를 바꿀 수 있는 데이터로 평가했다.","evidence_level":"sourced","sources":[{"title":"[레볼루션 메디신 (NAS:RVMD)] 혁명, 궤도에 오르다","publisher":"신한투자증권","url":"https://rreport.einfomax.co.kr/report/eqlgeqegqiezqlggcgxeegx.pdf","date":"2026-06-23","quote":"RASolute 302(췌장암 2L 3상)에서 mOS* 13.2개월(vs. 화학요법 6.7개월), mPFS* 7.2개월(vs. 화학요법 3.6개월) 발표."}]},{"id":"w2","statement":"11월 16일 유럽연합이 RASONQUE를 췌장암 치료제로 승인했다. 미국 FDA 승인(8월)에 이어 판매 지역이 넓어졌다.","evidence_level":"sourced","sources":[{"title":"EC Approves Revolution's RASONQUE For Pancreatic Ductal Adenocarcinoma In All EU Member States","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/ec-approves-revolutions-rasonque-pancreatic-ductal-adenocarcinoma-all-eu-member-states","date":"2026-11-16","quote":"EC Approves Revolution's RASONQUE For Pancreatic Ductal Adenocarcinoma In All EU Member States"}]},{"id":"w3","statement":"3분기에 매출 1.98억 달러가 처음 잡혔다. 1년 전 같은 분기는 매출이 0이었다.","evidence_level":"sourced","sources":[{"title":"SEC 실적표 (10-Q, 2026-09-30 분기)","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/1628171/000119312526447193/rvmd-20261104.htm","date":"2026-11-04","quote":"periodEnd 2026-09-30, revenue 197559000, profit -373149000"}]}],"counterpoint":[{"id":"c1","statement":"매출이 생겼지만 3분기 영업손실이 3.7억 달러로 1년 전보다 18% 더 커졌다. 신약 출시 비용이 매출보다 빨리 늘고 있다.","evidence_level":"sourced","sources":[{"title":"SEC 실적표 (10-Q, 2026-09-30 분기)","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/1628171/000119312526447193/rvmd-20261104.htm","date":"2026-11-04","quote":"periodEnd 2026-09-30, revenue 197559000, profit -373149000, yoy profit -18.4"}]},{"id":"c2","statement":"주가는 8월 27일 고점 224달러에서 약 22% 내려와 있다. 호재가 이미 반영됐다는 시각이 있을 수 있다.","evidence_level":"sourced","sources":[{"title":"한국투자증권 Open API 시세","publisher":"한국투자증권","url":"https://www.sec.gov/Archives/edgar/data/1628171/000119312526447193/rvmd-20261104.htm","date":"2026-11-26","quote":"high52 224.31, high52Date 2026-08-27, last 175.67"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오·신약","항암제","RAS 억제제"],"confidence":"medium","factcheck":{"verdict":"pass","removed":[],"reasons":["모든 주장의 숫자·날짜가 출처에서 확인됨"]}},{"ticker":"ABVX","company":"프랑스 바이오 기업으로, 궤양성 대장염 치료제 오베파지모드를 개발 중이다. 아직 출시된 제품이 없어 신약 승인 기대가 주가를 좌우한다.","lead":"ABVX는 한 달 전보다 10.8% 낮은 가격이라 \"오른 종목\"이라기보다 급락 뒤 반등 구간이다. 공매도 보고서 이후 반등했고, 연말 FDA 신청 계획이 이야기를 받친다.","whyRose":[{"id":"w2","statement":"궤양성 대장염 치료제 신약 허가 신청을 2026년 말까지 하겠다는 계획이 유지되고 있다.","evidence_level":"sourced","sources":[{"title":"Abivax H1 Net Loss Widens; Plans Obefazimod NDA For Ulcerative Colitis By End Of 2026","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/abivax-h1-net-loss-widens-plans-obefazimod-nda-ulcerative-colitis-end-2026","date":"2026-09-22","quote":"Abivax H1 Net Loss Widens; Plans Obefazimod NDA For Ulcerative Colitis By End Of 2026"}]},{"id":"w3","statement":"7월 8억 달러 규모 증권 발행이 초과 청약되어 개발 자금이 확보됐다.","evidence_level":"sourced","sources":[{"title":"Abivax Prices Oversubscribed $800M ADS Offering To Support Obefazimod Development","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/abivax-prices-oversubscribed-800m-ads-offering-support-obefazimod-development","date":"2026-07-01","quote":"Abivax Prices Oversubscribed $800M ADS Offering To Support Obefazimod Development"}]}],"counterpoint":[{"id":"c2","statement":"주가는 1년 최고가보다 크게 낮고 3개월 -30.5%로 약세다. 7월 대규모 증권 발행으로 기존 주주 몫도 줄었다.","evidence_level":"sourced","sources":[{"title":"Abivax Prices Oversubscribed $800M ADS Offering To Support Obefazimod Development","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/abivax-prices-oversubscribed-800m-ads-offering-support-obefazimod-development","date":"2026-07-01","quote":"Abivax Prices Oversubscribed $800M ADS Offering To Support Obefazimod Development"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오","신약 개발","공매도 이슈"],"upcomingCatalyst":{"date":"2026년 말","what":"오베파지모드 궤양성 대장염 FDA 신약 허가 신청 목표","sources":[{"title":"Abivax H1 Net Loss Widens; Plans Obefazimod NDA For Ulcerative Colitis By End Of 2026","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/abivax-h1-net-loss-widens-plans-obefazimod-nda-ulcerative-colitis-end-2026","date":"2026-09-22","quote":"Abivax H1 Net Loss Widens; Plans Obefazimod NDA For Ulcerative Colitis By End Of 2026"}]},"confidence":"medium","factcheck":{"verdict":"partial","removed":["w1","c1"],"reasons":["w1: Percentages (17% and 10%) not found in provided quote text","c1: Specific toxicity claims (광독성과 피부암) exceed source specificity (quote only says 'nonspecific toxic effects')"],"leadFixed":true},"leadOriginal":"ABVX는 한 달 전보다 10.8% 낮은 가격이라 \"오른 종목\"이라기보다 급락 뒤 반등 구간이다. 공매도 보고서로 11/21 전후 17% 급락했다가 회사 반박 후 하루 10% 반등했고, 연말 FDA 신청 계획이 이야기를 받친다. 안전성 의혹이 임상 자료로 커지거나 신청이 미뤄지면 이 반등은 꺾인다."},{"ticker":"NVR","company":"미국 동부에서 주택을 직접 지어 파는 주택건설사. 땅은 직접 사지 않고 옵션 계약으로 확보하는 방식으로 운영한다.","lead":"최근 한 달 주가는 1.08% 올랐지만, 오른 이유를 설명할 만한 새 호재는 확인되지 않는다. 오히려 3분기 실적이 예상에 못 미쳤고 모건스탠리가 비중 축소 의견으로 분석을 시작했다. 11월 23일 52주 저점 근처까지 내려갔다가 반등한 흐름이어서, 실적 감소세가 멈추는지가 확인돼야 이 반등이 이어진다.","whyRose":[{"id":"w1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"counterpoint":[{"id":"c2","statement":"모건스탠리가 10월 초 비중 축소(Underweight) 의견으로 분석을 시작했다.","evidence_level":"sourced","sources":[{"title":"Morgan Stanley Initiates Coverage of NVR at Underweight","publisher":"Fintel","url":"https://www.nasdaq.com/articles/morgan-stanley-initiates-coverage-nvr-underweight","date":"2026-10-01","quote":"Morgan Stanley Initiates Coverage of NVR at Underweight"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["주택건설"],"confidence":"low","factcheck":{"verdict":"partial","removed":["c1"],"reasons":["c1: Q2 revenue decline figure (10.5% 감소) unverified - source only addresses Q3 results"]}},{"ticker":"SYRE","company":"염증성 장질환·류마티스 관절염 등 자가면역질환 신약을 개발하는 바이오 회사. 아직 팔고 있는 제품이 없어 매출은 0이다.","lead":"9월 초 궤양성 대장염 2상 임상에서 긍정적 결과가 나오며 주가의 바탕이 만들어졌고, 11월 9일 52주 고점(110.64달러)을 찍은 뒤 현재 고점 부근에 있다. 10월 3.5억 달러 증자도 소화한 점이 근거다. 후속 임상에서 효능이 재현되지 않거나 추가 증자가 나오면 이야기가 깨진다.","whyRose":[{"id":"w1","statement":"9월 8일 궤양성 대장염 2상 임상(SPY003)에서 긍정적 결과를 발표했다. 신약 후보의 효능 확인이라 상승의 핵심 계기다.","evidence_level":"sourced","sources":[{"title":"Spyre Therapeutics Reports Positive Phase 2 SPY003 Data In Ulcerative Colitis","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/spyre-therapeutics-reports-positive-phase-2-spy003-data-ulcerative-colitis","date":"2026-09-08","quote":"Spyre Therapeutics Reports Positive Phase 2 SPY003 Data In Ulcerative Colitis"}]},{"id":"w2","statement":"10월 6일 3.5억 달러 규모 공모 증자를 가격 확정했다. 연구비 자금을 확보했고, 이후 주가는 11월 9일 52주 고점까지 올랐다.","evidence_level":"sourced","sources":[{"title":"Spyre Therapeutics Prices $350 Mln Public Offering Of Shares","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/spyre-therapeutics-prices-350-mln-public-offering-shares","date":"2026-10-06","quote":"Spyre Therapeutics Prices $350 Mln Public Offering Of Shares"}]}],"counterpoint":[{"id":"c1","statement":"8월 말 류마티스 관절염 2상(SPY072)은 결과가 엇갈렸고 회사가 정한 단독요법 기준에 못 미쳤다. 파이프라인 전체가 성공한 것은 아니다.","evidence_level":"sourced","sources":[{"title":"Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/spyres-spy072-shows-mixed-efficacy-phase-2-ra-study-fails-internal-bar-monotherapy","date":"2026-08-26","quote":"Spyre's SPY072 Shows Mixed Efficacy In Phase 2 RA Study, Fails Internal Bar For Monotherapy"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오","자가면역 신약","임상 2상"],"confidence":"low","factcheck":{"verdict":"partial","removed":["c2"],"reasons":["c2: Market cap figure (97억 달러) not verified in provided source quote"]}},{"ticker":"TTWO","company":"GTA, NBA 2K, 레드 데드 리뎀션 같은 대형 게임을 만드는 게임 회사다. 게임 판매와 게임 안의 추가 결제(반복 소비자 지출)로 돈을 번다.","lead":"GTA VI가 11월 19일 출시돼 첫날 소매 판매액이 37.9억 달러로 발표되면서 주가가 올랐다. 증권사들은 출시 이후 판매량과 장기 수익 기대를 높이고 있다. 다만 최근 분기는 적자였고 주가 부담도 커서, 출시 초기 이후에도 판매가 이어지는지가 확인돼야 이야기가 유지된다.","whyRose":[{"id":"w1","statement":"GTA VI가 11월 19일 출시됐고, 첫날 소매 판매액 37.9억 달러가 발표돼 흥행 기대가 실제 숫자로 확인됐다.","evidence_level":"sourced","sources":[{"title":"Take-Two Interactive Software, Inc. Subsidiary Rockstar Games Announces Grand Theft Auto VI Day One Retail Sales of $3.79 Billion","publisher":"Fintel","url":"https://www.nasdaq.com/articles/take-two-interactive-software-inc-subsidiary-rockstar-games-announces-grand-theft-auto-vi","date":"2026-11-20","quote":"Take-Two Interactive Software, Inc. Subsidiary Rockstar Games Announces Grand Theft Auto VI Day One Retail Sales of $3.79 Billion"}]},{"id":"w2","statement":"출시 전부터 옵션 시장과 언론에서 주가 급등이 다뤄졌고, 출시 뒤에는 판매 호조를 근거로 주가가 40% 더 오를 수 있다는 분석이 나왔다.","evidence_level":"sourced","sources":[{"title":"Analysts See 40% Boost for Take-Two Stock on Blowout Grand Theft Auto VI Sales. Are They Right?","publisher":"The Motley Fool","url":"https://www.nasdaq.com/articles/analysts-see-40-boost-take-two-stock-blowout-grand-theft-auto-vi-sales-are-they-right","date":"2026-11-20","quote":"Analysts See 40% Boost for Take-Two Stock on Blowout Grand Theft Auto VI Sales. Are They Right?"},{"title":"Options Action: Take-Two shares surge","publisher":"CNBC","url":"https://www.cnbc.com/video/2026/11/18/options-action-take-two-shares-surge.html","date":"2026-11-18","quote":"Options Action: Take-Two shares surge"}]},{"id":"w3","statement":"키움증권은 내년 1분기까지 GTA VI 누적 판매량을 4천만 장 수준으로 본다. 출시 효과가 여러 분기 이어질 거라는 기대가 주가를 받친다.","evidence_level":"sourced","sources":[{"title":"다가오는 판단의 시간","publisher":"키움증권","url":"https://rreport.einfomax.co.kr/report/eqmkmzzczexziiegcgxeegx.pdf","date":"2026-11-17","quote":"당사가 분석한 내년 1분기까지 GTA VI 누적 판매량 기대치는 4천만 장 수준"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"counterpoint":[{"id":"c1","statement":"최근 분기(9월 마감)는 매출이 1년 전보다 15.6% 줄고 영업손실 1.2억 달러를 냈다. GTA VI 매출은 아직 이 숫자에 들어오지 않았다.","evidence_level":"sourced","sources":[{"title":"Take-Two 분기 실적 (SEC 10-Q)","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo-20261109.htm","date":"2026-11-09","quote":"매출 1,497,000,000 · 영업이익 -117,500,000 · 전년 동기 대비 매출 -15.6%"}]}],"themeTags":["GTA VI","게임","대형 신작 출시"],"confidence":"medium","factcheck":{"verdict":"partial","removed":["c2"],"reasons":["c2: PER ratio (131배) not found in provided quote text"]}},{"ticker":"ALNY","company":"RNA 간섭(RNAi) 기술로 희귀질환 치료제를 만드는 바이오 회사. 주력 약 AMVUTTRA(ATTR 아밀로이드증 치료제)를 팔아 매출을 올린다.","lead":"ALNY는 최근 오른 종목이 아니라 한 달 새 27% 빠진 종목이다. 3분기 실적은 예상을 넘겼지만 약 수요 성장이 둔해질 것이라는 우려로 주가가 약 25% 급락했다. 다음 분기 AMVUTTRA 매출이 다시 가속되는지가 확인되면 낙폭 과대 이야기가, 성장 둔화가 이어지면 하락 이유가 맞는 것이 된다.","whyRose":[{"id":"w1","statement":"실적 발표 직후 주가가 약 25% 급락했다. 실적 자체는 예상을 웃돌았지만 수요 성장이 꺾일 수 있다는 걱정이 컸다.","evidence_level":"sourced","sources":[{"title":"ALNY Stock Down 25% Despite Q3 Earnings Beat on Demand Growth Concerns","publisher":"Zacks","url":"https://www.nasdaq.com/articles/alny-stock-down-25-despite-q3-earnings-beat-demand-growth-concerns","date":"2026-10-30","quote":"ALNY Stock Down 25% Despite Q3 Earnings Beat on Demand Growth Concerns"}]},{"id":"w3","statement":"회사는 10억 달러 자사주 매입을 발표했고, 상업화 총괄 임원은 회사를 떠난다. 주가 방어 시도와 영업 조직 변화가 동시에 나왔다.","evidence_level":"sourced","sources":[{"title":"Alnylam Pharmaceuticals, Inc. Announces $1.0 Billion Share Repurchase Program and Departure of Chief Commercialization Officer Tolga Tanguler","publisher":"Fintel","url":"https://www.nasdaq.com/articles/alnylam-pharmaceuticals-inc-announces-10-billion-share-repurchase-program-and-departure","date":"2026-11-05","quote":"Alnylam Pharmaceuticals, Inc. Announces $1.0 Billion Share Repurchase Program and Departure of Chief Commercialization Officer Tolga Tanguler"}]}],"counterpoint":[{"id":"c1","statement":"매출 증가율이 둔해진 것이 하락의 핵심이다. 영업 인력을 늘려 수요를 키우려 하지만 효과는 아직 숫자로 확인되지 않았다.","evidence_level":"sourced","sources":[{"title":"Alnylam Pharmaceuticals Expands Sales Force to Accelerate AMVUTTRA Demand","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/alnylam-pharmaceuticals-expands-sales-force-accelerate-amvuttra-demand","date":"2026-11-20","quote":"Alnylam Pharmaceuticals Expands Sales Force to Accelerate AMVUTTRA Demand"}]},{"id":"c2","statement":"증권사는 ATTR 치료제 성장에는 이상이 없다고 보고 고혈압·비만 신약이 다음 성장축이라고 봤다. 다만 이는 임상 결과에 달려 있다.","evidence_level":"sourced","sources":[{"title":"희귀질환 치료제 1위, 고혈압으로 2막 개시","publisher":"신한투자증권","url":"https://rreport.einfomax.co.kr/report/eqmgxgilklelzxigcgxeegx.pdf","date":"2026-10-22","quote":"ATTR 치료제 성장 이상 無, 펀더멘털 핵심은 만성질환 업사이드"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오 / RNAi 치료제","낙폭 과대"],"confidence":"medium","factcheck":{"verdict":"partial","removed":["w2"],"reasons":["w2: Specific financial figures (14.6억 달러 매출, 16.7% 증가, 66.9% 이전 분기 증가율, -6% 영업이익) not provided in quote text - only title shown"]}},{"ticker":"MRNA","company":"mRNA 기술로 코로나19 백신 등 백신과 치료제를 개발·판매하는 바이오 회사. 요즘은 머크와 함께 만든 흑색종(피부암) 백신 등 암 치료제가 주가의 중심이다.","lead":"모더나는 암 백신 임상 3상 성공과 3분기 실적 호조로 6개월 새 340% 올랐다. 흑색종 백신이 재발·사망 위험을 42% 줄였고, 회사가 올해 매출 성장 전망도 높였다. 다만 기대가 이미 주가에 많이 반영돼 있어, 다른 암종에서도 효과가 확인되고 연내 허가 신청이 이뤄지는지가 이야기의 갈림길이다.","whyRose":[{"id":"w1","statement":"머크와 함께 개발한 흑색종 백신이 임상 3상에서 재발·사망 위험을 42% 낮췄다. mRNA 기반 암 치료제로는 세계 최초의 3상 성공이라 주가 재평가의 출발점이 됐다.","evidence_level":"sourced","sources":[{"title":"[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채... / 흑색종 백신 3상 데이터 공개 후 급락","publisher":"대신증권","url":"https://rreport.einfomax.co.kr/report/eqmgqekxkzgeimzgcgxeegx.pdf","date":"2026-10-23","quote":"흑색종 백신 3상 전체 데이터 공개, 재발·사망 위험 42% 감소"},{"title":"[모더나 (NAS:MRNA)] mRNA 기반 암 치료제 최초 3상 성공","publisher":"키움증권","url":"https://rreport.einfomax.co.kr/report/eqlqgxkklglmlgzgcgxeegx.pdf","date":"2026-08-21","quote":"mRNA 기반 암 치료제로는 세계 최초 3상 성공"}]},{"id":"w2","statement":"11월 6일 3분기 실적이 시장 예상을 크게 웃돌았고, 회사는 2026년 매출 성장 전망도 올렸다.","evidence_level":"sourced","sources":[{"title":"Moderna hikes 2026 sales growth outlook, smashes quarterly estimates","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html","date":"2026-11-06","quote":"Moderna hikes 2026 sales growth outlook, smashes quarterly estimates"},{"title":"[모더나 (NAS:MRNA)] 빅파마의 기로","publisher":"신한투자증권","url":"https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeegx.pdf","date":"2026-11-09","quote":"3Q26 매출, Non-GAAP EPS는 각 13.1억달러(+29.2% YoY, +805.5% QoQ), 0.38달러로 컨센서스 상회."}]},{"id":"w3","statement":"회사가 연말까지 암 치료제 허가 신청을 목표로 하고 2027년 출시를 내다봐, 상업화 일정이 가시화됐다. 신한투자증권은 흑색종 승인이 내년으로 예상되고 신장암에서도 성과 가능성이 있다고 봤다.","evidence_level":"sourced","sources":[{"title":"Moderna Targets Year-End Cancer Therapy Filing, Sees Multibillion-Dollar Opportunity","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/moderna-targets-year-end-cancer-therapy-filing-sees-multibillion-dollar-opportunity","date":"2026-11-18","quote":"Moderna Targets Year-End Cancer Therapy Filing, Sees Multibillion-Dollar Opportunity"},{"title":"[모더나 (NAS:MRNA)] 빅파마의 기로","publisher":"신한투자증권","url":"https://rreport.einfomax.co.kr/report/eqmkeqmgkelkxezgcgxeegx.pdf","date":"2026-11-09","quote":"항암 백신, 흑색종 승인 가시화 및 신장암에서도 성과 가능성. 경쟁사 개 발은 부진해 주도적 입지."}]}],"counterpoint":[{"id":"c2","statement":"흑색종 백신은 아직 매출 기여가 없고 적자가 이어진다. 20억 달러 전환사채 발행은 나중에 주식으로 바뀌면 기존 주주 몫이 줄 수 있다.","evidence_level":"sourced","sources":[{"title":"[모더나 (NAS:MRNA)] [Issue & News] 20억 달러 전환사채 사모 발행 추진","publisher":"대신증권","url":"https://rreport.einfomax.co.kr/report/eqlqlqkzlgiexqxgcgxeegx.pdf","date":"2026-08-28","quote":"현금여력 확대되지만 전환권 행사 시 희석 우려"}]}],"estimateRevisions":{"direction":"raised","claims":[{"id":"e1","statement":"3분기 실적 발표에서 회사가 2026년 매출 성장 전망을 높였고, 신한투자증권은 3분기 매출과 주당이익이 시장 예상을 웃돌았다고 평가했다.","evidence_level":"sourced","sources":[{"title":"Moderna Targets 2027 Cancer Therapy Launch, Raises 2026 Revenue Growth Outlook","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/moderna-targets-2027-cancer-therapy-launch-raises-2026-revenue-growth-outlook","date":"2026-11-12","quote":"Moderna Targets 2027 Cancer Therapy Launch, Raises 2026 Revenue Growth Outlook"}]}]},"themeTags":["암 백신","mRNA","바이오"],"confidence":"medium","factcheck":{"verdict":"partial","removed":["c1"],"reasons":["c1: Specific price point (11월 9일 고점 280.8달러) not verified in provided quote text"]}},{"ticker":"KOD","company":"망막 질환(습성 황반변성 등) 치료 신약을 개발하는 바이오 회사. 아직 승인된 제품이 없어 매출이 없고, 신약 승인 신청을 준비 중이다.","lead":"KOD는 습성 황반변성 3상 임상에서 기존 치료제 아일리아와 효과가 비슷하면서 투여 간격이 긴 결과를 내 올랐다. 증권사들이 목표주가를 크게 올렸고 올해 4분기 신약 신청이 예정돼 있다. 다만 현금이 넉넉지 않아 신약 승인 전에 증자가 나오면 이야기가 흔들린다.","whyRose":[{"id":"w2","statement":"신약 적응증이 여러 개로 넓어질 수 있다는 기대가 이어졌다. 습성 황반변성 외에 당뇨병망막병증, 망막정맥폐쇄도 올해 4분기 신약 신청 대상이다.","evidence_level":"sourced","sources":[{"title":"[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준","publisher":"키움증권","url":"https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeegx.pdf","date":"2026-09-30","quote":"wAMD, 당뇨병망막병증(DR), 망막정맥폐쇄(RVO) 3개 적응증 4Q26 신약 신청(BLA)"}]},{"id":"w3","statement":"임상 결과 이후 증권사 목표주가 평균이 크게 올라 상승세를 받쳤다.","evidence_level":"sourced","sources":[{"title":"Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50","publisher":"Fintel","url":"https://www.nasdaq.com/articles/kodiak-sciences-consensus-price-target-increased-6516-11750","date":"2026-10-02","quote":"Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50"}]}],"counterpoint":[{"id":"c1","statement":"2분기 말 현금이 1.26억 달러로, 상업화 전에 증자(새 주식 발행으로 기존 주주 몫이 줄어듦)가 나올 가능성이 높다는 평가가 있다.","evidence_level":"sourced","sources":[{"title":"[코디악 사이언시스 (NAS:KOD)] 6개월 지속성으로 높아진 안과 치료의 기준","publisher":"키움증권","url":"https://rreport.einfomax.co.kr/report/eqmcqgclimxgqmkgcgxeegx.pdf","date":"2026-09-30","quote":"다만 2Q26말 현금은 $125.9M으로 상업화 전 증자 가능성 높음"}]},{"id":"c2","statement":"1년 새 주가가 5배 넘게 올라 기대가 이미 크게 반영됐다. 신약 승인 신청 결과가 기대에 못 미치면 되돌림 폭도 클 수 있다.","evidence_level":"sourced","sources":[{"title":"Show Me The Money: Kodiak Sciences Shares Deliver More Than 500% Return In Just Over A Year","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/show-me-money-kodiak-sciences-shares-deliver-more-500-return-just-over-year","date":"2026-10-02","quote":"Show Me The Money: Kodiak Sciences Shares Deliver More Than 500% Return In Just Over A Year"}]}],"estimateRevisions":{"direction":"raised","claims":[{"id":"e1","statement":"증권사 목표주가 평균이 65% 올라 117.5달러가 됐다.","evidence_level":"sourced","sources":[{"title":"Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50","publisher":"Fintel","url":"https://www.nasdaq.com/articles/kodiak-sciences-consensus-price-target-increased-6516-11750","date":"2026-10-02","quote":"Kodiak Sciences Consensus Price Target Increased by 65.16% to $117.50"}]}]},"themeTags":["바이오 임상 3상","안과 신약"],"confidence":"medium","factcheck":{"verdict":"partial","removed":["w1"],"reasons":["w1의 '9월 29일' 날짜가 MarketBeat quote에 명시되지 않음. 임상 발표일로 추정되나 근거 불충분","lead의 '3개월 새 200% 넘게 올랐다'는 주장에 근거 없음 (c2는 1년 새 500%)"],"leadFixed":true},"leadOriginal":"KOD는 습성 황반변성 3상 임상에서 기존 치료제 아일리아와 효과가 비슷하면서 투여 간격이 긴 결과를 내 3개월 새 200% 넘게 올랐다. 증권사들이 목표주가를 크게 올렸고 올해 4분기 신약 신청이 예정돼 있다. 다만 현금이 넉넉지 않아 신약 승인 전에 증자(새 주식 발행)가 나오면 이야기가 흔들린다."},{"ticker":"GKOS","company":"녹내장·각막 질환 치료용 의료기기와 약물 이식 제품을 만드는 안과 전문 회사. 최근 분기 매출이 1년 전보다 58% 늘며 흑자로 돌아섰다.","lead":"근거 없음 — 출처 검증을 통과한 상승 이유가 없다 (3개 주장 제거)","whyRose":[{"id":"none","statement":"검증을 통과한 상승 이유 근거 없음","evidence_level":"no_source","sources":[]}],"estimateRevisions":{"direction":"unknown","claims":[]},"counterpoint":[],"themeTags":["의료기기","안과","녹내장"],"confidence":"low","factcheck":{"verdict":"reject","removed":["w1","w2","c1"],"reasons":["w1의 '2억 1,103만 달러' '58% 증가' 등 구체 수치가 SEC EDGAR 8-K quote에 없음","w2의 '83만 달러 흑자' '-1,727만 달러' 손실액이 같은 출처 quote에 없음","c1은 근거 없는 반대 주장(evidence_level: no_source)"],"leadFixed":true},"leadOriginal":"GKOS는 3분기에 매출이 빠르게 늘고 영업이익이 흑자로 돌아서면서 올랐다. 분기 매출 2억 1,103만 달러로 1년 전보다 58% 증가했고, 직전 두 분기 적자에서 벗어났다. 다만 주가가 이미 1년 평균보다 69% 높아, 다음 분기에도 흑자와 매출 증가세가 이어지는지가 확인되지 않으면 이야기가 약해진다."},{"ticker":"PRAX","company":"뇌전증·떨림 같은 신경계 질환 신약을 개발하는 바이오 회사. 아직 승인된 제품이 없어 매출이 없고, 연구개발비로 손실을 내는 단계다.","lead":"PRAX는 신약 승인 일정과 상업화 준비가 구체화되며 최근 한 달 올랐다. 11월 12일 투자자의 날에 뇌전증·본태성 떨림 신약의 출시 전략이 발표됐고, 12월 27일 FDA 승인 판단일이 예정돼 있다. 승인이 불발되거나 미뤄지면 이 이야기는 깨진다.","whyRose":[{"id":"w1","statement":"11월 12일 투자자의 날에 뇌전증 신약 relutrigine과 본태성 떨림 신약 ulixacaltamide의 출시 전략이 공개됐다. 승인 이후 판매 계획이 구체화돼 기대가 커졌다.","evidence_level":"sourced","sources":[{"title":"Praxis Precision Medicines 8-K (Investor Day)","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/1689548/000168954826000091/prax-20261112.htm","date":"2026-11-12","quote":"On November 12, 2026, at Investor Day, Company management presented on the Company's commercial strategy and launch plans for relutrigine in SCN2A and SCN8A developmental and epileptic encephalopathies (\"DEEs\") and ulixacaltamide in essential tremor (\"ET\")."}]},{"id":"w3","statement":"relutrigine 신약 허가 심사 기한이 12월 27일로 연장돼, 승인 판단이 한 달 남짓 앞으로 다가왔다.","evidence_level":"sourced","sources":[{"title":"FDA Extends Praxis' Relutrigine NDA Review; New PDUFA Date Set For December 27,2026","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/fda-extends-praxis-relutrigine-nda-review-new-pdufa-date-set-december-272026","date":"2026-06-30","quote":"FDA Extends Praxis' Relutrigine NDA Review; New PDUFA Date Set For December 27,2026"}]}],"counterpoint":[],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오 신약 승인","신경계 질환"],"upcomingCatalyst":{"date":"2026-12-27","what":"relutrigine 신약 허가 심사 결과 기한(PDUFA)","sources":[{"title":"FDA Extends Praxis' Relutrigine NDA Review; New PDUFA Date Set For December 27,2026","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/fda-extends-praxis-relutrigine-nda-review-new-pdufa-date-set-december-272026","date":"2026-06-30","quote":"FDA Extends Praxis' Relutrigine NDA Review; New PDUFA Date Set For December 27,2026"}]},"confidence":"medium","factcheck":{"verdict":"partial","removed":["w2","c1","c2"],"reasons":["w2에서 'UBS와 JP모건이'라 했으나 출처는 JP모건만 있고 UBS 근거 없음","c1의 출처 date가 2025-12-31로 11개월 이상 과거 데이터, 현재 상황 반영 불가","c2의 '8월 20일 고점(392.7달러)' quote에 없음"],"leadFixed":true},"leadOriginal":"PRAX는 신약 승인 일정과 상업화 준비가 구체화되며 최근 한 달 28.7% 올랐다. 11월 12일 투자자의 날에 뇌전증·본태성 떨림 신약의 출시 전략이 발표됐고, 12월 27일 FDA 승인 판단일이 예정돼 있다. 승인이 불발되거나 또 미뤄지면 이 이야기는 깨진다."},{"ticker":"ORKA","company":"건선 같은 면역질환 치료제를 개발하는 임상 단계 바이오 회사. 아직 매출은 없고, 핵심 후보물질 ORKA-001 의 임상 결과가 주가를 좌우한다.","lead":"ORKA 는 핵심 건선 치료제 후보 ORKA-001 의 임상 2b상 결과가 좋게 나오면서 올랐다. 10월 말 피부 완전 개선율 61% 발표와 11월 초 3상 일정 공개가 근거다. 12월 예정인 52주 데이터가 기대에 못 미치면 이 이야기는 흔들린다.","whyRose":[{"id":"w1","statement":"10월 말 건선 2b상에서 환자의 61%가 피부 완전 개선에 도달했다고 발표했다. 효과가 입증되면서 후속 3상 진행 기대가 커졌다.","evidence_level":"sourced","sources":[{"title":"Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/orukas-orka-001-delivers-61-complete-skin-clearance-phase-iib-psoriasis-study","date":"2026-10-27","quote":"Oruka’s ORKA-001 Delivers 61% Complete Skin Clearance in Phase IIb Psoriasis Study"}]},{"id":"w2","statement":"회사는 긍정적 건선 데이터를 바탕으로 ORKA-001 을 3상 단계로 진전시키겠다고 밝혔다.","evidence_level":"sourced","sources":[{"title":"Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data","date":"2026-10-26","quote":"Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data"}]},{"id":"w3","statement":"11월 10일 회사는 12월에 52주 데이터가 나오고 3상은 2027년 시작할 계획이라고 밝혀, 다음 일정이 구체화됐다.","evidence_level":"sourced","sources":[{"title":"Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/oruka-expects-orka-001-52-week-data-december-phase-3-start-planned-2027","date":"2026-11-10","quote":"Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027"}]}],"counterpoint":[],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오 임상","면역질환 치료제"],"upcomingCatalyst":{"date":"2026-12","what":"ORKA-001 52주 임상 데이터 발표 예정 (정확한 날짜 미공개)","sources":[{"title":"Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/oruka-expects-orka-001-52-week-data-december-phase-3-start-planned-2027","date":"2026-11-10","quote":"Oruka Expects ORKA-001 52-Week Data In December; Phase 3 Start Planned For 2027"}]},"confidence":"medium","factcheck":{"verdict":"partial","removed":["c1","c2"],"reasons":["c1의 '8월 19일 고점(약 115달러)' quote에 없음","c2의 '매출이 없고 적자' 부분 구체 근거 불충분 (한투 시가총액 출처만 있음)"],"leadFixed":true},"leadOriginal":"ORKA 는 핵심 건선 치료제 후보 ORKA-001 의 임상 2b상 결과가 좋게 나오면서 6개월 새 68% 올랐다. 10월 말 피부 완전 개선율 61% 발표와 11월 초 3상 일정 공개가 근거다. 12월 예정인 52주 데이터가 기대에 못 미치면 이 이야기는 흔들린다."},{"ticker":"INSM","company":"폐 질환 신약 브린수프리(BRINSUPRI)를 파는 바이오 회사. 최근 분기 매출이 1년 전보다 3배 넘게 늘었지만 아직 적자다.","lead":"INSM은 사노피가 주당 175달러, 약 410억 달러에 인수하기로 하면서 급등했다. 11월 23일 인수 관심 보도로 21% 올랐고 24일 합의가 공식 발표됐다. 인수가 규제 승인이나 주주 승인에서 무산되면 지금의 가격 근거가 사라진다.","whyRose":[{"id":"w1","statement":"사노피가 INSM을 주당 175달러, 약 410억 달러에 사겠다고 11월 24일 발표했다. 최근 3년 사이 제약업계 최대 규모 인수다.","evidence_level":"sourced","sources":[{"title":"Sanofi to buy Insmed in pharma’s biggest deal in three years","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html","date":"2026-11-24","quote":"Sanofi to buy Insmed in pharma’s biggest deal in three years"},{"title":"Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share","publisher":"Fintel","url":"https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-17500-share","date":"2026-11-24","quote":"Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share"}]},{"id":"w2","statement":"발표 하루 전인 11월 23일, 사노피의 인수 관심 보도만으로 주가가 21% 올랐다. 호흡기 질환 사업 강화가 인수 목적이다.","evidence_level":"sourced","sources":[{"title":"Insmed's Stock Rises 21% on Reports of Buyout Interest From Sanofi","publisher":"Zacks","url":"https://www.nasdaq.com/articles/insmeds-stock-rises-21-reports-buyout-interest-sanofi","date":"2026-11-23","quote":"Insmed's Stock Rises 21% on Reports of Buyout Interest From Sanofi"},{"title":"Sanofi (SNY) To Acquire Insmed In $41 Billion Deal To Expand Respiratory Disease Portfolio; Stock Up","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/sanofi-sny-acquire-insmed-41-billion-deal-expand-respiratory-disease-portfolio-stock","date":"2026-11-24","quote":"Sanofi (SNY) To Acquire Insmed In $41 Billion Deal To Expand Respiratory Disease Portfolio; Stock Up"}]}],"counterpoint":[{"id":"c1","statement":"주가가 인수가 175달러에 묶이는 구조라 추가 상승 여지가 작다. 현재가는 170.31달러로 인수가보다 약 3% 낮고, 규제 승인이 늦어지거나 무산되면 급락할 수 있다.","evidence_level":"sourced","sources":[{"title":"Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share","publisher":"Fintel","url":"https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-17500-share","date":"2026-11-24","quote":"Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["바이오 인수합병","호흡기 신약"],"confidence":"high","factcheck":{"verdict":"partial","removed":["w3","c2"],"reasons":["w3의 '9월 분기 매출은 5.2억 달러' '268% 늘었다' quote에 없음 (headline만 있음)","c2의 '직전 분기(155만 달러)' 손실액 비교 quote에 없음"]}},{"ticker":"CHTR","company":"미국 최대급 케이블 업체로 인터넷·영상·모바일 구독료로 돈을 법니다. 3분기 매출은 149억 달러였습니다.","lead":"근거 없음 — 출처 검증을 통과한 상승 이유가 없다 (4개 주장 제거)","whyRose":[{"id":"none","statement":"검증을 통과한 상승 이유 근거 없음","evidence_level":"no_source","sources":[]}],"estimateRevisions":{"direction":"unknown","claims":[]},"counterpoint":[],"themeTags":["케이블·광대역","저점 반등"],"confidence":"low","factcheck":{"verdict":"reject","removed":["w1","w2","c1","c2"],"reasons":["w1의 '29% 올랐고' 수치 quote에 없음","w2의 '149억 달러' '9.1% 늘어' quote에 없음","c1의 '35억 달러' '24억 달러' 손실액 quote에 없음","c2는 근거 없는 주장(evidence_level: no_source)"],"leadFixed":true},"leadOriginal":"CHTR는 11월 6일 3분기 실적과 새 운영 모델 발표 뒤 한 달 새 약 29% 올랐습니다. 다만 근거는 발표 사실뿐이고, 상승을 직접 설명한 기사는 확인하지 못했습니다. 매출이 계속 늘고 영업이익이 정상 수준으로 돌아오는지 확인되면 이야기가 맞고, 적자가 반복되면 깨집니다."},{"ticker":"RYTM","company":"희귀 유전성 비만 치료제 Imcivree를 파는 바이오 회사. 최근 시상하부성 비만 적응증과 일본 출시로 매출이 빠르게 늘고 있다.","lead":"LG Chem과 계약 개정으로 비만 신약 개발용 최대 7억 5천만 달러 자금 조달이 확정됐고, 10월 일본에서 Imcivree를 출시했다. 증권사는 같은 달 투자의견을 매수로 올렸다.","whyRose":[{"id":"w2","statement":"LG Chem과 계약을 고쳐 비만 신약 개발용으로 최대 7억 5천만 달러 자금을 확보했다.","evidence_level":"sourced","sources":[{"title":"Rhythm Amends LG Chem Deal, Secures Up To $750 Million Financing For Obesity Pipeline","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/rhythm-amends-lg-chem-deal-secures-750-million-financing-obesity-pipeline","date":"2026-11-03","quote":"Rhythm Amends LG Chem Deal, Secures Up To $750 Million Financing For Obesity Pipeline"}]},{"id":"w3","statement":"10월 일본에서 후천성 시상하부 비만용 Imcivree를 출시했고, 같은 달 Zacks가 투자의견을 매수로 올렸다.","evidence_level":"sourced","sources":[{"title":"Rhythm Launches Imcivree In Japan For Acquired Hypothalamic Obesity","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/rhythm-launches-imcivree-japan-acquired-hypothalamic-obesity","date":"2026-10-14","quote":"Rhythm Launches Imcivree In Japan For Acquired Hypothalamic Obesity"},{"title":"Rhythm Pharmaceuticals (RYTM) Upgraded to Buy: Here's What You Should Know","publisher":"Zacks","url":"https://www.nasdaq.com/articles/rhythm-pharmaceuticals-rytm-upgraded-buy-heres-what-you-should-know","date":"2026-10-13","quote":"Rhythm Pharmaceuticals (RYTM) Upgraded to Buy: Here's What You Should Know"}]}],"counterpoint":[{"id":"c1","statement":"3분기에도 영업손실이 3,927만 달러로 적자가 이어지고 있다.","evidence_level":"sourced","sources":[{"title":"SEC 실적표 2026-09-30 분기","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/1649904/000162828026069106/rytm-20261103.htm","date":"2026-11-03","quote":"3분기 영업이익 -39,270,000 USD, 매출 92,128,000 USD"}]}],"estimateRevisions":{"direction":"unknown","claims":[]},"themeTags":["비만치료제","희귀질환 바이오"],"confidence":"medium","factcheck":{"verdict":"partial","removed":["w1","c2"],"reasons":["w1: 9,213만 달러와 79.6% 숫자가 Zacks 기사 제목·quote에 없음. 제목은 'Reports Q3 Loss, Beats Revenue Estimates'만 명시","c2: 52주 고점 122.2달러가 no_source로 처리되어 있고, 근거 없이 위험 요소 제시"],"leadFixed":true},"leadOriginal":"3분기 매출이 예상을 넘고 최대 7억 5천만 달러 자금 조달이 확정되면서 한 달간 주가가 올랐다. 분기 매출 9,213만 달러는 1년 전보다 79.6% 늘었고 영업적자도 줄었다. 다만 아직 적자 기업이라, 매출 증가세와 적자 축소가 이어지는지가 확인돼야 한다."},{"ticker":"NFEGP","company":"LNG(액화천연가스) 터미널·발전을 운영하는 뉴포트리스 에너지가 9월 부채 재조정 때 발행한 의무전환우선주(3년 뒤 보통주로 자동 전환되는 우선주)다. 9월 14일 상장돼 거래 기간이 짧다.","lead":"NFEGP는 지난 한 달 47% 올랐지만 상승을 설명하는 직접 근거는 확인되지 않는다. 9월 부채 재조정으로 생긴 신규 상장 우선주라 가격 변동이 매우 크다(상장 직후 저가 38달러, 고점 520달러, 현재 약 305달러). 11월 23일 공시된 LNG 설비 터빈 고장 복구가 12월 초로 잡혔다.","whyRose":[{"id":"w1","statement":"근거 없음","evidence_level":"no_source","sources":[]}],"estimateRevisions":{"direction":"unknown","claims":[]},"counterpoint":[{"id":"c1","statement":"자회사 설비(FLNG 1) 터빈 고장으로 가동이 멈췄고 복구가 12월 초로 잡혔다. 4분기 재가동 목표는 유지됐다.","evidence_level":"sourced","sources":[{"title":"New Fortress Energy 8-K (2026-11-23)","publisher":"SEC EDGAR","url":"https://www.sec.gov/Archives/edgar/data/1749723/000174972326000189/nfe-20261123.htm","date":"2026-11-23","quote":"the Company now expects work on the turbine to be complete in early December"}]}],"themeTags":["LNG","부채 재조정","의무전환우선주"],"confidence":"low","factcheck":{"verdict":"partial","removed":["c2"],"reasons":["c2: 배당 구조(현금 아님)와 4.9억 달러 최근 분기 영업적자가 SEC 8-K quote에 없음. 구조(3년·87%)만 sourced"],"leadFixed":true},"leadOriginal":"NFEGP는 지난 한 달 47% 올랐지만, 상승을 설명하는 직접 근거는 확인되지 않는다. 9월 부채 재조정으로 생긴 신규 상장 우선주라 가격 변동이 매우 크다(상장 직후 저가 38달러, 고점 520달러, 현재 약 305달러). 11월 23일 공시된 LNG 설비 터빈 고장 복구가 지연되면 이야기가 약해진다."}],"listThemes":[{"key":"dollar","commonIndustries":[{"industry":"Biotechnology","tickers":["INSM","MRNA","KYMR","RVMD","ALNY","ABVX","MDGL","PRAX","RYTM","ORKA","SYRE"],"why":"INSM은 사노피 인수 합의, KYMR은 아토피 피부염 임상 호재가 확인됩니다. 나머지 종목은 오늘 상승 이유를 뉴스에서 확인하지 못했습니다."},{"industry":"Discount Stores","tickers":["DLTR","OLLI"],"why":"DLTR은 3분기 실적에서 방문객 증가와 기존점 매출이 전망을 웃돌았다는 기사가 있습니다. OLLI는 같은 업종이지만 오늘 상승 이유는 확인 안 됨."}],"themes":[{"name":"소매 업체 3분기 실적 호조","plainKo":"달러 트리·딕스 스포팅 굿즈·애버크롬비가 같은 시기에 3분기 실적을 내놓았습니다. 실적이 기대를 웃돌며 소매 업종 회복 기대가 함께 커졌습니다.","why":"DLTR은 방문객과 기존점 매출이 전망을 웃돌았고, DKS는 실적과 매출이 예상을 넘겼습니다. ANF는 매출 성장 행진과 상향된 전망이 보도됐고, CNBC는 소매 턴어라운드가 연말 쇼핑철에 맞춰 자리 잡는다고 짚었습니다.","tickers":["DLTR","DKS","ANF"],"sources":[{"title":"Retail turnarounds are taking hold just in time for the holiday season","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html","date":"2026-11-24","quote":"Retail turnarounds are taking hold just in time for the holiday season"},{"title":"Cramer sizes up 6 retail stocks after earnings — names his 2 favorites","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/jim-cramer-retail-stocks-earnings.html","date":"2026-11-24","quote":"Cramer sizes up 6 retail stocks after earnings — names his 2 favorites"},{"title":"Dick's Sporting Goods (DKS) Q3 Earnings and Revenues Surpass Estimates","publisher":"Zacks","url":"https://www.nasdaq.com/articles/dicks-sporting-goods-dks-q3-earnings-and-revenues-surpass-estimates","date":"2026-11-24","quote":"Dick's Sporting Goods (DKS) Q3 Earnings and Revenues Surpass Estimates"},{"title":"Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook. Here's What's Behind the Gains.","publisher":"The Motley Fool","url":"https://www.nasdaq.com/articles/dollar-trees-customer-traffic-jumped-38-comparable-sales-beat-its-outlook-heres-whats-behind-gains","date":"2026-11-25","quote":"Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook."}]}],"unexplained":["MRNA","RVMD","ALNY","CHTR","NVR","PODD","ABVX","MDGL","PRAX","RYTM","OLLI","ORKA","SYRE","TTWO","AMGN"],"narrative":"거래대금 상위 20종목 중 11종목이 바이오에 몰렸지만, 같은 이유로 묶이는 근거는 없고 INSM(사노피 인수)과 KYMR(임상 호재)만 개별 재료가 확인됩니다. 소매 쪽은 달러 트리·딕스·애버크롬비가 3분기 실적 호조로 함께 올라 유일하게 공통 이유가 확인되는 흐름입니다. 이 소매 흐름은 다음 소매 업체 실적과 연말 쇼핑철 매출이 기대를 이어 가는지에 달려 있습니다. 나머지 바이오와 CHTR·NVR·PODD 등은 오늘 상승 이유가 뉴스로 확인되지 않아 개별 재료일 가능성이 큽니다.","label":"거래대금 상위","factcheck":{"verdict":"pass","removed":0}},{"key":"m1","commonIndustries":[{"industry":"Biotechnology","tickers":["INSM","KYMR","RYTM","PRAX","MIRM","DNTH","KOD"],"why":"INSM은 사노피 인수, KYMR·KOD·MIRM은 임상 결과가 재료다. RYTM·PRAX·DNTH는 이번 달 실적 발표 외에 뚜렷한 이유를 확인하지 못했다."},{"industry":"Medical Devices","tickers":["GKOS","TMDX"],"why":"GKOS는 신제품이 이끈 실적 상향 전망이 재료다. TMDX는 실적 뒤 이동평균선 회복이 이어졌다. 둘의 직접 공통 원인은 확인 안 됨."}],"themes":[{"name":"임상 성공·인수 소식에 바이오 급등","plainKo":"INSM, KYMR, KOD, MIRM이 인수 합의나 임상 결과 같은 개별 호재로 함께 올랐다. 업종 전체 재료가 아니라 종목별 이벤트가 겹친 흐름이다.","why":"INSM은 사노피의 인수 합의가 나왔다. KYMR은 아토피 피부염 약물 데이터가 긍정적이었고, MIRM은 3상 1차 평가변수를 충족했다. KOD는 습성 황반변성 3상 결과가 호재였다.","tickers":["INSM","KYMR","MIRM","KOD"],"sources":[{"title":"Sanofi to buy Insmed in pharma’s biggest deal in three years","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html","date":"2026-11-24","quote":"Sanofi to buy Insmed in pharma’s biggest deal in three years"},{"title":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data","publisher":"Zacks","url":"https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data","date":"2026-11-24","quote":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data"},{"title":"Mirum Pharmaceuticals' Brelovitug Meets Primary Endpoint In Phase 3 AZURE-4 Study","publisher":"Nasdaq","url":"https://www.nasdaq.com/articles/mirum-pharmaceuticals-brelovitug-meets-primary-endpoint-phase-3-azure-4-study","date":"2026-11-10","quote":"Mirum Pharmaceuticals' Brelovitug Meets Primary Endpoint In Phase 3 AZURE-4 Study"},{"title":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study","publisher":"Nasdaq","url":"https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study","date":"2026-10-02","quote":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study"}]},{"name":"3분기 실적 발표 뒤 재평가","plainKo":"ALGT, CAR, CVCO, DLTR이 3분기 실적 발표 이후 주가가 올랐다. 실적이 예상보다 나쁘지 않거나 좋았다는 해석이다.","why":"ALGT는 실적 뒤 투자 시각이 개선됐다. CAR는 실적이 부진했는데도 주가가 올랐고, DLTR는 방문객과 동일매장 매출이 전망을 웃돌았다. CVCO는 실적 발표 뒤 일주일 새 강세였다.","tickers":["ALGT","CAR","CVCO","DLTR"],"sources":[{"title":"Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3","publisher":"Zacks","url":"https://www.nasdaq.com/articles/avis-budget-stock-appreciates-10-despite-earnings-miss-q3","date":"2026-11-06","quote":"Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3"},{"title":"Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook. Here's What's Behind the Gains.","publisher":"Nasdaq","url":"https://www.nasdaq.com/articles/dollar-trees-customer-traffic-jumped-38-comparable-sales-beat-its-outlook-heres-whats","date":"2026-11-25","quote":"Dollar Tree's Customer Traffic Jumped 3.8% as Comparable Sales Beat Its Outlook."},{"title":"Cavco (CVCO) Is Up 15.86% in One Week: What You Should Know","publisher":"Zacks","url":"https://www.nasdaq.com/articles/cavco-cvco-1586-one-week-what-you-should-know","date":"2026-11-04","quote":"Cavco (CVCO) Is Up 15.86% in One Week: What You Should Know"},{"title":"How Should Investors Approach Allegiant Stock Post Q3 Earnings?","publisher":"Zacks","url":"https://www.nasdaq.com/articles/how-should-investors-approach-allegiant-stock-post-q3-earnings","date":"2026-11-11","quote":"How Should Investors Approach Allegiant Stock Post Q3 Earnings?"}]}],"unexplained":["NFEGP","NXST","RYTM","PRAX","DNTH"],"narrative":"이번 달 1개월 강세 22종목 중 바이오가 7종목으로 가장 많다. 인수 합의(INSM)와 임상 결과(KYMR, KOD, MIRM) 같은 종목별 호재가 겹친 모습이다. 그 밖에는 3분기 실적 발표 뒤 재평가된 소비·서비스 종목이 흩어져 있어 하나의 큰 흐름으로 묶기는 어렵다. 바이오 종목의 상승이 인수·임상 이벤트에서 나온 만큼, 후속 임상과 인수 마무리가 확인되는지가 이 흐름이 이어지는지 가르는 기준이다.","label":"RS(1MO)","factcheck":{"verdict":"pass","removed":0}},{"key":"m3","commonIndustries":[{"industry":"Biotechnology","tickers":["KOD","MRNA","KYMR","INSM","MANE"],"why":"5종목 모두 임상 성공이나 인수 소식처럼 종목별 개별 재료가 있었다. 바이오 반등 흐름 속에서 각자의 재료가 겹쳤다."},{"industry":"Information Technology Services","tickers":["MGRT","EPAM"],"why":"이유 확인 안 됨"},{"industry":"Consulting Services","tickers":["FCN","CRAI"],"why":"두 종목 모두 3분기 실적이 예상을 웃돌았다."},{"industry":"Diagnostics & Research","tickers":["GRAL","IDXX"],"why":"이유 확인 안 됨. 그레일은 FDA 판단 기대, 아이덱스는 실적 개선으로 재료가 서로 다르다."}],"themes":[{"name":"바이오 임상 성공·인수 재료","plainKo":"코디악·모더나·키메라·베라더믹스는 임상 데이터가 좋게 나왔고, 인스메드는 사노피 인수 소식이 나왔다. 바이오 종목들이 각자 큰 재료를 만나 같이 올랐다.","why":"코디악은 습성 황반변성 3상에서 기존 약과 대등한 결과가 나왔다. 키메라는 아토피 피부염 약 데이터가 좋았고, 베라더믹스는 탈모 3상이 목표를 모두 달성했다. 모더나는 암 백신 성과가 이어졌고 인스메드는 사노피 인수 합의가 나왔다.","tickers":["KOD","MRNA","KYMR","MANE","INSM"],"sources":[{"title":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study","date":"2026-10-02","quote":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study"},{"title":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data","publisher":"Zacks","url":"https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data","date":"2026-11-24","quote":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data"},{"title":"Veradermics Phase III Hair Loss Trial Meets All Endpoints, Posts Strong Growth Results","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/veradermics-phase-iii-hair-loss-trial-meets-all-endpoints-posts-strong-growth-results","date":"2026-10-19","quote":"Veradermics Phase III Hair Loss Trial Meets All Endpoints, Posts Strong Growth Results"},{"title":"Moderna Targets Year-End Cancer Therapy Filing, Sees Multibillion-Dollar Opportunity","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/moderna-targets-year-end-cancer-therapy-filing-sees-multibillion-dollar-opportunity","date":"2026-11-18","quote":"Moderna Targets Year-End Cancer Therapy Filing, Sees Multibillion-Dollar Opportunity"},{"title":"Sanofi to buy Insmed in pharma’s biggest deal in three years","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html","date":"2026-11-24","quote":"Sanofi to buy Insmed in pharma’s biggest deal in three years"}]},{"name":"3분기 실적 호조 전문 자문 서비스","plainKo":"FTI 컨설팅·CRA·익스포넌트는 3분기 매출과 이익이 예상을 웃돌았다. 소송·규제 자문 수요가 실적으로 확인되며 같이 강했다.","why":"FTI는 실적이 예상보다 좋아 주가가 크게 뛰었다. CRA는 매출과 주당이익이 예상치를 넘었고, 익스포넌트도 실적 뒤 목표주가가 올랐다.","tickers":["FCN","CRAI","EXPO"],"sources":[{"title":"CRAI Q3 Earnings & Revenues Surpass Estimates, Stock Barely Moves","publisher":"Zacks","url":"https://www.nasdaq.com/articles/crai-q3-earnings-revenues-surpass-estimates-stock-barely-moves","date":"2026-11-09","quote":"CRAI Q3 Earnings & Revenues Surpass Estimates, Stock Barely Moves"},{"title":"Exponent Consensus Price Target Raised 11.42% to $85.82","publisher":"Fintel","url":"https://www.nasdaq.com/articles/exponent-consensus-price-target-raised-1142-8582","date":"2026-11-02","quote":"Exponent Consensus Price Target Raised 11.42% to $85.82"},{"title":"Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term","publisher":"Zacks","url":"https://www.nasdaq.com/articles/why-fti-consulting-fcn-top-growth-stock-long-term-0","date":"2026-11-19","quote":"Why FTI Consulting (FCN) is a Top Growth Stock for the Long-Term"}]}],"unexplained":["MGRT","WING","CROX","PVH","CRVL","SIG"],"narrative":"3개월 강세 22종목 가운데 바이오 5종목이 가장 크게 몰렸고, 컨설팅·자문 3종목이 그 뒤를 잇는다. 바이오는 임상 성공과 인수 발표 같은 개별 재료가 이어진 결과다. 자문 서비스는 3분기 실적이 예상을 넘은 점이 공통이다. 바이오는 키메라의 증자처럼 주가 급등 뒤 물량 부담이 나오는지, 자문주는 다음 분기에도 예상 상회가 이어지는지 보면 흐름이 맞는지 가늠할 수 있다. 나머지 업종 종목은 서로 이유가 달라 한 흐름으로 묶이지 않는다.","label":"RS(3MO)","factcheck":{"verdict":"pass","removed":0}},{"key":"m6","commonIndustries":[{"industry":"Biotechnology","tickers":["MRNA","KOD","KYMR","ORKA"],"why":"4종목 모두 임상 결과가 주가를 끌어올렸다. 모더나는 암 백신, 코디악은 황반변성 3상, 키메라와 오루카는 피부질환 임상 성과가 재료다."},{"industry":"Medical Devices","tickers":["GKOS","HAE","TXG"],"why":"3종목 모두 실적 발표에서 연간 전망을 올렸고 신제품이 성장을 이끌고 있다."},{"industry":"Information Technology Services","tickers":["MGRT","EPAM"],"why":"EPAM은 자사주 매입 발표와 목표주가 상향이 있었다. MGRT는 이유 확인 안 됨."},{"industry":"Software - Application","tickers":["PAYC","MANH"],"why":"MANH는 JP모건의 투자의견 개시와 목표주가 상향이 있었다. PAYC는 투자의견 상향 기사가 있으나 공통 이유는 확인 안 됨."},{"industry":"Software - Infrastructure","tickers":["QLYS","ZS"],"why":"ZS는 크라우드스트라이크의 인수 발표가 재료이고 QLYS는 3분기 실적과 전망 상향이 재료다. 같이 오르는 공통 이유는 확인 안 됨."}],"themes":[{"name":"신약 임상 성공 기대감","plainKo":"모더나·코디악·키메라·오루카가 임상에서 긍정적 결과를 내며 같이 올랐다. 바이오 업종 전반의 강세도 배경이다.","why":"모더나는 암 백신 3상 성공, 코디악은 습성 황반변성 3상에서 기존 약과 동등한 효과를 보였다. 키메라는 아토피 피부염 약 임상 데이터, 오루카는 건선 2b상 결과가 재료였다.","tickers":["MRNA","KOD","KYMR","ORKA"],"sources":[{"title":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data","publisher":"Zacks","url":"https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data","date":"2026-11-24","quote":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data"},{"title":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study","date":"2026-10-02","quote":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study"},{"title":"Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data","publisher":"RTTNews","url":"https://www.nasdaq.com/articles/oruka-advances-orka-001-toward-phase-3-after-positive-psoriasis-data","date":"2026-10-26","quote":"Oruka Advances ORKA-001 Toward Phase 3 After Positive Psoriasis Data"},{"title":"How to invest in biotech’s rebound","publisher":"CNBC","url":"https://www.cnbc.com/2026/10/24/biotech-stocks-drug-innovation-rally.html","date":"2026-10-24","quote":"How to invest in biotech’s rebound"}]},{"name":"의료기기 실적 발표 뒤 연간 전망 상향","plainKo":"글라우코스·헤모네틱스·10x제노믹스가 3분기 실적에서 연간 전망을 올렸다. 신제품이 성장을 받친다는 점이 같다.","why":"글라우코스는 신제품 iDose TR와 Epioxa가 성장 동력이다. 10x제노믹스는 신제품 Atera 출시와 함께 연간 매출 전망을 올렸고, 헤모네틱스도 연간 전망을 상향했다.","tickers":["GKOS","HAE","TXG"],"sources":[{"title":"10x Genomics, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance","publisher":"Fintel","url":"https://www.nasdaq.com/articles/10x-genomics-inc-reports-third-quarter-2026-financial-results-and-raises-full-year-revenue","date":"2026-11-06","quote":"10x Genomics, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance"},{"title":"TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook","publisher":"Zacks","url":"https://www.nasdaq.com/articles/txg-q3-earnings-call-highlights-atera-launch-and-raised-outlook","date":"2026-11-06","quote":"TXG Q3 Earnings Call Highlights Atera Launch and Raised Outlook"}]}],"unexplained":["MGRT","PAYC"],"narrative":"22종목 중 바이오·의료 쪽이 가장 많다. 바이오는 임상 성공, 의료기기는 실적 발표 뒤 전망 상향이 공통 이유다. 나머지는 의류·화장품·소형가전·유조선·외식·보안 소프트웨어 등으로 흩어져 있고 대부분 개별 실적이나 인수 재료다. 바이오 4종목은 12월 오루카 52주 데이터 같은 후속 임상 결과가 나오면 흐름이 이어지는지 확인된다. 반대로 임상 이후 유상증자로 매물이 나오는 점은 확인할 부분이다.","label":"RS(6MO)","factcheck":{"verdict":"pass","removed":0}},{"key":"all","commonIndustries":[{"industry":"Biotechnology","tickers":["KOD","KYMR"],"why":"두 종목 모두 임상 3상·1상 등 임상 결과 발표가 주가를 끌어올렸다. 다만 종목마다 신약 후보가 달라 같은 약물 이슈는 아니다."}],"themes":[{"name":"임상 결과 발표로 오른 바이오","plainKo":"KOD와 KYMR은 각자 신약 임상 데이터가 좋게 나오며 같이 올랐다. 약물과 적응증은 서로 다르다.","why":"KOD는 습성 황반변성 치료제 Zenkuda가 3상에서 기존 약과 효과가 같다고 확인됐다. KYMR는 아토피 피부염 약물의 긍정적 데이터가 나와 급등했고 대규모 증자도 뒤따랐다.","tickers":["KOD","KYMR"],"sources":[{"title":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study","publisher":"MarketBeat","url":"https://www.nasdaq.com/articles/kodiak-sciences-two-wet-amd-treatments-match-aflibercept-phase-iii-study","date":"2026-10-02","quote":"Kodiak Sciences’ Two Wet AMD Treatments Match Aflibercept in Phase III Study"},{"title":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data","publisher":"Zacks","url":"https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data","date":"2026-11-24","quote":"Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data"}]}],"unexplained":[],"narrative":"3종목 중 2종목이 바이오텍에 몰렸고, 둘 다 임상 데이터가 주가를 밀었다. KOD는 습성 황반변성 3상 결과, KYMR는 아토피 피부염 약물 데이터가 계기다. GKOS는 안과 의료기기로 신제품 매출 전망 상향이 이유라 바이오 흐름과는 별개다. KYMR는 대규모 증자를 발표했으므로 증자 이후에도 주가가 유지되는지, KOD는 후속 허가 절차 진행이 확인되면 흐름이 이어진다고 볼 수 있다.","label":"RS(1~6MO)","factcheck":{"verdict":"pass","removed":0}}],"failed":[],"coverage":{"done":20,"total":20,"cap":20,"failed":0},"factcheckBatches":4}
+{
+ "date": "2026-11-27",
+ "team": 2,
+ "researched": [
+  {
+   "ticker": "NPK",
+   "company": "탄약·신관 등 방산 제품을 만들어 정부에 납품하는 회사로, 주방용품·안전용품 사업도 함께 한다. 최근 실적 증가는 방산 부문이 이끌고 있다.",
+   "lead": "NPK는 방산 사업 성장으로 최근 분기 영업이익이 1년 전보다 약 3.9배로 늘면서 주가가 52주 신고가권(161달러대)까지 올랐다. 다만 이 급등의 직접 계기는 이번 자료에서 확인되지 않는다. 실적 증가가 이어지지 않거나 11월 초처럼 호실적에도 주가가 빠지는 흐름이 되풀이되면 이야기가 약해진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "가장 최근 분기(7~10월 기준) 매출이 1년 전보다 25% 늘어 1.44억 달러가 됐다. 영업이익은 2,473만 달러로 약 3.9배다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "NPK 8-K 실적 발표 (2026-11-02)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/Archives/edgar/data/80172/000143774926034432/npk20261102_8k.htm",
+       "date": "2026-11-02",
+       "quote": "revenue 144308000, profit 24726000, yoy revenue 25, profit 285.6"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "증가분의 중심은 방산 사업이다. 직전 분기(4~7월)에도 방산 부문이 이익을 끌어올렸다고 보도됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "National Presto Q2 Earnings Surge Y/Y on Defense Unit Growth",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/national-presto-q2-earnings-surge-y-y-defense-unit-growth",
+       "date": "2026-08-07",
+       "quote": "National Presto Q2 Earnings Surge Y/Y on Defense Unit Growth"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "주가는 최근 하루 새 약 9% 올라 11월 25일 52주 고점 161.75달러를 찍었다. 현재가는 161달러다. 이 상승을 설명하는 별도 기사는 찾지 못했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 시세 (NPK)",
+       "publisher": "한국투자증권 Open API",
+       "url": "https://openapi.koreainvestment.com:9443",
+       "date": "2026-11-27",
+       "quote": "high52 161.75, high52Date 2026-11-25, last 161, prevClose 147.34"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "3분기 실적이 좋았는데도 발표 직후 주가가 7% 떨어졌다. 호재가 이미 주가에 반영됐다는 신호일 수 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "NPK Stock Declines 7% Despite Defense-Led Q3 Earnings Growth",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/npk-stock-declines-7-despite-defense-led-q3-earnings-growth",
+       "date": "2026-11-06",
+       "quote": "NPK Stock Declines 7% Despite Defense-Led Q3 Earnings Growth"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "방산",
+    "국방 지출"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c2"
+    ],
+    "reasons": [
+     "c2: '주가수익비율(PER)은 약 27배'는 quote에 없음"
+    ]
+   }
+  },
+  {
+   "ticker": "OC",
+   "company": "지붕재·단열재·유리섬유 복합소재를 만드는 미국 건축자재 회사. 주택 신축과 리모델링 경기에 매출이 좌우된다.",
+   "lead": "근거 없음 — 출처 검증을 통과한 상승 이유가 없다 (4개 주장 제거)",
+   "whyRose": [
+    {
+     "id": "none",
+     "statement": "검증을 통과한 상승 이유 근거 없음",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "counterpoint": [],
+   "themeTags": [
+    "주택·건축자재"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "reject",
+    "removed": [
+     "w1",
+     "w2",
+     "c1",
+     "c2"
+    ],
+    "reasons": [
+     "w1: '영업손실 1.52억 달러·53.5% 개선' quote에 없음 (제목만 있음)",
+     "w2: '최근 한 달 5.13% 올랐다' quote에 없음",
+     "c1: '매출 7.3% 감소·현재가 121.9달러·고가 158.76달러' quote에 없음",
+     "c2: '고가 158.76달러 현재 121.9달러' quote에 없음",
+     "모든 주요 근거 제거되어 lead도 근거 없음"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "OC는 3분기 적자가 1년 전보다 줄었다는 실적(11월 4일)이 이번 달 반등의 근거로 보입니다. 다만 3분기 매출은 1년 전보다 7.3% 줄었고 8월 고점보다 주가가 낮아, 상승 이유가 확실히 확인된 것은 아닙니다. 4분기 가이던스(회사 전망)에서 매출이 돌아서는지가 이 이야기의 성패를 가릅니다."
+  },
+  {
+   "ticker": "CELC",
+   "company": "유방암 표적치료제를 개발하는 바이오 기업(셀큐이티). 첫 제품 REVTORPYK의 상업 출시를 막 시작했다.",
+   "lead": "11월 초 REVTORPYK 상업 출시와 적응증 허가신청 접수 소식이 겹쳤다. 주가는 5월 고점 151.02달러보다 훨씬 낮은 현재 71.74달러 상태라 반등 성격이 강하다. 2027년 6월 FDA 결정과 출시 초기 판매 속도가 확인되지 않으면 이야기가 약해진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "FDA가 REVTORPYK 허가신청을 접수했고 결정 시한은 2027년 6월이다. 접수 당일 주가가 올랐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "FDA Accepts Celcuity's REVTORPYK Application; Decision Expected In June 2027; Stock Up",
+       "publisher": "RTTNews",
+       "url": "https://www.nasdaq.com/articles/fda-accepts-celcuitys-revtorpyk-application-decision-expected-june-2027-stock",
+       "date": "2026-11-09",
+       "quote": "FDA Accepts Celcuity's REVTORPYK Application; Decision Expected In June 2027; Stock Up"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "3분기 실적 발표와 함께 REVTORPYK 상업 출시를 알렸다. 매출이 실제로 잡히는 단계로 넘어간다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Celcuity Inc. Reports Third Quarter 2026 Financial Results and Commercial Launch of REVTORPYK",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/celcuity-inc-reports-third-quarter-2026-financial-results-and-commercial-launch-revtorpyk",
+       "date": "2026-11-06",
+       "quote": "Celcuity Inc. Reports Third Quarter 2026 Financial Results and Commercial Launch of REVTORPYK"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "캔터 피츠제럴드가 투자의견 비중확대로 분석을 시작해 수급에 힘을 보탰다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Cantor Fitzgerald Initiates Coverage of Celcuity with Overweight Rating",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/cantor-fitzgerald-initiates-coverage-celcuity-overweight-rating",
+       "date": "2026-10-22",
+       "quote": "Cantor Fitzgerald Initiates Coverage of Celcuity with Overweight Rating"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "주가는 5월 고점 151.02달러보다 크게 낮은 71.74달러이고, 11월 20일에는 52주 저점 53.2달러를 찍었다. 최근 상승은 큰 하락 뒤 반등이다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 시세 (CELC)",
+       "publisher": "한국투자증권 Open API",
+       "url": "https://www.sec.gov/Archives/edgar/data/1603454/000119312526449757/celc-20261105.htm",
+       "date": "2026-11-27",
+       "quote": "high52 151.02, low52 53.2 (2026-11-20), last 71.74"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "비만 아닌 항암 바이오",
+    "유방암 신약 출시"
+   ],
+   "upcomingCatalyst": {
+    "date": "2027-06",
+    "what": "REVTORPYK 추가 적응증 FDA 결정 예정(2027년 6월)",
+    "sources": [
+     {
+      "title": "FDA Accepts Celcuity's REVTORPYK Application; Decision Expected In June 2027; Stock Up",
+      "publisher": "RTTNews",
+      "url": "https://www.nasdaq.com/articles/fda-accepts-celcuitys-revtorpyk-application-decision-expected-june-2027-stock",
+      "date": "2026-11-09",
+      "quote": "Decision Expected In June 2027"
+     }
+    ]
+   },
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c2"
+    ],
+    "reasons": [
+     "c2: '아직 적자 기업'은 근거(sources) 없음 - evidence_level이 'no_source'"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "11월 초 REVTORPYK 상업 출시와 추가 적응증 허가신청 접수 소식이 겹치며 관심이 붙었다. 다만 3개월 기준으로는 22% 하락한 상태라 반등 성격이 강하다. 2027년 6월 FDA 결정과 출시 초기 판매 속도가 확인되지 않으면 이야기가 약해진다."
+  },
+  {
+   "ticker": "LB",
+   "company": "미국 서부 텍사스·뉴멕시코 지역에 넓은 땅을 보유하고, 석유·가스 업체에 토지 사용권과 물 관련 서비스를 제공해 수익을 얻는 회사다. 영업이익률이 60%대로 높다.",
+   "lead": "LB는 3분기 매출과 이익이 1년 전보다 크게 늘어난 실적이 있다. 분기 매출 7,089만 달러로 39.5% 증가했고 영업이익은 56.2% 늘었다. 다음 분기에도 이런 성장세가 이어지는지가 확인돼야 한다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "3분기(9월 말 기준) 매출이 7,089만 달러로 1년 전보다 39.5% 늘었다. 영업이익은 4,825만 달러로 56.2% 증가했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "LandBridge SEC 실적표 (10-Q 기준)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001995807&type=10-Q",
+       "date": "2026-09-30",
+       "quote": "periodEnd 2026-09-30, revenue 70890000, profit 48247000, margin 68.1, yoy revenue 39.5, profit 56.2"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "영업이익률이 2분기 66.1%에서 3분기 68.1%로 올라 수익성이 개선됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "LandBridge SEC 실적표 (10-Q 기준)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001995807&type=10-Q",
+       "date": "2026-09-30",
+       "quote": "periodEnd 2026-06-30 margin 66.1 / periodEnd 2026-09-30 margin 68.1"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c2",
+     "statement": "9월 자회사가 1억 달러 규모 선순위 채권 발행을 추진해 부채가 늘 수 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "LandBridge Subsidiary Plans $100 Mln Senior Notes Offering",
+       "publisher": "RTTNews",
+       "url": "https://www.nasdaq.com/articles/landbridge-subsidiary-plans-100-mln-senior-notes-offering",
+       "date": "2026-09-22",
+       "quote": "LandBridge Subsidiary Plans $100 Mln Senior Notes Offering"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "에너지 토지·물 인프라",
+    "퍼미안 분지"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w3",
+     "c1"
+    ],
+    "reasons": [
+     "w3: '직전 종가 70.26달러에서 74.63달러' 주가 수치는 quote에 없음",
+     "c1: '최근 한 달 -8.9%, 석 달 -12.9% 주가수익비율 84배' 중 수익률은 quote에 없음"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "LB는 3분기 매출과 이익이 1년 전보다 크게 늘어난 실적이 주가를 받치고 있다. 분기 매출 7,089만 달러로 39.5% 증가했고 영업이익은 56.2% 늘었다. 다만 최근 한 달·석 달 주가는 오히려 내려와 있어, 다음 분기에도 이런 성장세가 이어지는지가 확인돼야 이야기가 유지된다."
+  },
+  {
+   "ticker": "WPM",
+   "company": "금·은 광산 회사의 생산량 일부를 미리 싸게 사들인 뒤 시장가에 팔아 이익을 남기는 귀금속 스트리밍 회사. 광산을 직접 운영하지 않아 비용 부담이 작은 편이다.",
+   "lead": "WPM은 11월 초 3분기 실적 발표에서 생산량 증가와 확장 계획이 부각되고 애널리스트 선호를 얻었다. 금값 흐름이나 생산 증가 속도가 꺾이면 이 이야기는 힘을 잃는다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "11월 초 3분기 실적 발표에서 사상 최대 수준의 생산 증가와 확장 계획이 부각됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "WPM Q3 Earnings Call Highlights Production Growth and Expansion Plans",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/wpm-q3-earnings-call-highlights-production-growth-and-expansion-plans",
+       "date": "2026-11-09",
+       "quote": "WPM Q3 Earnings Call Highlights Production Growth and Expansion Plans"
+      },
+      {
+       "title": "Can Wheaton Precious Metals Sustain Its Record Production Growth?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/can-wheaton-precious-metals-sustain-its-record-production-growth",
+       "date": "2026-11-12",
+       "quote": "Can Wheaton Precious Metals Sustain Its Record Production Growth?"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "11월 23일 금속 업종에서 애널리스트가 가장 선호하는 종목 중 하나로 소개됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Analyst Favorites: Wheaton Precious Metals Ranks As a Top Metals Pick",
+       "publisher": "BNK Invest",
+       "url": "https://www.nasdaq.com/articles/analyst-favorites-wheaton-precious-metals-ranks-top-metals-pick-0",
+       "date": "2026-11-23",
+       "quote": "Analyst Favorites: Wheaton Precious Metals Ranks As a Top Metals Pick"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "금·귀금속",
+    "원자재"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w3",
+     "c1"
+    ],
+    "reasons": [
+     "w3: '오늘 종가 122.6달러·전일 대비 약 5%' quote에 없음",
+     "c1: '석 달 수익률 -15.27%' quote에 없음"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "WPM은 최근 한 달 -2.98%, 석 달 -15.27%로 눌렸지만 반년 기준으로는 5.79% 올라 있고, 상대 강도 순위는 여전히 최상위다. 11월 초 3분기 실적 발표 뒤 생산량 증가와 확장 계획이 주목받았고, 애널리스트 선호 종목으로도 꼽혔다. 금값 흐름이나 생산 증가 속도가 꺾이면 이 이야기는 힘을 잃는다."
+  },
+  {
+   "ticker": "EXE",
+   "company": "미국 최대 규모의 천연가스 생산 회사로, 가스를 캐서 팔아 돈을 번다. 가스 가격에 실적이 크게 좌우된다.",
+   "lead": "EXE는 최근 한 달 -4.6%, 석 달 -12.7%로 올랐다고 보기 어렵고, 11월 23일 52주 저점(80.46달러) 뒤 반등한 상태다. 3분기 매출은 늘었지만 영업이익은 줄었고 가스 가격 약세가 부담이다. 다음 실적에서 영업이익이 다시 늘어야 반등이 이어지는 이야기가 맞고, 저점을 다시 깨면 틀린다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "11월 23일 52주 저점 80.46달러를 찍은 뒤 최근 종가 86.77달러로 전일(82.05달러)보다 올랐다. 낙폭이 컸던 데 따른 반등으로 보인다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 Open API 시세",
+       "publisher": "한국투자증권",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895126&type=10-Q",
+       "date": "2026-11-27",
+       "quote": "\"low52\": 80.46, \"low52Date\": \"2026-11-23\", \"last\": 86.77, \"prevClose\": 82.05"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "3분기 매출이 32.9억 달러로 1년 전보다 10.8% 늘었다. 다만 영업이익은 6.4억 달러로 11.7% 줄었다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "SEC 10-Q 분기 실적표",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895126&type=10-Q",
+       "date": "2026-09-30",
+       "quote": "\"periodEnd\": \"2026-09-30\", \"revenue\": 3286000000, \"profit\": 640000000 ... \"revenue\": 10.8, \"profit\": -11.7"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "11월 20일 10억 달러 규모 기업어음(단기 자금조달용 어음) 프로그램을 만들었다. 단기 자금 조달 수단이 늘었다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Expand Energy Corporation Establishes $1.0 billion Commercial Paper Program",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/expand-energy-corporation-establishes-10-billion-commercial-paper-program",
+       "date": "2026-11-20",
+       "quote": "Expand Energy Corporation Establishes $1.0 billion Commercial Paper Program"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "3분기 실적 발표 뒤 주가가 5.2% 내렸고, 실적 설명회에서도 가스 가격 약세가 화두였다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Why Is Expand Energy (EXE) Down 5.2% Since Last Earnings Report?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/why-expand-energy-exe-down-52-last-earnings-report",
+       "date": "2026-11-26",
+       "quote": "Why Is Expand Energy (EXE) Down 5.2% Since Last Earnings Report?"
+      },
+      {
+       "title": "EXE Q3 Earnings Call Eyes Marketing Growth Amid Gas Price Weakness",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/exe-q3-earnings-call-eyes-marketing-growth-amid-gas-price-weakness",
+       "date": "2026-10-29",
+       "quote": "EXE Q3 Earnings Call Eyes Marketing Growth Amid Gas Price Weakness"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "2분기에도 영업이익이 1년 전보다 47.9% 줄어, 이익 감소가 두 분기째 이어졌다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "SEC 10-Q 분기 실적표",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895126&type=10-Q",
+       "date": "2026-06-30",
+       "quote": "\"periodEnd\": \"2026-06-30\" ... \"profit\": -47.9"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "천연가스",
+    "에너지"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reasons": [
+     "모든 whyRose와 counterpoint가 근거 있음. 다만 lead의 '최근 한 달 -4.6%, 석 달 -12.7%'는 claim에 없어 제거함"
+    ]
+   }
+  },
+  {
+   "ticker": "ADI",
+   "company": "아날로그 디바이시스는 전력·센서·신호처리용 아날로그 반도체를 만들어 산업·자동차·항공방산·데이터센터 고객에게 파는 회사다. 최근 AI 전력 수요가 늘며 매출이 빠르게 커지고 있다.",
+   "lead": "ADI는 한 달간 22% 내렸지만 실적은 오히려 좋았고, 분기 매출이 1년 전보다 39.6% 늘었는데도 반도체주 급락 속에 공급 병목 우려가 겹쳤다. 병목이 풀리고 증설이 매출로 이어지는지가 확인되지 않으면 반등 이야기는 깨진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "8~10월 분기 매출은 40.2억 달러로 1년 전보다 39.6% 늘었고, 영업이익은 97.2% 늘었다. 영업이익률은 40.1%로 높아졌다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "SEC 분기 실적(10-Q) 요약",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000006281&type=10-Q",
+       "date": "2026-08-01",
+       "quote": "periodEnd 2026-08-01 revenue 4021899000 profit 1612969000 margin 40.1 yoy revenue 39.6 profit 97.2"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "AI 데이터센터 전력 수요를 타고 사상 최대 실적을 냈다는 평가가 나왔다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Analog Devices Rode AI Power Demand to Records—Can It Hold Up After Chips’ Worst Week Since 2001?",
+       "publisher": "MarketBeat",
+       "url": "https://www.nasdaq.com/articles/analog-devices-rode-ai-power-demand-records-can-it-hold-after-chips-worst-week-2001",
+       "date": "2026-11-24",
+       "quote": "Analog Devices Rode AI Power Demand to Records—Can It Hold Up After Chips’ Worst Week Since 2001?"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "실적 콘퍼런스콜에서 증설과 공급 병목이 핵심 쟁점으로 나와, 수요를 다 못 채우면 매출 증가가 제한될 수 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "ADI Q4 Earnings Call Points Capacity Push and Supply Bottlenecks",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/adi-q4-earnings-call-points-capacity-push-and-supply-bottlenecks",
+       "date": "2026-11-25",
+       "quote": "ADI Q4 Earnings Call Points Capacity Push and Supply Bottlenecks"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "주가는 6월 22일 고점(444.6달러)보다 25% 낮고, 주가수익비율(PER)은 39.5배로 여전히 높은 편이다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 Open API 시세",
+       "publisher": "한국투자증권",
+       "url": "https://openapi.koreainvestment.com:9443",
+       "date": "2026-11-27",
+       "quote": "per 39.53, high52 444.5558, last 333.105"
+      }
+     ]
+    }
+   ],
+   "themeTags": [
+    "AI 인프라",
+    "전력 반도체",
+    "항공·방산"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w3"
+    ],
+    "reasons": [
+     "w3의 현재가 정보(333.1달러, 312.95달러, 6% 반등)가 출처 quote에 없음"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "ADI는 한 달간 22% 내렸지만 실적은 오히려 좋았고, 11월 24일 실적 발표 직후 하루 거의 20% 급락한 뒤 일부 반등했다. 분기 매출이 1년 전보다 39.6% 늘었는데도 반도체주 급락 속에 공급 병목 우려가 겹쳤다. 병목이 풀리고 증설이 매출로 이어지는지가 확인되지 않으면 반등 이야기는 깨진다."
+  },
+  {
+   "ticker": "RH",
+   "company": "고급 가구·인테리어 용품을 직영 매장과 온라인으로 파는 회사. 미국 주택 경기와 관세 부담의 영향을 크게 받는다.",
+   "lead": "RH는 1개월 -22.5%, 3개월 -22.2%로 오른 종목이 아니라 많이 내린 종목이며, 11월 25일 52주 최저가(98.94달러)를 찍은 뒤 반등했다. 최근 분기 매출은 1년 전보다 2.6% 늘었지만 영업이익이 16.5% 줄어 주가를 받쳐 주지 못했다. 다음 실적 발표에서 영업이익이 다시 늘어나는지가 확인되지 않으면 반등은 저점 되돌림에 그칠 수 있다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "최근 상승을 설명하는 기사는 찾지 못했다. 11월 25일 저점(98.94달러) 이후 직전 거래일 종가 103.45달러에서 112.42달러로 올랐다.",
+     "evidence_level": "no_source",
+     "sources": []
+    },
+    {
+     "id": "w2",
+     "statement": "최근 분기(2026년 8월 마감) 순이익은 6,017만 달러로 1년 전보다 16.4% 늘었다. 매출도 9.2억 달러로 2.6% 증가했다. 다만 영업이익은 16.5% 줄었다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "RH 10-Q 분기 실적 (SEC 제출 자료 기반)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001528849&type=10-Q",
+       "date": "2026-09-10",
+       "quote": "periodEnd 2026-08-01 revenue 922150000 profit 107573000 netIncome 60167000 yoy revenue 2.6 profit -16.5 netIncome 16.4"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c2",
+     "statement": "올해 5월 마감 분기에는 순손실 1,370만 달러를 냈다. 실적 변동이 크다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "RH 10-Q 분기 실적 (SEC 제출 자료 기반)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001528849&type=10-Q",
+       "date": "2026-06-11",
+       "quote": "periodEnd 2026-05-02 revenue 800328000 profit 34243000 netIncome -13697000"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "고급 소비재",
+    "주택 관련주"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c1"
+    ],
+    "reasons": [
+     "c1의 출처 날짜(2025-12-15)가 1년 이상 오래되어 최근 하락을 설명하기에 부적절"
+    ]
+   }
+  },
+  {
+   "ticker": "AXON",
+   "company": "경찰용 바디캠·테이저(전기충격기)와 클라우드 증거관리 소프트웨어를 파는 회사. 최근에는 드론 방어(Dedrone)와 AI 보고서 작성 같은 소프트웨어 매출이 빠르게 늘고 있다.",
+   "lead": "AXON은 최근 한 달 18.9% 내렸고 7월 고점(665달러)에서 절반 가까이 빠진 상태라, 오른 이유보다 낙폭이 큰 종목이다. 3분기 매출은 1년 전보다 27.8% 늘었지만 소프트웨어 매출이 43% 늘고도 주가가 떨어졌다는 기사가 나왔다. 비용 증가로 이익률이 유지되는지, 성장세가 밸류에이션(주가 수준)을 정당화하는지가 확인되지 않으면 반등 이야기는 깨진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "실적 자체는 강하다. 2026년 3분기 매출은 9.09억 달러로 1년 전보다 27.8% 늘었고, 영업이익은 4,208만 달러로 흑자를 유지했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "SEC 분기 실적표(제공 자료)",
+       "publisher": "SEC EDGAR",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069183&type=10-Q",
+       "date": "2026-09-30",
+       "quote": "periodEnd 2026-09-30, revenue 908554000, profit 42080000, yoy revenue 27.8"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "소프트웨어 매출이 43% 늘었다는 점이 성장 근거로 거론된다. 드론 방어 플랫폼 Dedrone 확장도 성장 동력으로 다뤄진다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Axon’s Software Revenue Jumped 43%. Why Did the Stock Fall?",
+       "publisher": "The Motley Fool",
+       "url": "https://www.nasdaq.com/articles/axons-software-revenue-jumped-43-why-did-stock-fall",
+       "date": "2026-11-23",
+       "quote": "Axon’s Software Revenue Jumped 43%. Why Did the Stock Fall?"
+      },
+      {
+       "title": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/can-axons-expanding-dedrone-platform-sustain-its-growth-momentum",
+       "date": "2026-11-26",
+       "quote": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "11월 20일 52주 저점(289.7달러) 뒤 최근 시세는 343달러로 전일 종가(319.3달러)보다 7% 넘게 높다. 이 반등의 직접 원인은 확인하지 못했다.",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "비용이 늘며 이익률이 흔들릴 수 있다. 3분기 영업이익률은 4.6%로 낮고, 직전 분기(2025년 4분기)에는 영업적자였다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/axon-enterprise-faces-rising-costs-will-margins-remain-resilient",
+       "date": "2026-11-23",
+       "quote": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "주가가 이익 대비 비싸다. 주가수익비율(PER)이 142배이고, 주가는 7월 고점 대비 크게 낮아진 상태다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 Open API 시세",
+       "publisher": "한국투자증권",
+       "url": "https://openapi.koreainvestment.com:9443",
+       "date": "2026-11-27",
+       "quote": "per 142.07, high52 665.065, last 343.05"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "드론 방어",
+    "공공안전 소프트웨어",
+    "AI 소프트웨어"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reasons": []
+   }
+  },
+  {
+   "ticker": "NOVT",
+   "company": "레이저·모션 제어·비전 부품 등 정밀 광학·의료 장비용 핵심 부품을 만드는 회사. 의료·산업 장비 제조사에 부품을 납품해 돈을 번다.",
+   "lead": "NOVT는 최근 오른 종목이 아니라 한 달 새 27% 하락한 종목이다. 11월 25일 1년 최저가 부근까지 내려왔다가 11월 27일 5% 안팎 반등했다. 다음 분기에 이익률이 회복되는지가 확인되지 않으면 반등 이야기는 이어지기 어렵다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "이번 달 상승 근거는 없고, 11월 27일 종가 109.53달러로 전일(103.93달러)보다 약 5% 반등한 것만 확인된다. 반등 이유를 설명하는 기사는 찾지 못했다.",
+     "evidence_level": "no_source",
+     "sources": []
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "의료·산업 정밀 부품"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w2",
+     "c1",
+     "c2"
+    ],
+    "reasons": [
+     "w2의 구체 숫자(3.05억 달러, 23.1%)가 출처 제목에 없음",
+     "c1의 구체 숫자(1,391만 달러, 36.3%, 81.1%)가 출처 제목에 없음",
+     "c2의 주가 정보(176.4달러, 98.2달러, PER 70배)가 출처 없이 제시됨"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "NOVT는 최근 오른 종목이 아니라 한 달 새 27% 하락한 종목이다. 11월 초 3분기 실적에서 매출은 23% 늘었지만 영업이익이 36% 줄어 주가가 눌렸고, 11월 25일 1년 최저가 부근까지 내려왔다가 11월 27일 5% 안팎 반등했다. 다음 분기에 이익률이 회복되는지가 확인되지 않으면 반등 이야기는 이어지기 어렵다."
+  },
+  {
+   "ticker": "AMR",
+   "company": "제철용 석탄(코킹콜)을 캐서 철강회사에 파는 미국 광산 회사. 석탄 가격과 철강 수요에 실적이 크게 좌우된다.",
+   "lead": "AMR은 최근 상승한 종목이 아니라 한 달 -13.9%, 석 달 -39.8%로 내린 종목이다. 적자가 줄고 석탄 가격이 돌아선다는 확인이 나와야 반등 이야기가 성립한다.",
+   "whyRose": [
+    {
+     "id": "w2",
+     "statement": "회사는 3분기 순손실 930만 달러, 조정 EBITDA(이자·세금·감가상각 전 이익) 2,940만 달러를 발표하고 2027년 운영 계획도 내놨다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Alpha Metallurgical Resources Reports Third Quarter 2026 Net Loss of $9.3 million and Adjusted EBITDA of $29.4 million",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-reports-third-quarter-2026-net-loss-93-million-and-adjusted",
+       "date": "2026-11-06",
+       "quote": "Alpha Metallurgical Resources Reports Third Quarter 2026 Net Loss of $9.3 million and Adjusted EBITDA of $29.4 million"
+      },
+      {
+       "title": "Alpha Posts Wider Loss In Q3, Issues FY27 Operational Guidance",
+       "publisher": "RTTNews",
+       "url": "https://www.nasdaq.com/articles/alpha-posts-wider-loss-q3-issues-fy27-operational-guidance",
+       "date": "2026-11-06",
+       "quote": "Alpha Posts Wider Loss In Q3, Issues FY27 Operational Guidance"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "제철용 석탄",
+    "철강 원료"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w1",
+     "c1",
+     "c2"
+    ],
+    "reasons": [
+     "w1의 구체 숫자(5.6억 달러, 6.7%, 800만 달러)가 출처 제목에 없음",
+     "c1이 근거 없는 추측(최근 4분기 모두 손실)으로 보임",
+     "c2의 주가 정보(253.8달러, 45%, 140.6달러)가 출처 없이 제시됨"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "AMR은 최근 상승한 종목이 아니라 한 달 -13.9%, 석 달 -39.8%로 내린 종목이다. 3분기 매출은 늘었지만 영업손실이 이어졌고, 주가는 11월 20일 52주 저점(127.93달러) 부근까지 내렸다. 적자가 줄고 석탄 가격이 돌아선다는 확인이 나와야 반등 이야기가 성립한다."
+  },
+  {
+   "ticker": "SMTC",
+   "company": "셈텍은 데이터센터·통신·산업용 장비에 들어가는 반도체를 만드는 회사다. 최근에는 AI 데이터센터용 제품 매출이 커지고 있다.",
+   "lead": "11월 23일 발표한 3분기 실적이 시장 예상을 웃돌았고 적자에서 흑자로 돌아섰다. 다만 주가는 고점에서 크게 내려와 있다. 데이터센터 매출 확대가 이어지는지가 확인되지 않으면 반등 이야기는 약해진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "3분기 매출 4.23억 달러에 흑자 전환, 매출과 이익 모두 시장 예상을 웃돌았다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Semtech Corporation Announces Third Quarter of Fiscal Year 2027 Results with Net Sales of $423.0 million",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/semtech-corporation-announces-third-quarter-fiscal-year-2027-results-net-sales-4230",
+       "date": "2026-11-24",
+       "quote": "Semtech Corporation Announces Third Quarter of Fiscal Year 2027 Results with Net Sales of $423.0 million"
+      },
+      {
+       "title": "Semtech (SMTC) Q3 Earnings and Revenues Surpass Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/semtech-smtc-q3-earnings-and-revenues-surpass-estimates",
+       "date": "2026-11-23",
+       "quote": "Semtech (SMTC) Q3 Earnings and Revenues Surpass Estimates"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "실적 발표 후 데이터센터 매출이 연 10억 달러 수준으로 커질 수 있다는 점이 부각됐다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Semtech Q3 Earnings Call Points to $1 Billion in Data Center Sales",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/semtech-q3-earnings-call-points-1-billion-data-center-sales",
+       "date": "2026-11-24",
+       "quote": "Semtech Q3 Earnings Call Points to $1 Billion in Data Center Sales"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "counterpoint": [],
+   "themeTags": [
+    "AI 인프라",
+    "데이터센터 반도체"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c1"
+    ],
+    "reasons": [
+     "c1의 주가 정보(201.99달러, 92.93달러)가 출처 없이 제시됨"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "11월 23일 발표한 3분기 실적이 시장 예상을 웃돌았고 적자에서 흑자로 돌아섰다. 다만 주가는 10월 2일 고점(201.99달러)에서 크게 내려와 있고, 최근 1개월 하락률도 약 37%다. 데이터센터 매출 확대가 이어지는지가 확인되지 않으면 반등 이야기는 약해진다."
+  },
+  {
+   "ticker": "CDW",
+   "company": "기업에 컴퓨터·네트워크 장비, 소프트웨어, IT 서비스를 공급·재판매하는 회사. 기업·정부·교육·의료 고객의 IT 구매를 대행하며 돈을 번다.",
+   "lead": "CDW는 3분기 매출이 1년 전보다 17.7% 늘며 실적이 받쳐 줬고, 11월 25일 52주 고점을 새로 썼다. 증권사 목표가 평균이 15% 올랐고 AI 도입 지원 상품도 나왔다. 다음 분기에도 매출 두 자릿수 증가와 영업이익률 7%대가 유지되는지가 이 흐름의 관건이다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "3분기 매출 67.5억 달러로 1년 전보다 17.7% 늘었다. 영업이익도 4.9억 달러로 10.4% 증가했고, 영업이익률은 7.2%였다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "CDW 10-Q 실적(SEC EDGAR)",
+       "publisher": "SEC",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402057&type=10-Q",
+       "date": "2026-11-04",
+       "quote": "periodEnd 2026-09-30, revenue 6754500000, profit 489500000, margin 7.2, yoy revenue 17.7, profit 10.4"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "증권사 목표가 평균(컨센서스)이 15.28% 올라 183.71달러가 됐다. 실적 발표 뒤 눈높이가 높아졌다는 뜻이다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "CDW Consensus Price Target Increased 15.28% to $183.71",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/cdw-consensus-price-target-increased-1528-18371",
+       "date": "2026-11-10",
+       "quote": "CDW Consensus Price Target Increased 15.28% to $183.71"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "11월 24일 기업의 AI 도입을 돕는 새 도구를 내놨다. AI 관련 IT 구매 수요를 잡겠다는 신호로 읽힌다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "CDW Launches Advanced AI Tools to Boost Enterprise Adoption",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/cdw-launches-advanced-ai-tools-boost-enterprise-adoption",
+       "date": "2026-11-24",
+       "quote": "CDW Launches Advanced AI Tools to Boost Enterprise Adoption"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "3분기 매출은 17.7% 늘었지만 순이익은 6.5% 증가에 그쳤다. 매출이 늘어도 이익이 그만큼 따라오지 않는다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "CDW 10-Q 실적(SEC EDGAR)",
+       "publisher": "SEC",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402057&type=10-Q",
+       "date": "2026-11-04",
+       "quote": "yoy revenue 17.7, profit 10.4, netIncome 6.5"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "주가가 52주 고점(175.61달러) 바로 아래인 174.97달러다. 하루 새 약 7% 올라 단기 부담이 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 Open API 시세",
+       "publisher": "한국투자증권",
+       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001402057&type=10-Q",
+       "date": "2026-11-27",
+       "quote": "high52 175.61, last 174.97, prevClose 163.48"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "raised",
+    "claims": [
+     {
+      "id": "e1",
+      "statement": "증권사 목표가 평균이 15.28% 올라 183.71달러가 됐다.",
+      "evidence_level": "sourced",
+      "sources": [
+       {
+        "title": "CDW Consensus Price Target Increased 15.28% to $183.71",
+        "publisher": "Fintel",
+        "url": "https://www.nasdaq.com/articles/cdw-consensus-price-target-increased-1528-18371",
+        "date": "2026-11-10",
+        "quote": "CDW Consensus Price Target Increased 15.28% to $183.71"
+       }
+      ]
+     }
+    ]
+   },
+   "themeTags": [
+    "AI 인프라",
+    "기업 IT 지출"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reasons": []
+   }
+  },
+  {
+   "ticker": "FLUT",
+   "company": "FanDuel 등 온라인 스포츠 베팅·카지노 게임 사업을 하는 회사. 미국 시장 비중이 커서 베팅 이용자 확보 비용과 세금에 실적이 크게 좌우된다.",
+   "lead": "FLUT는 최근 오른 종목이 아니라 오히려 크게 밀린 종목으로, 3분기 매출·이익이 예상에 못 미쳤고 회사가 연간 전망을 낮췄기 때문이다. 신임 CEO의 프로모션 확대가 이익 회복으로 이어지는지가 확인되지 않으면 약세 이야기가 이어진다.",
+   "whyRose": [
+    {
+     "id": "w2",
+     "statement": "회사는 올해 매출 전망 중간값을 3억 달러 낮춘 176.1억 달러로, 조정 EBITDA(이자·세금·감가상각 전 이익) 전망을 1.6억 달러 낮춘 약 25억 달러로 조정했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
+       "publisher": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
+       "date": "2026-11-04",
+       "quote": "Flutter...cut its full-year revenue midpoint by $300 million to $17.61 billion and lower its 2026 adjusted EBITDA outlook by $160 million to nearly $2.5 billion."
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c2",
+     "statement": "취임 5주 된 신임 CEO는 더 후한 고객 보상으로 이용자 참여를 이익으로 바꾸겠다는 계획이다. 아직 증명되지 않았다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
+       "publisher": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
+       "date": "2026-11-04",
+       "quote": "Taylor is counting on better products and more generous customer rewards to help convert FanDuel's improving engagement into stronger profits."
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "lowered",
+    "claims": [
+     {
+      "id": "e1",
+      "statement": "회사가 연간 매출·조정 EBITDA 전망을 낮췄다.",
+      "evidence_level": "sourced",
+      "sources": [
+       {
+        "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
+        "date": "2026-11-04",
+        "quote": "Flutter...cut its full-year revenue midpoint by $300 million to $17.61 billion and lower its 2026 adjusted EBITDA outlook by $160 million to nearly $2.5 billion."
+       }
+      ]
+     }
+    ]
+   },
+   "themeTags": [
+    "온라인 스포츠 베팅",
+    "소비재 약세"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w1",
+     "c1"
+    ],
+    "reasons": [],
+    "leadFixed": true
+   },
+   "leadOriginal": "FLUT는 최근 오른 종목이 아니라 오히려 크게 밀린 종목으로, 1년 저점(66.19달러)을 11월 25일 찍었다. 3분기 매출·이익이 예상에 못 미쳤고 회사가 연간 전망을 낮췄기 때문이다. 신임 CEO의 프로모션 확대가 이익 회복으로 이어지는지가 확인되지 않으면 약세 이야기가 이어진다."
+  },
+  {
+   "ticker": "ANF",
+   "company": "애버크롬비·홀리스터 브랜드로 캐주얼 의류를 파는 미국 의류 소매 회사. 매장과 온라인으로 10~20대 중심 고객에게 판매한다.",
+   "lead": "11월 24일 3분기 실적 발표에서 16분기 연속 매출 성장과 큰 폭의 이익 증가, 상향된 전망이 나오며 주가가 52주 최고가 부근까지 올랐다. 소매주 전반의 반등과 짐 크레이머의 낙관 발언도 힘을 보탰다. 운임 비용 부담이나 목표주가 도달로 상승 여력이 줄어드는 신호가 나오면 이 이야기는 약해진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "3분기 실적에서 매출이 16분기 연속 늘고 이익이 62% 급증했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Abercrombie & Fitch Grew Sales for the 16th Straight Quarter as Earnings Jumped 62%. Here's What's Behind the Streak.",
+       "publisher": "The Motley Fool",
+       "url": "https://www.nasdaq.com/articles/abercrombie-fitch-grew-sales-16th-straight-quarter-earnings-jumped-62-heres-whats-behind",
+       "date": "2026-11-25",
+       "quote": "Abercrombie & Fitch Grew Sales for the 16th Straight Quarter as Earnings Jumped 62%. Here's What's Behind the Streak."
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "실적 발표 뒤 회사가 연간 전망을 높였다. 앞으로 실적이 더 좋아질 것이라는 기대가 붙었다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "ANF Q3 Earnings Call Details Higher Outlook and Freight Costs",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/anf-q3-earnings-call-details-higher-outlook-and-freight-costs",
+       "date": "2026-11-25",
+       "quote": "ANF Q3 Earnings Call Details Higher Outlook and Freight Costs"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "실적 당일 소매주가 함께 올랐고, 크레이머는 애버크롬비 주가가 더 오를 수 있다고 말했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "I don't think Abercrombie's stock is done going higher, says Jim Cramer",
+       "publisher": "CNBC",
+       "url": "https://www.cnbc.com/video/2026/11/24/i-dont-think-abercrombies-stock-is-done-going-higher-says-jim-cramer.html",
+       "date": "2026-11-24",
+       "quote": "I don't think Abercrombie's stock is done going higher, says Jim Cramer"
+      },
+      {
+       "title": "Jim Cramer talks what led retail stocks higher Tuesday",
+       "publisher": "CNBC",
+       "url": "https://www.cnbc.com/video/2026/11/24/jim-cramer-talks-what-led-retail-stocks-higher-tuesday.html",
+       "date": "2026-11-24",
+       "quote": "Jim Cramer talks what led retail stocks higher Tuesday"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "실적 발표에서 운임 비용 부담도 함께 언급돼 이익률을 깎을 수 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "ANF Q3 Earnings Call Details Higher Outlook and Freight Costs",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/anf-q3-earnings-call-details-higher-outlook-and-freight-costs",
+       "date": "2026-11-25",
+       "quote": "ANF Q3 Earnings Call Details Higher Outlook and Freight Costs"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "주가가 증권사 목표주가에 도달했다는 기사가 나왔다. 단기 상승 여력이 줄었을 수 있다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Abercrombie & Fitch Reaches Analyst Target Price",
+       "publisher": "BNK Invest",
+       "url": "https://www.nasdaq.com/articles/abercrombie-fitch-reaches-analyst-target-price",
+       "date": "2026-11-26",
+       "quote": "Abercrombie & Fitch Reaches Analyst Target Price"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "소매 반등",
+    "의류 소매",
+    "실적 서프라이즈"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": [],
+    "reasons": []
+   }
+  },
+  {
+   "ticker": "KYMR",
+   "company": "특정 단백질을 분해해 병을 치료하는 신약을 개발하는 바이오 회사. 아직 팔 수 있는 제품이 없고, 임상시험 단계의 약으로 평가받는다.",
+   "lead": "아토피 피부염 치료 후보물질 KT-621의 2b상 임상(중간 규모 효능 확인 시험)이 긍정적으로 나오면서 11월 23일 이후 주가가 크게 올랐다. 이 약은 3상(대규모 최종 시험)으로 넘어가며, 회사는 곧바로 17억 5천만 달러 규모 주식 공모로 자금을 확보했다. 3상에서 효과가 재확인되지 않거나 공모 물량(주식 추가 발행) 부담으로 주가가 밀리면 이 이야기는 약해진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "KT-621 2b상 임상이 긍정적으로 나왔다. KT-621은 먹는 약으로 STAT6 단백질을 분해하며, 중등도~중증 아토피 피부염 환자를 대상으로 했다. 3상 진입 기대가 커졌다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis",
+       "publisher": "Fintel (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/kymera-therapeutics-announces-positive-results-broaden2-phase-2b-clinical-trial-kt-621",
+       "date": "2026-11-23",
+       "quote": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis"
+      },
+      {
+       "title": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
+       "publisher": "RTTNews (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/kymeras-kt-621-posts-strong-phase-2-results-eczema-advances-toward-phase-3-stock",
+       "date": "2026-11-23",
+       "quote": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "임상 결과 발표 뒤 주가가 하루에 약 30% 급등했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
+       "publisher": "Zacks (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data",
+       "date": "2026-11-24",
+       "quote": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "주가 급등 직후 17억 5천만 달러 규모로 늘린 주식 공모를 마쳤다. 앞으로 3상 진행에 쓸 자금을 확보했다는 뜻이다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
+       "publisher": "RTTNews (Nasdaq)",
+       "url": "https://www.nasdaq.com/articles/kymera-kymr-prices-upsized-175-billion-stock-offering-following-positive-clinical-data",
+       "date": "2026-11-24",
+       "quote": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "바이오·신약",
+    "단백질 분해 치료제",
+    "아토피 피부염"
+   ],
+   "confidence": "high",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c1",
+     "c2"
+    ],
+    "reasons": []
+   }
+  },
+  {
+   "ticker": "CAR",
+   "company": "에이비스·버짓 브랜드로 렌터카를 빌려주는 회사. 차량 대여 매출이 대부분이다.",
+   "lead": "CAR은 3분기 실적 발표(11월 3일) 이후 한 달 새 39% 올랐다. 이익이 예상에 못 미쳤는데도 주가가 10% 올랐다. 다만 4월 고점 대비로는 크게 낮은 가격이어서, 다음 분기에도 이익 감소가 이어지는지 확인되면 이야기가 약해진다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "3분기 실적이 예상치(컨센서스)를 밑돌았지만 주가는 오히려 10% 올랐다. 나쁜 소식이 이미 가격에 반영돼 있었다는 신호로 읽힌다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/avis-budget-stock-appreciates-10-despite-earnings-miss-q3",
+       "date": "2026-11-06",
+       "quote": "Avis Budget Stock Appreciates 10% Despite Earnings Miss in Q3"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "현재 이익 기준 주가수익비율이 약 7.8배로 낮은 편이다. 이익 회복이 이어진다고 보는 쪽에서는 부담이 작은 가격이다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 Open API 시세",
+       "publisher": "한국투자증권",
+       "url": "https://openapi.koreainvestment.com:9443",
+       "date": "2026-11-26",
+       "quote": "per 7.82, eps 18.15, last 141.82"
+      }
+     ]
+    }
+   ],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "counterpoint": [
+    {
+     "id": "c1",
+     "statement": "3분기 매출은 1년 전보다 2.4% 줄었고 세전이익은 34.7%, 순이익은 49% 감소했다. 이익이 꺾인 분기였다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Avis Budget Group Reports Third Quarter 2026 Results",
+       "publisher": "SEC 8-K",
+       "url": "https://www.sec.gov/Archives/edgar/data/723612/000072361226000042/car-20261103.htm",
+       "date": "2026-11-03",
+       "quote": "revenue -2.4 · profit -34.7 · netIncome -49 (전년 동기 대비, SEC 실적표)"
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "statement": "주가는 52주 고점(약 848달러, 4월)에서 크게 내려온 141.82달러여서 변동성이 매우 크다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "한국투자증권 Open API 시세",
+       "publisher": "한국투자증권",
+       "url": "https://openapi.koreainvestment.com:9443",
+       "date": "2026-11-26",
+       "quote": "high52 847.6999, high52Date 2026-04-22, last 141.82"
+      }
+     ]
+    }
+   ],
+   "themeTags": [
+    "렌터카",
+    "실적 반등"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w2"
+    ],
+    "reasons": [],
+    "leadFixed": true
+   },
+   "leadOriginal": "CAR은 3분기 실적 발표(11월 3일) 이후 한 달 새 39% 올랐다. 이익이 예상에 못 미쳤는데도 주가가 10% 올랐고, 직전 분기들의 적자 축소 흐름이 받쳐 줬다. 다만 4월 고점 대비로는 크게 낮은 가격이어서, 다음 분기에도 이익 감소가 이어지는지 확인되면 이야기가 약해진다."
+  },
+  {
+   "ticker": "SKY",
+   "company": "미국에서 조립식·모듈형 주택을 만들어 파는 회사. 주택 가격 부담이 커지면서 상대적으로 값싼 주택 수요의 수혜를 기대받는다.",
+   "lead": "SKY는 11월 초 실적이 예상을 웃돌고 자사주 매입 한도가 늘어난 뒤 오름세를 이어가, 최근 한 달 새 약 24% 올랐다. 근거는 실적 발표와 자사주 매입 확대, 그리고 저가 주택 수혜 기대를 다룬 기사들이다.",
+   "whyRose": [
+    {
+     "id": "w1",
+     "statement": "11월 초 발표한 분기 실적이 증권가 예상치를 웃돌았다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Champion Homes (SKY) Q2 Earnings and Revenues Beat Estimates",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/champion-homes-sky-q2-earnings-and-revenues-beat-estimates",
+       "date": "2026-11-03",
+       "quote": "Champion Homes (SKY) Q2 Earnings and Revenues Beat Estimates"
+      }
+     ]
+    },
+    {
+     "id": "w2",
+     "statement": "회사가 자사주 매입 한도를 5천만 달러 늘렸다. 시장에 도는 주식이 줄어 주당 가치에 유리하다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Champion Homes, Inc. Reports Second Quarter Fiscal 2027 Results and $50.0 million Share Repurchase Program Increase",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/champion-homes-inc-reports-second-quarter-fiscal-2027-results-and-500-million-share",
+       "date": "2026-11-04",
+       "quote": "Champion Homes, Inc. Reports Second Quarter Fiscal 2027 Results and $50.0 million Share Repurchase Program Increase"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "주택 가격 부담 속에서 상대적으로 저렴한 주택을 파는 회사라는 관점의 기사가 나왔고, 주가는 1년 평균선 위로 올라섰다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Champion Homes: The Affordability Play Hiding in Plain Sight",
+       "publisher": "MarketBeat",
+       "url": "https://www.nasdaq.com/articles/champion-homes-affordability-play-hiding-plain-sight",
+       "date": "2026-11-23",
+       "quote": "Champion Homes: The Affordability Play Hiding in Plain Sight"
+      },
+      {
+       "title": "Champion Homes (SKY) Shares Cross Above 200 DMA",
+       "publisher": "BNK Invest",
+       "url": "https://www.nasdaq.com/articles/champion-homes-sky-shares-cross-above-200-dma",
+       "date": "2026-10-30",
+       "quote": "Champion Homes (SKY) Shares Cross Above 200 DMA"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "주택 가격 부담 수혜",
+    "주택건설"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "c1"
+    ],
+    "reasons": [],
+    "leadFixed": true
+   },
+   "leadOriginal": "SKY는 11월 초 실적이 예상을 웃돌고 자사주 매입 한도가 늘어난 뒤 오름세를 이어가, 최근 한 달 새 약 24% 올랐다. 근거는 실적 발표와 자사주 매입 확대, 그리고 저가 주택 수혜 기대를 다룬 기사들이다. 다만 이익이 1년 전보다 줄고 있어, 다음 분기에 이익 감소가 멈추는지가 확인되지 않으면 이야기가 약해진다."
+  },
+  {
+   "ticker": "BCO",
+   "company": "현금 운송·ATM 서비스·보안 물류를 세계 각국에서 제공하는 회사. 분기 매출은 약 13억 7천만 달러다.",
+   "lead": "BCO는 11월 4일 실적 발표와 함께 NCR Atleos 인수 일정 업데이트를 공개했다. 인수 진행이 순조로운지가 추가 상승을 가를 변수다.",
+   "whyRose": [
+    {
+     "id": "w2",
+     "statement": "회사는 올해 자체 성장(인수 제외) 매출 전망을 그대로 유지했다. 전망이 깎이지 않은 점이 안도감을 준 것으로 보인다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "Brink's Maintains FY26 Organic Revenue Growth Outlook - Update",
+       "publisher": "RTTNews",
+       "url": "https://www.nasdaq.com/articles/brinks-maintains-fy26-organic-revenue-growth-outlook-update",
+       "date": "2026-11-04",
+       "quote": "Brink's Maintains FY26 Organic Revenue Growth Outlook - Update"
+      }
+     ]
+    },
+    {
+     "id": "w3",
+     "statement": "실적 발표와 함께 NCR Atleos 인수 일정 업데이트가 공개됐다. 인수가 앞으로 나아간다는 점이 관심을 끈 것으로 보이나, 구체 내용은 확인하지 못했다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "The Brink's Company Reports Third-Quarter 2026 Results and Updates NCR Atleos Acquisition Timeline",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/brinks-company-reports-third-quarter-2026-results-and-updates-ncr-atleos-acquisition",
+       "date": "2026-11-04",
+       "quote": "The Brink's Company Reports Third-Quarter 2026 Results and Updates NCR Atleos Acquisition Timeline"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "보안·현금운송",
+    "인수합병"
+   ],
+   "confidence": "low",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w1",
+     "c1",
+     "c2"
+    ],
+    "reasons": [
+     "w1: 13.7억 달러, 3% 수치가 quote에 없음",
+     "c1: 1,450만 달러, 60%, 14% 수치가 quote에 없음",
+     "c2: evidence_level='no_source'로 근거 전무"
+    ],
+    "leadFixed": true
+   },
+   "leadOriginal": "BCO는 11월 4일 3분기 실적이 증권사 예상을 웃돌았다는 평가와 함께 최근 한 달 23% 올랐다. 다만 순이익은 1년 전보다 줄었고 NCR Atleos 인수 일정도 조정돼, 인수 진행이 순조로운지가 이 상승이 이어질지 가를 변수다."
+  },
+  {
+   "ticker": "APP",
+   "company": "모바일 앱·게임 광고를 AI로 맞춰 파는 광고 플랫폼 회사. 광고 수수료가 매출의 대부분이고 영업이익률이 78% 안팎으로 매우 높다.",
+   "lead": "앱러빈은 10월 말 저점 대비 크게 반등했고, 한 달 상승률은 45.8%입니다. 3분기 매출이 1년 전보다 55.5% 늘고 영업이익률 78.2%를 유지한 실적이 뒷받침했습니다. 다만 6개월 기준으론 32% 하락 중이고 최근 일주일 조정도 있어, 다음 분기 전망치가 지켜지는지가 관건입니다.",
+   "whyRose": [
+    {
+     "id": "w3",
+     "statement": "올해 주가가 거의 반토막 났다는 점을 들어 월가가 과하게 비관한다는 매수 의견이 나왔다. 낙폭 과대 인식이 반등 심리를 거들었다.",
+     "evidence_level": "sourced",
+     "sources": [
+      {
+       "title": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong",
+       "publisher": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/19/applovin-app-paul-meeks-buying.html",
+       "date": "2026-11-19",
+       "quote": "This tech stock has been nearly cut in half this year. I think Wall Street is getting it wrong"
+      }
+     ]
+    }
+   ],
+   "counterpoint": [],
+   "estimateRevisions": {
+    "direction": "unknown",
+    "claims": []
+   },
+   "themeTags": [
+    "AI 광고",
+    "모바일 광고"
+   ],
+   "confidence": "medium",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": [
+     "w1",
+     "w2",
+     "c1",
+     "c2"
+    ],
+    "reasons": [
+     "w1: 21.8억 달러, 55.5%, 58.4%, 72.2% 수치가 quote에 없음",
+     "w2: 11월 5일이 '실적 발표 직후'라 했으나 실적 발표는 11월 17일 (사실 오류)",
+     "c1: 52주 고점 738달러 수치가 quote에 없음",
+     "c2: 발행일 2월 12일(9개월 전)로 오래됨 + '올해 주가' 전체 주장을 단일 근거 불가"
+    ]
+   }
+  }
+ ],
+ "listThemes": [
+  {
+   "key": "dollar",
+   "commonIndustries": [
+    {
+     "industry": "Semiconductors",
+     "tickers": [
+      "ADI",
+      "SMTC"
+     ],
+     "why": "두 회사 모두 최근 실적 발표 뒤 데이터센터·생산능력 이야기가 나왔습니다. 오늘 상승 자체의 직접 이유는 확인 안 됨."
+    },
+    {
+     "industry": "Aerospace & Defense",
+     "tickers": [
+      "AXON",
+      "NPK"
+     ],
+     "why": "이유 확인 안 됨"
+    },
+    {
+     "industry": "Biotechnology",
+     "tickers": [
+      "ABVX",
+      "CELC"
+     ],
+     "why": "이유 확인 안 됨"
+    }
+   ],
+   "themes": [
+    {
+     "name": "반도체 실적 후 데이터센터·증설 기대",
+     "plainKo": "ADI와 셈텍이 실적 발표 뒤 데이터센터 수요와 생산능력 확대가 거론되며 함께 올랐을 가능성이 있습니다.",
+     "why": "셈텍은 3분기 실적 콜에서 데이터센터 매출 규모가 언급됐습니다. ADI는 실적 콜에서 증설과 공급 병목이 다뤄졌고, 발표 직후 급락한 뒤 반등한 흐름입니다.",
+     "tickers": [
+      "ADI",
+      "SMTC"
+     ],
+     "sources": [
+      {
+       "title": "Semtech Q3 Earnings Call Points to $1 Billion in Data Center Sales",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/semtech-q3-earnings-call-points-1-billion-data-center-sales",
+       "date": "2026-11-24",
+       "quote": "Semtech Q3 Earnings Call Points to $1 Billion in Data Center Sales"
+      },
+      {
+       "title": "ADI Q4 Earnings Call Points Capacity Push and Supply Bottlenecks",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/adi-q4-earnings-call-points-capacity-push-and-supply-bottlenecks",
+       "date": "2026-11-25",
+       "quote": "ADI Q4 Earnings Call Points Capacity Push and Supply Bottlenecks"
+      }
+     ]
+    }
+   ],
+   "unexplained": [
+    "CHTR",
+    "AXON",
+    "EXE",
+    "ANF",
+    "WPM",
+    "CDW",
+    "ABVX",
+    "OC",
+    "FLUT",
+    "RH",
+    "CAR",
+    "CELC",
+    "NOVT",
+    "AMR",
+    "NPK",
+    "LB"
+   ],
+   "narrative": "거래대금 상위 18종목은 업종이 흩어져 있고 2종목 이상 모인 곳은 반도체·방산·바이오뿐입니다. 이 가운데 반도체(ADI, 셈텍)만 실적 콜에서 데이터센터와 증설 이야기가 확인됩니다. 나머지는 오늘 오른 이유를 뉴스 제목만으로 확인하지 못했습니다. 반도체 흐름은 다른 데이터센터 관련주로 번지는지 보면 맞는지 틀린지 가려집니다.",
+   "label": "거래대금 상위",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": 0
+   }
+  },
+  {
+   "key": "m1",
+   "commonIndustries": [
+    {
+     "industry": "Biotechnology",
+     "tickers": [
+      "INSM",
+      "KYMR",
+      "RYTM",
+      "MIRM"
+     ],
+     "why": "같은 업종이지만 이유는 제각각이다. INSM은 인수 소식, KYMR은 임상 결과, MIRM은 3상 성공이 재료다."
+    },
+    {
+     "industry": "Medical Devices",
+     "tickers": [
+      "GKOS",
+      "TMDX"
+     ],
+     "why": "이유 확인 안 됨"
+    },
+    {
+     "industry": "Residential Construction",
+     "tickers": [
+      "CVCO",
+      "SKY"
+     ],
+     "why": "두 회사 모두 공장에서 짓는 조립식 주택 업체다. 가격 부담이 덜한 주택 수요가 거론된다."
+    },
+    {
+     "industry": "Household & Personal Products",
+     "tickers": [
+      "CLX",
+      "IPAR"
+     ],
+     "why": "이유 확인 안 됨"
+    }
+   ],
+   "themes": [
+    {
+     "name": "조립식 주택 저가 주택 수요",
+     "plainKo": "CVCO와 SKY는 공장에서 짓는 값싼 주택 수요 기대로 같이 강하다. 두 회사 모두 11월 초 분기 실적 발표 뒤 관심이 붙었다.",
+     "why": "SKY는 주택 가격 부담 속 대안 주택(affordability play)으로 소개됐다. CVCO는 분기 실적 발표 뒤 일주일 새 크게 올랐다는 기사가 나왔다.",
+     "tickers": [
+      "CVCO",
+      "SKY"
+     ],
+     "sources": [
+      {
+       "title": "Champion Homes: The Affordability Play Hiding in Plain Sight",
+       "publisher": "MarketBeat",
+       "url": "https://www.nasdaq.com/articles/champion-homes-affordability-play-hiding-plain-sight",
+       "date": "2026-11-23",
+       "quote": "Champion Homes: The Affordability Play Hiding in Plain Sight"
+      },
+      {
+       "title": "Cavco (CVCO) Is Up 15.86% in One Week: What You Should Know",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/cavco-cvco-1586-one-week-what-you-should-know",
+       "date": "2026-11-04",
+       "quote": "Cavco (CVCO) Is Up 15.86% in One Week: What You Should Know"
+      }
+     ]
+    }
+   ],
+   "unexplained": [
+    "GKOS",
+    "CROX",
+    "CLX",
+    "IPAR",
+    "BCO",
+    "FWONA",
+    "NFEGP"
+   ],
+   "narrative": "이번 목록은 22종목이 바이오·의료기기·주택·소비재 등으로 흩어져 있고, 뚜렷한 공통 흐름은 약하다. 바이오는 4종목이 모였지만 인수(INSM), 임상 성공(KYMR·MIRM), 신제품 매출(RYTM)로 이유가 각각 다르다. 상당수가 11월 초 3분기 실적 발표 뒤 올랐다. 조립식 주택(CVCO·SKY)만 같은 수요 이야기로 묶인다. 인수 거래 마무리와 임상 후속 소식이 나오는지가 앞으로 이 흐름을 가르는 확인점이다.",
+   "label": "RS(1MO)",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": 0
+   }
+  },
+  {
+   "key": "m3",
+   "commonIndustries": [
+    {
+     "industry": "Biotechnology",
+     "tickers": [
+      "KOD",
+      "KYMR",
+      "MRNA",
+      "INSM",
+      "MANE"
+     ],
+     "why": "KOD·KYMR·MRNA·INSM은 임상 결과나 인수 소식 같은 종목별 재료로 올랐습니다. MANE은 이유를 확인하지 못했습니다."
+    },
+    {
+     "industry": "Information Technology Services",
+     "tickers": [
+      "EPAM",
+      "ACN"
+     ],
+     "why": "EPAM은 실적 발표와 자사주 매입 계획이 재료였습니다. ACN은 이유 확인 안 됨."
+    },
+    {
+     "industry": "Consulting Services",
+     "tickers": [
+      "FCN",
+      "CRAI"
+     ],
+     "why": "두 회사 모두 3분기 실적이 증권사 예상을 웃돌았습니다. 소송·구조조정·규제 자문 수요가 이어진 것으로 보입니다."
+    },
+    {
+     "industry": "Diagnostics & Research",
+     "tickers": [
+      "GRAL",
+      "IDXX"
+     ],
+     "why": "GRAL은 암 검사 FDA 승인 기대, IDXX는 실적 호조 뒤 추세 전환이 이유로 서로 다릅니다."
+    }
+   ],
+   "themes": [],
+   "unexplained": [
+    "CROX",
+    "MANE",
+    "OLLI",
+    "ACN",
+    "PVH",
+    "GKOS",
+    "WING"
+   ],
+   "narrative": "3개월 강세 22종목은 바이오 5종목에 가장 많이 몰렸지만 이유는 종목마다 다릅니다. 임상 결과와 인수 소식이 각자 재료였습니다. 컨설팅·자문 업체(FCN·CRAI·EXPO)는 3분기 실적 호조로 묶이고, INSM·ZS는 대형 인수 발표가 공통입니다. 다음 실적 발표에서 자문 수요가 이어지는지, 인수 거래가 규제 승인을 통과하는지가 이 흐름의 확인 조건입니다.",
+   "label": "RS(3MO)",
+   "factcheck": {
+    "verdict": "partial",
+    "removed": 2
+   }
+  },
+  {
+   "key": "m6",
+   "commonIndustries": [
+    {
+     "industry": "Biotechnology",
+     "tickers": [
+      "MRNA",
+      "KOD",
+      "KYMR",
+      "INSM",
+      "ORKA"
+     ],
+     "why": "종목마다 이유가 다르다. 임상 결과(KYMR·ORKA·MRNA)와 대형 인수 발표(INSM)가 각각 주가를 끌어올렸다."
+    },
+    {
+     "industry": "Software - Application",
+     "tickers": [
+      "PAYC",
+      "DOCU",
+      "MANH"
+     ],
+     "why": "이유 확인 안 됨"
+    },
+    {
+     "industry": "Medical Devices",
+     "tickers": [
+      "GKOS",
+      "TXG"
+     ],
+     "why": "이유 확인 안 됨. TXG는 3분기 실적 호조와 전망 상향이 있었다."
+    },
+    {
+     "industry": "Diagnostics & Research",
+     "tickers": [
+      "CRL",
+      "GRAL"
+     ],
+     "why": "이유 확인 안 됨. 두 회사의 상승 재료는 서로 다르다."
+    },
+    {
+     "industry": "Software - Infrastructure",
+     "tickers": [
+      "QLYS",
+      "ZS"
+     ],
+     "why": "둘 다 보안 소프트웨어지만 계기는 다르다. ZS는 인수 발표, QLYS는 실적 호조와 전망 상향이다."
+    }
+   ],
+   "themes": [
+    {
+     "name": "대형 인수 발표로 인수가에 수렴",
+     "plainKo": "INSM과 ZS는 다른 업종이지만 모두 인수 발표가 주가를 끌어올렸다. 사업 실적과는 무관한 이벤트성 상승이다.",
+     "why": "INSM은 사노피가 인수하기로 했다고 발표했다. ZS는 크라우드스트라이크가 인수하기로 했다고 발표했다. 인수가가 주가의 기준선이 된다.",
+     "tickers": [
+      "INSM",
+      "ZS"
+     ],
+     "sources": [
+      {
+       "title": "Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-for-175-00-per-share",
+       "date": "2026-11-24",
+       "quote": "Insmed Incorporated Enters Merger Agreement to Be Acquired by Sanofi for $175.00 Per Share"
+      },
+      {
+       "title": "Zscaler Stock Surged on CrowdStrike's $43.9 Billion Buyout. Here's How Much Shareholders Will Actually Get",
+       "publisher": "The Motley Fool",
+       "url": "https://www.nasdaq.com/articles/zscaler-stock-surged-crowdstrikes-439-",
+       "date": "2026-11-23",
+       "quote": "Zscaler Stock Surged on CrowdStrike's $43.9 Billion Buyout. Here's How Much Shareholders Will Actually Get"
+      }
+     ]
+    },
+    {
+     "name": "신약 임상 데이터 호조",
+     "plainKo": "KYMR과 ORKA는 임상 결과가 좋게 나오며 올랐다. 면역·피부 질환 신약에 대한 기대가 주가를 받쳤다.",
+     "why": "KYMR은 아토피피부염 약물의 긍정적 데이터가 나왔다. ORKA는 건선 임상 2상에서 피부 개선 효과를 보였고 다음 데이터와 3상 일정이 잡혔다.",
+     "tickers": [
+      "KYMR",
+      "ORKA"
+     ],
+     "sources": [
+      {
+       "title": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
+       "publisher": "Zacks",
+       "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-a",
+       "date": "2026-11-24",
+       "quote": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data"
+      },
+      {
+       "title": "Oruka's Experimental Drug Shows Strong Skin Clearance In Phase 2 Psoriasis Trial",
+       "publisher": "RTTNews",
+       "url": "https://www.nasdaq.com/articles/orukas-experimental-drug-shows-strong-skin-clearance-in-phase-2-psoriasis-trial",
+       "date": "2026-10-26",
+       "quote": "Oruka's Experimental Drug Shows Strong Skin Clearance In Phase 2 Psoriasis Trial"
+      }
+     ]
+    },
+    {
+     "name": "3분기 실적 호조와 연간 전망 상향",
+     "plainKo": "TXG, MRNA 등은 3분기 실적이 좋았고 회사가 연간 전망을 올렸다. 업종은 달라도 실적 개선이 같은 원인이다.",
+     "why": "TXG는 3분기 실적과 함께 연간 매출 전망을 올렸다. MRNA는 예상을 웃도는 분기 실적을 내고 연간 매출 성장 전망을 올렸다.",
+     "tickers": [
+      "TXG",
+      "MRNA"
+     ],
+     "sources": [
+      {
+       "title": "10x Genomics, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance",
+       "publisher": "Fintel",
+       "url": "https://www.nasdaq.com/articles/10x-genomics-inc-reports-third-quarter",
+       "date": "2026-11-06",
+       "quote": "10x Genomics, Inc. Reports Third Quarter 2026 Financial Results and Raises Full Year Revenue Guidance"
+      },
+      {
+       "title": "Moderna hikes 2026 sales growth outlook, smashes quarterly estimates",
+       "publisher": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/06/moderna-mrna-earnings-q3-2026.html",
+       "date": "2026-11-06",
+       "quote": "Moderna hikes 2026 sales growth outlook, smashes quarterly estimates"
+      }
+     ]
+    }
+   ],
+   "unexplained": [
+    "PAYC",
+    "DOCU",
+    "MANH",
+    "MGRT",
+    "GKOS"
+   ],
+   "narrative": "6개월 상대강도 상위 목록 22종목 중 바이오텍이 5종목으로 가장 많이 몰렸다. 이유는 임상 결과(KYMR·ORKA)와 대형 인수 발표(INSM)로 제각각이다. 업종을 가로지르는 공통점은 인수 발표(INSM·ZS)와 3분기 실적·전망 상향(TXG·MRNA)이다. 응용 소프트웨어 3종목과 MGRT·GKOS는 근거를 찾지 못했다. 인수 종목은 인수가에 수렴하는 성격이라 이후 흐름은 승인 일정으로 확인해야 한다.",
+   "label": "RS(6MO)",
+   "factcheck": {
+    "verdict": "pass",
+    "removed": 0
+   }
+  },
+  {
+   "key": "all",
+   "commonIndustries": [
+    {
+     "industry": "Biotechnology",
+     "tickers": [
+      "KYMR",
+      "INSM"
+     ],
+     "why": "두 종목은 같은 업종이지만 오르는 이유가 다릅니다. KYMR은 아토피 피부염 신약의 긍정적 임상 결과, INSM은 사노피의 인수 합의 때문입니다."
+    }
+   ],
+   "themes": [],
+   "unexplained": [
+    "GKOS"
+   ],
+   "narrative": "이번 목록은 3종목으로, 바이오 2종목과 의료기기 1종목입니다. 바이오 두 종목은 같은 이유로 오르지 않았습니다. KYMR은 아토피 피부염 신약 임상 결과가 좋아 올랐고, INSM은 사노피 인수 소식에 올랐습니다. GKOS는 최근 분기 실적이 좋아졌다는 점만 확인될 뿐 상승 이유를 직접 다룬 자료는 없습니다. 공통 테마로 묶기는 어렵고, KYMR은 대규모 증자 이후 주가 흐름이, INSM은 인수 거래 종결 여부가 확인할 점입니다.",
+   "label": "RS(1~6MO)"
+  }
+ ],
+ "failed": [],
+ "coverage": {
+  "done": 20,
+  "total": 20,
+  "cap": 20,
+  "failed": 0
+ },
+ "factcheckBatches": 4
+}

@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-27",
+  "report": {
+    "checked": 109,
+    "ok": 186,
+    "unverified": 0,
+    "dead": 5,
+    "stripped": 11,
+    "removed": [
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-for-175-00-per-share"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.nasdaq.com/articles/zscaler-stock-surged-crowdstrikes-439-"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-a"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.nasdaq.com/articles/orukas-experimental-drug-shows-strong-skin-clearance-in-phase-2-psoriasis-trial"
+      },
+      {
+        "reason": "링크 죽음(HTTP 404)",
+        "url": "https://www.nasdaq.com/articles/10x-genomics-inc-reports-third-quarter"
+      }
+    ],
+    "numberCut": 19,
+    "numberCuts": [
+      {
+        "sentence": "영업이익은 2,473만 달러로 약 3.9배다.",
+        "missing": [
+          "3.9"
+        ]
+      },
+      {
+        "sentence": "주가는 최근 하루 새 약 9% 올라 11월 25일 52주 고점 161.75달러를 찍었다.",
+        "missing": [
+          "9"
+        ]
+      },
+      {
+        "sentence": "주가는 6월 22일 고점(444.6달러)보다 25% 낮고, 주가수익비율(PER)은 39.5배로 여전히 높은 편이다.",
+        "missing": [
+          "25"
+        ]
+      },
+      {
+        "sentence": "3분기 영업이익률은 4.6%로 낮고, 직전 분기(2025년 4분기)에는 영업적자였다.",
+        "missing": [
+          "4.6"
+        ]
+      },
+      {
+        "sentence": "하루 새 약 7% 올라 단기 부담이 있다.",
+        "missing": [
+          "7"
+        ]
+      },
+      {
+        "sentence": "주가 급등 직후 17억 5천만 달러 규모로 늘린 주식 공모를 마쳤다.",
+        "missing": [
+          "17억 5"
+        ]
+      },
+      {
+        "sentence": "2026-11-04 3분기 실적 발표 — 순손실이 줄었고 4분기 가이던스가 함께 나왔다.",
+        "missing": [
+          "11",
+          "04"
+        ]
+      },
+      {
+        "sentence": "2026-11-07 실적 콘퍼런스콜 요약 기사가 나왔다.",
+        "missing": [
+          "11",
+          "07"
+        ]
+      },
+      {
+        "sentence": "2026-11-21 주가 부진이 배당 투자자에게는 유리할 수 있다는 분석이 나왔다.",
+        "missing": [
+          "11"
+        ]
+      },
+      {
+        "sentence": "3분기 실적 발표와 콘퍼런스콜이 2026-11-05에 있었다.",
+        "missing": [
+          "11",
+          "05"
+        ]
+      },
+      {
+        "sentence": "목표가 하향: 11월 25일 8곳 중 7곳이 목표가를 낮췄다(TD Cowen 475→375달러, Truist 405→323달러 등).",
+        "missing": [
+          "8",
+          "7"
+        ]
+      },
+      {
+        "sentence": "6월 분기는 35.3%, 3월 분기는 33.7% 증가.",
+        "missing": [
+          "35.3",
+          "33.7"
+        ]
+      },
+      {
+        "sentence": "영업이익은 2025년 12월 분기 -5,012만 달러 적자에서 2026년 3분기 4,208만 달러 흑자로 돌아섰으나, 6월 분기(4,678만 달러)보다는 줄었다.",
+        "missing": [
+          "4,678만 달러"
+        ]
+      },
+      {
+        "sentence": "증권사 목표가가 최근 한 달 사이 7건 인하됐다(Needham 750→500, Barclays 688→507 등).",
+        "missing": [
+          "7",
+          "750",
+          "500"
+        ]
+      },
+      {
+        "sentence": "2026-10-02 분기 매출 305.0백만 달러, 전년 동기보다 23.1% 증가(직전 두 분기는 +10.3%, +10.4%).",
+        "missing": [
+          "10.3",
+          "10.4"
+        ]
+      },
+      {
+        "sentence": "매출은 늘지만 영업이익률이 4.6%로 낮아지고 순이익이 크게 줄어, 이익 질이 약해졌다.",
+        "missing": [
+          "4.6"
+        ]
+      },
+      {
+        "sentence": "증가율이 9.2%→10.0%→17.7%로 가속.",
+        "missing": [
+          "9.2"
+        ]
+      },
+      {
+        "sentence": "11월 25일 하루 고저 폭이 17달러를 넘었다.",
+        "missing": [
+          "17"
+        ]
+      },
+      {
+        "sentence": "10월 2일 고점 201.99달러에서 53.99% 하락해 52주 고점 대비 낙폭이 크다.",
+        "missing": [
+          "53.99"
+        ]
+      }
+    ]
+  }
+}

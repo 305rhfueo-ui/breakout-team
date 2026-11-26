@@ -1,0 +1,182 @@
+{
+ "key": "Consumer Cyclical|Furnishings, Fixtures & Appliances",
+ "sector": "Consumer Cyclical",
+ "industry": "Furnishings, Fixtures & Appliances",
+ "industryKo": "가구·인테리어·가전",
+ "frank": 10,
+ "frank25dChg": -6,
+ "finalWrs": 0.2773,
+ "count": 3,
+ "winRatePct": 100,
+ "members": [
+  {
+   "ticker": "SN",
+   "rs1": 0.29958396956587724,
+   "rs3": 0.4324087172399038,
+   "rs6": 1.0393696658430729,
+   "rnk1": 3.92,
+   "rnk3": 1.04,
+   "rnk6": 0.77,
+   "ret1d": 1.56,
+   "high52": 98.84,
+   "dollarVolM": 372.2,
+   "marketCap": "32.76B",
+   "name": "샤크닌자"
+  },
+  {
+   "ticker": "MHK",
+   "rs1": 0.3173803483565125,
+   "rs3": 0.32036017889210555,
+   "rs6": 0.578542960379931,
+   "rnk1": 3.2,
+   "rnk3": 4.55,
+   "rnk6": 4.01,
+   "ret1d": 4.73,
+   "high52": 95.83,
+   "dollarVolM": 145.2,
+   "marketCap": "8.85B",
+   "name": "모호크 인더스트리스"
+  },
+  {
+   "ticker": "FLXS",
+   "rs1": 0.038463513032855196,
+   "rs3": -0.04274544138612624,
+   "rs6": 0.291628929732569,
+   "rnk1": 68.03,
+   "rnk3": 76.69,
+   "rnk6": 24.84,
+   "ret1d": -4.58,
+   "high52": 74.63,
+   "dollarVolM": 3.4,
+   "marketCap": "0.28B",
+   "name": "플렉스스틸 인더스트리스"
+  }
+ ],
+ "evidence": {
+  "SN": {
+   "cnbc": [
+    {
+     "title": "These three retail stocks on Josh Brown’s list are bucking the market volatility",
+     "url": "https://www.cnbc.com/2026/11/23/sharkninja-target-ebay-retail-stocks.html",
+     "date": "2026-11-23",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Three consumer stocks to buy after the midterm elections",
+     "url": "https://www.cnbc.com/2026/11/05/three-consumer-stocks-to-buy-after-the-midterm-elections.html",
+     "date": "2026-11-05",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Earnings season is heating up. UBS thinks these stocks could beat expectations",
+     "url": "https://www.cnbc.com/2026/10/14/ubs-thinks-these-stocks-could-beat-expectations-this-earnings-season.html",
+     "date": "2026-10-14",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "A household appliance maker made it into Josh Brown's list. It's soaring in 2026",
+     "url": "https://www.cnbc.com/2026/08/20/a-household-appliance-maker-made-it-into-josh-browns-best-stocks-list-this-month.html",
+     "date": "2026-08-20",
+     "publisher": "CNBC",
+     "kind": "article"
+    },
+    {
+     "title": "Josh Brown's best stocks in the market: SharkNinja, Target and eBay",
+     "url": "https://www.cnbc.com/video/2026/11/24/josh-browns-best-stocks-in-the-market-sharkninja-target-and-ebay.html",
+     "date": "2026-11-24",
+     "publisher": "CNBC",
+     "kind": "video"
+    },
+    {
+     "title": "Lightning Round: Buy some SharkNinja here, says Jim Cramer",
+     "url": "https://www.cnbc.com/video/2026/11/10/lightning-round-buy-some-sharkninja-here-says-jim-cramer.html",
+     "date": "2026-11-10",
+     "publisher": "CNBC",
+     "kind": "video"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "SharkNinja (SN) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/sharkninja-sn-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "MHK": {
+   "cnbc": [
+    {
+     "title": "Monday's big analyst calls: Nvidia, SpaceX, Apple, Rivian, Amazon, CrowdStrike",
+     "url": "https://www.cnbc.com/2026/11/02/biggest-stocks-by-analyst-calls-on-wall-street.html",
+     "date": "2026-11-02",
+     "publisher": "CNBC",
+     "kind": "article"
+    }
+   ],
+   "reports": [],
+   "news": [
+    {
+     "title": "Mohawk (MHK) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/mohawk-mhk-q3-2026-earnings-call-transcript",
+     "date": "2026-10-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Surpasses Q3 Earnings Estimates",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-surpasses-q3-earnings-estimates",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Mohawk Industries (MHK) Reports Q3 Earnings: What Key Metrics Have to Say",
+     "url": "https://www.nasdaq.com/articles/mohawk-industries-mhk-reports-q3-earnings-what-key-metrics-have-say",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Mohawk Industries (MHK) Beat Estimates Again in Its Next Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/will-mohawk-industries-mhk-beat-estimates-again-its-next-earnings-report",
+     "date": "2026-10-22",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "FLXS": {
+   "cnbc": [],
+   "reports": [],
+   "news": [
+    {
+     "title": "Is Flexsteel Industries (FLXS) a Great Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/flexsteel-industries-flxs-great-value-stock-right-now",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Flexsteel (FLXS) Loses 22.0% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+     "url": "https://www.nasdaq.com/articles/flexsteel-flxs-loses-220-4-weeks-heres-why-trend-reversal-may-be-around-corner",
+     "date": "2026-10-28",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Flexsteel (FLXS) Q1 2027 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/flexsteel-flxs-q1-2027-earnings-call-transcript",
+     "date": "2026-10-27",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "What Flexsteel Industries (FLXS) Said on Its Q1 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-flexsteel-industries-flxs-said-its-q1-earnings-call",
+     "date": "2026-10-27",
+     "publisher": "MarketBeat"
+    }
+   ]
+  }
+ },
+ "industryReports": [],
+ "note": "members 는 이 업종 전 종목(6개월 RS 상위 순, rnk = 전체 종목 중 상위 몇 %). evidence 는 그중 상위 12종목의 기사·리포트. 리포트 url 은 연합인포맥스 PDF."
+}

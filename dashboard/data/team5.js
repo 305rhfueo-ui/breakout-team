@@ -4404,7 +4404,44 @@ window.TEAM5_DATA = {
           "name": "플렉스스틸 인더스트리스"
         }
       ],
-      "report": null
+      "report": {
+        "status": "done",
+        "researchedOn": "2026-11-27",
+        "carried": false,
+        "headline": "샤크닌자의 연간 전망 상향이 가구·가전 업종 강세를 이끌고 있다.",
+        "summary": "가구·인테리어·가전 업종은 업종 순위 10위로, 25거래일 전보다 6계단 내렸지만 상위권이다. 중심은 샤크닌자다. 연간 전망을 올해 세 번째로 올렸다. 업종 종목이 3개뿐이라 샤크닌자 실적이 이어지는지가 관건이다.",
+        "whyLeading": [
+          {
+            "id": "w2",
+            "statement": "샤크닌자 경영진은 연간 가이던스(회사 전망)를 올해 세 번째로 올려 매출 성장률 18~19%를 제시했다. 2월에는 10~11%였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "These three retail stocks on Josh Brown's list are bucking the market volatility",
+                "publisher": "CNBC",
+                "url": "https://www.cnbc.com/2026/11/23/sharkninja-target-ebay-retail-stocks.html",
+                "date": "2026-11-23",
+                "quote": "Management raised full-year guidance for the third time this year, to 18% to 19% sales growth (10% to 11% in February) and $6.65 to $6.75 of adjusted EPS",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "leaders": [],
+        "risks": [],
+        "sourceGap": "모호크·플렉스스틸은 증권사 리포트와 CNBC 본문 근거가 없어 주도주에서 뺐고, 업종 리스크 출처도 없다.",
+        "factcheck": {
+          "verdict": "partial",
+          "removed": [
+            "w1",
+            "l1a",
+            "l1b"
+          ],
+          "reason": "w1과 l1a는 조정 주당순이익 관련 주장이 출처 quote에 없음. l1b는 브랜드별 사업 설명이 출처 quote에 없음"
+        },
+        "evidenceCount": 16
+      }
     }
   ]
 };

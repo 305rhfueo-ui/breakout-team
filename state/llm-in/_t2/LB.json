@@ -1,0 +1,264 @@
+{
+ "ticker": "LB",
+ "sector": "Energy",
+ "industry": "Oil & Gas Equipment & Services",
+ "nameKo": "랜드브리지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 32.25,
+  "saleNy": 22.88,
+  "epsCy": 54.26,
+  "epsNy": 33.1,
+  "est": {
+   "cyCur": 1.45,
+   "cy30": 1.5,
+   "nyCur": 1.93,
+   "ny30": 2.12
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    40.62,
+    16.05,
+    55.56
+   ],
+   "ni": [
+    63.78,
+    34.82,
+    -83.37
+   ],
+   "opm": [
+    66.07,
+    57.21,
+    60.02
+   ],
+   "updated": "2026-09-08 09:37:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "랜드브리지",
+  "nameEn": "LANDBRIDGE CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001995807&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 70890000,
+     "profit": 48247000,
+     "netIncome": 12958000,
+     "margin": 68.1,
+     "yoy": {
+      "revenue": 39.5,
+      "profit": 56.2,
+      "netIncome": 59.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 66840000,
+     "profit": 44158000,
+     "netIncome": 12287000,
+     "margin": 66.1,
+     "yoy": {
+      "revenue": 40.6,
+      "profit": 54.9,
+      "netIncome": 63.8,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 51005000,
+     "profit": 29178000,
+     "netIncome": 8715000,
+     "margin": 57.2,
+     "yoy": {
+      "revenue": 16,
+      "profit": 16.5,
+      "netIncome": 34.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 56778000,
+     "profit": 34075000,
+     "netIncome": 50327000,
+     "margin": 60,
+     "yoy": {
+      "revenue": 55.6,
+      "profit": 89.1,
+      "netIncome": 214,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "LandBridge Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/landbridge-q3-earnings-call-highlights",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "LandBridge (LB) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/landbridge-lb-q3-2026-earnings-call-transcript",
+     "date": "2026-11-05",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "LandBridge Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/landbridge-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-11-05",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "LandBridge Subsidiary Plans $100 Mln Senior Notes Offering",
+     "url": "https://www.nasdaq.com/articles/landbridge-subsidiary-plans-100-mln-senior-notes-offering",
+     "date": "2026-09-22",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "LB Ex-Dividend Reminder - 8/27/26",
+     "url": "https://www.nasdaq.com/articles/lb-ex-dividend-reminder-8-27-26",
+     "date": "2026-08-25",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "LandBridge (LB) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/landbridge-lb-q2-2026-earnings-call-transcript",
+     "date": "2026-08-13",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "LandBridge Q2 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/landbridge-q2-earnings-call-highlights",
+     "date": "2026-08-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "LandBridge Company LLC Announces Increase In Q2 Profit",
+     "url": "https://www.nasdaq.com/articles/landbridge-company-llc-announces-increase-q2-profit",
+     "date": "2026-08-05",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526447285/lb-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-01",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526410656/d117229d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526398048/d182157d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-22",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526397278/d126102d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526396773/lb-20260918.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1995807/000119312526335296/lb-20260805.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "LB",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 84.44,
+  "pbr": 14.74,
+  "eps": 0.88,
+  "bps": 5.06,
+  "shares": 29655810,
+  "marketCapM": 2213,
+  "high52": 91.4096,
+  "high52Date": "2026-08-21",
+  "low52": 43.4771,
+  "low52Date": "2026-01-08",
+  "last": 74.63,
+  "prevClose": 70.26,
+  "nameKo": "랜드브리지",
+  "nameEn": "LANDBRIDGE CORPORATION",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 29655810
+ }
+}

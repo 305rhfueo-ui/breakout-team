@@ -1,0 +1,730 @@
+{
+ "ticker": "AXON",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "AXON",
+  "name": "액손 엔터프라이즈",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "price": 343.04998779296875,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 439.76,
+  "stop": 416.05,
+  "distToPivotPct": -21.99,
+  "distToPivotAdr": -3.18,
+  "riskPerSharePct": 5.39,
+  "adrPct": 6.91,
+  "extensionAdr": 1.41,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 40,
+   "baseWeeks": 8,
+   "depthPct": 34.1,
+   "priorMovePct": 6.1,
+   "higherLows": 0,
+   "contraction": 0.88,
+   "closeRange10Adr": 2.2,
+   "surf10": 1.41,
+   "surf20": 0.03,
+   "slope20": -7.32,
+   "baseLow": 289.69,
+   "lastSwingLow": 289.69
+  },
+  "reasons": [
+   "✗ 선행 상승 +6%",
+   "베이스 8주",
+   "✗ 깊이 34.1%",
+   "✗ 저점 상승 0회",
+   "진폭 0.88배 · 10일 종가폭 2.2 ADR",
+   "10일선 +1.4 ADR · 20일선 +0 ADR",
+   "✗ 20일선 기울기 -7.32%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.06298408923877347,
+    "pct": 14.021641118124437
+   },
+   "m3": {
+    "v": -0.23489499615931533,
+    "pct": 4.914337240757439
+   },
+   "m6": {
+    "v": -0.1953510199478194,
+    "pct": 11.58701532912534
+   }
+  },
+  "ret1m": -18.93,
+  "ret3m": -33.81,
+  "ret6m": -29.43,
+  "marketCap": "27.94B",
+  "volx": 1.13,
+  "volSurgeWk": 1.25,
+  "high52": 51.58,
+  "newHigh52": false,
+  "adr": 6.91,
+  "div50": -12.01,
+  "div200": -25.61,
+  "targetStatus": false,
+  "saleCy": 30.4,
+  "saleNy": 27.45,
+  "epsCy": 3.79,
+  "epsNy": 32.85,
+  "cyTrend": -6.96,
+  "nyTrend": -10.14,
+  "est": {
+   "cyCur": 7.1093,
+   "cy30": 7.6413,
+   "nyCur": 9.44448,
+   "ny30": 10.50989
+  },
+  "fs": {
+   "sale": [
+    35.28,
+    33.75,
+    38.53
+   ],
+   "ni": [
+    -18.52,
+    92.44,
+    -97.97
+   ],
+   "opm": [
+    5.17,
+    3.62,
+    -6.29
+   ],
+   "updated": "2026-09-07 06:58:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "액손 엔터프라이즈",
+  "nameEn": "AXON ENTERPRISE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069183&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 908554000,
+     "profit": 42080000,
+     "netIncome": 57006000,
+     "margin": 4.6,
+     "yoy": {
+      "revenue": 27.8,
+      "profit": 2076.5,
+      "netIncome": 2707.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 904389000,
+     "profit": 46778000,
+     "netIncome": 29427000,
+     "margin": 5.2,
+     "yoy": {
+      "revenue": 35.3,
+      "profit": 4615.3,
+      "netIncome": -18.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 807345000,
+     "profit": 29243000,
+     "netIncome": 169312000,
+     "margin": 3.6,
+     "yoy": {
+      "revenue": 33.7,
+      "profit": 432.6,
+      "netIncome": 92.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 796724000,
+     "profit": -50118000,
+     "netIncome": 2745000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 38.5,
+      "profit": -218.1,
+      "netIncome": -98,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?",
+     "url": "https://www.nasdaq.com/articles/can-axons-expanding-dedrone-platform-sustain-its-growth-momentum",
+     "date": "2026-11-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trending Stock Axon Enterprise, Inc (AXON) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-axon-enterprise-inc-axon-buy-now",
+     "date": "2026-11-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Axon Enterprise, Inc. Reports Director Resignation and Board Size Reduction",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-inc-reports-director-resignation-and-board-size-reduction",
+     "date": "2026-11-26",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-vs-palantir-technologies-which-law-enforcement-stock-better-buy-2027",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axon’s Software Revenue Jumped 43%. Why Did the Stock Fall?",
+     "url": "https://www.nasdaq.com/articles/axons-software-revenue-jumped-43-why-did-stock-fall",
+     "date": "2026-11-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-faces-rising-costs-will-margins-remain-resilient",
+     "date": "2026-11-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Arista Networks vs. Axon Enterprise: Which Technology Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/arista-networks-vs-axon-enterprise-which-technology-stock-better-buy-2027",
+     "date": "2026-11-21",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axon Enterprise vs. UiPath: Which Industrials Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-vs-uipath-which-industrials-stock-better-buy-2027",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-25",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026075976/axon-20261119.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-18",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026074663/axon-20261113.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071150/axon-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000119312526395997/d476163d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000119312526391320/d17675d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Flock, Axon dodge Senate hearing after invite from Chair Josh Hawley",
+   "url": "https://www.cnbc.com/2026/09/23/flock-axon-senate-hearing-josh-hawley.html",
+   "date": "2026-09-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+   "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "AXON",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 142.07,
+  "pbr": 7.42,
+  "eps": 2.41,
+  "bps": 46.22,
+  "shares": 81432700,
+  "marketCapM": 27935,
+  "high52": 665.065,
+  "high52Date": "2026-07-07",
+  "low52": 289.685,
+  "low52Date": "2026-11-20",
+  "last": 343.05,
+  "prevClose": 319.32,
+  "nameKo": "액손 엔터프라이즈",
+  "nameEn": "AXON ENTERPRISE INC",
+  "listedOn": "2017-09-06",
+  "exchange": "나스닥",
+  "listedShares": 81432700
+ },
+ "estimates": {
+  "ticker": "AXON",
+  "url": "https://finance.yahoo.com/quote/AXON/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.95,
+    "epsLow": 1.57,
+    "epsHigh": 2.41,
+    "epsYearAgo": 2.15,
+    "epsAnalysts": 17,
+    "epsGrowth": -9.4,
+    "epsCur": "USD",
+    "rev": 1003357580,
+    "revAnalysts": 14,
+    "revYearAgo": 796724000,
+    "revGrowth": 25.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.93,
+    "epsLow": 1.53,
+    "epsHigh": 2.36,
+    "epsYearAgo": 1.61,
+    "epsAnalysts": 16,
+    "epsGrowth": 20,
+    "epsCur": "USD",
+    "rev": 1018085830,
+    "revAnalysts": 12,
+    "revYearAgo": 807345000,
+    "revGrowth": 26.1,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 7.11,
+    "epsLow": 6.52,
+    "epsHigh": 7.62,
+    "epsYearAgo": 6.85,
+    "epsAnalysts": 19,
+    "epsGrowth": 3.8,
+    "epsCur": "USD",
+    "rev": 3624593320,
+    "revAnalysts": 16,
+    "revYearAgo": 2779536000,
+    "revGrowth": 30.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 9.44,
+    "epsLow": 7.81,
+    "epsHigh": 11.6,
+    "epsYearAgo": 7.11,
+    "epsAnalysts": 20,
+    "epsGrowth": 32.8,
+    "epsCur": "USD",
+    "rev": 4619379840,
+    "revAnalysts": 18,
+    "revYearAgo": 3624593320,
+    "revGrowth": 27.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.95,
+    "d7": 0,
+    "d30": -14.7,
+    "d90": -14.5,
+    "ago90": 2.28,
+    "up7": 2,
+    "up30": 3,
+    "down7": 11,
+    "down30": 11
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.93,
+    "d7": 0,
+    "d30": -12.1,
+    "d90": -12.4,
+    "ago90": 2.2,
+    "up7": 1,
+    "up30": 0,
+    "down7": 9,
+    "down30": 10
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 7.11,
+    "d7": 0,
+    "d30": -7,
+    "d90": -7.8,
+    "ago90": 7.71,
+    "up7": 2,
+    "up30": 3,
+    "down7": 11,
+    "down30": 11
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 9.44,
+    "d7": 0,
+    "d30": -10.1,
+    "d90": -10.6,
+    "ago90": 10.56,
+    "up7": 1,
+    "up30": 1,
+    "down7": 12,
+    "down30": 13
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 1.72,
+    "estimate": 1.89,
+    "surprisePct": -8.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.88,
+    "estimate": 1.84,
+    "surprisePct": 2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.61,
+    "estimate": 1.6,
+    "surprisePct": 0.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 2.15,
+    "estimate": 1.6,
+    "surprisePct": 34.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 3,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 7,
+   "total": 8,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "Barclays",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 507,
+     "ptPrior": 688
+    },
+    {
+     "date": "2026-11-07",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 610,
+     "ptPrior": 755
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 615,
+     "ptPrior": 735
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Piper Sandler",
+     "action": "reit",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 540,
+     "ptPrior": 561
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 500,
+     "ptPrior": 750
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 800,
+     "ptPrior": 825
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Piper Sandler",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 561,
+     "ptPrior": 732
+    },
+    {
+     "date": "2026-09-03",
+     "firm": "Argus Research",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 600,
+     "ptPrior": 460
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 343.05,
+   "ma20": 342.25,
+   "ma50": 389.86,
+   "ma150": 462.28,
+   "distMA50": -12.01,
+   "periodHigh": 885.92,
+   "pullbackFromHigh": -61.28,
+   "volRatio20": 1.08,
+   "dryUpRatio": 0.95
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 309.25,
+    "h": 317.34,
+    "l": 304.64,
+    "c": 307.11,
+    "v": 1625800,
+    "clsPos": 19,
+    "gapPct": -1.96
+   },
+   {
+    "d": "2026-11-13",
+    "o": 307.15,
+    "h": 318.36,
+    "l": 301.11,
+    "c": 315.43,
+    "v": 1273300,
+    "clsPos": 83,
+    "gapPct": 0.01
+   },
+   {
+    "d": "2026-11-16",
+    "o": 313.71,
+    "h": 318.45,
+    "l": 304.17,
+    "c": 306.44,
+    "v": 1623400,
+    "clsPos": 16,
+    "gapPct": -0.55
+   },
+   {
+    "d": "2026-11-17",
+    "o": 305,
+    "h": 309.2,
+    "l": 291.11,
+    "c": 298.59,
+    "v": 1705700,
+    "clsPos": 41,
+    "gapPct": -0.47
+   },
+   {
+    "d": "2026-11-18",
+    "o": 300.12,
+    "h": 304,
+    "l": 294.25,
+    "c": 300.69,
+    "v": 1207600,
+    "clsPos": 66,
+    "gapPct": 0.51
+   },
+   {
+    "d": "2026-11-19",
+    "o": 306.93,
+    "h": 325.66,
+    "l": 304.14,
+    "c": 306.98,
+    "v": 1741600,
+    "clsPos": 13,
+    "gapPct": 2.08
+   },
+   {
+    "d": "2026-11-20",
+    "o": 303.81,
+    "h": 325.9,
+    "l": 289.69,
+    "c": 291.14,
+    "v": 2084000,
+    "clsPos": 4,
+    "gapPct": -1.03
+   },
+   {
+    "d": "2026-11-23",
+    "o": 308.01,
+    "h": 310.12,
+    "l": 298.72,
+    "c": 307.6,
+    "v": 1256400,
+    "clsPos": 78,
+    "gapPct": 5.79
+   },
+   {
+    "d": "2026-11-24",
+    "o": 303.8,
+    "h": 326.58,
+    "l": 299.89,
+    "c": 319.32,
+    "v": 1772500,
+    "clsPos": 73,
+    "gapPct": -1.24
+   },
+   {
+    "d": "2026-11-25",
+    "o": 310.65,
+    "h": 347.03,
+    "l": 304.27,
+    "c": 343.05,
+    "v": 2023100,
+    "clsPos": 91,
+    "gapPct": -2.72
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AXON-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AXON-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

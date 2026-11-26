@@ -1,0 +1,261 @@
+{
+ "ticker": "AMR",
+ "sector": "Basic Materials",
+ "industry": "Coking Coal",
+ "nameKo": "알파 메탈러지컬 리소시스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 0.49,
+  "saleNy": 14.9,
+  "epsCy": -27.58,
+  "epsNy": -369.33,
+  "est": {
+   "cyCur": -3.19786,
+   "cy30": -2.34,
+   "nyCur": 8.6127,
+   "ny30": 20.3817
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    -10.43,
+    -1.31,
+    -15.69
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -2.13,
+    -1.99,
+    -4.1
+   ],
+   "updated": "2026-09-08 06:30:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "알파 메탈러지컬 리소시스",
+  "nameEn": "ALPHA METALLURGICAL RESOURCES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001704715&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 560579000,
+     "profit": -8030000,
+     "netIncome": -9293000,
+     "margin": -1.4,
+     "yoy": {
+      "revenue": 6.7,
+      "profit": -218.4,
+      "netIncome": -68.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 491505000,
+     "profit": -10500000,
+     "netIncome": -12252000,
+     "margin": -2.1,
+     "yoy": {
+      "revenue": -10.4,
+      "profit": -495.5,
+      "netIncome": -147.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 523533000,
+     "profit": -10432000,
+     "netIncome": -11032000,
+     "margin": -2,
+     "yoy": {
+      "revenue": -1.2,
+      "profit": 74,
+      "netIncome": 67.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 519060000,
+     "profit": -21324000,
+     "netIncome": -17271000,
+     "margin": -4.1,
+     "yoy": {
+      "revenue": -15.7,
+      "profit": -313.4,
+      "netIncome": -711.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Alpha Metallurgical Resources Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Alpha Metallurgical (AMR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-amr-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Alpha Metallurgical Resources Reports Third Quarter 2026 Net Loss of $9.3 million and Adjusted EBITDA of $29.4 million",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-reports-third-quarter-2026-net-loss-93-million-and-adjusted",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Alpha Posts Wider Loss In Q3, Issues FY27 Operational Guidance",
+     "url": "https://www.nasdaq.com/articles/alpha-posts-wider-loss-q3-issues-fy27-operational-guidance",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Alpha Metallurgical Resources, Inc. Q3 Loss Rises",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-inc-q3-loss-rises",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Alpha Metallurgical (AMR) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-amr-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Alpha Metallurgical (AMR) Report Negative Earnings Next Week? What You Should Know",
+     "url": "https://www.nasdaq.com/articles/will-alpha-metallurgical-amr-report-negative-earnings-next-week-what-you-should-know",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "See How Alpha Metallurgical Resources Ranks Among Analysts' Top Metals Picks",
+     "url": "https://www.nasdaq.com/articles/see-how-alpha-metallurgical-resources-ranks-among-analysts-top-metals-picks-0",
+     "date": "2026-10-28",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000041/amr-20261106.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000038/amr-20261023.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amr-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/amr-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/amr-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/amr-20260618.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "AMR",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 39.18,
+  "pbr": 1.19,
+  "eps": 3.59,
+  "bps": 117.82,
+  "shares": 12662000,
+  "marketCapM": 1781,
+  "high52": 253.8199,
+  "high52Date": "2026-01-15",
+  "low52": 127.93,
+  "low52Date": "2026-11-20",
+  "last": 140.64,
+  "prevClose": 133,
+  "nameKo": "알파 메탈러지컬 리소시스",
+  "nameEn": "ALPHA METALLURGICAL RESOURCES INC",
+  "listedOn": "2021-02-04",
+  "exchange": "뉴욕거래소",
+  "listedShares": 12662000
+ }
+}

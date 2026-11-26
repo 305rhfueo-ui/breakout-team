@@ -517,8 +517,281 @@ window.TEAM1_DATA = {
     "note": ""
   },
   "news": {
-    "llm": false,
-    "digest": [],
-    "note": "LLM 뉴스 리서치 미실행 — start breakout 으로 실행하세요"
+    "llm": true,
+    "date": "2026-11-27",
+    "team": 1,
+    "digest": [
+      {
+        "headline": "AI 매도세가 멈추고 글로벌 주식이 반등했다",
+        "easy": "AI 관련 종목을 집중적으로 팔던 흐름이 목요일에 일단 멈췄다. 백악관이 수요일 새 관세를 내놨지만 시장은 그냥 넘겼다. 많이 밀린 기술주를 줍는 동시에 다른 업종으로 분산하는 움직임이 같이 나왔다. 유럽 Stoxx 600이 1.6%, 그중 기술 지수가 2.5% 올랐다.",
+        "whyMatters": "반도체·소프트웨어처럼 낙폭이 컸던 업종이 먼저 튀고, 헬스케어·산업재로 돈이 흩어지는 그림이다. 하루 반등이라 추세가 바뀌었다고 보기는 아직 이르다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+            "date": "2026-11-26",
+            "quote": "Global stocks rallied on Thursday, staging a tentative recovery from an intense AI-driven sell-off and looked past a fresh set of tariffs unveiled by the White House on Wednesday.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "3분기 성장률이 3.4%에서 4.3%로 올라갔다",
+        "easy": "상무부가 3분기 실질 GDP 성장률을 연율 4.3%로 고쳤다. 처음 발표한 3.4%보다 0.9%포인트 높은 숫자다. 트럼프 대통령은 선거 직전 숫자가 틀렸다며 조사를 요구했다. 경기가 생각보다 튼튼했다는 뜻이라 금리를 서둘러 내릴 이유는 줄어든다.",
+        "whyMatters": "경기에 민감한 산업재·경기소비재에는 도움이 되지만, 금리가 덜 내려가면 이익이 먼 미래에 있는 바이오테크·고성장 소프트웨어는 불리하다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+            "date": "2026-11-26",
+            "quote": "Data released Wednesday from the Commerce Department revealed that the U.S. economy exhibited much stronger growth for the third quarter than initially estimated, showing that real GDP grew at a 4.3% annualized rate.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "엔비디아 급등에 레버리지 ETF가 하루 63% 녹았다",
+        "easy": "젠슨 황이 CEO로 복귀하자 엔비디아 주가가 월요일 하루 31% 뛰었다. 사임 소식에 빠졌던 낙폭을 상당 부분 되돌린 움직임이다. 반대로 엔비디아 한 종목에 연동된 레버리지(빚을 써서 수익과 손실을 함께 키우는) 펀드는 같은 날 63% 빠졌다. 경영진 한 사람의 거취에 지수까지 흔들릴 만큼 쏠림이 커졌다는 신호다.",
+        "whyMatters": "반도체 업종 자체보다 쏠림이 문제다. 엔비디아가 흔들리면 기술주 전체와 지수가 같이 밀리고, 한 종목 레버리지 상품은 이런 국면에서 원금 훼손이 특히 빠르다.",
+        "impact": "down",
+        "sources": [
+          {
+            "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
+            "date": "2026-11-26",
+            "quote": "The fund sank 63% on Monday after Jensen Huang got reinstated as the chip giant's CEO.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "반도체 수출액이 처음으로 석유·가스를 넘었다",
+        "easy": "1~3월 반도체 수출이 약 1조6,100억 달러로 석유·가스의 1조5,300억 달러를 앞질렀다. AI 투자로 칩 수요가 몇 년째 불어난 결과다. 도이체방크는 페트로달러 대신 '칩달러'를 생각할 때라고 했다. 반도체가 무역과 외교의 중심 자원이 됐다는 뜻이다.",
+        "whyMatters": "칩을 만들고 그 장비를 파는 반도체 업종에 구조적으로 유리하다. 반대로 공급망을 쥔 나라와 마찰이 생기면 같은 업종이 가장 먼저 흔들린다.",
+        "impact": "up",
+        "sources": [
+          {
+            "title": "Semiconductor chips are the new oil. Here's why",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+            "date": "2026-11-26",
+            "quote": "Semiconductor exports overtook oil and gas for the first time during the January-March quarter of 2026, reaching about $1.61 trillion, compared with $1.53 trillion for oil and gas.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "백악관의 새 관세를 시장은 그냥 넘겼다",
+        "easy": "백악관이 수요일에 새 관세를 발표했다. 관세 발표가 반복되면서 이번은 과거만큼 큰 위협은 아니라는 평가가 나온다. 주식시장도 이 소식을 넘기고 반등으로 마무리했다.",
+        "whyMatters": "수입 비용에 민감한 유통·경기소비재의 부담이 당장 커지지는 않는다는 쪽이다. 다만 품목이 넓어지면 자동차·소매 업종이 먼저 영향을 받는다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+            "publisher": "BBC Business",
+            "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+            "date": "2026-11-26",
+            "quote": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      },
+      {
+        "headline": "ECB 차기 총재로 데 코스가 유력해졌다",
+        "easy": "라가르드 ECB 총재의 후임으로 스페인의 파블로 에르난데스 데 코스가 사실상 정해졌다. 유로존 정상들이 유럽이사회 정상회의에서 그를 지지했다. 라가르드는 2027년 2월 7일 물러난다. 유럽 금리 방향을 정하는 사람이 바뀌면 달러와 유로의 환율에도 영향이 간다.",
+        "whyMatters": "유로가 강해지면 유럽 매출 비중이 큰 기술·명품 소비재 기업의 달러 환산 실적에 유리하다. 당장 미국 주식에 미치는 영향은 제한적이다.",
+        "impact": "neutral",
+        "sources": [
+          {
+            "title": "Spain's Pablo Hernández de Cos set to lead European Central Bank",
+            "publisher": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+            "date": "2026-11-26",
+            "quote": "Pablo Hernández de Cos is set to succeed Christine Lagarde as president of the European Central Bank next year.",
+            "verified": "ok",
+            "httpStatus": 200
+          }
+        ]
+      }
+    ],
+    "marketNarrative": "새로 사기에 좋은 때는 아니다. QQQ는 10일선이 20일선 아래로 내려간 지 27일째이고, 종가 633.93은 20일선과 50일선보다도 아래에 있다. 목요일의 반등과 3분기 성장률 상향은 경기가 꺾인 것은 아니라는 쪽을 가리키지만, 아직 하루치 반등일 뿐이다. 빚내서 산 주식(마진부채)이 1년 전보다 22.4% 늘어 있어 다시 밀리면 매도가 빨라질 수 있다. 이번 주에는 10일선이 20일선을 다시 위로 넘는지, 그리고 엔비디아가 급등분을 지키는지를 보면 된다.",
+    "keyRisks": [
+      "한 종목 쏠림: 엔비디아 하나의 소식에 지수가 같이 움직인다. 반도체를 안 들고 있어도 지수형 상품으로 같은 위험을 지게 된다.",
+      "하루 반등의 함정: 내리는 추세에서 나오는 반등은 자주 되밀린다. 추세 전환은 이동평균의 위아래 관계가 돌아선 뒤에 확인된다.",
+      "금리 인하 기대 축소: 성장률이 올라가면 연준이 서두를 이유가 줄어든다. 이익이 먼 미래에 있는 바이오테크·고성장주가 먼저 불리해진다.",
+      "레버리지 상품: 한 종목짜리 레버리지·인버스 ETF는 하루에 원금의 절반 이상이 사라질 수 있다. 변동성이 큰 지금은 보유 기간이 짧아도 위험하다."
+    ],
+    "easySummary": [
+      "AI 종목 매도세가 목요일 일단 멈추고 글로벌 주식이 반등했다.",
+      "3분기 성장률이 3.4%에서 4.3%로 올라, 경기는 생각보다 튼튼했다.",
+      "그래도 QQQ 추세는 아직 아래쪽이라 새로 사기보다 확인할 때다."
+    ],
+    "candidateCount": 16,
+    "verified": {
+      "checked": 109,
+      "ok": 186,
+      "unverified": 0,
+      "dead": 5,
+      "stripped": 11,
+      "removed": [
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/insmed-incorporated-enters-merger-agreement-be-acquired-sanofi-for-175-00-per-share"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/zscaler-stock-surged-crowdstrikes-439-"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-a"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/orukas-experimental-drug-shows-strong-skin-clearance-in-phase-2-psoriasis-trial"
+        },
+        {
+          "reason": "링크 죽음(HTTP 404)",
+          "url": "https://www.nasdaq.com/articles/10x-genomics-inc-reports-third-quarter"
+        }
+      ],
+      "numberCut": 19,
+      "numberCuts": [
+        {
+          "sentence": "영업이익은 2,473만 달러로 약 3.9배다.",
+          "missing": [
+            "3.9"
+          ]
+        },
+        {
+          "sentence": "주가는 최근 하루 새 약 9% 올라 11월 25일 52주 고점 161.75달러를 찍었다.",
+          "missing": [
+            "9"
+          ]
+        },
+        {
+          "sentence": "주가는 6월 22일 고점(444.6달러)보다 25% 낮고, 주가수익비율(PER)은 39.5배로 여전히 높은 편이다.",
+          "missing": [
+            "25"
+          ]
+        },
+        {
+          "sentence": "3분기 영업이익률은 4.6%로 낮고, 직전 분기(2025년 4분기)에는 영업적자였다.",
+          "missing": [
+            "4.6"
+          ]
+        },
+        {
+          "sentence": "하루 새 약 7% 올라 단기 부담이 있다.",
+          "missing": [
+            "7"
+          ]
+        },
+        {
+          "sentence": "주가 급등 직후 17억 5천만 달러 규모로 늘린 주식 공모를 마쳤다.",
+          "missing": [
+            "17억 5"
+          ]
+        },
+        {
+          "sentence": "2026-11-04 3분기 실적 발표 — 순손실이 줄었고 4분기 가이던스가 함께 나왔다.",
+          "missing": [
+            "11",
+            "04"
+          ]
+        },
+        {
+          "sentence": "2026-11-07 실적 콘퍼런스콜 요약 기사가 나왔다.",
+          "missing": [
+            "11",
+            "07"
+          ]
+        },
+        {
+          "sentence": "2026-11-21 주가 부진이 배당 투자자에게는 유리할 수 있다는 분석이 나왔다.",
+          "missing": [
+            "11"
+          ]
+        },
+        {
+          "sentence": "3분기 실적 발표와 콘퍼런스콜이 2026-11-05에 있었다.",
+          "missing": [
+            "11",
+            "05"
+          ]
+        },
+        {
+          "sentence": "목표가 하향: 11월 25일 8곳 중 7곳이 목표가를 낮췄다(TD Cowen 475→375달러, Truist 405→323달러 등).",
+          "missing": [
+            "8",
+            "7"
+          ]
+        },
+        {
+          "sentence": "6월 분기는 35.3%, 3월 분기는 33.7% 증가.",
+          "missing": [
+            "35.3",
+            "33.7"
+          ]
+        },
+        {
+          "sentence": "영업이익은 2025년 12월 분기 -5,012만 달러 적자에서 2026년 3분기 4,208만 달러 흑자로 돌아섰으나, 6월 분기(4,678만 달러)보다는 줄었다.",
+          "missing": [
+            "4,678만 달러"
+          ]
+        },
+        {
+          "sentence": "증권사 목표가가 최근 한 달 사이 7건 인하됐다(Needham 750→500, Barclays 688→507 등).",
+          "missing": [
+            "7",
+            "750",
+            "500"
+          ]
+        },
+        {
+          "sentence": "2026-10-02 분기 매출 305.0백만 달러, 전년 동기보다 23.1% 증가(직전 두 분기는 +10.3%, +10.4%).",
+          "missing": [
+            "10.3",
+            "10.4"
+          ]
+        },
+        {
+          "sentence": "매출은 늘지만 영업이익률이 4.6%로 낮아지고 순이익이 크게 줄어, 이익 질이 약해졌다.",
+          "missing": [
+            "4.6"
+          ]
+        },
+        {
+          "sentence": "증가율이 9.2%→10.0%→17.7%로 가속.",
+          "missing": [
+            "9.2"
+          ]
+        },
+        {
+          "sentence": "11월 25일 하루 고저 폭이 17달러를 넘었다.",
+          "missing": [
+            "17"
+          ]
+        },
+        {
+          "sentence": "10월 2일 고점 201.99달러에서 53.99% 하락해 52주 고점 대비 낙폭이 크다.",
+          "missing": [
+            "53.99"
+          ]
+        }
+      ]
+    },
+    "reusedFrom": null,
+    "researchedOn": "2026-11-27"
   }
 };

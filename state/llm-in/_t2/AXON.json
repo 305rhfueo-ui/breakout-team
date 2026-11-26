@@ -1,0 +1,280 @@
+{
+ "ticker": "AXON",
+ "sector": "Industrials",
+ "industry": "Aerospace & Defense",
+ "nameKo": "액손 엔터프라이즈",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 30.4,
+  "saleNy": 27.45,
+  "epsCy": 3.79,
+  "epsNy": 32.85,
+  "est": {
+   "cyCur": 7.1093,
+   "cy30": 7.6413,
+   "nyCur": 9.44448,
+   "ny30": 10.50989
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    35.28,
+    33.75,
+    38.53
+   ],
+   "ni": [
+    -18.52,
+    92.44,
+    -97.97
+   ],
+   "opm": [
+    5.17,
+    3.62,
+    -6.29
+   ],
+   "updated": "2026-09-07 06:58:13"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "액손 엔터프라이즈",
+  "nameEn": "AXON ENTERPRISE INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001069183&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 908554000,
+     "profit": 42080000,
+     "netIncome": 57006000,
+     "margin": 4.6,
+     "yoy": {
+      "revenue": 27.8,
+      "profit": 2076.5,
+      "netIncome": 2707.8,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 904389000,
+     "profit": 46778000,
+     "netIncome": 29427000,
+     "margin": 5.2,
+     "yoy": {
+      "revenue": 35.3,
+      "profit": 4615.3,
+      "netIncome": -18.5,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 807345000,
+     "profit": 29243000,
+     "netIncome": 169312000,
+     "margin": 3.6,
+     "yoy": {
+      "revenue": 33.7,
+      "profit": 432.6,
+      "netIncome": 92.4,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 796724000,
+     "profit": -50118000,
+     "netIncome": 2745000,
+     "margin": -6.3,
+     "yoy": {
+      "revenue": 38.5,
+      "profit": -218.1,
+      "netIncome": -98,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?",
+     "url": "https://www.nasdaq.com/articles/can-axons-expanding-dedrone-platform-sustain-its-growth-momentum",
+     "date": "2026-11-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is Trending Stock Axon Enterprise, Inc (AXON) a Buy Now?",
+     "url": "https://www.nasdaq.com/articles/trending-stock-axon-enterprise-inc-axon-buy-now",
+     "date": "2026-11-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Axon Enterprise, Inc. Reports Director Resignation and Board Size Reduction",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-inc-reports-director-resignation-and-board-size-reduction",
+     "date": "2026-11-26",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-vs-palantir-technologies-which-law-enforcement-stock-better-buy-2027",
+     "date": "2026-11-24",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axon’s Software Revenue Jumped 43%. Why Did the Stock Fall?",
+     "url": "https://www.nasdaq.com/articles/axons-software-revenue-jumped-43-why-did-stock-fall",
+     "date": "2026-11-23",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axon Enterprise Faces Rising Costs: Will Margins Remain Resilient?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-faces-rising-costs-will-margins-remain-resilient",
+     "date": "2026-11-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Arista Networks vs. Axon Enterprise: Which Technology Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/arista-networks-vs-axon-enterprise-which-technology-stock-better-buy-2027",
+     "date": "2026-11-21",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Axon Enterprise vs. UiPath: Which Industrials Stock Is a Better Buy for 2027?",
+     "url": "https://www.nasdaq.com/articles/axon-enterprise-vs-uipath-which-industrials-stock-better-buy-2027",
+     "date": "2026-11-19",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-25",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026075976/axon-20261119.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-18",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026074663/axon-20261113.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "중요 계약 체결",
+     "3.02",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071150/axon-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-21",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000119312526395997/d476163d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-15",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000119312526391320/d17675d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Flock, Axon dodge Senate hearing after invite from Chair Josh Hawley",
+   "url": "https://www.cnbc.com/2026/09/23/flock-axon-senate-hearing-josh-hawley.html",
+   "date": "2026-09-23",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Skyworks, Axon, Dave & Buster's, Revvity",
+   "url": "https://www.cnbc.com/2026/09/15/stocks-making-the-biggest-moves-midday-swks-axon-play-rvty.html",
+   "date": "2026-09-15",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "AXON",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 142.07,
+  "pbr": 7.42,
+  "eps": 2.41,
+  "bps": 46.22,
+  "shares": 81432700,
+  "marketCapM": 27935,
+  "high52": 665.065,
+  "high52Date": "2026-07-07",
+  "low52": 289.685,
+  "low52Date": "2026-11-20",
+  "last": 343.05,
+  "prevClose": 319.32,
+  "nameKo": "액손 엔터프라이즈",
+  "nameEn": "AXON ENTERPRISE INC",
+  "listedOn": "2017-09-06",
+  "exchange": "나스닥",
+  "listedShares": 81432700
+ }
+}

@@ -348,9 +348,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:43:06"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "AWI",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Armstrong World Industries는 상업용 건물에 들어가는 천장재와 천장 시스템을 만들어 파는 건축자재 회사다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -984,9 +1004,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 10:17:58"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "NPK",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "National Presto Industries(NPK)는 방산 부문(탄약·신관 등)과 주방·가전용품, 안전용품 사업으로 돈을 번다. 최근 분기 이익 증가는 방산 부문이 이끌었다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1060,9 +1100,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:07:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "WTW",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "WTW는 기업과 정부를 상대로 보험 중개, 인사·복리후생 자문, 위험관리 컨설팅을 하고 수수료와 자문료로 돈을 번다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -1739,9 +1799,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-07 07:16:13"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "STN",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Stantec은 캐나다 기반 엔지니어링·설계 컨설팅 회사로, 물·인프라·건축 프로젝트의 설계와 관리 용역으로 돈을 법니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -2204,9 +2284,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-11 05:54:33"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "BH",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "Biglari Holdings는 스테이크앤셰이크 식당 사업을 중심으로 보험, 라이선스·미디어, 석유·가스 사업을 가진 지주회사다. 식당 매출과 투자 손익이 실적을 좌우한다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": ""
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [],
       "nameKo": "비글래리 홀딩스 B",
@@ -2773,9 +2873,39 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 09:00:31"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "TECH",
+        "category": 3,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "독일 머크(Merck KGaA)가 Bio-Techne를 주당 73달러, 총 약 113억 달러 현금으로 인수하기로 했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "What Makes Bio-Techne (TECH) a Good Bet Following Its Buyout?",
+                "publisher": "Insider Monkey (Yahoo Finance)",
+                "url": "https://finance.yahoo.com/healthcare/articles/makes-bio-techne-tech-good-150842671.html",
+                "date": "2026-11-23",
+                "quote": "Merck KGaA (MRK) has agreed to acquire Bio-Techne in an all-cash transaction valued at approximately $11.3 billion. Shareholders will receive $73 per share.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "company": "Bio-Techne는 연구용 단백질·항체와 진단 장비를 팔아 돈을 버는 생명과학 도구 회사다.",
+        "volumeExplanation": "독일 머크가 주당 73달러 현금 인수에 합의한 소식이 11월 하순 나왔다. 주가가 인수가 근처에 묶인 채 차익거래 매매가 이어지며 거래량이 평소의 2배로 늘었다.",
+        "confidence": "medium",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "Quote와 statement의 모든 수치 일치: $73/주, $11.3B ≈ 113억. 회사명, 거래 성격, 날짜(11월 하순) 모두 확인. Category 3 (M&A) 적절."
+        },
+        "categoryName": "대형 파트너십·공급계약",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3328,9 +3458,29 @@ window.TEAM4_DATA = {
         "updated": "2026-09-08 06:11:18"
       },
       "catalyst": {
-        "status": "pending",
-        "category": null,
-        "note": "LLM 촉매 분류 대기"
+        "status": "done",
+        "ticker": "PNRG",
+        "category": 6,
+        "claims": [
+          {
+            "id": "c1",
+            "statement": "근거 없음",
+            "evidence_level": "no_source",
+            "sources": []
+          }
+        ],
+        "company": "PrimeEnergy Resources는 미국 서부 텍사스 등에서 원유와 천연가스를 캐서 파는 소형 에너지 기업입니다. 시가총액은 약 3.6억 달러입니다.",
+        "volumeExplanation": "뚜렷한 뉴스 없이 거래량만 늘었다.",
+        "confidence": "low",
+        "factcheck": {
+          "verdict": "pass",
+          "removed": [],
+          "reason": "근거 없음으로 올바르게 표시. Category 6 (근거 부족) 적절. volumeExplanation과 일치."
+        },
+        "categoryName": "암묵적(뉴스 없는 이상거래량)",
+        "isHighlight": false,
+        "researchedOn": "2026-11-27",
+        "carried": false
       },
       "yahooNews": [
         {
@@ -3862,14 +4012,14 @@ window.TEAM4_DATA = {
   ],
   "excludedMa150Unknown": [],
   "research_coverage": {
-    "done": 2,
+    "done": 9,
     "total": 9,
-    "cap": null,
-    "pending": 7,
+    "cap": 7,
+    "pending": 0,
     "failed": 0,
     "carried": 2,
     "ineligible": 0,
-    "note": "9종목 중 2종목을 조사했습니다. 그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 나머지 7종목은 이번 실행의 LLM 단계에서 조사합니다. 150일선 위 거래량 급증 종목 전원이 대상입니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
+    "note": "그중 2종목은 최근 조사분을 이월했습니다(조사일 표기). 150일선 위 거래량 급증 종목 전원을 조사합니다. 뉴스·8-K 자료가 그대로면 지난 결과를 이월합니다."
   },
   "llmCarried": {
     "highlights": [
@@ -3902,5 +4052,17 @@ window.TEAM4_DATA = {
     "sectorSignal": "실적 호재가 소매·유통 업종(의류 ANF·URBN, 할인점 DLTR, 가전 유통 BBY)에 몰려 있다. 의료기기 MDT까지 합쳐 실적 발표 5건이고, 산업 기술 돌파 호재는 없다.",
     "caution": "BBY·URBN은 구체적 수치(증가율·가이던스 변화)가 입력에 없고, MDT는 전망을 올리지 않아 서프라이즈로 보기 어렵다. 가장 근거가 뚜렷한 것은 ANF와 DLTR이다. 가격·차트는 보지 않았으므로 이미 오른 뒤인지는 직접 확인해야 한다.",
     "researchedOn": "2026-11-26"
+  },
+  "llm": {
+    "highlights": [],
+    "sectorSignal": "오늘 후보 7건 중 실적 호재나 기술 돌파로 분류된 종목은 없었다. 대형 인수(독일 머크의 Bio-Techne 인수) 1건이 있고, 나머지 6건은 뉴스 없이 거래량만 튄 종목이라 업종 쏠림은 판단할 수 없다.",
+    "caution": "강조 대상인 실적 서프라이즈(어닝 서프라이즈)·기술 돌파 호재는 오늘 0건이다. 6건은 근거가 없어(거래량만 이상) 호재로 볼 수 없고, 인수 건(TECH)은 분류상 제외했다. 가격 데이터를 받지 않아 차트 상태는 판단하지 않았다.",
+    "researchedOn": "2026-11-27"
+  },
+  "reusedFrom": null,
+  "byCategory": {
+    "2": 1,
+    "3": 2,
+    "6": 6
   }
 };

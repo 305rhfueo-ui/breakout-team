@@ -1,0 +1,637 @@
+{
+ "ticker": "CELC",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "CELC",
+  "name": "셀큐이티",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "price": 71.73999786376953,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 79.18,
+  "stop": 73.81,
+  "distToPivotPct": -9.4,
+  "distToPivotAdr": -1.26,
+  "riskPerSharePct": 6.78,
+  "adrPct": 7.48,
+  "extensionAdr": 2.01,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 32.8,
+   "priorMovePct": 5.6,
+   "higherLows": 0,
+   "contraction": 1.08,
+   "closeRange10Adr": 3.4,
+   "surf10": 2.01,
+   "surf20": 1.38,
+   "slope20": -2.08,
+   "baseLow": 53.2,
+   "lastSwingLow": 53.2
+  },
+  "reasons": [
+   "✗ 선행 상승 +6%",
+   "베이스 7.8주",
+   "✗ 깊이 32.8%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.08배 · 10일 종가폭 3.4 ADR",
+   "10일선 +2 ADR · 20일선 +1.4 ADR",
+   "✗ 20일선 기울기 -2.08%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1591734876871112,
+    "pct": 66.41118124436429
+   },
+   "m3": {
+    "v": -0.11681823813192044,
+    "pct": 14.201983769161405
+   },
+   "m6": {
+    "v": -0.08839937305915263,
+    "pct": 18.44003606853021
+   }
+  },
+  "ret1m": 3.28,
+  "ret3m": -22,
+  "ret6m": -18.74,
+  "marketCap": "3.51B",
+  "volx": 1.15,
+  "volSurgeWk": 0.89,
+  "high52": 47.5,
+  "newHigh52": false,
+  "adr": 7.48,
+  "div50": 5.25,
+  "div200": -25.69,
+  "targetStatus": false,
+  "saleCy": 0,
+  "saleNy": 1980.61,
+  "epsCy": 32.76,
+  "epsNy": -99.88,
+  "cyTrend": -2.62,
+  "nyTrend": -93.75,
+  "est": {
+   "cyCur": -4.275,
+   "cy30": -4.39,
+   "nyCur": -0.005,
+   "ny30": -0.08
+  },
+  "fs": {
+   "sale": [
+    null,
+    null,
+    null
+   ],
+   "ni": [
+    "적자확대",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": null,
+   "updated": "2026-09-21 07:00:12"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "셀큐이티",
+  "nameEn": "CELCUITY INC",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "FDA Accepts Celcuity's REVTORPYK Application; Decision Expected In June 2027; Stock Up",
+     "url": "https://www.nasdaq.com/articles/fda-accepts-celcuitys-revtorpyk-application-decision-expected-june-2027-stock",
+     "date": "2026-11-09",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Celcuity (CELC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/celcuity-celc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Celcuity Inc. Reports Third Quarter 2026 Financial Results and Commercial Launch of REVTORPYK",
+     "url": "https://www.nasdaq.com/articles/celcuity-inc-reports-third-quarter-2026-financial-results-and-commercial-launch-revtorpyk",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "What Celcuity (CELC) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-celcuity-celc-said-its-q3-earnings-call",
+     "date": "2026-11-06",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Cantor Fitzgerald Initiates Coverage of Celcuity with Overweight Rating",
+     "url": "https://www.nasdaq.com/articles/cantor-fitzgerald-initiates-coverage-celcuity-overweight-rating",
+     "date": "2026-10-22",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Why Celcuity Stock Was a Winner on Wednesday",
+     "url": "https://www.nasdaq.com/articles/why-celcuity-stock-was-winner-wednesday",
+     "date": "2026-09-30",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Celcuity Submits SNDA To FDA For REVTORPYK In Advanced Breast Cancer",
+     "url": "https://www.nasdaq.com/articles/celcuity-submits-snda-fda-revtorpyk-advanced-breast-cancer",
+     "date": "2026-08-26",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Celcuity (CELC) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/celcuity-celc-q2-2026-earnings-call-transcript",
+     "date": "2026-08-20",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000119312526449757/celc-20261105.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-02",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000119312526411297/celc-20261001.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000119312526408353/celc-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-26",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000119312526365975/celc-20260826.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-13",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000119312526349227/celc-20260813.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-15",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1603454/000149315226033223/form8-k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "CELC",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 16.69,
+  "pbr": 0,
+  "eps": 4.3,
+  "bps": 0,
+  "shares": 49126300,
+  "marketCapM": 3524,
+  "high52": 151.02,
+  "high52Date": "2026-05-04",
+  "low52": 53.2,
+  "low52Date": "2026-11-20",
+  "last": 71.74,
+  "prevClose": 68.02,
+  "nameKo": "셀큐이티",
+  "nameEn": "CELCUITY INC",
+  "listedOn": "2017-09-19",
+  "exchange": "나스닥",
+  "listedShares": 49126300
+ },
+ "estimates": {
+  "ticker": "CELC",
+  "url": "https://finance.yahoo.com/quote/CELC/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -1.04,
+    "epsLow": -1.18,
+    "epsHigh": -0.9,
+    "epsYearAgo": -0.73,
+    "epsAnalysts": 2,
+    "epsGrowth": -42.5,
+    "epsCur": "USD",
+    "rev": 13598550,
+    "revAnalysts": 11,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": -1.08,
+    "epsLow": -1.08,
+    "epsHigh": -1.08,
+    "epsYearAgo": -0.86,
+    "epsAnalysts": 1,
+    "epsGrowth": -25.6,
+    "epsCur": "USD",
+    "rev": 31887330,
+    "revAnalysts": 6,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -4.28,
+    "epsLow": -4.32,
+    "epsHigh": -4.23,
+    "epsYearAgo": -3.22,
+    "epsAnalysts": 2,
+    "epsGrowth": -32.8,
+    "epsCur": "USD",
+    "rev": 13638990,
+    "revAnalysts": 11,
+    "revYearAgo": 0,
+    "revGrowth": 0,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 0,
+    "epsLow": -1.21,
+    "epsHigh": 1.2,
+    "epsYearAgo": -4.28,
+    "epsAnalysts": 2,
+    "epsGrowth": 99.9,
+    "epsCur": "USD",
+    "rev": 283774850,
+    "revAnalysts": 11,
+    "revYearAgo": 13638990,
+    "revGrowth": "n/m",
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -1.04,
+    "d7": -26.8,
+    "d30": -26.8,
+    "d90": -60,
+    "ago90": -0.65,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": -1.08,
+    "d7": -16.1,
+    "d30": -16.1,
+    "d90": -21.3,
+    "ago90": -0.89,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -4.28,
+    "d7": 2.6,
+    "d30": 2.6,
+    "d90": -13.4,
+    "ago90": -3.77,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 0,
+    "d7": 93.8,
+    "d30": 93.8,
+    "d90": -100.5,
+    "ago90": 0.96,
+    "up7": 0,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -1.21,
+    "estimate": -1.53,
+    "surprisePct": 21.2,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -1.07,
+    "estimate": -1.08,
+    "surprisePct": 0.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.86,
+    "estimate": -0.89,
+    "surprisePct": 3.4,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -0.73,
+    "estimate": -1.01,
+    "surprisePct": 27.7,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 2,
+   "ptRaised": 0,
+   "ptLowered": 4,
+   "total": 7,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "HC Wainwright & Co.",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 150,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-11-06",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 169,
+     "ptPrior": 171
+    },
+    {
+     "date": "2026-11-02",
+     "firm": "Guggenheim",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 171,
+     "ptPrior": 175
+    },
+    {
+     "date": "2026-10-22",
+     "firm": "Cantor Fitzgerald",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 140,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-10-21",
+     "firm": "TD Cowen",
+     "action": "reit",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Announces",
+     "pt": 145,
+     "ptPrior": null
+    },
+    {
+     "date": "2026-09-30",
+     "firm": "Needham",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 134,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-09-17",
+     "firm": "JP Morgan",
+     "action": "init",
+     "from": null,
+     "to": "Overweight",
+     "ptAction": "Announces",
+     "pt": 157,
+     "ptPrior": null
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 71.74,
+   "ma20": 64.33,
+   "ma50": 68.16,
+   "ma150": 91.12,
+   "distMA50": 5.25,
+   "periodHigh": 151.02,
+   "pullbackFromHigh": -52.5,
+   "volRatio20": 1.02,
+   "dryUpRatio": 1.16
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 63.36,
+    "h": 65.81,
+    "l": 60.97,
+    "c": 64.17,
+    "v": 906800,
+    "clsPos": 66,
+    "gapPct": -1.49
+   },
+   {
+    "d": "2026-11-13",
+    "o": 64.2,
+    "h": 64.6,
+    "l": 61.71,
+    "c": 64.37,
+    "v": 646500,
+    "clsPos": 92,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-11-16",
+    "o": 64.85,
+    "h": 64.87,
+    "l": 60.4,
+    "c": 60.57,
+    "v": 730900,
+    "clsPos": 4,
+    "gapPct": 0.75
+   },
+   {
+    "d": "2026-11-17",
+    "o": 60.6,
+    "h": 60.97,
+    "l": 56.64,
+    "c": 58.01,
+    "v": 2544100,
+    "clsPos": 32,
+    "gapPct": 0.05
+   },
+   {
+    "d": "2026-11-18",
+    "o": 57.62,
+    "h": 58.12,
+    "l": 55.48,
+    "c": 55.6,
+    "v": 1005800,
+    "clsPos": 5,
+    "gapPct": -0.67
+   },
+   {
+    "d": "2026-11-19",
+    "o": 56.01,
+    "h": 58.22,
+    "l": 54.7,
+    "c": 56.31,
+    "v": 1463300,
+    "clsPos": 46,
+    "gapPct": 0.74
+   },
+   {
+    "d": "2026-11-20",
+    "o": 55.02,
+    "h": 57,
+    "l": 53.2,
+    "c": 53.35,
+    "v": 636500,
+    "clsPos": 4,
+    "gapPct": -2.29
+   },
+   {
+    "d": "2026-11-23",
+    "o": 55.84,
+    "h": 57.92,
+    "l": 54.4,
+    "c": 57.41,
+    "v": 1261300,
+    "clsPos": 86,
+    "gapPct": 4.67
+   },
+   {
+    "d": "2026-11-24",
+    "o": 57.36,
+    "h": 68.24,
+    "l": 57.25,
+    "c": 68.02,
+    "v": 1825700,
+    "clsPos": 98,
+    "gapPct": -0.09
+   },
+   {
+    "d": "2026-11-25",
+    "o": 66.01,
+    "h": 72.14,
+    "l": 65.18,
+    "c": 71.74,
+    "v": 1104700,
+    "clsPos": 94,
+    "gapPct": -2.96
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CELC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/CELC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

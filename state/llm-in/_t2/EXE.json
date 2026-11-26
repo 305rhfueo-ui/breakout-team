@@ -1,0 +1,286 @@
+{
+ "ticker": "EXE",
+ "sector": "Energy",
+ "industry": "Oil & Gas E&P",
+ "nameKo": "익스팬드 에너지",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 11.65,
+  "saleNy": 4.65,
+  "epsCy": 42.21,
+  "epsNy": -11.19,
+  "est": {
+   "cyCur": 8.67509,
+   "cy30": 8.88266,
+   "nyCur": 7.70435,
+   "ny30": 9.20391
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    -19.78,
+    100.23,
+    63.52
+   ],
+   "ni": [
+    -46.07,
+    "흑자전환",
+    "흑자전환"
+   ],
+   "opm": [
+    22.33,
+    34.82,
+    22.77
+   ],
+   "updated": "2026-09-08 09:32:00"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "익스팬드 에너지",
+  "nameEn": "EXPAND ENERGY CORPORATION",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000895126&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 3286000000,
+     "profit": 640000000,
+     "netIncome": 519000000,
+     "margin": 19.5,
+     "yoy": {
+      "revenue": 10.8,
+      "profit": -11.7,
+      "netIncome": -5.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2960000000,
+     "profit": 661000000,
+     "netIncome": 522000000,
+     "margin": 22.3,
+     "yoy": {
+      "revenue": -19.8,
+      "profit": -47.9,
+      "netIncome": -46.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 4397000000,
+     "profit": 1531000000,
+     "netIncome": 1159000000,
+     "margin": 34.8,
+     "yoy": {
+      "revenue": 100.2,
+      "profit": 671.3,
+      "netIncome": 565.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 3272000000,
+     "profit": 745000000,
+     "netIncome": 553000000,
+     "margin": 22.8,
+     "yoy": {
+      "revenue": 63.5,
+      "profit": 293,
+      "netIncome": 238.6,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Why Is Expand Energy (EXE) Down 5.2% Since Last Earnings Report?",
+     "url": "https://www.nasdaq.com/articles/why-expand-energy-exe-down-52-last-earnings-report",
+     "date": "2026-11-26",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Why Expand Energy (EXE) is a Top Growth Stock for the Long-Term",
+     "url": "https://www.nasdaq.com/articles/why-expand-energy-exe-top-growth-stock-long-term",
+     "date": "2026-11-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Expand Energy Corporation Establishes $1.0 billion Commercial Paper Program",
+     "url": "https://www.nasdaq.com/articles/expand-energy-corporation-establishes-10-billion-commercial-paper-program",
+     "date": "2026-11-20",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Expand Energy: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.nasdaq.com/articles/expand-energy-3-key-takeaways-long-term-investors",
+     "date": "2026-11-09",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Kraft Heinz Takes Over #372 Spot From Expand Energy",
+     "url": "https://www.nasdaq.com/articles/kraft-heinz-takes-over-372-spot-expand-energy",
+     "date": "2026-10-29",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "EXE Q3 Earnings Call Eyes Marketing Growth Amid Gas Price Weakness",
+     "url": "https://www.nasdaq.com/articles/exe-q3-earnings-call-eyes-marketing-growth-amid-gas-price-weakness",
+     "date": "2026-10-29",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Expand Energy (EXE) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-expand-energy-exe-said-its-q3-earnings-call",
+     "date": "2026-10-28",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Expand Energy (EXE) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/expand-energy-exe-q3-2026-earnings-call-transcript",
+     "date": "2026-10-28",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-20",
+    "itemsKo": [
+     "2.03",
+     "기타 중요사건"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/895126/000110465926130590/tm2630337d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-27",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-20261027.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-19",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/895126/000110465926116739/tm2627775d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-13",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000057/exe-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-06",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/895126/000110465926114046/tm2627119d1_8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-17",
+    "itemsKo": [
+     "중요 계약 체결",
+     "2.03",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/895126/000110465926108570/tm2625334d5_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Buy these cheap dividend-paying energy stocks, Goldman Sachs says",
+   "url": "https://www.cnbc.com/2026/09/03/buy-these-cheap-dividend-paying-energy-stocks-goldman-sachs-says.html",
+   "date": "2026-09-03",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Top Wall Street analysts suggest these 3 dividend stocks for consistent income",
+   "url": "https://www.cnbc.com/2026/08/30/top-analysts-suggest-these-dividend-stocks-for-consistent-income.html",
+   "date": "2026-08-30",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Top Street analysts are bullish on these 3 dividend stocks for passive income",
+   "url": "https://www.cnbc.com/2026/08/02/top-analysts-are-bullish-on-these-dividend-stocks-for-passive-income-.html",
+   "date": "2026-08-02",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "EXE",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 7.49,
+  "pbr": 1.03,
+  "eps": 11.59,
+  "bps": 84.44,
+  "shares": 230957000,
+  "marketCapM": 20040,
+  "high52": 123.6209,
+  "high52Date": "2025-12-05",
+  "low52": 80.46,
+  "low52Date": "2026-11-23",
+  "last": 86.77,
+  "prevClose": 82.05,
+  "nameKo": "익스팬드 에너지",
+  "nameEn": "EXPAND ENERGY CORPORATION",
+  "listedOn": "2024-10-02",
+  "exchange": "나스닥",
+  "listedShares": 230957000
+ }
+}

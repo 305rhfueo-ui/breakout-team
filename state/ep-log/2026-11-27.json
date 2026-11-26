@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "ticker": "AWI",
+      "price": 184.8300018310547,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "NPK",
+      "price": 161,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "WTW",
+      "price": 352.55999755859375,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "STN",
+      "price": 86.56999969482422,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "BH",
+      "price": 364.8999938964844,
+      "category": 6,
+      "confidence": "low"
+    },
+    {
+      "ticker": "TECH",
+      "price": 72.6500015258789,
+      "category": 3,
+      "confidence": "medium"
+    },
+    {
+      "ticker": "PNRG",
+      "price": 225.60000610351562,
+      "category": 6,
+      "confidence": "low"
+    }
+  ]
+}

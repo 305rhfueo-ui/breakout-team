@@ -1,0 +1,541 @@
+{
+ "ticker": "WPM",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "WPM",
+  "name": "휘턴 프레셔스 메탈스",
+  "sector": "Basic Materials",
+  "industry": "Gold",
+  "price": 122.5999984741211,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 145.28,
+  "stop": 140.16,
+  "distToPivotPct": -15.61,
+  "distToPivotAdr": -3.74,
+  "riskPerSharePct": 3.52,
+  "adrPct": 4.17,
+  "extensionAdr": 0.11,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 13,
+   "baseWeeks": 2.6,
+   "depthPct": 24.7,
+   "priorMovePct": 27.7,
+   "higherLows": 0,
+   "contraction": 1.04,
+   "closeRange10Adr": 4.3,
+   "surf10": 0.11,
+   "surf20": -0.6,
+   "slope20": -1.42,
+   "baseLow": 109.33,
+   "lastSwingLow": 109.33
+  },
+  "reasons": [
+   "✗ 선행 상승 +28%",
+   "베이스 2.6주",
+   "깊이 24.7%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 1.04배 · 10일 종가폭 4.3 ADR",
+   "✗ 10일선 +0.1 ADR · 20일선 -0.6 ADR",
+   "✗ 20일선 기울기 -1.42%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.09655585953027362,
+    "pct": 47.024346257889995
+   },
+   "m3": {
+    "v": -0.049470911354777186,
+    "pct": 22.858431018935978
+   },
+   "m6": {
+    "v": 0.1568764599588051,
+    "pct": 54.14788097385031
+   }
+  },
+  "ret1m": -2.98,
+  "ret3m": -15.27,
+  "ret6m": 5.79,
+  "marketCap": "55.68B",
+  "volx": 1.07,
+  "volSurgeWk": 0.98,
+  "high52": 74.41,
+  "newHigh52": false,
+  "adr": 4.17,
+  "div50": -6.87,
+  "div200": -7.18,
+  "targetStatus": false,
+  "saleCy": 53.85,
+  "saleNy": 9.39,
+  "epsCy": 48.56,
+  "epsNy": 8.6,
+  "cyTrend": -1.77,
+  "nyTrend": -0.43,
+  "est": {
+   "cyCur": 4.48501,
+   "cy30": 4.56567,
+   "nyCur": 4.87067,
+   "ny30": 4.89176
+  },
+  "fs": {
+   "sale": [
+    84.65,
+    91.63,
+    127.25
+   ],
+   "ni": [
+    85.87,
+    129.17,
+    533.32
+   ],
+   "opm": [
+    71.79,
+    74.85,
+    74.68
+   ],
+   "updated": "2026-09-08 06:30:40"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "휘턴 프레셔스 메탈스",
+  "nameEn": "WHEATON PRECIOUS METALS CORP",
+  "financialsError": "매출 태그 없음",
+  "news": {
+   "items": [
+    {
+     "title": "Analyst Favorites: Wheaton Precious Metals Ranks As a Top Metals Pick",
+     "url": "https://www.nasdaq.com/articles/analyst-favorites-wheaton-precious-metals-ranks-top-metals-pick-0",
+     "date": "2026-11-23",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "TECK or WPM: Which Is the Better Value Stock Right Now?",
+     "url": "https://www.nasdaq.com/articles/teck-or-wpm-which-better-value-stock-right-now",
+     "date": "2026-11-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Notable Two Hundred Day Moving Average Cross - WPM",
+     "url": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-wpm",
+     "date": "2026-11-12",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Can Wheaton Precious Metals Sustain Its Record Production Growth?",
+     "url": "https://www.nasdaq.com/articles/can-wheaton-precious-metals-sustain-its-record-production-growth",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "WPM Q3 Earnings Call Highlights Production Growth and Expansion Plans",
+     "url": "https://www.nasdaq.com/articles/wpm-q3-earnings-call-highlights-production-growth-and-expansion-plans",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Wheaton Precious Metals Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-metals-q3-earnings-call-highlights",
+     "date": "2026-11-08",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Wheaton Precious (WPM) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-wpm-q3-2026-earnings-call-transcript",
+     "date": "2026-11-07",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Wheaton Precious Metals Q3 26 Earnings Conference Call At 11:00 AM ET",
+     "url": "https://www.nasdaq.com/articles/wheaton-precious-metals-q3-26-earnings-conference-call-11-00-am-et",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Watch CNBC's full interview with Wheaton Precious Metals CEO Haytham Hodaly",
+   "url": "https://www.cnbc.com/video/2026/08/07/watch-cnbcs-full-interview-with-wheaton-precious-metals-ceo-haytham-hodaly.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  },
+  {
+   "title": "Wheaton Precious Metals CEO Haytham Hodaly: Our growth going forward is more gold than anything else",
+   "url": "https://www.cnbc.com/video/2026/08/07/wheaton-precious-metals-ceo-haytham-hodaly-our-growth-going-forward-is-more-gold-than-anything-else.html",
+   "date": "2026-08-07",
+   "publisher": "CNBC",
+   "kind": "video"
+  }
+ ],
+ "kis": {
+  "ticker": "WPM",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 27.14,
+  "pbr": 5.55,
+  "eps": 4.52,
+  "bps": 22.09,
+  "shares": 454189000,
+  "marketCapM": 55684,
+  "high52": 164.7649,
+  "high52Date": "2026-03-02",
+  "low52": 100.6819,
+  "low52Date": "2025-11-25",
+  "last": 122.6,
+  "prevClose": 116.6,
+  "nameKo": "휘턴 프레셔스 메탈스",
+  "nameEn": "WHEATON PRECIOUS METALS CORP",
+  "listedOn": "2017-05-16",
+  "exchange": "뉴욕거래소",
+  "listedShares": 454189000
+ },
+ "estimates": {
+  "ticker": "WPM",
+  "url": "https://finance.yahoo.com/quote/WPM/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 1.13,
+    "epsLow": 0.99,
+    "epsHigh": 1.26,
+    "epsYearAgo": 1.22,
+    "epsAnalysts": 10,
+    "epsGrowth": -7,
+    "epsCur": "USD",
+    "rev": 977430630,
+    "revAnalysts": 5,
+    "revYearAgo": 864714000,
+    "revGrowth": 13,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 1.19,
+    "epsLow": 1.1,
+    "epsHigh": 1.37,
+    "epsYearAgo": 1.28,
+    "epsAnalysts": 5,
+    "epsGrowth": -7.4,
+    "epsCur": "USD",
+    "rev": 992000000,
+    "revAnalysts": 1,
+    "revYearAgo": 901469000,
+    "revGrowth": 10,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 4.49,
+    "epsLow": 4.33,
+    "epsHigh": 4.63,
+    "epsYearAgo": 3.02,
+    "epsAnalysts": 16,
+    "epsGrowth": 48.6,
+    "epsCur": "USD",
+    "rev": 3562028560,
+    "revAnalysts": 11,
+    "revYearAgo": 2314600000,
+    "revGrowth": 53.9,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 4.87,
+    "epsLow": 3.73,
+    "epsHigh": 6.68,
+    "epsYearAgo": 4.49,
+    "epsAnalysts": 16,
+    "epsGrowth": 8.6,
+    "epsCur": "USD",
+    "rev": 3899360930,
+    "revAnalysts": 11,
+    "revYearAgo": 3562028560,
+    "revGrowth": 9.5,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 1.13,
+    "d7": -1.3,
+    "d30": -3.3,
+    "d90": -9.3,
+    "ago90": 1.25,
+    "up7": 1,
+    "up30": 0,
+    "down7": 1,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 1.19,
+    "d7": 1.8,
+    "d30": 1.4,
+    "d90": -10.4,
+    "ago90": 1.32,
+    "up7": 1,
+    "up30": 0,
+    "down7": 0,
+    "down30": 4
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 4.49,
+    "d7": 0.1,
+    "d30": -1.8,
+    "d90": -6.8,
+    "ago90": 4.81,
+    "up7": 3,
+    "up30": 0,
+    "down7": 2,
+    "down30": 9
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 4.87,
+    "d7": -0.4,
+    "d30": -0.4,
+    "d90": -3.7,
+    "ago90": 5.06,
+    "up7": 3,
+    "up30": 3,
+    "down7": 2,
+    "down30": 8
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 0.9,
+    "estimate": 0.89,
+    "surprisePct": 1.3,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 1.19,
+    "estimate": 1.16,
+    "surprisePct": 2.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.28,
+    "estimate": 1.22,
+    "surprisePct": 4.8,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.22,
+    "estimate": 1.09,
+    "surprisePct": 11.5,
+    "cur": "USD"
+   }
+  ],
+  "beats": 4,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 0,
+   "total": 2,
+   "recent": [
+    {
+     "date": "2026-10-08",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Raises",
+     "pt": 160,
+     "ptPrior": 153
+    },
+    {
+     "date": "2026-09-16",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Raises",
+     "pt": 165,
+     "ptPrior": 160
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-05",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 122.6,
+   "ma20": 125.66,
+   "ma50": 131.83,
+   "ma150": 129.38,
+   "distMA50": -7,
+   "periodHigh": 165.76,
+   "pullbackFromHigh": -26.04,
+   "volRatio20": 1.09,
+   "dryUpRatio": 0.84
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 131.28,
+    "h": 134.56,
+    "l": 130.02,
+    "c": 131.8,
+    "v": 1668600,
+    "clsPos": 39,
+    "gapPct": -3.17
+   },
+   {
+    "d": "2026-11-13",
+    "o": 131.35,
+    "h": 133.42,
+    "l": 131,
+    "c": 131.45,
+    "v": 797400,
+    "clsPos": 19,
+    "gapPct": -0.34
+   },
+   {
+    "d": "2026-11-16",
+    "o": 128.79,
+    "h": 131.64,
+    "l": 126.51,
+    "c": 126.68,
+    "v": 1510200,
+    "clsPos": 3,
+    "gapPct": -2.02
+   },
+   {
+    "d": "2026-11-17",
+    "o": 126.54,
+    "h": 130.2,
+    "l": 125.9,
+    "c": 127.29,
+    "v": 1280100,
+    "clsPos": 32,
+    "gapPct": -0.11
+   },
+   {
+    "d": "2026-11-18",
+    "o": 122.76,
+    "h": 122.79,
+    "l": 118.22,
+    "c": 120.27,
+    "v": 5800700,
+    "clsPos": 45,
+    "gapPct": -3.56
+   },
+   {
+    "d": "2026-11-19",
+    "o": 119.76,
+    "h": 120.75,
+    "l": 115.61,
+    "c": 116.13,
+    "v": 1653000,
+    "clsPos": 10,
+    "gapPct": -0.42
+   },
+   {
+    "d": "2026-11-20",
+    "o": 115.21,
+    "h": 115.61,
+    "l": 109.33,
+    "c": 109.91,
+    "v": 2505300,
+    "clsPos": 9,
+    "gapPct": -0.79
+   },
+   {
+    "d": "2026-11-23",
+    "o": 119.35,
+    "h": 119.46,
+    "l": 116.32,
+    "c": 117.73,
+    "v": 1689200,
+    "clsPos": 45,
+    "gapPct": 8.59
+   },
+   {
+    "d": "2026-11-24",
+    "o": 115.98,
+    "h": 118.63,
+    "l": 114.38,
+    "c": 116.6,
+    "v": 1609200,
+    "clsPos": 52,
+    "gapPct": -1.49
+   },
+   {
+    "d": "2026-11-25",
+    "o": 112.11,
+    "h": 123.09,
+    "l": 111.21,
+    "c": 122.6,
+    "v": 2608200,
+    "clsPos": 96,
+    "gapPct": -3.85
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/WPM-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/WPM-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

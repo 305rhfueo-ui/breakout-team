@@ -1,0 +1,764 @@
+{
+ "ticker": "RH",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "RH",
+  "name": "RH",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
+  "price": 112.41999816894531,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 155,
+  "stop": 147.98,
+  "distToPivotPct": -27.47,
+  "distToPivotAdr": -4.4,
+  "riskPerSharePct": 4.53,
+  "adrPct": 6.24,
+  "extensionAdr": -0.51,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 21,
+   "baseWeeks": 4.2,
+   "depthPct": 36.2,
+   "priorMovePct": 44,
+   "higherLows": 0,
+   "contraction": 0.91,
+   "closeRange10Adr": 3.7,
+   "surf10": -0.51,
+   "surf20": -2.21,
+   "slope20": -5.76,
+   "baseLow": 98.94,
+   "lastSwingLow": 129.6
+  },
+  "reasons": [
+   "선행 상승 +44%",
+   "베이스 4.2주",
+   "✗ 깊이 36.2%",
+   "✗ 저점 상승 0회",
+   "✗ 진폭 0.91배 · 10일 종가폭 3.7 ADR",
+   "✗ 10일선 -0.5 ADR · 20일선 -2.2 ADR",
+   "✗ 20일선 기울기 -5.76%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.09866148257851404,
+    "pct": 10.414788097385031
+   },
+   "m3": {
+    "v": -0.11866956442554824,
+    "pct": 13.841298467087466
+   },
+   "m6": {
+    "v": -0.1343493201233084,
+    "pct": 14.562669071235348
+   }
+  },
+  "ret1m": -22.5,
+  "ret3m": -22.19,
+  "ret6m": -23.33,
+  "marketCap": "2.13B",
+  "volx": 1.16,
+  "volSurgeWk": 1.35,
+  "high52": 46.96,
+  "newHigh52": false,
+  "adr": 6.24,
+  "div50": -10.25,
+  "div200": -22.69,
+  "targetStatus": false,
+  "saleCy": 5.68,
+  "saleNy": 9.24,
+  "epsCy": -15.86,
+  "epsNy": 59.71,
+  "cyTrend": -1.23,
+  "nyTrend": -0.82,
+  "est": {
+   "cyCur": 5.2925,
+   "cy30": 5.35819,
+   "nyCur": 8.45253,
+   "ny30": 8.52201
+  },
+  "fs": {
+   "sale": [
+    -1.67,
+    3.72,
+    8.88
+   ],
+   "ni": [
+    -270.38,
+    106.76,
+    9.34
+   ],
+   "opm": [
+    4.28,
+    11.46,
+    11.99
+   ],
+   "updated": "2026-09-08 09:48:38"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "RH",
+  "nameEn": "RH",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001528849&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-08-01",
+     "derived": false,
+     "revenue": 922150000,
+     "profit": 107573000,
+     "netIncome": 60167000,
+     "margin": 11.7,
+     "yoy": {
+      "revenue": 2.6,
+      "profit": -16.5,
+      "netIncome": 16.4,
+      "priorEnd": "2025-08-02"
+     }
+    },
+    {
+     "periodEnd": "2026-05-02",
+     "derived": false,
+     "revenue": 800328000,
+     "profit": 34243000,
+     "netIncome": -13697000,
+     "margin": 4.3,
+     "yoy": {
+      "revenue": -1.7,
+      "profit": -38.8,
+      "netIncome": -270.4,
+      "priorEnd": "2025-05-03"
+     }
+    },
+    {
+     "periodEnd": "2026-01-31",
+     "derived": true,
+     "revenue": 842623000,
+     "profit": 96551000,
+     "netIncome": 28788000,
+     "margin": 11.5,
+     "yoy": {
+      "revenue": 3.7,
+      "profit": 37.3,
+      "netIncome": 107,
+      "priorEnd": "2025-02-01"
+     }
+    },
+    {
+     "periodEnd": "2025-11-01",
+     "derived": false,
+     "revenue": 883810000,
+     "profit": 105930000,
+     "netIncome": 36265000,
+     "margin": 12,
+     "yoy": {
+      "revenue": 8.9,
+      "profit": 4.4,
+      "netIncome": 9.3,
+      "priorEnd": "2024-11-02"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "RH (RH) Suffers a Larger Drop Than the General Market: Key Insights",
+     "url": "https://www.nasdaq.com/articles/rh-rh-suffers-larger-drop-general-market-key-insights",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RH (RH) Advances While Market Declines: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/rh-rh-advances-while-market-declines-some-information-investors",
+     "date": "2026-11-18",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RH (RH) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
+     "url": "https://www.nasdaq.com/articles/rh-rh-sees-more-significant-dip-broader-market-some-facts-know",
+     "date": "2026-11-12",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RH (RH) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/rh-rh-declines-more-market-some-information-investors-0",
+     "date": "2026-11-05",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Do Options Traders Know Something About RH Stock We Don't?",
+     "url": "https://www.nasdaq.com/articles/do-options-traders-know-something-about-rh-stock-we-dont",
+     "date": "2026-11-03",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RH (RH) Falls More Steeply Than Broader Market: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/rh-rh-falls-more-steeply-broader-market-what-investors-need-know",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RH (RH) Declines More Than Market: Some Information for Investors",
+     "url": "https://www.nasdaq.com/articles/rh-rh-declines-more-market-some-information-investors",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "RH (RH) Surges 9.5%: Is This an Indication of Further Gains?",
+     "url": "https://www.nasdaq.com/articles/rh-rh-surges-95-indication-further-gains",
+     "date": "2026-10-23",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-10",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528849/000110465926106743/rh-20260910x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528849/000110465926086220/rh-20260723x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-08",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528849/000110465926081857/rh-20260708x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-25",
+    "itemsKo": [
+     "주주총회 표결"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528849/000110465926077404/rh-20260618x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-11",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528849/000110465926072941/rh-20260611x8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-03-31",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1528849/000110465926037775/rh-20260331x8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 1,
+   "reports": [
+    {
+     "date": "2025-12-15",
+     "broker": "키움증권",
+     "analyst": "신대현",
+     "title": "[RH (NYS:RH)] 하이엔드 가구 업체 지위 확대 전망",
+     "summary": "- RH FY3Q25 실적 시장 컨센서스에 하회했지만, 실적 발표 후 주가 +5.6% 상승- 단기 실적은 관세와 부진한 주택 지표로 인해 부담스러운 상황- 회사의 하이엔드 점유율 확대 노력은 지속, 내년 유럽시장에서의 성장 전망",
+     "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxzqxiimieqezmgcgxeegq.pdf",
+     "pages": "5"
+    }
+   ]
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [
+  {
+   "file": "RH-report1.pdf",
+   "broker": "키움증권",
+   "analyst": "신대현",
+   "date": "2025-12-15",
+   "title": "[RH (NYS:RH)] 하이엔드 가구 업체 지위 확대 전망",
+   "pdfUrl": "https://rreport.einfomax.co.kr/report/eqxzqxiimieqezmgcgxeegq.pdf",
+   "pages": "5"
+  }
+ ],
+ "cnbc": [
+  {
+   "title": "Cramer calls an aroued",
+   "url": "https://www.cnbc.com/investingclub/2026/09/11/jim-cramer-calls-an-ai-data-center-stock-a-buy-offers-a-level-to-buy-a-household-name.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "url": "https://www.cnbc.com/investingclub/2026/09/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday.html",
+   "date": "2026-09-11",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "RH",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 19.99,
+  "pbr": 17.68,
+  "eps": 5.62,
+  "bps": 6.36,
+  "shares": 18933200,
+  "marketCapM": 2128,
+  "high52": 239.4,
+  "high52Date": "2026-01-22",
+  "low52": 98.94,
+  "low52Date": "2026-11-25",
+  "last": 112.42,
+  "prevClose": 103.45,
+  "nameKo": "RH",
+  "nameEn": "RH",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 18933200
+ },
+ "estimates": {
+  "ticker": "RH",
+  "url": "https://finance.yahoo.com/quote/RH/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "eps": 0.69,
+    "epsLow": 0.39,
+    "epsHigh": 1.28,
+    "epsYearAgo": 1.71,
+    "epsAnalysts": 17,
+    "epsGrowth": -59.6,
+    "epsCur": "USD",
+    "rev": 933015780,
+    "revAnalysts": 17,
+    "revYearAgo": 883810000,
+    "revGrowth": 5.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "eps": 3.7,
+    "epsLow": 2.62,
+    "epsHigh": 4.95,
+    "epsYearAgo": 1.53,
+    "epsAnalysts": 17,
+    "epsGrowth": 141.6,
+    "epsCur": "USD",
+    "rev": 980818060,
+    "revAnalysts": 17,
+    "revYearAgo": 842623000,
+    "revGrowth": 16.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "eps": 5.29,
+    "epsLow": 3.89,
+    "epsHigh": 7.07,
+    "epsYearAgo": 6.29,
+    "epsAnalysts": 19,
+    "epsGrowth": -15.9,
+    "epsCur": "USD",
+    "rev": 3634779880,
+    "revAnalysts": 19,
+    "revYearAgo": 3439536000,
+    "revGrowth": 5.7,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "eps": 8.45,
+    "epsLow": 2.78,
+    "epsHigh": 10.81,
+    "epsYearAgo": 5.29,
+    "epsAnalysts": 20,
+    "epsGrowth": 59.7,
+    "epsCur": "USD",
+    "rev": 3970593830,
+    "revAnalysts": 19,
+    "revYearAgo": 3634779880,
+    "revGrowth": 9.2,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-10-31",
+    "cur": "USD",
+    "now": 0.69,
+    "d7": 0.1,
+    "d30": -4.5,
+    "d90": -78.3,
+    "ago90": 3.18,
+    "up7": 1,
+    "up30": 2,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 3.7,
+    "d7": -0.2,
+    "d30": -2,
+    "d90": 17,
+    "ago90": 3.16,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 3
+   },
+   {
+    "period": "0y",
+    "endDate": "2027-01-31",
+    "cur": "USD",
+    "now": 5.29,
+    "d7": 0,
+    "d30": -1.2,
+    "d90": 11.2,
+    "ago90": 4.76,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 4
+   },
+   {
+    "period": "+1y",
+    "endDate": "2028-01-31",
+    "cur": "USD",
+    "now": 8.45,
+    "d7": 0,
+    "d30": -0.8,
+    "d90": -6.9,
+    "ago90": 9.08,
+    "up7": 1,
+    "up30": 1,
+    "down7": 1,
+    "down30": 4
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-07-31",
+    "actual": 2.7,
+    "estimate": 0.46,
+    "surprisePct": 483.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-04-30",
+    "actual": -1.97,
+    "estimate": -2.07,
+    "surprisePct": 4.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-01-31",
+    "actual": 1.53,
+    "estimate": 2.2,
+    "surprisePct": -30.6,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-10-31",
+    "actual": 1.71,
+    "estimate": 2.16,
+    "surprisePct": -20.9,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 1,
+   "ptLowered": 11,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-11-06",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 155,
+     "ptPrior": 166
+    },
+    {
+     "date": "2026-10-20",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 140,
+     "ptPrior": 164
+    },
+    {
+     "date": "2026-09-28",
+     "firm": "Stifel",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 120,
+     "ptPrior": 130
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Morgan Stanley",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 210,
+     "ptPrior": 240
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "BNP Paribas",
+     "action": "reit",
+     "from": "Underperform",
+     "to": "Underperform",
+     "ptAction": "Lowers",
+     "pt": 81,
+     "ptPrior": 90
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Telsey Advisory Group",
+     "action": "main",
+     "from": "Market Perform",
+     "to": "Market Perform",
+     "ptAction": "Raises",
+     "pt": 155,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "JP Morgan",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 190,
+     "ptPrior": 212
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "TD Cowen",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 190,
+     "ptPrior": 220
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 175,
+     "ptPrior": 225
+    },
+    {
+     "date": "2026-09-11",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 154,
+     "ptPrior": 155
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-12-10",
+   "upcoming": true,
+   "estimated": true
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 112.42,
+   "ma20": 127.95,
+   "ma50": 125.26,
+   "ma150": 144.35,
+   "distMA50": -10.25,
+   "periodHigh": 457.26,
+   "pullbackFromHigh": -75.41,
+   "volRatio20": 1.32,
+   "dryUpRatio": 1.07
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 134.12,
+    "h": 135.4,
+    "l": 128.05,
+    "c": 129.17,
+    "v": 854500,
+    "clsPos": 15,
+    "gapPct": -1.31
+   },
+   {
+    "d": "2026-11-13",
+    "o": 129.25,
+    "h": 130.92,
+    "l": 124.84,
+    "c": 129.39,
+    "v": 462700,
+    "clsPos": 75,
+    "gapPct": 0.06
+   },
+   {
+    "d": "2026-11-16",
+    "o": 127.45,
+    "h": 127.63,
+    "l": 124.34,
+    "c": 126.16,
+    "v": 687000,
+    "clsPos": 55,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-17",
+    "o": 124.33,
+    "h": 126,
+    "l": 115.57,
+    "c": 115.6,
+    "v": 970400,
+    "clsPos": 0,
+    "gapPct": -1.45
+   },
+   {
+    "d": "2026-11-18",
+    "o": 115.03,
+    "h": 119.22,
+    "l": 114.5,
+    "c": 117.32,
+    "v": 678900,
+    "clsPos": 60,
+    "gapPct": -0.49
+   },
+   {
+    "d": "2026-11-19",
+    "o": 115.19,
+    "h": 118.52,
+    "l": 109.63,
+    "c": 110.9,
+    "v": 738000,
+    "clsPos": 14,
+    "gapPct": -1.82
+   },
+   {
+    "d": "2026-11-20",
+    "o": 109.35,
+    "h": 113.14,
+    "l": 107,
+    "c": 107.94,
+    "v": 855800,
+    "clsPos": 15,
+    "gapPct": -1.4
+   },
+   {
+    "d": "2026-11-23",
+    "o": 113,
+    "h": 113,
+    "l": 107.04,
+    "c": 107.92,
+    "v": 867800,
+    "clsPos": 15,
+    "gapPct": 4.69
+   },
+   {
+    "d": "2026-11-24",
+    "o": 106.3,
+    "h": 108.89,
+    "l": 103.37,
+    "c": 103.45,
+    "v": 719600,
+    "clsPos": 1,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-25",
+    "o": 100.64,
+    "h": 113.64,
+    "l": 98.94,
+    "c": 112.42,
+    "v": 1040000,
+    "clsPos": 92,
+    "gapPct": -2.72
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RH-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/RH-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

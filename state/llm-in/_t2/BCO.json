@@ -1,0 +1,264 @@
+{
+ "ticker": "BCO",
+ "sector": "Industrials",
+ "industry": "Security & Protection Services",
+ "nameKo": "브링크스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 5.17,
+  "saleNy": 3.3,
+  "epsCy": 11.58,
+  "epsNy": 8.77,
+  "est": {
+   "cyCur": 8.9825,
+   "cy30": 9.19667,
+   "nyCur": 9.77,
+   "ny30": 10.35333
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    7.06,
+    10.3,
+    9.08
+   ],
+   "ni": [
+    1.6,
+    -37.79,
+    76.88
+   ],
+   "opm": [
+    9.57,
+    8.01,
+    13.06
+   ],
+   "updated": "2026-09-12 06:22:20"
+  },
+  "qualifiedBy": [
+   "1mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-25",
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 1,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "브링크스",
+  "nameEn": "BRINK S COMPANY",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000078890&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 1374600000,
+     "profit": 131000000,
+     "netIncome": 14500000,
+     "margin": 9.5,
+     "yoy": {
+      "revenue": 3,
+      "profit": -14,
+      "netIncome": -60.1,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 1392300000,
+     "profit": 133300000,
+     "netIncome": 44400000,
+     "margin": 9.6,
+     "yoy": {
+      "revenue": 7.1,
+      "profit": -0.4,
+      "netIncome": 1.6,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 1375100000,
+     "profit": 110200000,
+     "netIncome": 32100000,
+     "margin": 8,
+     "yoy": {
+      "revenue": 10.3,
+      "profit": -7.5,
+      "netIncome": -37.8,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 1379000000,
+     "profit": 180100000,
+     "netIncome": 68100000,
+     "margin": 13.1,
+     "yoy": {
+      "revenue": 9.1,
+      "profit": 72.3,
+      "netIncome": 76.9,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Brink's (BCO) Reliance on International Sales: What Investors Need to Know",
+     "url": "https://www.nasdaq.com/articles/brinks-bco-reliance-international-sales-what-investors-need-know",
+     "date": "2026-11-09",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "What Brink's (BCO) Said on Its Q3 Earnings Call",
+     "url": "https://www.nasdaq.com/articles/what-brinks-bco-said-its-q3-earnings-call",
+     "date": "2026-11-05",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Brink's (BCO) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/brinks-bco-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "The Brink's Company Reports Third-Quarter 2026 Results and Updates NCR Atleos Acquisition Timeline",
+     "url": "https://www.nasdaq.com/articles/brinks-company-reports-third-quarter-2026-results-and-updates-ncr-atleos-acquisition",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Brink's Maintains FY26 Organic Revenue Growth Outlook - Update",
+     "url": "https://www.nasdaq.com/articles/brinks-maintains-fy26-organic-revenue-growth-outlook-update",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Brink's (BCO) Q3 Earnings Surpass Estimates",
+     "url": "https://www.nasdaq.com/articles/brinks-bco-q3-earnings-surpass-estimates",
+     "date": "2026-11-04",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "The Brink`s Co Reveals Fall In Q3 Income",
+     "url": "https://www.nasdaq.com/articles/brinks-co-reveals-fall-q3-income",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Brink's (BCO) Q2 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/brinks-bco-q2-2026-earnings-call-transcript",
+     "date": "2026-08-12",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/bco-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-08",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000063/bco-20261008.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-30",
+    "itemsKo": [
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000058/bco-20260930.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/bco-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-24",
+    "itemsKo": [
+     "Reg FD 공시"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000048/bco-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-30",
+    "itemsKo": [
+     "주주총회 표결",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/78890/000114036126026938/ef20077039_8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "BCO",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 28.5,
+  "pbr": 16.96,
+  "eps": 4.32,
+  "bps": 7.26,
+  "shares": 41200800,
+  "marketCapM": 5076,
+  "high52": 135.4136,
+  "high52Date": "2026-02-26",
+  "low52": 90.6341,
+  "low52Date": "2026-06-29",
+  "last": 123.21,
+  "prevClose": 119.37,
+  "nameKo": "브링크스",
+  "nameEn": "BRINK S COMPANY",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 41200800
+ }
+}

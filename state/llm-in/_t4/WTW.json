@@ -1,0 +1,189 @@
+{
+ "ticker": "WTW",
+ "news": [
+  {
+   "title": "ASIC finds 35 audit complaints at Australia’s Big Four",
+   "url": "https://finance.yahoo.com/news/asic-finds-35-audit-complaints-141529798.html",
+   "date": "2026-11-25",
+   "publisher": "The Accountant",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Is Willis Towers Watson Public Limited Company (WTW) One of the Best Insurance Stocks to Buy?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/willis-towers-watson-public-limited-190724866.html",
+   "date": "2026-11-24",
+   "publisher": "Insider Monkey",
+   "via": "Yahoo"
+  },
+  {
+   "title": "New medical technologies and pharmaceutical advancements drive persistent global medical inflation, WTW survey finds",
+   "url": "https://finance.yahoo.com/healthcare/articles/medical-technologies-pharmaceutical-advancements-drive-152200889.html",
+   "date": "2026-11-23",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Will Synpulse Buyout Boost Marsh's Consulting Growth Prospects?",
+   "url": "https://finance.yahoo.com/technology/ai/articles/synpulse-buyout-boost-marshs-consulting-165800915.html",
+   "date": "2026-11-20",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Marsh Sees 8.2% Health Cost Surge in 2027: Consulting Growth Ahead?",
+   "url": "https://finance.yahoo.com/healthcare/articles/marsh-sees-8-2-health-134800844.html",
+   "date": "2026-11-18",
+   "publisher": "Zacks",
+   "via": "Yahoo"
+  },
+  {
+   "title": "WTW’s Kristy Banas Recognized with the 2026 N2Growth Leaders40 Top CHRO Award",
+   "url": "https://finance.yahoo.com/small-business/articles/wtw-kristy-banas-recognized-2026-133000958.html",
+   "date": "2026-11-16",
+   "publisher": "GlobeNewswire",
+   "via": "Yahoo"
+  },
+  {
+   "title": "Morgan Stanley Adjusts Price Target on Willis Towers Watson Public to $350 From $325",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-price-target-110433374.html",
+   "date": "2026-11-16",
+   "publisher": "MT Newswires",
+   "via": "Yahoo"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-03",
+   "reportDate": "2026-11-03",
+   "items": [
+    "5.02"
+   ],
+   "itemsKo": [
+    "임원 변동"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526445385/d227851d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-10-29",
+   "reportDate": "2026-09-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1140536/000117184326006942/f8k_102826.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-07-30",
+   "reportDate": "2026-06-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1140536/000117184326005042/f8k_073026.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-21",
+   "reportDate": "2026-05-20",
+   "items": [
+    "5.07",
+    "9.01"
+   ],
+   "itemsKo": [
+    "주주총회 표결",
+    "재무제표·첨부"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1140536/000119312526234740/d125692d8k.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-30",
+   "reportDate": "2026-04-30",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1140536/000117184326002866/f8k_042926.htm",
+   "description": "FORM 8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-02-03",
+   "reportDate": "2026-02-03",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1140536/000117184326000577/f8k_020326.htm",
+   "description": "FORM 8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": 7.78,
+  "saleNy": 5.38,
+  "epsCy": 16.2,
+  "epsNy": 15.59,
+  "cyTrend": 0.11,
+  "nyTrend": 0.04,
+  "newHigh52": false,
+  "bbCenterBrk5d": false,
+  "fs": {
+   "sale": [
+    9.07,
+    8.5,
+    -3.26
+   ],
+   "ni": [
+    -30.82,
+    26.38,
+    -41.01
+   ],
+   "opm": [
+    14.76,
+    18.57,
+    34.6
+   ],
+   "updated": "2026-09-07 07:07:13"
+  }
+ }
+}

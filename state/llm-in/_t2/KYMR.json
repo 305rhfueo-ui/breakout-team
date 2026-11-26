@@ -1,0 +1,267 @@
+{
+ "ticker": "KYMR",
+ "sector": "Healthcare",
+ "industry": "Biotechnology",
+ "nameKo": "키메라 테라퓨틱스",
+ "site": {
+  "targetStatus": false,
+  "saleCy": 154.7,
+  "saleNy": -59.4,
+  "epsCy": 6.15,
+  "epsNy": 29.44,
+  "est": {
+   "cyCur": -3.91684,
+   "cy30": -3.85035,
+   "nyCur": -5.07008,
+   "ny30": -5.09736
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    466.4,
+    55.5,
+    -61.17
+   ],
+   "ni": [
+    "적자축소",
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    -116.32,
+    -244.88,
+    -3409.79
+   ],
+   "updated": "2026-09-08 06:16:21"
+  },
+  "qualifiedBy": [
+   "1mo",
+   "3mo",
+   "6mo"
+  ],
+  "top2Since": {
+   "m1": "2026-11-23",
+   "m3": "2026-11-23",
+   "m6": "2026-11-20"
+  },
+  "top2Streak": {
+   "m1": 3,
+   "m3": 3,
+   "m6": 4
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "키메라 테라퓨틱스",
+  "nameEn": "KYMERA THERAPEUTICS INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001815442&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 0,
+     "profit": -147232000,
+     "netIncome": -131999000,
+     "margin": null,
+     "yoy": {
+      "revenue": -100,
+      "profit": -59.1,
+      "netIncome": -60.6,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 65000000,
+     "profit": -75607000,
+     "netIncome": -61211000,
+     "margin": -116.3,
+     "yoy": {
+      "revenue": 466.4,
+      "profit": 10.6,
+      "netIncome": 20.1,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 34365000,
+     "profit": -84154000,
+     "netIncome": -69234000,
+     "margin": -244.9,
+     "yoy": {
+      "revenue": 55.5,
+      "profit": -13.1,
+      "netIncome": -5.6,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2870000,
+     "profit": -97896000,
+     "netIncome": 535721000,
+     "margin": -3411,
+     "yoy": {
+      "revenue": -61.2,
+      "profit": -21.2,
+      "netIncome": 42.1,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Kymera Therapeutics, Inc. Enters into Underwriting Agreement for Common Stock Offering",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-enters-underwriting-agreement-common-stock-offering",
+     "date": "2026-11-25",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Kymera Shares Soar 30% After Positive Atopic Dermatitis Drug Data",
+     "url": "https://www.nasdaq.com/articles/kymera-shares-soar-30-after-positive-atopic-dermatitis-drug-data",
+     "date": "2026-11-24",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "KYMR Crosses Above Average Analyst Target",
+     "url": "https://www.nasdaq.com/articles/kymr-crosses-above-average-analyst-target",
+     "date": "2026-11-24",
+     "publisher": "BNK Invest"
+    },
+    {
+     "title": "Kymera (KYMR) Prices Upsized $1.75 Billion Stock Offering Following Positive Clinical Data",
+     "url": "https://www.nasdaq.com/articles/kymera-kymr-prices-upsized-175-billion-stock-offering-following-positive-clinical-data",
+     "date": "2026-11-24",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Kymera Therapeutics, Inc. Announces Results from the BROADEN2 Phase 2b Atopic Dermatitis Trial of KT-621",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-inc-announces-results-broaden2-phase-2b-atopic-dermatitis-trial-kt-621",
+     "date": "2026-11-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Kymera Therapeutics Announces Positive Results from BROADEN2 Phase 2b Clinical Trial of KT-621, a First-in-Class, Oral STAT6 Degrader, in Patients with Moderate to Severe Atopic Dermatitis",
+     "url": "https://www.nasdaq.com/articles/kymera-therapeutics-announces-positive-results-broaden2-phase-2b-clinical-trial-kt-621",
+     "date": "2026-11-23",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Kymera's KT-621 Posts Strong Phase 2 Results In Eczema, Advances Toward Phase 3; Stock Up",
+     "url": "https://www.nasdaq.com/articles/kymeras-kt-621-posts-strong-phase-2-results-eczema-advances-toward-phase-3-stock",
+     "date": "2026-11-23",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Kymera (KYMR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/kymera-kymr-q3-2026-earnings-call-transcript",
+     "date": "2026-10-29",
+     "publisher": "The Motley Fool"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-24",
+    "itemsKo": [
+     "중요 계약 체결",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526476205/d94169d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470995/d159818d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-23",
+    "itemsKo": [
+     "Reg FD 공시",
+     "기타 중요사건",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526470926/d188151d8k.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-29",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526436965/kymr-20261029.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526333834/kymr-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "임원 변동",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1815442/000119312526318078/d167778d8k.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [],
+ "kis": {
+  "ticker": "KYMR",
+  "fetchedAt": "2026-11-26",
+  "source": "한국투자증권 Open API",
+  "per": 53.6,
+  "pbr": 9.18,
+  "eps": 3.24,
+  "bps": 18.92,
+  "shares": 85371400,
+  "marketCapM": 14835,
+  "high52": 180,
+  "high52Date": "2026-11-24",
+  "low52": 63.69,
+  "low52Date": "2025-12-02",
+  "last": 173.77,
+  "prevClose": 173.92,
+  "nameKo": "키메라 테라퓨틱스",
+  "nameEn": "KYMERA THERAPEUTICS INC",
+  "listedOn": "2020-08-19",
+  "exchange": "나스닥",
+  "listedShares": 85371400
+ }
+}

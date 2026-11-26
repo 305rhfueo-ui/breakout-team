@@ -1,0 +1,742 @@
+{
+ "ticker": "OC",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "OC",
+  "name": "오웬스 코닝",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
+  "price": 121.9000015258789,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 128.89,
+  "stop": 122.85,
+  "distToPivotPct": -5.42,
+  "distToPivotAdr": -1.09,
+  "riskPerSharePct": 4.69,
+  "adrPct": 4.95,
+  "extensionAdr": 1.19,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 24,
+   "baseWeeks": 4.8,
+   "depthPct": 15.4,
+   "priorMovePct": 18.3,
+   "higherLows": 0,
+   "contraction": 0.79,
+   "closeRange10Adr": 2,
+   "surf10": 1.19,
+   "surf20": 0.49,
+   "slope20": -0.17,
+   "baseLow": 109.05,
+   "lastSwingLow": 109.05
+  },
+  "reasons": [
+   "✗ 선행 상승 +18%",
+   "베이스 4.8주",
+   "깊이 15.4%",
+   "✗ 저점 상승 0회",
+   "진폭 0.79배 · 10일 종가폭 2 ADR",
+   "10일선 +1.2 ADR · 20일선 +0.5 ADR",
+   "✗ 20일선 기울기 -0.17%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": 0.1776641204581223,
+    "pct": 71.73128944995491
+   },
+   "m3": {
+    "v": 0.021540253131347914,
+    "pct": 36.6546438232642
+   },
+   "m6": {
+    "v": 0.13450750172394965,
+    "pct": 50.180342651036966
+   }
+  },
+  "ret1m": 5.13,
+  "ret3m": -8.17,
+  "ret6m": 3.55,
+  "marketCap": "9.40B",
+  "volx": 0.98,
+  "volSurgeWk": 1.28,
+  "high52": 76.78,
+  "newHigh52": false,
+  "adr": 4.95,
+  "div50": 3.75,
+  "div200": -1.86,
+  "targetStatus": false,
+  "saleCy": -4.97,
+  "saleNy": 2.27,
+  "epsCy": -35.78,
+  "epsNy": 8.75,
+  "cyTrend": -19.34,
+  "nyTrend": -22.87,
+  "est": {
+   "cyCur": 7.73825,
+   "cy30": 9.59357,
+   "nyCur": 8.41561,
+   "ny30": 10.91089
+  },
+  "fs": {
+   "sale": [
+    0.33,
+    -10.47,
+    -16.78
+   ],
+   "ni": [
+    -37.74,
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    17.49,
+    5.3,
+    -10.5
+   ],
+   "updated": "2026-09-20 06:51:47"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "오웬스 코닝",
+  "nameEn": "OWENS CORNING",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001370946&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2489000000,
+     "profit": -152000000,
+     "netIncome": -250000000,
+     "margin": -6.1,
+     "yoy": {
+      "revenue": -7.3,
+      "profit": 53.5,
+      "netIncome": 49.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2756000000,
+     "profit": 482000000,
+     "netIncome": 226000000,
+     "margin": 17.5,
+     "yoy": {
+      "revenue": 0.3,
+      "profit": -4.6,
+      "netIncome": -37.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2265000000,
+     "profit": 120000000,
+     "netIncome": -105000000,
+     "margin": 5.3,
+     "yoy": {
+      "revenue": -10.5,
+      "profit": -70.5,
+      "netIncome": -12.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2142000000,
+     "profit": -225000000,
+     "netIncome": -298000000,
+     "margin": -10.5,
+     "yoy": {
+      "revenue": -16.8,
+      "profit": -204.2,
+      "netIncome": -15.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Most-Watched Stock Owens Corning Inc (OC) Worth Betting on Now?",
+     "url": "https://www.nasdaq.com/articles/most-watched-stock-owens-corning-inc-oc-worth-betting-now",
+     "date": "2026-11-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Owens Corning's Stock Slump May Have a Silver Lining for Dividend Investors",
+     "url": "https://www.nasdaq.com/articles/owens-cornings-stock-slump-may-have-silver-lining-dividend-investors",
+     "date": "2026-11-21",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Owens Corning Inc (OC) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/owens-corning-inc-oc-attracting-investor-attention-here-what-you-should-know-0",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Owens Corning Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/owens-corning-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Owens Corning (OC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/owens-corning-oc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Owens Corning Announces Third-Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/owens-corning-announces-third-quarter-2026-results",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Owens Corning Posts Narrower Loss In Q3; Issues Q4 Guidance",
+     "url": "https://www.nasdaq.com/articles/owens-corning-posts-narrower-loss-q3-issues-q4-guidance",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Owens Corning Q3 Earnings Summary",
+     "url": "https://www.nasdaq.com/articles/owens-corning-q3-earnings-summary",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000223/oc-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000211/oc-20260916.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000175/oc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000169/oc-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000143/oc-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000140/oc-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Oracle, AeroVironment, Micron & more",
+   "url": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-midday-orcl-avav-aeo-mu-m.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This building materials stock has a favorable setup, charts show",
+   "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "OC",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 14.98,
+  "pbr": 2.97,
+  "eps": 8.14,
+  "bps": 41.02,
+  "shares": 77127900,
+  "marketCapM": 9402,
+  "high52": 158.7562,
+  "high52Date": "2026-08-12",
+  "low52": 97.6089,
+  "low52Date": "2026-03-20",
+  "last": 121.9,
+  "prevClose": 115.87,
+  "nameKo": "오웬스 코닝",
+  "nameEn": "OWENS CORNING",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 77127900
+ },
+ "estimates": {
+  "ticker": "OC",
+  "url": "https://finance.yahoo.com/quote/OC/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": 0.11,
+    "epsLow": -0.03,
+    "epsHigh": 0.38,
+    "epsYearAgo": 1.1,
+    "epsAnalysts": 19,
+    "epsGrowth": -89.8,
+    "epsCur": "USD",
+    "rev": 2090836860,
+    "revAnalysts": 18,
+    "revYearAgo": 2142000000,
+    "revGrowth": -2.4,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": 0.72,
+    "epsLow": 0.3,
+    "epsHigh": 1.1,
+    "epsYearAgo": 1.22,
+    "epsAnalysts": 13,
+    "epsGrowth": -40.8,
+    "epsCur": "USD",
+    "rev": 2251953700,
+    "revAnalysts": 10,
+    "revYearAgo": 2265000000,
+    "revGrowth": -0.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": 7.74,
+    "epsLow": 7.6,
+    "epsHigh": 8.04,
+    "epsYearAgo": 12.05,
+    "epsAnalysts": 19,
+    "epsGrowth": -35.8,
+    "epsCur": "USD",
+    "rev": 9600614630,
+    "revAnalysts": 18,
+    "revYearAgo": 10103000000,
+    "revGrowth": -5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.42,
+    "epsLow": 7.16,
+    "epsHigh": 10.28,
+    "epsYearAgo": 7.74,
+    "epsAnalysts": 20,
+    "epsGrowth": 8.8,
+    "epsCur": "USD",
+    "rev": 9818451510,
+    "revAnalysts": 18,
+    "revYearAgo": 9600614630,
+    "revGrowth": 2.3,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 0.11,
+    "d7": 2.4,
+    "d30": -91.8,
+    "d90": -93.8,
+    "ago90": 1.81,
+    "up7": 0,
+    "up30": 0,
+    "down7": 15,
+    "down30": 15
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": "USD",
+    "now": 0.72,
+    "d7": 3.2,
+    "d30": -53.8,
+    "d90": -64.3,
+    "ago90": 2.02,
+    "up7": 0,
+    "up30": 0,
+    "down7": 7,
+    "down30": 8
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": 7.74,
+    "d7": 0,
+    "d30": -19.3,
+    "d90": -23,
+    "ago90": 10.05,
+    "up7": 0,
+    "up30": 0,
+    "down7": 15,
+    "down30": 15
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.42,
+    "d7": -1.3,
+    "d30": -22.9,
+    "d90": -30.2,
+    "ago90": 12.06,
+    "up7": 0,
+    "up30": 0,
+    "down7": 15,
+    "down30": 16
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": 2.44,
+    "estimate": 3.05,
+    "surprisePct": -19.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": 3.93,
+    "estimate": 3.1,
+    "surprisePct": 26.9,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": 1.22,
+    "estimate": 0.96,
+    "surprisePct": 26.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": 1.1,
+    "estimate": 1.36,
+    "surprisePct": -18.8,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 1,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 11,
+   "total": 13,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "Citigroup",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 156,
+     "ptPrior": 177
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "RBC Capital",
+     "action": "main",
+     "from": "Sector Perform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 119,
+     "ptPrior": 127
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Raises",
+     "pt": 133,
+     "ptPrior": 125
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 120,
+     "ptPrior": 115
+    },
+    {
+     "date": "2026-11-05",
+     "firm": "Evercore ISI Group",
+     "action": "main",
+     "from": "Outperform",
+     "to": "Outperform",
+     "ptAction": "Lowers",
+     "pt": 169,
+     "ptPrior": 185
+    },
+    {
+     "date": "2026-10-27",
+     "firm": "B of A Securities",
+     "action": "main",
+     "from": "Buy",
+     "to": "Buy",
+     "ptAction": "Lowers",
+     "pt": 145,
+     "ptPrior": 155
+    },
+    {
+     "date": "2026-10-16",
+     "firm": "Wells Fargo",
+     "action": "main",
+     "from": "Overweight",
+     "to": "Overweight",
+     "ptAction": "Lowers",
+     "pt": 125,
+     "ptPrior": 150
+    },
+    {
+     "date": "2026-10-12",
+     "firm": "Goldman Sachs",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 128,
+     "ptPrior": 169
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "Truist Securities",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Lowers",
+     "pt": 115,
+     "ptPrior": 140
+    },
+    {
+     "date": "2026-10-07",
+     "firm": "RBC Capital",
+     "action": "down",
+     "from": "Outperform",
+     "to": "Sector Perform",
+     "ptAction": "Lowers",
+     "pt": 127,
+     "ptPrior": 172
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-04",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 121.9,
+   "ma20": 118.94,
+   "ma50": 117.86,
+   "ma150": 128.59,
+   "distMA50": 3.42,
+   "periodHigh": 210.8,
+   "pullbackFromHigh": -42.17,
+   "volRatio20": 0.97,
+   "dryUpRatio": 0.78
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 122.89,
+    "h": 123.28,
+    "l": 117.43,
+    "c": 117.53,
+    "v": 740000,
+    "clsPos": 2,
+    "gapPct": 0.37
+   },
+   {
+    "d": "2026-11-13",
+    "o": 118.02,
+    "h": 119.2,
+    "l": 114.88,
+    "c": 115.94,
+    "v": 955200,
+    "clsPos": 25,
+    "gapPct": 0.42
+   },
+   {
+    "d": "2026-11-16",
+    "o": 115.06,
+    "h": 116.39,
+    "l": 113.33,
+    "c": 114.41,
+    "v": 868200,
+    "clsPos": 35,
+    "gapPct": -0.76
+   },
+   {
+    "d": "2026-11-17",
+    "o": 113.44,
+    "h": 116.5,
+    "l": 111.6,
+    "c": 111.71,
+    "v": 1121200,
+    "clsPos": 2,
+    "gapPct": -0.85
+   },
+   {
+    "d": "2026-11-18",
+    "o": 110.03,
+    "h": 116.07,
+    "l": 109.05,
+    "c": 114.06,
+    "v": 1113600,
+    "clsPos": 71,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-19",
+    "o": 114.74,
+    "h": 114.74,
+    "l": 110.91,
+    "c": 111.53,
+    "v": 1008600,
+    "clsPos": 16,
+    "gapPct": 0.6
+   },
+   {
+    "d": "2026-11-20",
+    "o": 112.13,
+    "h": 115.16,
+    "l": 109.8,
+    "c": 110.02,
+    "v": 983600,
+    "clsPos": 4,
+    "gapPct": 0.54
+   },
+   {
+    "d": "2026-11-23",
+    "o": 113.3,
+    "h": 114.56,
+    "l": 110.5,
+    "c": 113.87,
+    "v": 950700,
+    "clsPos": 83,
+    "gapPct": 2.98
+   },
+   {
+    "d": "2026-11-24",
+    "o": 112.95,
+    "h": 116.79,
+    "l": 112.88,
+    "c": 115.87,
+    "v": 795600,
+    "clsPos": 76,
+    "gapPct": -0.81
+   },
+   {
+    "d": "2026-11-25",
+    "o": 115.2,
+    "h": 123.68,
+    "l": 115.2,
+    "c": 121.9,
+    "v": 1239600,
+    "clsPos": 79,
+    "gapPct": -0.58
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/OC-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/OC-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

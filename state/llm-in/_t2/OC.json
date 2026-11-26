@@ -1,0 +1,272 @@
+{
+ "ticker": "OC",
+ "sector": "Industrials",
+ "industry": "Building Products & Equipment",
+ "nameKo": "오웬스 코닝",
+ "site": {
+  "targetStatus": false,
+  "saleCy": -4.97,
+  "saleNy": 2.27,
+  "epsCy": -35.78,
+  "epsNy": 8.75,
+  "est": {
+   "cyCur": 7.73825,
+   "cy30": 9.59357,
+   "nyCur": 8.41561,
+   "ny30": 10.91089
+  },
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    0.33,
+    -10.47,
+    -16.78
+   ],
+   "ni": [
+    -37.74,
+    "적자확대",
+    "적자확대"
+   ],
+   "opm": [
+    17.49,
+    5.3,
+    -10.5
+   ],
+   "updated": "2026-09-20 06:51:47"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "오웬스 코닝",
+  "nameEn": "OWENS CORNING",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001370946&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 2489000000,
+     "profit": -152000000,
+     "netIncome": -250000000,
+     "margin": -6.1,
+     "yoy": {
+      "revenue": -7.3,
+      "profit": 53.5,
+      "netIncome": 49.4,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 2756000000,
+     "profit": 482000000,
+     "netIncome": 226000000,
+     "margin": 17.5,
+     "yoy": {
+      "revenue": 0.3,
+      "profit": -4.6,
+      "netIncome": -37.7,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 2265000000,
+     "profit": 120000000,
+     "netIncome": -105000000,
+     "margin": 5.3,
+     "yoy": {
+      "revenue": -10.5,
+      "profit": -70.5,
+      "netIncome": -12.9,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 2142000000,
+     "profit": -225000000,
+     "netIncome": -298000000,
+     "margin": -10.5,
+     "yoy": {
+      "revenue": -16.8,
+      "profit": -204.2,
+      "netIncome": -15.5,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Is Most-Watched Stock Owens Corning Inc (OC) Worth Betting on Now?",
+     "url": "https://www.nasdaq.com/articles/most-watched-stock-owens-corning-inc-oc-worth-betting-now",
+     "date": "2026-11-25",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Owens Corning's Stock Slump May Have a Silver Lining for Dividend Investors",
+     "url": "https://www.nasdaq.com/articles/owens-cornings-stock-slump-may-have-silver-lining-dividend-investors",
+     "date": "2026-11-21",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Owens Corning Inc (OC) is Attracting Investor Attention: Here is What You Should Know",
+     "url": "https://www.nasdaq.com/articles/owens-corning-inc-oc-attracting-investor-attention-here-what-you-should-know-0",
+     "date": "2026-11-11",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Owens Corning Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/owens-corning-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Owens Corning (OC) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/owens-corning-oc-q3-2026-earnings-call-transcript",
+     "date": "2026-11-04",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Owens Corning Announces Third-Quarter 2026 Results",
+     "url": "https://www.nasdaq.com/articles/owens-corning-announces-third-quarter-2026-results",
+     "date": "2026-11-04",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Owens Corning Posts Narrower Loss In Q3; Issues Q4 Guidance",
+     "url": "https://www.nasdaq.com/articles/owens-corning-posts-narrower-loss-q3-issues-q4-guidance",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Owens Corning Q3 Earnings Summary",
+     "url": "https://www.nasdaq.com/articles/owens-corning-q3-earnings-summary",
+     "date": "2026-11-04",
+     "publisher": "RTTNews"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-04",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000223/oc-20261104.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-09-16",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000211/oc-20260916.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-05",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000175/oc-20260805.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-29",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000169/oc-20260724.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-06",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000143/oc-20260506.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-05-01",
+    "itemsKo": [
+     "임원 변동"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1370946/000137094626000140/oc-20260428.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "cnbc": [
+  {
+   "title": "Stocks making the biggest moves midday: Oracle, AeroVironment, Micron & more",
+   "url": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-midday-orcl-avav-aeo-mu-m.html",
+   "date": "2026-09-10",
+   "publisher": "CNBC",
+   "kind": "article"
+  },
+  {
+   "title": "This building materials stock has a favorable setup, charts show",
+   "url": "https://www.cnbc.com/2026/08/06/this-building-materials-stock-has-a-favorable-setup-charts-show.html",
+   "date": "2026-08-06",
+   "publisher": "CNBC",
+   "kind": "article"
+  }
+ ],
+ "kis": {
+  "ticker": "OC",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 14.98,
+  "pbr": 2.97,
+  "eps": 8.14,
+  "bps": 41.02,
+  "shares": 77127900,
+  "marketCapM": 9402,
+  "high52": 158.7562,
+  "high52Date": "2026-08-12",
+  "low52": 97.6089,
+  "low52Date": "2026-03-20",
+  "last": 121.9,
+  "prevClose": 115.87,
+  "nameKo": "오웬스 코닝",
+  "nameEn": "OWENS CORNING",
+  "listedOn": null,
+  "exchange": "뉴욕거래소",
+  "listedShares": 77127900
+ }
+}

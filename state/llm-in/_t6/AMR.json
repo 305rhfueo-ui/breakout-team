@@ -1,0 +1,671 @@
+{
+ "ticker": "AMR",
+ "date": "2026-11-27",
+ "session": "2026-11-25",
+ "source": "list",
+ "plan": {
+  "ticker": "AMR",
+  "name": "알파 메탈러지컬 리소시스",
+  "sector": "Basic Materials",
+  "industry": "Coking Coal",
+  "price": 140.63999938964844,
+  "grade": "C",
+  "state": "pre",
+  "pivot": 189.38,
+  "stop": 181.3,
+  "distToPivotPct": -25.74,
+  "distToPivotAdr": -4.48,
+  "riskPerSharePct": 4.27,
+  "adrPct": 5.74,
+  "extensionAdr": 0.02,
+  "breakDate": null,
+  "metrics": {
+   "baseBars": 39,
+   "baseWeeks": 7.8,
+   "depthPct": 32.4,
+   "priorMovePct": 41.7,
+   "higherLows": 0,
+   "contraction": 0.75,
+   "closeRange10Adr": 3.2,
+   "surf10": 0.02,
+   "surf20": -0.83,
+   "slope20": -4.55,
+   "baseLow": 127.93,
+   "lastSwingLow": 127.93
+  },
+  "reasons": [
+   "선행 상승 +42%",
+   "베이스 7.8주",
+   "✗ 깊이 32.4%",
+   "✗ 저점 상승 0회",
+   "진폭 0.75배 · 10일 종가폭 3.2 ADR",
+   "✗ 10일선 +0 ADR · 20일선 -0.8 ADR",
+   "✗ 20일선 기울기 -4.55%"
+  ],
+  "earnings": null
+ },
+ "site": {
+  "rs": {
+   "m1": {
+    "v": -0.012203120144076623,
+    "pct": 20.694319206492334
+   },
+   "m3": {
+    "v": -0.2942254839125261,
+    "pct": 2.479711451758341
+   },
+   "m6": {
+    "v": -0.20611064572146315,
+    "pct": 10.685302073940486
+   }
+  },
+  "ret1m": -13.86,
+  "ret3m": -39.75,
+  "ret6m": -30.51,
+  "marketCap": "1.78B",
+  "volx": 1.12,
+  "volSurgeWk": 1.29,
+  "high52": 55.41,
+  "newHigh52": false,
+  "adr": 5.74,
+  "div50": -13.17,
+  "div200": -21.21,
+  "targetStatus": false,
+  "saleCy": 0.49,
+  "saleNy": 14.9,
+  "epsCy": -27.58,
+  "epsNy": -369.33,
+  "cyTrend": 36.66,
+  "nyTrend": -57.74,
+  "est": {
+   "cyCur": -3.19786,
+   "cy30": -2.34,
+   "nyCur": 8.6127,
+   "ny30": 20.3817
+  },
+  "fs": {
+   "sale": [
+    -10.43,
+    -1.31,
+    -15.69
+   ],
+   "ni": [
+    "적자확대",
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    -2.13,
+    -1.99,
+    -4.1
+   ],
+   "updated": "2026-09-08 06:30:01"
+  },
+  "qualifiedBy": [],
+  "top2Since": {
+   "m1": null,
+   "m3": null,
+   "m6": null
+  },
+  "top2Streak": {
+   "m1": 0,
+   "m3": 0,
+   "m6": 0
+  }
+ },
+ "eye": null,
+ "detail": {
+  "fetchedAt": "2026-11-27",
+  "nameKo": "알파 메탈러지컬 리소시스",
+  "nameEn": "ALPHA METALLURGICAL RESOURCES INC",
+  "financials": {
+   "profitLabel": "영업이익",
+   "marginLabel": "영업이익률",
+   "unit": "USD",
+   "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001704715&type=10-Q",
+   "quarters": [
+    {
+     "periodEnd": "2026-09-30",
+     "derived": false,
+     "revenue": 560579000,
+     "profit": -8030000,
+     "netIncome": -9293000,
+     "margin": -1.4,
+     "yoy": {
+      "revenue": 6.7,
+      "profit": -218.4,
+      "netIncome": -68.5,
+      "priorEnd": "2025-09-30"
+     }
+    },
+    {
+     "periodEnd": "2026-06-30",
+     "derived": false,
+     "revenue": 491505000,
+     "profit": -10500000,
+     "netIncome": -12252000,
+     "margin": -2.1,
+     "yoy": {
+      "revenue": -10.4,
+      "profit": -495.5,
+      "netIncome": -147.3,
+      "priorEnd": "2025-06-30"
+     }
+    },
+    {
+     "periodEnd": "2026-03-31",
+     "derived": false,
+     "revenue": 523533000,
+     "profit": -10432000,
+     "netIncome": -11032000,
+     "margin": -2,
+     "yoy": {
+      "revenue": -1.2,
+      "profit": 74,
+      "netIncome": 67.5,
+      "priorEnd": "2025-03-31"
+     }
+    },
+    {
+     "periodEnd": "2025-12-31",
+     "derived": true,
+     "revenue": 519060000,
+     "profit": -21324000,
+     "netIncome": -17271000,
+     "margin": -4.1,
+     "yoy": {
+      "revenue": -15.7,
+      "profit": -313.4,
+      "netIncome": -711.2,
+      "priorEnd": "2024-12-31"
+     }
+    }
+   ]
+  },
+  "news": {
+   "items": [
+    {
+     "title": "Alpha Metallurgical Resources Q3 Earnings Call Highlights",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-q3-earnings-call-highlights",
+     "date": "2026-11-07",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Alpha Metallurgical (AMR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-amr-q3-2026-earnings-call-transcript",
+     "date": "2026-11-06",
+     "publisher": "The Motley Fool"
+    },
+    {
+     "title": "Alpha Metallurgical Resources Reports Third Quarter 2026 Net Loss of $9.3 million and Adjusted EBITDA of $29.4 million",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-reports-third-quarter-2026-net-loss-93-million-and-adjusted",
+     "date": "2026-11-06",
+     "publisher": "Fintel"
+    },
+    {
+     "title": "Alpha Posts Wider Loss In Q3, Issues FY27 Operational Guidance",
+     "url": "https://www.nasdaq.com/articles/alpha-posts-wider-loss-q3-issues-fy27-operational-guidance",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Alpha Metallurgical Resources, Inc. Q3 Loss Rises",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-resources-inc-q3-loss-rises",
+     "date": "2026-11-06",
+     "publisher": "RTTNews"
+    },
+    {
+     "title": "Alpha Metallurgical (AMR) Reports Q3 Loss, Beats Revenue Estimates",
+     "url": "https://www.nasdaq.com/articles/alpha-metallurgical-amr-reports-q3-loss-beats-revenue-estimates",
+     "date": "2026-11-06",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Will Alpha Metallurgical (AMR) Report Negative Earnings Next Week? What You Should Know",
+     "url": "https://www.nasdaq.com/articles/will-alpha-metallurgical-amr-report-negative-earnings-next-week-what-you-should-know",
+     "date": "2026-10-30",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "See How Alpha Metallurgical Resources Ranks Among Analysts' Top Metals Picks",
+     "url": "https://www.nasdaq.com/articles/see-how-alpha-metallurgical-resources-ranks-among-analysts-top-metals-picks-0",
+     "date": "2026-10-28",
+     "publisher": "BNK Invest"
+    }
+   ]
+  },
+  "filings": [
+   {
+    "form": "8-K",
+    "filingDate": "2026-11-06",
+    "itemsKo": [
+     "실적 발표",
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000041/amr-20261106.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-10-23",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000038/amr-20261023.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000032/amr-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-08-07",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000030/amr-20260807.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-07-27",
+    "itemsKo": [
+     "실적 발표",
+     "재무제표·첨부"
+    ],
+    "isEarnings": true,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000025/amr-20260727.htm"
+   },
+   {
+    "form": "8-K",
+    "filingDate": "2026-06-18",
+    "itemsKo": [
+     "Reg FD 공시",
+     "재무제표·첨부"
+    ],
+    "isEarnings": false,
+    "url": "https://www.sec.gov/Archives/edgar/data/1704715/000170471526000023/amr-20260618.htm"
+   }
+  ],
+  "krReports": {
+   "total": 0,
+   "reports": []
+  }
+ },
+ "detailNote": null,
+ "reportPdfs": [],
+ "cnbc": [],
+ "kis": {
+  "ticker": "AMR",
+  "fetchedAt": "2026-11-27",
+  "source": "한국투자증권 Open API",
+  "per": 39.18,
+  "pbr": 1.19,
+  "eps": 3.59,
+  "bps": 117.82,
+  "shares": 12662000,
+  "marketCapM": 1781,
+  "high52": 253.8199,
+  "high52Date": "2026-01-15",
+  "low52": 127.93,
+  "low52Date": "2026-11-20",
+  "last": 140.64,
+  "prevClose": 133,
+  "nameKo": "알파 메탈러지컬 리소시스",
+  "nameEn": "ALPHA METALLURGICAL RESOURCES INC",
+  "listedOn": "2021-02-04",
+  "exchange": "뉴욕거래소",
+  "listedShares": 12662000
+ },
+ "estimates": {
+  "ticker": "AMR",
+  "url": "https://finance.yahoo.com/quote/AMR/analysis/",
+  "fetchedAt": "2026-11-27",
+  "source": "Yahoo Finance",
+  "periods": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "eps": -0.61,
+    "epsLow": -0.63,
+    "epsHigh": -0.58,
+    "epsYearAgo": -1.04,
+    "epsAnalysts": 2,
+    "epsGrowth": 41.6,
+    "epsCur": "USD",
+    "rev": 559799200,
+    "revAnalysts": 3,
+    "revYearAgo": 520472000,
+    "revGrowth": 7.6,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "eps": null,
+    "epsLow": null,
+    "epsHigh": null,
+    "epsYearAgo": null,
+    "epsAnalysts": null,
+    "epsGrowth": null,
+    "epsCur": null,
+    "rev": 0,
+    "revAnalysts": 0,
+    "revYearAgo": null,
+    "revGrowth": null,
+    "revCur": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "eps": -3.17,
+    "epsLow": -3.19,
+    "epsHigh": -3.14,
+    "epsYearAgo": -4.42,
+    "epsAnalysts": 2,
+    "epsGrowth": 28.3,
+    "epsCur": "USD",
+    "rev": 2139828540,
+    "revAnalysts": 3,
+    "revYearAgo": 2129481000,
+    "revGrowth": 0.5,
+    "revCur": "USD"
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "eps": 8.7,
+    "epsLow": 3.78,
+    "epsHigh": 15.46,
+    "epsYearAgo": -3.17,
+    "epsAnalysts": 3,
+    "epsGrowth": 374.8,
+    "epsCur": "USD",
+    "rev": 2458718090,
+    "revAnalysts": 4,
+    "revYearAgo": 2139828540,
+    "revGrowth": 14.9,
+    "revCur": "USD"
+   }
+  ],
+  "changes": [
+   {
+    "period": "0q",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -0.61,
+    "d7": 4.9,
+    "d30": -146.3,
+    "d90": 6.2,
+    "ago90": -0.65,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 1
+   },
+   {
+    "period": "+1q",
+    "endDate": "2027-03-31",
+    "cur": null,
+    "now": null,
+    "d7": null,
+    "d30": null,
+    "d90": null,
+    "ago90": null,
+    "up7": null,
+    "up30": null,
+    "down7": null,
+    "down30": null
+   },
+   {
+    "period": "0y",
+    "endDate": "2026-12-31",
+    "cur": "USD",
+    "now": -3.17,
+    "d7": 1,
+    "d30": -223.7,
+    "d90": 33.6,
+    "ago90": -4.77,
+    "up7": 0,
+    "up30": 1,
+    "down7": 0,
+    "down30": 0
+   },
+   {
+    "period": "+1y",
+    "endDate": "2027-12-31",
+    "cur": "USD",
+    "now": 8.7,
+    "d7": 1,
+    "d30": -50.7,
+    "d90": -52.3,
+    "ago90": 18.26,
+    "up7": 0,
+    "up30": 0,
+    "down7": 0,
+    "down30": 1
+   }
+  ],
+  "surprises": [
+   {
+    "quarter": "2026-09-30",
+    "actual": -0.73,
+    "estimate": -0.46,
+    "surprisePct": -58.5,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-06-30",
+    "actual": -0.96,
+    "estimate": -0.97,
+    "surprisePct": 1,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2026-03-31",
+    "actual": -0.86,
+    "estimate": -0.86,
+    "surprisePct": 0,
+    "cur": "USD"
+   },
+   {
+    "quarter": "2025-12-31",
+    "actual": -1.04,
+    "estimate": -1.34,
+    "surprisePct": 22.4,
+    "cur": "USD"
+   }
+  ],
+  "beats": 2,
+  "ratings": {
+   "upgrades": 0,
+   "downgrades": 0,
+   "initiations": 0,
+   "ptRaised": 2,
+   "ptLowered": 2,
+   "total": 4,
+   "recent": [
+    {
+     "date": "2026-11-09",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 165,
+     "ptPrior": 180
+    },
+    {
+     "date": "2026-10-26",
+     "firm": "B. Riley Securities",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Lowers",
+     "pt": 178,
+     "ptPrior": 185
+    },
+    {
+     "date": "2026-10-08",
+     "firm": "UBS",
+     "action": "main",
+     "from": "Neutral",
+     "to": "Neutral",
+     "ptAction": "Raises",
+     "pt": 180,
+     "ptPrior": 160
+    },
+    {
+     "date": "2026-10-05",
+     "firm": "Jefferies",
+     "action": "main",
+     "from": "Hold",
+     "to": "Hold",
+     "ptAction": "Raises",
+     "pt": 165,
+     "ptPrior": 150
+    }
+   ]
+  },
+  "nextEarnings": {
+   "date": "2026-11-06",
+   "upcoming": false,
+   "estimated": false
+  }
+ },
+ "chart": {
+  "lastBar": "2026-11-25",
+  "numbers": {
+   "price": 140.64,
+   "ma20": 147.38,
+   "ma50": 161.97,
+   "ma150": 174.36,
+   "distMA50": -13.17,
+   "periodHigh": 255.04,
+   "pullbackFromHigh": -44.86,
+   "volRatio20": 1.17,
+   "dryUpRatio": 0.95
+  },
+  "last10": [
+   {
+    "d": "2026-11-12",
+    "o": 155.14,
+    "h": 159.34,
+    "l": 154.82,
+    "c": 155.41,
+    "v": 198700,
+    "clsPos": 13,
+    "gapPct": -1.17
+   },
+   {
+    "d": "2026-11-13",
+    "o": 154.71,
+    "h": 156.22,
+    "l": 151.55,
+    "c": 153.86,
+    "v": 168300,
+    "clsPos": 49,
+    "gapPct": -0.45
+   },
+   {
+    "d": "2026-11-16",
+    "o": 151.04,
+    "h": 152.56,
+    "l": 141.25,
+    "c": 141.46,
+    "v": 249900,
+    "clsPos": 2,
+    "gapPct": -1.83
+   },
+   {
+    "d": "2026-11-17",
+    "o": 142.34,
+    "h": 143,
+    "l": 138.43,
+    "c": 139.53,
+    "v": 229100,
+    "clsPos": 24,
+    "gapPct": 0.62
+   },
+   {
+    "d": "2026-11-18",
+    "o": 137.72,
+    "h": 142.47,
+    "l": 132.01,
+    "c": 141.23,
+    "v": 224100,
+    "clsPos": 88,
+    "gapPct": -1.3
+   },
+   {
+    "d": "2026-11-19",
+    "o": 141.69,
+    "h": 142.06,
+    "l": 134.58,
+    "c": 135.24,
+    "v": 137200,
+    "clsPos": 9,
+    "gapPct": 0.33
+   },
+   {
+    "d": "2026-11-20",
+    "o": 132.54,
+    "h": 134.19,
+    "l": 127.93,
+    "c": 129.95,
+    "v": 356600,
+    "clsPos": 32,
+    "gapPct": -2
+   },
+   {
+    "d": "2026-11-23",
+    "o": 137.17,
+    "h": 137.99,
+    "l": 131.84,
+    "c": 134.55,
+    "v": 161800,
+    "clsPos": 44,
+    "gapPct": 5.56
+   },
+   {
+    "d": "2026-11-24",
+    "o": 132.53,
+    "h": 135.24,
+    "l": 131.5,
+    "c": 133,
+    "v": 180400,
+    "clsPos": 40,
+    "gapPct": -1.5
+   },
+   {
+    "d": "2026-11-25",
+    "o": 129.97,
+    "h": 140.81,
+    "l": 129.59,
+    "c": 140.64,
+    "v": 273900,
+    "clsPos": 98,
+    "gapPct": -2.28
+   }
+  ],
+  "png3m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AMR-3m.png",
+  "png6m": "/Users/leetheman/AI/breakout-team/state/llm-in/_t6/AMR-6m.png"
+ },
+ "market": {
+  "verdict": "red",
+  "ko": "🔴 10일선이 20일선 아래 27일째(2026-10-19부터) — 새로 사지 않고, 들고 있는 것도 정리 검토",
+  "finraKo": "🟢 빚내서 산 주식(마진부채)이 1년 전보다 +22.4% — 정상 범위",
+  "finraLevel": "normal"
+ },
+ "nDeep": null
+}

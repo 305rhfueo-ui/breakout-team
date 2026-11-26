@@ -1,5 +1,5 @@
 window.NDEEP_DATA = {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "v": 2,
   "items": {
     "MRNA": {
@@ -110083,6 +110083,5156 @@ window.NDEEP_DATA = {
         "saleNy": 37.93,
         "epsCy": -82.87,
         "epsNy": -576.15
+      }
+    },
+    "SKY": {
+      "ticker": "SKY",
+      "headline": "자체 소매점 인수가 매출은 밀지만 자재비에 이익은 깎이는 중",
+      "nVerdict": "부분 충족",
+      "drivers": [
+        {
+          "what": "자체 소유 소매점(소비자 직접 판매) 확장 — Homes Direct·Iseman Homes 인수로 공장에서 만든 집을 회사가 직접 판다",
+          "kind": "service",
+          "stage": "매출 발생 중",
+          "since": "2025-05",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "2026년 8월 미국 서부 소매점 11곳을 둔 Homes Direct 자산 인수를 마쳤고, 2025년 5월에는 북중부 소매점 10곳의 Iseman Homes 를 인수했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "In August 2026, the Company completed its previously announced acquisition of the assets of Homes Direct, representing 11 retail sales centers across the western region of the U.S. The acquisition expands Champion's Western U.S. footprint and accelerates the Company's direct to consumer strategy. In May 2025, the Company acquired Iseman Homes, which operated 10 retail sales centers across the North Central U.S.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "회사는 현재 미국에서 공장 직영 소매점 95곳을 운영한다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 실적 보도자료 (2026-11-03)",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "In addition to its core home building business, Champion Homes provides construction services to install and set-up factory-built homes, operates a factory-direct retail business with 95 retail locations across the United States, and operates Star Fleet Trucking, providing transportation services to the manufactured housing and other industries from several dispatch locations across the United States.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "회사는 2027회계연도 2분기 미국 주택 판매가 2.3% 늘어 6,724채가 된 주된 이유로 생산 속도 상승과 자체 소매점 판매 증가를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 실적 보도자료 (2026-11-03)",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "The number of U.S. homes sold in the second quarter fiscal 2027 increased 2.3% to 6,724, driven primarily by higher production rates and an increase in sales from captive retail stores. The ASP per U.S. home sold increased 4.1% to $102,700 due to channel and product mix, as well as improved price realization.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "미국 공장생산 주택 부문 매출은 2026년 9월 26일로 끝난 3개월 동안 4,170만 달러, 6.4% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "Net sales for the Company’s U.S. manufacturing and retail operations increased by $41.7 million, or 6.4%, for the three months ended September 26, 2026 compared to the three months ended September 27, 2025. The increase was due to a 2.3% increase in new homes sold and 4.1% increase in the average selling price per new home. The increase in new homes sold was due to higher new home orders and production rates. The increase in average selling price was primarily due to a shift in mix to more multi-wide units and improved price realization.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "수주잔고(주문은 받았지만 아직 생산하지 않은 금액)는 2026년 9월 26일 5.002억 달러로 1년 전 3.132억 달러에서 늘었고, 회사는 주문이 생산을 앞섰기 때문이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "The Company's manufacturing backlog increased to $500.2 million as of September 26, 2026 compared to $313.2 million as of September 27, 2025. The increase in backlog is a function of order rates exceeding production rates during the three months ended September 26, 2026, compared to the same period in the prior fiscal year.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "소매점 확장은 아직 비용 쪽으로 먼저 나타난다 — 미국 부문 판매·관리비(SG&A)가 940만 달러, 11.2% 늘었고 회사는 그 이유로 Homes Direct 편입을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "Selling, general, and administrative expenses for the U.S. Factory-built Housing segment increased $9.4 million, or 11.2%, during the three months ended September 26, 2026 as compared to the same period in the prior fiscal year. SG&A as a percent of segment net sales increased to 13.5% for the three months ended September 26, 2026 compared to 12.9% during the comparable period of the prior fiscal year. The increase in SG&A was due to the inclusion of Homes Direct, higher incentive compensation and marketing costs and the $3.7 million gain on sale of idle facility from the prior fiscal year which did not recur.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "일회성을 뺀 회사 기준 판매·관리비는 5.4% 늘어 1.185억 달러가 됐고, 회사는 넓어진 소매점 때문이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 실적 보도자료 (2026-11-03)",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-ex99_1.htm",
+                  "date": "2026-11-03",
+                  "quote": "On an adjusted basis, SG&A increased 5.4% to $118.5 million due to the company’s expanded retail footprint. Adjusted SG&A as a percentage of net sales was 16.3%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "자재비가 마진을 깎고 있다 — 미국 부문 매출총이익률이 24.4%로 1년 전 26.6%에서 내려갔고 회사는 제조 자재비 상승을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "Gross profit for the U.S. Factory-built Housing segment decreased by $3.9 million, or 2.3%, during the three months ended September 26, 2026 compared to the same period in the prior fiscal year. Gross profit was 24.4% as a percent of segment net sales for the three months ended September 26, 2026, compared to 26.6% for the three months ended September 27, 2025. The decrease in gross profit as a percent of segment net sales was driven by higher manufacturing material input costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "회사는 인플레이션과 금리 상승이 주택 구매자의 구매력을 깎는 동시에 자재비를 올려 영업이익률을 누르고 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "However, in recent quarters, inflationary pressures and rising interest rates have compressed the purchasing power of homebuyers while simultaneously increasing material input costs, thereby impacting the Company’s operating margins.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "자체 금융회사 Champion Financing — Triad 와 함께 소매업자·주택 구매자에게 재고금융과 소비자 대출을 내준다",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "2024",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2024회계연도에 ECN 에 지분을 투자해 자회사 Triad 와 함께 자체 금융회사 Champion Financing 을 만들었고, 이 서비스가 시장 점유율을 높여 줄 것으로 본다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "During fiscal 2024, the Company made an equity investment in ECN. The investment, in part, facilitated the creation of a captive finance company in partnership with Triad, a subsidiary of ECN. The captive finance company, Champion Financing, through Triad, provides factory-built home floor plan and consumer loans to manufactured home retailers and homebuyers. The Company believes this offering will provide customers needed financing solutions and improve the Company's market share.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "이 사업이 들어 있는 기타 부문 매출은 2026년 9월 26일로 끝난 3개월 동안 170만 달러, 18.6% 늘었고 회사는 Champion Financing 물량 증가를 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "Net sales for Corporate/Other includes the Company’s transportation business, financing activities, and the elimination of intersegment sales. Net sales increased by $1.7 million or 18.6% for the three months ended September 26, 2026 compared to the same period in the prior fiscal year due to higher volumes from Champion Financing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "같은 기간 기타 부문 매출총이익이 140만 달러, 18.2% 늘었고 회사는 그 증가를 Champion Financing 물량 증가로 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "Gross profit for the Corporate/Other segment increased $1.4 million, or 18.2%, during the three months ended September 26, 2026 compared to the same period of the prior fiscal year. The increase in gross profit was due to higher volumes from Champion Financing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "제휴 상대인 ECN 이 사모 투자자 그룹에 팔리면서 회사의 ECN 지분은 청산됐다 — 회사는 그래도 Champion Financing 운영에는 영향이 없다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "챔피언 홈스 10-Q 경영진 설명",
+                  "publisher": "Champion Homes, Inc. (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                  "date": "2026-11-04",
+                  "quote": "On November 13, 2025, ECN entered into a definitive arrangement to be acquired by a private investor group for CAD $3.10 per share, plus any accrued but unpaid dividends. The transaction closed on April 24, 2026, which resulted in the liquidation of the Company's investment in ECN common and preferred shares in the first quarter of fiscal 2027 and resulted in net cash proceeds of $137.0 million and net gain on investment of $2.5 million. The liquidation of the Company's investment in ECN common and preferred shares will not impact the future operations of Champion Financing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33은 최근 3분기(2025년 12월·2026년 3월·2026년 6월 분기)에서 매출 증가율 1.8%→4.6%→1.3%, 순이익은 세 분기 모두 1년 전보다 감소, 순이익률은 8.3%→4.8%→6.9%로 계산했다 — 세 항목 가운데 꾸준히 오르는 것이 하나도 없다. 회사는 순이익 감소의 원인을 자재비의 인플레이션 상승과 Energy Star 세액공제 폐지에 따른 세율 상승으로 직접 설명했고, 매출 증가는 자체 소매점 판매와 생산 속도 상승으로 설명했다. 즉 새 동력은 매출 줄기를 밀고 있지만, 이익의 가속을 만들었다는 근거는 공시에 없다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "챔피언 홈스 실적 보도자료 (2026-11-03)",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-ex99_1.htm",
+                "date": "2026-11-03",
+                "quote": "From a product and regulatory perspective, our team flawlessly executed and delivered our two-story home, the New Horizon, to the National Mall for Homes on the Hill in September. This innovative home, which was built to the HUD Code, features a removed second-floor chassis and is designed for vertical construction in narrow urban infill lots offering a unique solution for attainable housing.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "회사는 9월에 HUD 코드로 지은 2층 주택 New Horizon 을 내셔널 몰 행사에 인도했고, 좁은 도심 빈 땅의 수직 건축용이라고 설명했다.",
+            "stripped": true
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "미국 HUD 코드 주택 도매 점유율이 2026년 8월까지 5개월 기준 23.0%로 1년 전 22.6%보다 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "Based on industry data, the Company’s U.S. wholesale market share of HUD code homes sold was 23.0% and 22.6%, for the five months ended August 31, 2026 and 2025, respectively.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "미국 전체 주택시장 기준 추정 점유율도 약 3.0%로 1년 전 2.6%에서 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "Our estimated market share in the U.S. total housing market, based on data through August 2026, was approximately 3.0% and 2.6% for the six months ended September 26, 2026 and September 27, 2025, respectively.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "업계 HUD 코드 출하가 2026년 8월까지 5개월 동안 52,702대였고 회사가 그 중 23.0%를 담당했다 — 소수 생산자가 물량을 나눠 갖는 시장이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "According to data reported by the Manufactured Housing Institute, HUD-code industry home shipments were 52,702 and 44,567 units during the five months ended August 31, 2026 and 2025, respectively. Based on industry data, the Company’s U.S. wholesale market share of HUD code homes sold was 23.0% and 22.6%, for the five months ended August 31, 2026 and 2025, respectively.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "다만 시장 자체는 작다 — 공장생산 주택 판매는 미국 단독주택 착공의 약 11%에 그치고, 업계 출하는 장기 평균인 연 20만 대를 아직 밑돈다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "HUD-code industry shipments have improved modestly in recent years, but are still at lower levels than the long-term historical average of over 200,000 units per year. Manufactured home sales represent approximately 11% of all U.S. single family home starts.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 자재비 상승을 가격 인상, 공급망 협력, 대체 자재 조달, 운영 개선으로 막아 영업이익률 영향을 줄이려 한다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "Where possible, the Company tries to mitigate the impact of rising material input costs by taking pricing actions, working with supply chain partners, sourcing alternative materials, or making other operational improvements to minimize the effect on operating margins.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "대당 평균 판매가격은 4.1% 올라 102,700달러가 됐고, 회사는 판매 경로·제품 구성 변화와 가격 반영 개선을 이유로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 실적 보도자료 (2026-11-03)",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-ex99_1.htm",
+                "date": "2026-11-03",
+                "quote": "The ASP per U.S. home sold increased 4.1% to $102,700 due to channel and product mix, as well as improved price realization.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "회사는 2026회계연도 상반기에 플로리다 바토 공장을 가동 중단하고 캐나다 켈로나 공장을 닫았으며, 이 조치가 결국 운영 효율과 수익성을 높일 것으로 본다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "During the first half of fiscal 2026, the Company idled production at the Bartow, Florida manufacturing plant and ceased operations at the Kelowna, British Columbia manufacturing plant. The Company believes those actions will ultimately lead to greater operating efficiency and profitability. In addition, the Company sold a previously idled manufacturing facility during the second quarter of fiscal 2026. The Company continues to own six idle manufacturing facilities that could be used for further manufacturing capacity expansion in future periods.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "회사는 기존 공장의 가동률과 수익성을 올리는 운영 개선에 집중하면서 설비 투자와 인수로 생산·소매 발판을 조금씩 늘린다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "챔피언 홈스 10-Q 경영진 설명",
+                "publisher": "Champion Homes, Inc. (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+                "date": "2026-11-04",
+                "quote": "The Company is focused on operational improvements to increase capacity utilization and profitability at its existing manufacturing facilities as well as measured expansion of its manufacturing and retail footprint through facility and equipment investments and acquisitions.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "챔피언 홈스에서 새로운 것은 집 자체보다 집을 파는 경로다 — 회사가 직접 운영하는 소매점을 인수로 늘리고 있다. 2026년 8월 미국 서부 소매점 11곳의 Homes Direct 인수를 마쳤고, 2025년 5월에는 북중부 10곳의 Iseman Homes 를 사들여 지금 직영 소매점이 95곳이다. 효과는 매출에서 먼저 보인다 — 회사는 2027회계연도 2분기 미국 주택 판매가 2.3% 늘어 6,724채가 된 주된 이유로 생산 속도 상승과 자체 소매점 판매 증가를 들었고, 미국 부문 매출은 4,170만 달러, 6.4% 늘었다. 두 번째 동력은 자체 금융회사 Champion Financing 으로, 이 사업이 들어 있는 기타 부문 매출이 170만 달러·18.6%, 매출총이익이 140만 달러·18.2% 늘었다. 그러나 이익은 반대 방향이다 — 미국 부문 매출총이익률이 24.4%로 1년 전 26.6%에서 내려갔고 회사는 제조 자재비 상승을 원인으로 적었다. 소매점 확장도 아직은 비용 쪽이 앞선다 — 미국 부문 판매·관리비(SG&A, 판매·관리비)가 940만 달러·11.2% 늘었고 회사는 Homes Direct 편입을 이유로 들었다. 앞으로의 매출인 수주잔고는 5.002억 달러로 1년 전 3.132억 달러에서 늘었고, 회사는 주문이 생산을 앞섰기 때문이라고 설명했다. 점유율도 올라가는 쪽이다 — 미국 HUD 코드 주택 도매 점유율이 23.0%로 1년 전 22.6%보다 높았다. 회사는 이번 보도자료에서 매출·이익 전망(가이던스)을 내놓지 않아 기대 성장률을 숫자로 뒷받침할 근거는 없다. 이 그림을 꺾을 수 있는 것은 자재비와 금리다 — 회사는 인플레이션과 금리 상승이 주택 구매력을 깎고 자재비를 올려 영업이익률을 누르고 있다고 적었다.",
+      "watch": [
+        "미국 부문 매출총이익률이 24.4%에서 회복되는지 — 자재비 상승을 가격과 제품 구성으로 넘겼는지가 여기서 보인다",
+        "수주잔고가 5.002억 달러 수준을 유지하거나 더 늘어나는지 — 주문이 생산을 앞서는 흐름이 이어지는지",
+        "예고한 Timberline Homes 인수가 마무리되어 소매점이 95곳에서 더 늘어나는지, 그리고 늘어난 소매점이 판매·관리비(SG&A) 증가율보다 매출을 더 빨리 끌어올리는지",
+        "Champion Financing 이 들어 있는 기타 부문 매출·매출총이익이 계속 두 자릿수로 늘어나는지",
+        "Energy Star 세액공제 폐지로 올라간 세율이 순이익을 계속 깎는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 읽지 못했고, 회사가 가이던스를 내놓지 않아 기대 성장률 칸은 비웠다",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-11-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-03)",
+          "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526445376/sky-ex99_1.htm",
+          "filingDate": "2026-11-03"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526332837/sky-ex99_1.htm",
+          "filingDate": "2026-08-04"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/90896/000119312526447295/sky-20260926.htm",
+          "filingDate": "2026-11-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-06-27",
+            "revenueYoy": 1.3,
+            "netIncomeYoy": -24,
+            "netMargin": 6.9
+          },
+          {
+            "periodEnd": "2026-03-28",
+            "revenueYoy": 4.6,
+            "netIncomeYoy": -18.4,
+            "netMargin": 4.8
+          },
+          {
+            "periodEnd": "2025-12-27",
+            "revenueYoy": 1.8,
+            "netIncomeYoy": -11.7,
+            "netMargin": 8.3
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-06-27",
+          "revenue": 710234000,
+          "netIncome": 49157000,
+          "yoy": {
+            "revenue": 1.3,
+            "profit": -23.2,
+            "netIncome": -24,
+            "priorEnd": "2025-06-28"
+          }
+        },
+        {
+          "periodEnd": "2026-03-28",
+          "revenue": 621278000,
+          "netIncome": 29676000,
+          "yoy": {
+            "revenue": 4.6,
+            "profit": -14.7,
+            "netIncome": -18.4,
+            "priorEnd": "2025-03-29"
+          }
+        },
+        {
+          "periodEnd": "2025-12-27",
+          "revenue": 656614000,
+          "netIncome": 54336000,
+          "yoy": {
+            "revenue": 1.8,
+            "profit": -14.2,
+            "netIncome": -11.7,
+            "priorEnd": "2024-12-28"
+          }
+        },
+        {
+          "periodEnd": "2025-09-27",
+          "revenue": 684429000,
+          "netIncome": 58199000,
+          "yoy": {
+            "revenue": 11,
+            "profit": 12.2,
+            "netIncome": 6.3,
+            "priorEnd": "2024-09-28"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 6.82,
+        "saleNy": 8.5,
+        "epsCy": -11.97,
+        "epsNy": 23.6
+      }
+    },
+    "BCO": {
+      "ticker": "BCO",
+      "headline": "ATM 관리·디지털 리테일(AMS/DRS)이 분기 매출의 32%까지 커지며 마진을 끌어올리는 중",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "id": "d1",
+          "what": "AMS/DRS — ATM 관리 서비스(은행 ATM의 현금 예측·원격 감시·유지보수 대행)와 디지털 리테일 솔루션(소매점 현금 입금을 기기·소프트웨어로 당일 처리) 두 기술 기반 서비스",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "2023",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "3분기 보도자료 제목에서 회사는 AMS·DRS의 유기 성장률(인수·환율 효과를 뺀 성장률)이 16%를 넘었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenue growth of 3% with organic growth of 4% and over 16% AMS/DRS organic growth",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "회사는 직전 분기 보도자료에서 이 두 사업이 14분기 연속 두 자릿수 중반 이상의 유기 성장을 냈다고 적었다 — 새로 시작한 것이 아니라 이미 여러 해 이어지는 흐름이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 2분기 실적 보도자료 (2026-08-05)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/ex991q22026.htm",
+                  "date": "2026-08-05",
+                  "quote": "Revenue growth of 7% reflects the 14th consecutive quarter of mid-teens or greater AMS/DRS organic growth",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "경영진은 10-Q 경영진 설명에서 이 두 서비스가 회사 사업 구성에서 차지하는 비중이 커지고 있다고 직접 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "This acquisition represents a significant strategic step for Brink’s, expanding the scale of the combined company and supporting continued growth in our AMS and DRS offerings, which reflect an increasing portion of our business mix.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "AMS·DRS 비중은 3분기에 사상 최고 32%까지 올라 최근 12개월 기준 전체 매출의 30%를 차지한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 2026년 3분기 실적 발표 콜 원고",
+                  "publisher": "Webull (실적 발표 콜 전재)",
+                  "url": "https://www.webull.com/news/15866126753635328",
+                  "date": "2026-11-04",
+                  "quote": "AMS/DRS now represents 30% of our trailing 12-month revenue mix after reaching a record 32% in the third quarter",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "3분기 전사 유기 성장률 4%의 주된 이유로 회사는 AMS·DRS 매출의 유기 성장, 물가 연동 가격 인상, 귀중품 국제운송(BGS) 매출을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues increased 4% on an organic basis primarily due to organic growth in AMS and DRS revenue, inflation-based price increases, and BGS revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "유럽 부문은 매출이 유기 기준 2% 늘었고 회사는 그 증가 이유를 AMS·DRS 매출 성장으로 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Revenues increased 1% ($5.0 million) due to a 2% organic increase ($8.0 million) partially offset by the unfavorable impact of currency exchange rates ($3.0 million). Organic revenue increased primarily due the growth of AMS and DRS revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "유럽 부문 영업이익은 31% 늘었는데, 회사는 AMS·DRS 매출이 늘면서 생긴 믹스 효과와 비용 생산성 활동을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Operating profit increased 31% ($15.3 million) primarily due to a 31% organic increase ($15.7 million). The organic increase was driven by the mix benefit of higher AMS and DRS revenue and cost productivity initiatives.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "일회성을 뺀 회사 기준(비GAAP) 영업이익률은 14.1%에서 15.1%로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Non-GAAP Consolidated Operating Profit and Non-GAAP Operating Profit Margin Non-GAAP operating profit margin increased from 14.1% to 15.1%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p3",
+              "statement": "CEO는 조정 EBITDA가 8% 늘고 마진이 1년 전보다 90bp 개선된 이유로 유리한 매출 믹스와 강한 가격 결정력을 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "Adjusted EBITDA grew 8%, and margins expanded by 90 basis points year-over-year, powered by favorable revenue mix and strong pricing dynamics.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사가 내놓은 2026년 연간 전망(가이던스)은 AMS·DRS 유기 성장률을 '십 대 중반에서 높은 수준', 전사 유기 성장률을 '한 자릿수 중반', 조정 EBITDA 마진 개선을 30~50bp로 제시한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "| 2026 Non-GAAP Framework | \nOrganic Revenue Growth | Mid-Single Digits | \nAMS/DRS Organic Revenue Growth | Mid-to-High Teens | \nAdjusted EBITDA Margin Expansion | 30-50bps | \nFree Cash Flow Conversion | 40-45% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사의 4분기 가이던스는 매출 1,365~1,415백만 달러, 조정 EBITDA 275~295백만 달러, 비GAAP 주당순이익 2.45~2.80달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "| Q4 2026 \nGuidance | \nRevenue | $1,365 - $1,415 | \nNon-GAAP Adjusted EBITDA | $275 - $295 | \nNon-GAAP EPS | $2.45 - $2.80 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "라틴아메리카 부문 영업이익은 인건비 상승으로 유기 기준 6% 줄었다 — 믹스 개선이 모든 지역에서 통하지는 않는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Operating profit decreased 2% ($1.3 million) primarily due to a 6% organic decrease ($4.2 million) and partially offset by the favorable impact of currency exchange rates ($3.0 million). The organic decrease was primarily driven by higher labor costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "AMS·DRS 역량에 돈을 쓰면서 본사 비용이 늘어 3분기 본사 경비가 1년 전보다 7.7백만 달러 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Corporate expenses for the three months ended September 30, 2026 increased $7.7 million versus the prior year period. This was primarily driven by higher costs for investments in global capabilities, primarily in AMS and DRS, and higher net incentive compensation costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "귀금속 강도와 북미 창고 침수로 각각 19.6백만 달러, 7.0백만 달러 손실이 났다 — 현금·귀중품 운송업에 늘 붙어 있는 사고 위험이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Incident-related losses In the first nine months of 2026, we recognized losses of $19.6 million related to a September 2026 precious metals robbery in our global services line of business, and $7.0 million related to damaged leased and owned inventory in a significant flooding incident at a North America warehouse location.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "what": "NCR Atleos 인수 — ATM 운영·관리 회사를 통째로 사들여 AMS 사업의 규모를 키우는 거래",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-02",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026년에 NCR Atleos 인수 확정 계약을 맺었고, 이를 AMS·DRS 사업의 성장을 뒷받침하는 전략적 조치라고 설명한다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "NCR Atleos acquisition and transformation initiatives On February 26, 2026, we entered into a definitive agreement to acquire NCR Atleos. The transaction is now expected to close in early January 2027, subject to regulatory approval and other customary closing conditions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "CEO는 영국 경쟁당국(CMA) 쪽 진전을 포함해 규제 절차가 빨라져 2027년 초 거래 종결을 예상하며, 금융기관·소매업체의 초기 반응이 긍정적이라고 말했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "With increasing clarity and momentum on the regulatory front, including the recent developments with the CMA in the United Kingdom, we now expect to close the acquisition in early January 2027. Early customer reaction has been positive, and we are energized by the interest from financial institutions and retailers across multiple geographies.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "인수·전환 작업 비용으로 3분기에 45.7백만 달러, 9개월 누적 121.0백만 달러가 나가 회계 기준(GAAP) 이익을 깎았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "NCR Atleos acquisition and transformation initiatives | (5.1) | (5.4) | (8.1) | (7.4) | (26.0) | (38.9) | (36.4) | (45.7) | (121.0) |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2p2",
+              "statement": "이 비용이 판매·관리비(SG&A)를 밀어올려 3분기 판매·관리비가 13% 늘어 224.0백만 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Selling, general and administrative costs increased 13% to $224.0 million primarily due to costs from the NCR Atleos acquisition and transformation initiatives and the impact of incident-related losses.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "경영진은 실적 발표 콜에서 2029년 말까지 연 200백만 달러 수준의 비용 시너지를 목표로 한다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 2026년 3분기 실적 발표 콜 원고",
+                  "publisher": "Webull (실적 발표 콜 전재)",
+                  "url": "https://www.webull.com/news/15866126753635328",
+                  "date": "2026-11-04",
+                  "quote": "$200 million run-rate synergy projected by the end of 2029",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2e2",
+              "statement": "회사는 시너지를 당초 계획보다 일찍 실현할 것으로 보며 200백만 달러 목표에 대한 확신이 커졌다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "We now expect to realize synergies sooner than originally planned and have identified additional opportunities that increase confidence in our original $200 million target.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 규제 당국이 승인을 늦추거나 조건·자산 매각을 요구하면 예정된 시점에 종결되지 않을 수 있다는 위험을 공시에 그대로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                  "date": "2026-11-04",
+                  "quote": "the risk that regulatory authorities delay or do not grant clearance or impose conditions, divestitures or other remedies; the risk that closing does not occur on the anticipated timeline",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2c2",
+              "statement": "DRS 성장 자금을 차입으로 대면서 금리와 차입 규모가 모두 올라 이자비용이 1년 전보다 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "The Brink's Company (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Interest expense was higher for the three and nine months ended September 30, 2026, compared to the same prior year periods due to higher interest rates on corporate debt and overall higher borrowing levels. Borrowings were primarily used to fund growth in our DRS business and other general corporate initiatives.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33은 최근 3분기 매출 증가율이 10.3%→7.1%→3%로 낮아지고 순이익률도 2.3%→3.2%→1.1%로 꺾였다고 보여 준다 — 세 조건 모두 미충족이다. 다만 회사 설명에 따르면 3분기 매출 증가율이 3%로 주저앉은 것은 말레이시아 사업 연결 제외로 23.4백만 달러가 빠진 영향이 크고, 그 효과를 뺀 유기 성장률은 4%이며 회사는 그 이유를 AMS·DRS 성장·가격 인상·BGS 매출로 설명한다. 순이익 급감은 AMS/DRS 때문이 아니라 NCR Atleos 인수·전환 비용(3분기 45.7백만 달러)과 사고 손실(19.6백만 달러·7.0백만 달러) 같은 회사가 일회성으로 떼어 놓은 항목 때문이고, 같은 분기 조정 EBITDA는 8% 늘고 비GAAP 영업이익률은 14.1%에서 15.1%로 올랐다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "새로운 것은 ATM 관리 서비스(AMS)와 디지털 리테일 솔루션(DRS)이며, 3분기 이 두 사업의 유기 성장률은 16%를 넘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                "date": "2026-11-04",
+                "quote": "Revenue growth of 3% with organic growth of 4% and over 16% AMS/DRS organic growth",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1b",
+            "statement": "DRS는 자체 기기와 소프트웨어로 소매점의 현금 입금을 더 빨리 처리해 주는 서비스이고, AMS는 은행 ATM의 현금 예측·원격 감시·유지보수·정산을 통째로 대행하는 서비스다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "• DRS – services that facilitate faster access to cash deposits leveraging Brink’s tech-enabled devices and software platforms that enable enhanced customer analytics and visibility \n• AMS – comprehensive solutions for ATM management, including cash forecasting, cash optimization, ATM remote monitoring, service call dispatching, transaction processing, first and second line maintenance, parts provisioning, funds settlements, and installation services",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "CEO는 분기 말과 다음 분기 초에 주요 고객 수주를 여러 건 확보해 하반기 성장 동력이 이어진다고 말했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 2분기 실적 보도자료 (2026-08-05)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/ex991q22026.htm",
+                "date": "2026-08-05",
+                "quote": "We closed several key customer wins late in the second and early in the third quarter that support continued growth momentum into the second half of the year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "다만 전체 시장에서의 점유율 수치를 회사가 공시에 밝힌 것은 찾지 못했고, 확인된 것은 AMS·DRS 비중이 최근 12개월 기준 전체 매출의 30%까지 커졌다는 내부 구성비다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 2026년 3분기 실적 발표 콜 원고",
+                "publisher": "Webull (실적 발표 콜 전재)",
+                "url": "https://www.webull.com/news/15866126753635328",
+                "date": "2026-11-04",
+                "quote": "AMS/DRS now represents 30% of our trailing 12-month revenue mix after reaching a record 32% in the third quarter",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 51개국에서 직접 법인을 운영하며 100개국 넘는 고객에 서비스한다 — 무장 차량·금고망이 필요해 신규 진입이 쉽지 않은 구조다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+                "date": "2026-11-04",
+                "quote": "Our network of operations in 51 countries serves customers in more than 100 countries.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "칠레 경쟁당국이 현금 물류 산업의 경쟁사 간 담합 가능성을 조사해 왔다는 공시 내용 자체가 이 시장이 소수 사업자 구조라는 방증이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "The investigation is related to potential anti-competitive practices among competitors in the cash logistics industry in Chile.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "라틴아메리카에서는 부문 전반의 가격 인상과 AMS·DRS 매출 증가가 유기 매출 증가를 이끌었다 — 물가에 맞춘 가격 인상이 매출을 받치는 축이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "The organic increase was primarily driven by price increases across the segment as well as growth in AMS and DRS revenue.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "북미 부문 영업이익이 8% 늘어난 이유로 회사는 매출 증가, 매출 구성(믹스) 효과, 비용 생산성을 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "Operating profit increased 8% ($4.7 million) driven entirely by organic growth. The organic increase was primarily driven by higher revenue, the net impact of revenue mix, and cost productivity.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "회사는 2023년에 상업·운영 시스템과 재무·IT 같은 지원 업무를 표준화·간소화하는 여러 해짜리 전환 프로그램을 시작했다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "During 2023, we initiated a multi-year program intended to accelerate growth and drive margin expansion through transformation of our business model. The program is designed to help us standardize and streamline our commercial and operational systems and processes, as well as back-office functions, including finance and information technology.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "유럽 부문 이익 증가의 근거로 회사는 AMS·DRS 믹스 효과와 함께 비용 생산성 활동을 함께 적었다 — 비용 절감 단독이 아니라 매출 구성 변화와 묶여 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "브링크스 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "The Brink's Company (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "The organic increase was driven by the mix benefit of higher AMS and DRS revenue and cost productivity initiatives.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "브링크스의 새로운 것은 현금 수송이라는 본업 위에 올린 두 가지 기술 서비스, ATM 관리 서비스(AMS)와 디지털 리테일 솔루션(DRS)이다. 3분기 이 두 사업의 유기 성장률(인수·환율 효과를 뺀 성장률)은 16%를 넘었고, 비중은 분기 기준 사상 최고 32%, 최근 12개월 기준 30%까지 올라왔다. 회사는 전사 유기 성장률 4%의 이유를 AMS·DRS 성장과 물가 연동 가격 인상, 귀중품 국제운송(BGS) 매출로 직접 설명한다. 이익 쪽 연결도 회사 문장에 있다 — 유럽 부문 영업이익 31% 증가의 이유로 \"AMS·DRS 매출 증가의 믹스 효과와 비용 생산성\"을 들었고, 일회성을 뺀 회사 기준(비GAAP) 영업이익률은 14.1%에서 15.1%로, 조정 EBITDA 마진은 1년 전보다 90bp(bp는 0.01%p) 올랐다. 반면 회계 기준(GAAP) 순이익은 크게 줄었는데, 이는 NCR Atleos 인수·전환 비용(3분기 45.7백만 달러)과 사고 손실(19.6백만 달러·7.0백만 달러) 때문이고 회사는 이 항목들을 부문 실적에서 떼어 놓는다. 두 번째 동력인 NCR Atleos 인수는 아직 매출이 없는 '발표만' 단계로, 2027년 초 종결 예정이며 경영진은 2029년 말까지 연 200백만 달러 비용 시너지를 목표로 한다. 기대 성장률은 회사 가이던스뿐이다 — 2026년 AMS·DRS 유기 성장률 '십 대 중반에서 높은 수준', 전사 '한 자릿수 중반', 조정 EBITDA 마진 30~50bp 개선, 4분기 매출 1,365~1,415백만 달러다. 꺾을 수 있는 것은 라틴아메리카의 인건비 상승(유기 영업이익 6% 감소), AMS·DRS 역량 투자로 늘어난 본사 비용(3분기 7.7백만 달러 증가), DRS 성장 자금 차입에 따른 이자비용 증가, 그리고 규제 당국이 조건·자산 매각을 요구할 경우의 인수 지연 위험이다. 정리하면 새로운 것이 매출과 마진 양쪽에 숫자로 확인되는 '충족'이지만, 지금 보이는 회계 이익은 인수 비용에 가려져 있고 인수 자체는 아직 결과가 나오지 않았다.",
+      "watch": [
+        "AMS·DRS 유기 성장률이 4분기에도 십 대 중반 이상을 유지하는지, 비중이 32%에서 더 올라가는지",
+        "NCR Atleos 인수가 회사가 말한 2027년 초에 실제로 종결되는지 — 조건부 승인·자산 매각 요구가 붙는지",
+        "라틴아메리카 유기 영업이익이 인건비 상승을 넘어 다시 플러스로 돌아서는지",
+        "4분기 가이던스(매출 1,365~1,415백만 달러, 조정 EBITDA 275~295백만 달러) 안에 들어오는지와 조정 EBITDA 마진 30~50bp 개선 달성 여부"
+      ],
+      "sourceGap": "국내 증권사 리포트가 한 건도 없었고, 실적 발표 콜 원문은 나스닥 페이지가 열리지 않아 전재본(Webull)으로 읽었다. AMS·DRS 부문의 금액 기준 매출·마진은 회사가 공시에 따로 떼어 밝히지 않아 비중(%)과 성장률(%)로만 확인했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-11-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex991q32026.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000068/ex992.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/ex991q22026.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000054/exhibit992_2q2026v-micro.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/78890/000007889026000069/bco-20260930.htm",
+          "filingDate": "2026-11-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 3,
+            "netIncomeYoy": -60.1,
+            "netMargin": 1.1
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 7.1,
+            "netIncomeYoy": 1.6,
+            "netMargin": 3.2
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 10.3,
+            "netIncomeYoy": -37.8,
+            "netMargin": 2.3
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 1374600000,
+          "netIncome": 14500000,
+          "yoy": {
+            "revenue": 3,
+            "profit": -14,
+            "netIncome": -60.1,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 1392300000,
+          "netIncome": 44400000,
+          "yoy": {
+            "revenue": 7.1,
+            "profit": -0.4,
+            "netIncome": 1.6,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 1375100000,
+          "netIncome": 32100000,
+          "yoy": {
+            "revenue": 10.3,
+            "profit": -7.5,
+            "netIncome": -37.8,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 1379000000,
+          "netIncome": 68100000,
+          "yoy": {
+            "revenue": 9.1,
+            "profit": 72.3,
+            "netIncome": 76.9,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 5.17,
+        "saleNy": 3.3,
+        "epsCy": 11.58,
+        "epsNy": 8.77
+      }
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "headline": "AI 데이터센터와 항공·방산 수요가 산업·통신 부문 매출을 동시에 끌어올리는 중",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "id": "d1",
+          "what": "AI 인프라 투자로 커진 데이터센터용 반도체 수요 — 통신 부문 안의 데이터센터 하위 시장이 성장을 이끌고, 전력 반도체 회사 Empower Semiconductor 인수가 더해졌다",
+          "kind": "industry",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "회사는 통신 부문의 성장을 데이터센터 하위 시장이 이끌었고 그 배경이 AI 인프라 투자 확대라고 10-K 경영진 설명에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Within Industrial, instrumentation and aerospace and defense applications experienced the strongest year-over-year growth, while within Communications, growth was led by the data center sub-market, primarily reflecting increased demand associated with artificial intelligence infrastructure investments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "CEO는 AI 인프라 투자가 데이터센터와 ATE(반도체 자동 테스트 장비) 사업에서 큰 성장을 만들고 있다고 실적 보도자료에서 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "“ADI closed fiscal 2026 with record performance, demonstrating the continued strength of our business model,” said Vincent Roche, CEO and Chair. “While AI infrastructure investments are driving tremendous growth across our data center and ATE businesses, more than two-thirds of our growth in fiscal 2026 came from non-AI-centric market opportunities.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b3",
+              "statement": "회사는 2026 회계연도 3분기에 Empower Semiconductor 를 인수했다고 경영진 설명에 적었고, 실적 보도자료 주석에는 Alif Semiconductor 인수 비용도 함께 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "The change in cash used for investing activities during fiscal 2026 as compared to fiscal 2025 was primarily the result of the acquisition of Empower Semiconductor, Inc. during the third quarter of fiscal 2026 and an increase in cash used for capital expenditures, partially offset by the net change in our available-for-sale investment portfolio.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "2 Acquisition Related Transaction Costs : Costs directly related to the acquisition of Empower Semiconductor, Inc., and Alif Semiconductor, Inc. including legal, accounting and other professional fees as well as integration related costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "통신 부문 매출은 2026 회계연도 4분기에 1년 전보다 81% 늘어 전체 매출의 16%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "Communications | 706,763 | 16% | 81% | 391,438 | 13% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "2026 회계연도 전체로도 통신 부문 매출은 전년 대비 74% 늘었고, 비중은 12%에서 16%로 올라갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Communications | 2,374,003 | 16 | % | 74 | % | 1,361,587 | 12 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r3",
+              "statement": "직전 분기인 2026 회계연도 3분기에도 통신 부문 매출은 1년 전보다 84% 늘어 가속 흐름이 이어졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-08-19)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000072/adi3q26exhibit991earnings.htm",
+                  "date": "2026-08-19",
+                  "quote": "Communications | 654,515 | 16% | 84% | 354,768 | 12% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Gross margin percentage in fiscal 2026 increased by 590 basis points compared to fiscal 2025, primarily due to higher utilization of our manufacturing fixed costs as a result of increased customer demand and favorable mix of products sold into our end markets.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 2026 회계연도 총마진율이 590bp(0.01%p 단위) 오른 원인을 수요 증가에 따른 공장 고정비 가동률 상승과 제품 구성 개선으로 설명했다.",
+              "stripped": true
+            },
+            {
+              "id": "d1-p2",
+              "statement": "4분기 GAAP(회계 기준) 영업이익률은 42.7%로 1년 전 30.7%에서 1,200bp 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "Operating margin | 42.7 | % | 30.7 | % | 1,200 bps | 38.6 | % | 26.6 | % | 1,200 bps |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1-g1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2027 회계연도 1분기 매출 44억 달러 ±1.5억 달러, 비GAAP(일회성을 뺀 회사 기준) 영업이익률 약 50.5%다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "For the first quarter of fiscal 2027, we are forecasting revenue of $4.4 billion, +/- $150 million. At the midpoint of this revenue outlook, we expect reported operating margin of approximately 40.3%, +/- 150 bps, and adjusted operating margin of approximately 50.5%, +/- 100 bps.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-g2",
+              "statement": "회사는 고객 파이프라인이 보여 준 기회 때문에 생산능력 투자를 늘린다며 2027 회계연도 설비투자를 16억~19억 달러로 전망했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Looking beyond fiscal 2027, our momentum and the significant opportunities evidenced by our customer pipeline have increased our confidence in future growth and are driving increased investment in our manufacturing capacity. We currently expect fiscal 2027 capital expenditures to be approximately $1.6 billion to $1.9 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "회사는 AI 기술과 관련 인프라에 대한 투자 수준이 달라지면 반도체 수요가 바뀔 수 있다는 점을 공시 위험 요인으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "changes in demand for semiconductor products, including changes in the level of investment in artificial intelligence technologies and related infrastructure; performance of independent distributors; manufacturing delays, product and raw materials availability and supply chain disruptions;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "what": "산업 부문 안의 계측 장비와 항공우주·방산 수요 — 회사가 가장 빠르게 큰 응용처로 지목한 영역",
+          "kind": "industry",
+          "stage": "이익 기여 중",
+          "since": "2025",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "회사는 산업 부문 안에서 계측과 항공우주·방산 응용이 가장 빠르게 성장했다고 10-K 경영진 설명에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Within Industrial, instrumentation and aerospace and defense applications experienced the strongest year-over-year growth, while within Communications, growth was led by the data center sub-market, primarily reflecting increased demand associated with artificial intelligence infrastructure investments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-b2",
+              "statement": "키움증권은 항공·방위 부문 수요가 여전히 공급을 넘어서고 유럽을 비롯한 여러 지역에서 강하다는 회사 설명을 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[애널로그 디바이시스 (NAS:ADI)] 항공, 방위 부문의 수요 강세 지속",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqxkllxxqzigekigcgxeegq.pdf",
+                  "date": "2025-12-05",
+                  "quote": "수요 강세를 보이고 있는 항공 및 방위 부문에서는 관세 우려 등에 따른 pull-in 효과가 감지되고 있지 않다. Analog Devices 는 해당 분야의 수요가 여전히 공급을 초과하고 있으며, 유럽을 포함한 여러 지역에서 매우 강한 수요를 보이고 있다는 내용을 공유했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2-r1",
+              "statement": "산업 부문 매출은 2026 회계연도 4분기에 1년 전보다 55% 늘었고 전체 매출의 50%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "Industrial | 2,193,592 | 50% | 55% | 1,418,811 | 46% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-r2",
+              "statement": "2026 회계연도 전체 산업 부문 매출은 전년 대비 51% 늘어 전체의 49%를 차지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Industrial | 7,453,059 | 49 | % | 51 | % | 4,929,618 | 45 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2-g1",
+              "statement": "키움증권은 항공·방위 부문이 2030년까지 현재 수준의 2배 이상으로 커질 수 있는 시장이라는 회사 설명을 전하며 평균판매가격도 오르고 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "[애널로그 디바이시스 (NAS:ADI)] 항공, 방위 부문의 수요 강세 지속",
+                  "publisher": "키움증권",
+                  "url": "https://rreport.einfomax.co.kr/report/eqxkllxxqzigekigcgxeegq.pdf",
+                  "date": "2025-12-05",
+                  "quote": "Blended ASP 역시 상승하고 있어, 2030 년까지 현재 수준 대비 2 배 이상으로 성장할 수 있는 시장이라는 점을 강조했다.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "회사는 정부·국방 예산과 조달 우선순위의 변화를 전망이 빗나갈 수 있는 요인으로 공시에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "future prices for our products; changes in government and defense spending and procurement priorities; future dividends and share repurchases; and other future events.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-c2",
+              "statement": "매출채권은 2026 회계연도에 81% 늘어 매출 증가율보다 빨랐고, 재고도 26% 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Accounts receivable, net | $ | 2,598,878 | $ | 1,436,075 | $ | 1,162,803 | 81 | % | \nDays sales outstanding (1) \n| 49 | 46 | \nInventory | $ | 2,083,908 | $ | 1,656,323 | $ | 427,585 | 26 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "what": "차세대 운전자 보조(ADAS)·인포테인먼트에서의 점유율 확대와 차량 한 대당 탑재 부품 증가",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d3-b1",
+              "statement": "회사는 자동차 부문 매출 증가의 원인을 차량 한 대당 탑재 콘텐츠 증가와 차세대 운전자 보조·인포테인먼트 시스템에서의 점유율 확대라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Automotive revenue increased due to increased content per vehicle and share gains in next generation advanced driver assistance and infotainment systems.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3-r1",
+              "statement": "2026 회계연도 자동차 부문 매출은 전년 대비 12% 늘었지만 전체 비중은 30%에서 25%로 내려갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Automotive | 3,724,729 | 25 | % | 12 | % | 3,315,710 | 30 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-r2",
+              "statement": "4분기에는 자동차 부문 매출이 1년 전보다 21% 늘며 연간 증가율보다 빨라졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 실적 보도자료 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                  "date": "2026-11-24",
+                  "quote": "Automotive | 1,043,711 | 24% | 21% | 864,658 | 28% |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3-c1",
+              "statement": "자동차 부문 증가율 12%는 전사 38%에 크게 못 미쳐, 회사 성장에서 차지하는 몫이 줄고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                  "publisher": "Analog Devices (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                  "date": "2026-11-24",
+                  "quote": "Automotive | 3,724,729 | 25 | % | 12 | % | 3,315,710 | 30 | % | \nCommunications | 2,374,003 | 16 | % | 74 | % | 1,361,587 | 12 | % | \nConsumer | 1,627,256 | 11 | % | 15 | % | 1,412,792 | 13 | % | \nTotal Revenue | $ | 15,179,047 | 100 | % | 38 | % | $ | 11,019,707 | 100 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33은 최근 3분기 매출 증가율이 30.4%, 37.2%, 39.6%로 계속 빨라지고 순이익률도 26.3%, 32.5%, 33.3%로 올라갔다고 보여 준다. 회사는 이 매출 가속의 원인을 산업 부문의 계측·항공우주·방산 응용과 통신 부문의 데이터센터 하위 시장(AI 인프라 투자)으로 직접 지목했다. 순이익률 상승은 수요 증가로 공장 고정비 가동률이 올라가고 제품 구성이 좋아진 데서 왔다는 것이 회사 설명이며, 비용 절감만으로 만든 이익이 아니다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "회사는 통신 부문 성장을 데이터센터 하위 시장이 이끌었고 그 배경이 AI 인프라 투자라고 적어, 업계 수요 변화가 실적에 들어왔음을 보여 준다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                "publisher": "Analog Devices (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                "date": "2026-11-24",
+                "quote": "Within Industrial, instrumentation and aerospace and defense applications experienced the strongest year-over-year growth, while within Communications, growth was led by the data center sub-market, primarily reflecting increased demand associated with artificial intelligence infrastructure investments.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2-1",
+            "statement": "회사는 차세대 운전자 보조·인포테인먼트 시스템에서 점유율을 얻었다고 직접 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                "publisher": "Analog Devices (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                "date": "2026-11-24",
+                "quote": "Automotive revenue increased due to increased content per vehicle and share gains in next generation advanced driver assistance and infotainment systems.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "CFO는 기술 우위를 넓히는 연구개발, 고객 성장에 필요한 공급을 확보하는 생산능력, 주주 환원 세 가지에 투자를 집중한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ADI 실적 보도자료 (2026-11-24)",
+                "publisher": "Analog Devices (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+                "date": "2026-11-24",
+                "quote": "“Customers are relying on ADI more than ever, and our capital allocation reflects that. We are directing investment to three priorities: R&D that extends our technology leadership, capacity that secures supply for our customers’ growth, and consistent capital returns to our shareholders,” said Richard Puccio, CFO.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "회사는 2027 회계연도 설비투자를 16억~19억 달러로 잡아 생산능력을 늘리겠다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                "publisher": "Analog Devices (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                "date": "2026-11-24",
+                "quote": "We currently expect fiscal 2027 capital expenditures to be approximately $1.6 billion to $1.9 billion. These capital expenditures will be funded with a combination of cash on hand and cash expected to be generated from future operations, together with existing and anticipated available short- and long-term financing.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "회사는 총마진율 개선의 주된 원인을 공장 고정비 가동률 상승과 제품 구성 개선으로 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                "publisher": "Analog Devices (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                "date": "2026-11-24",
+                "quote": "Gross margin percentage in fiscal 2026 increased by 590 basis points compared to fiscal 2025, primarily due to higher utilization of our manufacturing fixed costs as a result of increased customer demand and favorable mix of products sold into our end markets.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5-2",
+            "statement": "연구개발비는 금액으로는 늘었지만 매출 대비 비율은 내려갔고, 회사는 그 이유를 매출 증가와 영업 레버리지 개선으로 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "ADI 10-K 경영진 설명 (2026-11-24)",
+                "publisher": "Analog Devices (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+                "date": "2026-11-24",
+                "quote": "R&D expenses declined as a percentage of revenue, primarily reflecting higher revenue levels and improved operating leverage. We expect to continue the development of innovative technologies and processes for new products, which we view as critical to our future growth.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "ADI 의 새로운 것은 신제품 한 개가 아니라 수요가 들어오는 자리가 바뀐 것이다. 회사는 2026 회계연도 매출 증가를 두 군데로 설명했다 — 산업 부문의 계측 장비와 항공우주·방산, 그리고 통신 부문의 데이터센터 하위 시장이다. 데이터센터 쪽은 AI 인프라 투자 때문이라고 회사가 직접 적었고, 통신 부문 매출은 2026 회계연도에 전년 대비 74%, 4분기만 보면 81% 늘었다. 산업 부문은 4분기에 55% 늘며 전체 매출의 50%를 차지했고, 연간으로도 51% 증가했다. 이익 쪽에서는 총마진율이 590bp(0.01%p 단위) 올랐는데, 회사는 수요 증가로 공장 고정비 가동률이 높아지고 제품 구성이 좋아진 결과라고 설명했다 — 비용을 깎아 만든 이익이 아니다. 세 번째 축인 자동차는 차량 한 대당 탑재 부품 증가와 차세대 운전자 보조·인포테인먼트 점유율 확대로 12% 늘었지만, 비중은 30%에서 25%로 내려가 회사 성장의 주역에서는 비켜나 있다. 앞으로를 보면 회사 가이던스(회사가 내놓은 전망)는 2027 회계연도 1분기 매출 44억 달러 ±1.5억 달러, 비GAAP(일회성을 뺀 회사 기준) 영업이익률 약 50.5% 이고, 키움증권은 항공·방위 부문이 2030년까지 현재의 2배 이상으로 커질 수 있는 시장이라는 회사 설명을 전했다. 이 그림을 꺾을 수 있는 것은 회사 스스로 위험으로 적은 AI 투자 수준의 변화와 정부·국방 예산 변화이며, 매출채권이 81% 늘어 매출 증가율보다 빨랐고 재고도 26% 늘었다는 점은 수요가 식을 때 부담으로 돌아올 수 있는 대목이다. 생산능력 확충을 위한 2027 회계연도 설비투자 16억~19억 달러도 당분간 현금흐름을 눌러 둔다.",
+      "watch": [
+        "통신 부문 매출 증가율이 4분기의 81%에서 더 떨어지는지 — 데이터센터 수요가 식는 첫 신호",
+        "산업 부문 안에서 계측·항공우주·방산이 계속 가장 빠른 응용처로 언급되는지, 아니면 다른 응용으로 설명이 바뀌는지",
+        "총마진율이 가동률·제품 구성 덕에 더 오르는지, 설비투자 확대로 감가상각이 늘며 멈추는지",
+        "매출채권·재고 증가율이 매출 증가율 아래로 내려오는지 — 지금은 매출채권 81%가 매출 38%보다 훨씬 빠르다"
+      ],
+      "sourceGap": "실적 발표 콜 원고 원문을 열지 못해 데이터센터 응용의 매출 금액·고객 수는 확인하지 못했다. 회사는 부문별(산업·자동차·통신·소비자)까지만 공시하고 데이터센터·항공방산 같은 하위 응용의 매출 금액은 따로 밝히지 않는다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-11-24",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-24)",
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+          "filingDate": "2026-11-24"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-19)",
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000072/adi3q26exhibit991earnings.htm",
+          "filingDate": "2026-08-19"
+        },
+        {
+          "label": "10-K 경영진 설명 (2026-11-24)",
+          "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000089/adi-20261031.htm",
+          "filingDate": "2026-11-24"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-08-01",
+            "revenueYoy": 39.6,
+            "netIncomeYoy": 158.4,
+            "netMargin": 33.3
+          },
+          {
+            "periodEnd": "2026-05-02",
+            "revenueYoy": 37.2,
+            "netIncomeYoy": 106.5,
+            "netMargin": 32.5
+          },
+          {
+            "periodEnd": "2026-01-31",
+            "revenueYoy": 30.4,
+            "netIncomeYoy": 112.3,
+            "netMargin": 26.3
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": true
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-08-01",
+          "revenue": 4021899000,
+          "netIncome": 1340090000,
+          "yoy": {
+            "revenue": 39.6,
+            "profit": 97.2,
+            "netIncome": 158.4,
+            "priorEnd": "2025-08-02"
+          }
+        },
+        {
+          "periodEnd": "2026-05-02",
+          "revenue": 3623465000,
+          "netIncome": 1176350000,
+          "yoy": {
+            "revenue": 37.2,
+            "profit": 103.5,
+            "netIncome": 106.5,
+            "priorEnd": "2025-05-03"
+          }
+        },
+        {
+          "periodEnd": "2026-01-31",
+          "revenue": 3160263000,
+          "netIncome": 830826000,
+          "yoy": {
+            "revenue": 30.4,
+            "profit": 102.9,
+            "netIncome": 112.3,
+            "priorEnd": "2025-02-01"
+          }
+        },
+        {
+          "periodEnd": "2025-11-01",
+          "revenue": 3076117000,
+          "netIncome": 787738000,
+          "yoy": {
+            "revenue": 25.9,
+            "profit": 66,
+            "netIncome": 64.8,
+            "priorEnd": "2024-11-02"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 24.06,
+        "saleNy": 10.97,
+        "epsCy": 29.68,
+        "epsNy": 17.33
+      }
+    },
+    "AXON": {
+      "ticker": "AXON",
+      "headline": "대드론 장비와 AI 소프트웨어가 매출을 끌고, 마진은 장비 쪽에서 눌린다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "AI Era Plan·Axon AI·Axon Records·Axon 911·실시간 운영·Dedrone 소프트웨어 — 기존 고객에게 상위 구독으로 파는 새 소프트웨어 묶음",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "n1-b1",
+              "statement": "회사는 실시간 운영·Axon Records·Axon AI·Axon 911·Dedrone 소프트웨어를 묶은 새 소프트웨어의 연 매출 환산 규모가 5억 달러에 가까워져 1년 전의 두 배를 넘었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Software & Services revenue accelerated to 43% year over year growth and reached $437 million. Growth is increasingly driven by our newer software offerings: real-time operations, Axon Records, Axon AI, Axon 911 and Dedrone software collectively reached an annual revenue run rate of nearly $500 million, more than doubling from last year. AI annual recurring revenue surpassed $100 million.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-b2",
+              "statement": "AI 쪽 ARR(연간 반복 매출)이 1억 달러를 넘었고, AI 수주는 올해 들어 50% 넘게 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "AI bookings up over 50% year to date; AI ARR surpasses $100 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "n1-r1",
+              "statement": "2026년 3분기 Software & Services 매출은 4.37억 달러로 1년 전보다 43% 늘었고, 회사는 증가가 점점 새 소프트웨어에서 온다고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Software & Services revenue grew 43% year over year to $437 million, driven by growth in users and increasing adoption of premium solutions by existing customers. Growth is increasingly benefiting from newer software offerings, including AI, real-time operations, Axon Records and Axon 911.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-r2",
+              "statement": "ARR(연간 반복 매출)은 1년 전보다 40% 늘어 18억 달러가 됐고, 회사는 AI Era Plan·실시간 운영·Axon Records·Axon 911 같은 프리미엄 소프트웨어 채택을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Annual recurring revenue grew 40% year over year to $1.8 billion, reflecting continued adoption of premium software offerings, including the AI Era Plan, real-time operations, Axon Records and Axon 911.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-r3",
+              "statement": "한 분기 앞선 2026년 2분기에는 AI Era 매출이 1년 전보다 700% 가까이 늘었다고 회사가 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 2분기 실적 보도자료 (2026-08-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+                  "date": "2026-08-05",
+                  "quote": "Software & Services revenue grows 36% year over year to $398 million; AI Era revenue grows nearly 700%",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "n1-p1",
+              "statement": "소프트웨어만 떼어 본 매출총이익률은 80% 를 계속 넘었지만, Software & Services 전체 매출총이익률은 71.4% 로 1년 전 73.8% 보다 낮아졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Software & Services gross margin was 71.4%, compared to 73.8% in the prior-year period. Adjusted gross margin was 75.0%, compared to 76.8%. The year over year decrease in gross margin and Adjusted gross margin was primarily driven by the scaling of new product offerings and a higher mix of professional services revenue. Software-only gross margin continued to exceed 80%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-p2",
+              "statement": "조정 EBITDA(일회성을 뺀 회사 기준 이익)는 1년 전보다 33% 늘어 2.36억 달러가 됐고, 회사는 Software & Services 가속에 따른 매출 구성 개선을 이유로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Adjusted EBITDA increased 33% year over year to $236 million, representing an Adjusted EBITDA margin of 25.9%. Adjusted EBITDA reflects continued operating leverage and a more favorable revenue mix led by accelerating Software & Services growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "n1-e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 4분기 매출 9.9억~10.1억 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Revenue: We expect revenue of $990 million to $1.01 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-e2",
+              "statement": "회사는 이미 계약했지만 아직 매출로 잡지 않은 미래 계약 수주가 1년 전보다 39% 늘어 158억 달러이며, 그중 20~25% 를 앞으로 12개월 안에 매출로 잡을 것으로 본다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Future contracted bookings grew 39% year over year to $15.8 billion. T his operational metric tracks total unfulfilled contracted bookings for products and services, including remaining performance obligations, as well as contracts with certain ter mination or other clauses that are not otherwise included in remaining performance obligations. We expect to fulfill approximately 20% to 25% of this balance over the next 12 months, with the remainder generally expected to be fulfilled over the following 10 years.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "n1-c1",
+              "statement": "회사는 소프트웨어 부문 이익률 하락의 원인으로 새 제품의 초기 확장과 전문 서비스 매출 비중 상승을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 10-Q 경영진 설명",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "The decrease in gross margin and adjusted gross margin was primarily driven by the scaling of new product offerings and a higher mix of professional services revenue.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n1-c2",
+              "statement": "회사는 위험 요인으로 비예산 조항에 따른 정부 계약 취소와 경찰 기관의 예산 확보 능력을 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "our exposure to cancellations of government contracts due to non-appropriation clauses, exercise of a cancellation clause or non-exercise of contractually optional periods; the ability of law enforcement agencies to obtain funding, including based on tax revenues",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Dedrone 대드론 장비 — 드론을 탐지·차단하는 하드웨어로 Platform Solutions 부문 성장을 끌고 있다",
+          "kind": "product",
+          "stage": "매출 발생 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "n2-b1",
+              "statement": "2026년 3분기 Platform Solutions 매출이 1년 전보다 106% 늘어 1.25억 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Platform Solutions revenue grows 106% year over year to $125 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-b2",
+              "statement": "회사는 Platform Solutions 매출이 6,420만 달러 늘어난 주된 원인이 대드론 장비 물량 증가라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 10-Q 경영진 설명",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "The $64.2 million increase in Platform Solutions is primarily driven by higher volume for counter-drone equipment, which may be subject to increased volatility driven by the timing of large customer contracts.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "n2-r1",
+              "statement": "2026년 1~9월 누적으로 Platform Solutions 매출은 2.009억 달러 늘었고, 회사는 대드론 장비 물량 증가를 주된 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 10-Q 경영진 설명",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "The $200.9 million increase in Platform Solutions is primarily driven by higher volume of counter-drone equipment, which may be subject to increased volatility driven by the timing of large customer contracts.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-r2",
+              "statement": "2026년 2분기에 회사는 Dedrone 매출이 1억 달러를 넘었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 2분기 실적 보도자료 (2026-08-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+                  "date": "2026-08-05",
+                  "quote": "Platform Solutions revenue grows 123% year over year to $150 million; Dedrone revenue surpasses $100 million",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "n2-p1",
+              "statement": "Connected Devices 매출총이익률은 43.0% 로 1년 전 49.9% 보다 낮아졌고, 회사는 대드론 장비 비중 상승과 메모리 가격 상승을 주된 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Connected Devices gross margin was 43.0%, compared to 49.9% in the prior-year period. Adjusted gross margin was 44.6%, compared to 52.1%. The year over year decrease in gross margin and Adjusted gross margin was primarily driven by the increased mix of counter-drone equipment and higher memory costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n2-p2",
+              "statement": "전사 매출총이익률도 56.7% 로 1년 전 60.1% 에서 내려갔고, 회사는 대드론 장비 비중·메모리 가격·신제품 초기 확장을 원인으로 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Total company gross margin of 56.7% decreased from 60.1% in the prior-year period, and Adjusted gross margin was 59.2%, compared to 62.7% in the prior-year period. The decrease in gross margin and Adjusted gross margin was primarily driven by an increased mix of counter-drone equipment, higher memory costs and scaling of new product categories.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "n2-e1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Had the three Federal Dedrone deployments remained on pace for 2026, our full-year growth outlook would be nearly 500 basis points higher than our current guidance and approximately 200 basis points above the midpoint of our prior guidance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 연방 Dedrone 배치 3건이 예정대로였다면 2026년 연간 성장률 전망이 지금보다 거의 500bp(베이시스포인트) 높았을 것이라고 밝혔다.",
+              "stripped": true
+            }
+          ],
+          "counter": [
+            {
+              "id": "n2-c1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Revenue: Our fourth-quarter revenue guidance implies full-year 2026 revenue of approximately $3.61 billion to $3.63 billion, representing approximately 30% annual growth. The reduction from our prior guidance of 32% to 34% annual growth reflects the exclusion of three Federal Dedrone deployments totaling approximately $130 million that were contemplated in our prior expectations.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 연방 Dedrone 배치 3건 약 1.3억 달러를 2026년 전망에서 빼면서 연간 성장률 전망을 32~34% 에서 약 30% 로 낮췄다.",
+              "stripped": true
+            },
+            {
+              "id": "n2-c2",
+              "statement": "회사는 대드론 사업이 연방·해외 고객 쪽으로 커지면서 장비 비중이 큰 대형 배치의 매출 인식 시점이 분기마다 크게 흔들릴 수 있다고 썼다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "As our counter-drone business scales, particularly with Federal and international customers, the size and hardware-heavy nature of these deployments can create greater quarter-to-quarter variability in revenue timing.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "Skydio 지분 37% 확대와 미국·캐나다 공공안전 독점 유통 계약 — 드론이 먼저 출동하는 대응(DFR)",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-11",
+          "basis": [
+            {
+              "id": "n3-b1",
+              "statement": "회사는 Skydio 에 12억 달러를 추가 투자해 완전희석 지분을 37% 로 올리고 미국·캐나다 공공안전 독점 유통업자가 됐다고 발표했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Today, we announce an additional $1.2 billion investment in Skydio, which takes our fully diluted ownership to 37%. Axon is also now the exclusive distributor of Skydio for public safety in the U.S. and Canada.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n3-b2",
+              "statement": "회사는 Axon Air 를 통해 배치된 Skydio 도크 수가 1년 전의 두 배를 넘었다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Deployed Skydio docks through Axon Air have more than doubled year over year, and we believe Drone as First Responder (DFR) is becoming the new standard of response.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "n3-r1",
+              "statement": "회사는 Skydio 가 올해 회계연도에 약 10억 달러의 수주를 예상한다고 전했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Scale that already exists: Skydio expects about $1 billion of bookings this fiscal year. It is already operating at scale.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "n3-p1",
+              "statement": "회사는 직접 채널 파트너로서 이 매출을 순액 기준으로 Software & Services 에 인식하며 사실상 마진만 남는 매출이라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Pure-margin revenue to Axon: Axon acts as a direct channel partner. Revenue is recognized on a net basis in Software & Services.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "n3-c1",
+              "statement": "이 투자는 최대 7.2억 달러를 현금으로 치르고 나머지를 자사 주식으로 주며, 2026년 4분기와 2027년 1분기에 걸쳐 종결될 예정이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 10-Q 경영진 설명",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+                  "date": "2026-11-06",
+                  "quote": "We expect the investments to be settled with up to approximately $720.0 million in cash and the remainder in shares of the Company’s common stock, with the final mix subject to the results of a tender offer and secondary purchases that are expected to close in the fourth quarter of 2026 and first quarter of 2027.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "n3-c2",
+              "statement": "회사는 이 투자의 종결이 이뤄지지 않거나 늦어질 가능성, 그로 인해 Skydio 와의 상업 관계가 나빠질 가능성을 위험으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "Axon Enterprise (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "the possibility that the closing of the strategic investment does not occur or is delayed, including resulting negative impacts to the commercial relationship between Axon and Skydio",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 은 매출 증가율·이익 증가율·순이익률이 나란히 오르는 그림이 아니다 — 매출 증가율이 3분기에 27.8% 로 내려왔다. 회사는 그 둔화를 약 3,000만 달러 규모 연방 Dedrone 배치가 분기 안에 매출로 잡히지 않은 탓이라고 직접 설명했고, 같은 분기 Software & Services 는 오히려 43% 로 가속했다. 순이익률이 1분기 21% 에서 3분기 6.3% 로 들쭉날쭉한 것은 전략적 투자 평가이익 같은 영업 밖 항목 때문이고, 영업손익은 1년 전 210만 달러 손실에서 4,210만 달러 이익으로 돌아섰다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "2026년 10월에 새 보디캠 Axon Body 5 와 새 테이저 기기 TASER Ion 을 내놓고, 초지능 제품군의 Axon Guardian 을 정식 출시했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                "date": "2026-11-05",
+                "quote": "In October we introduced Axon Body 5, our latest-generation body camera, and TASER Ion, a new, more flexible TASER device built for a broader range of users and use cases. We launched Axon Guardian, the latest addition to our suite of superintelligence products, and took important early steps toward Axon Gravity, our broader vision to further bring superintelligence capabilities across the public safety workflow.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1-2",
+            "statement": "기업 현장 근로자용 Axon Body Mini 가 미국·캐나다·영국·EU·호주·뉴질랜드에서 정식 판매에 들어갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 2분기 실적 보도자료 (2026-08-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+                "date": "2026-08-05",
+                "quote": "In June, Axon Body Mini became generally available across the United States, Canada, the United Kingdom, the European Union, Australia and New Zealand. Purpose-built for frontline enterprise workers, Body Mini combines panic activation, livestreaming, two-way voice and Axon Assistant to provide immediate access to support.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2-1",
+            "statement": "기존 고객에서 나오는 매출이 1년 사이 126% 가 됐다 — 이탈이 거의 없이 같은 고객에게 더 많이 팔았다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                "date": "2026-11-05",
+                "quote": "Net revenue retention was 126%, reflecting our ability to deliver additional value to customers over time with de minimis attrition.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2-2",
+            "statement": "회사는 고객의 80% 넘는 곳이 하드웨어와 소프트웨어를 묶은 통합 솔루션을 최소 하나 쓰고, 40% 넘는 곳이 핵심 제품 밖의 프리미엄 솔루션을 최소 하나 구독한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 2분기 실적 보도자료 (2026-08-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+                "date": "2026-08-05",
+                "quote": "Today, over 80% of Axon customers deploy at least one integrated solution spanning hardware and software, while over 40% subscribe to at least one premium solution beyond our core TASER, body camera and evidence management products.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3-1",
+            "statement": "회사는 공공안전 분야에서 가장 큰 연결 네트워크를 만들고 있으며 Axon Evidence 와 클라우드 묶음이 이 분야 최대 데이터 저장소라고 주장한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 2분기 실적 보도자료 (2026-08-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+                "date": "2026-08-05",
+                "quote": "Axon is building the largest connected network in public safety, bringing together sensors, customer-controlled data, AI-powered intelligence and response tools across the full mission chain. At the center, Axon Evidence and our broader cloud suite form the largest data repository in public safety, preserving and connecting video, audio and operational information across real-time operations, reporting, records and justice workflows.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3-2",
+            "statement": "드론 쪽에서는 Skydio 의 미국·캐나다 공공안전 독점 유통권을 쥐어 경쟁사의 같은 경로 접근을 막았다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                "date": "2026-11-05",
+                "quote": "Exclusive reach in public safety: Axon becomes Skydio’s exclusive public safety distributor in the U.S. and Canada. This extends our lead in public safety technology.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "새로 받은 5년 기준 수주가 올해 들어 1년 전보다 25% 늘었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 3분기 실적 보도자료 (2026-11-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+                "date": "2026-11-05",
+                "quote": "Demand keeps building, and customers are putting more Axon to work in more markets. New five-year bookings are up 25% year to date.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "회사는 해외와 기업 고객 수주가 각각 1년 전의 약 세 배가 됐다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 2분기 실적 보도자료 (2026-08-05)",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+                "date": "2026-08-05",
+                "quote": "Momentum was also particularly strong in newer markets, with international and enterprise bookings each approximately tripling year over year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "판매·관리비(SG&A)는 1년 전보다 11.0% 늘어 매출 증가 속도보다 느렸고, 매출 대비 비중은 30.9% 로 1년 전 35.6% 에서 내려갔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 10-Q 경영진 설명",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "Total selling, general and administrative expenses | $ | 280,496 | $ | 252,803 | $ | 27,693 | 11.0 | % | … As a percentage of net sales | 30.9% | 35.6%",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5-2",
+            "statement": "영업손익은 1년 전 210만 달러 손실에서 4,210만 달러 이익으로 돌아섰다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "액손 엔터프라이즈 10-Q 경영진 설명",
+                "publisher": "Axon Enterprise (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+                "date": "2026-11-06",
+                "quote": "We had income from operations of $42.1 million, compared to loss from operations of $2.1 million for the same period in the prior year.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "액손에서 새로운 것은 세 갈래다 — Dedrone 대드론 장비, AI Era Plan 을 포함한 새 소프트웨어 묶음, 그리고 이번 달 발표한 Skydio 지분 37% 와 독점 유통권이다. 2026년 3분기 Software & Services 매출은 4.37억 달러로 1년 전보다 43% 늘었고, 회사는 실시간 운영·Axon Records·Axon AI·Axon 911·Dedrone 소프트웨어의 연 매출 환산 규모가 5억 달러에 가까워져 1년 전의 두 배를 넘었다고 밝혔다. 장비 쪽에서는 Platform Solutions 매출이 106% 늘어 1.25억 달러가 됐고, 회사는 그 증가의 주된 원인을 대드론 장비 물량이라고 적었다. 이익에서는 방향이 갈린다 — 소프트웨어만 떼어 본 매출총이익률은 80% 를 계속 넘었지만 전사 매출총이익률은 56.7% 로 1년 전 60.1% 에서 내려갔고, 회사는 대드론 장비 비중과 메모리 가격 상승을 이유로 들었다. 그래도 조정 EBITDA 는 1년 전보다 33% 늘어 2.36억 달러가 됐는데, 회사는 소프트웨어 비중이 올라간 매출 구성 때문이라고 설명했다. 다만 코드 33 은 충족이 아니다 — 매출 증가율이 27.8% 로 내려왔고 순이익률은 분기마다 크게 흔들린다. 둔화의 이유는 회사가 직접 밝혔다. 약 3,000만 달러 규모 연방 Dedrone 배치가 3분기에 매출로 잡히지 않았고, 연간 전망에서는 3건 약 1.3억 달러가 빠졌다. 회사 가이던스는 4분기 매출 9.9억~10.1억 달러, 연간 약 30% 성장이며, 연방 배치가 예정대로였다면 전망이 거의 500bp 더 높았을 것이라고 했다. 이 그림을 꺾을 수 있는 것은 대드론 대형 계약의 인식 시점 변동과 메모리 가격, 그리고 Skydio 투자의 종결 여부다.",
+      "watch": [
+        "4분기 실적에서 연방 Dedrone 배치 약 1.3억 달러가 다시 매출로 잡히는지 — 이번 전망에서 빠진 금액이다",
+        "Software & Services 증가율이 43% 선에서 유지되는지, 새 소프트웨어 묶음의 연 매출 환산 규모가 5억 달러를 넘어가는지",
+        "Connected Devices 매출총이익률이 43.0% 에서 회복되는지 — 대드론 장비 비중과 메모리 가격이 원인이었다",
+        "Skydio 투자가 종결되고 순액으로 인식되는 매출이 Software & Services 에 실제로 들어오는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 받지 못해, 회사 가이던스 밖의 증권사 기대 성장률은 확인하지 못했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-11-06",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+          "filingDate": "2026-11-05"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-06)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm",
+          "filingDate": "2026-11-06"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 27.8,
+            "netIncomeYoy": 2707.8,
+            "netMargin": 6.3
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 35.3,
+            "netIncomeYoy": -18.5,
+            "netMargin": 3.3
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 33.7,
+            "netIncomeYoy": 92.4,
+            "netMargin": 21
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 908554000,
+          "netIncome": 57006000,
+          "yoy": {
+            "revenue": 27.8,
+            "profit": 2076.5,
+            "netIncome": 2707.8,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 904389000,
+          "netIncome": 29427000,
+          "yoy": {
+            "revenue": 35.3,
+            "profit": 4615.3,
+            "netIncome": -18.5,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 807345000,
+          "netIncome": 169312000,
+          "yoy": {
+            "revenue": 33.7,
+            "profit": 432.6,
+            "netIncome": 92.4,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 796724000,
+          "netIncome": 2745000,
+          "yoy": {
+            "revenue": 38.5,
+            "profit": -218.1,
+            "netIncome": -98,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 30.4,
+        "saleNy": 27.45,
+        "epsCy": 3.79,
+        "epsNy": 32.85
+      }
+    },
+    "SMTC": {
+      "ticker": "SMTC",
+      "headline": "AI 데이터센터용 신호 집적 제품과 LoRa 가 매출·마진을 함께 끌어올리는 중",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "AI 데이터센터용 신호 집적(Signal Integrity) 제품군 — FiberEdge(광 트랜시버용 칩)·CopperEdge(구리 케이블용 칩)·포토닉스(광원 칩)",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d1-b1",
+              "statement": "회사 대표는 분기 기록 실적이 데이터센터 제품군 전반과 LoRa 의 성장에서 나왔다고 밝히고, FiberEdge·CopperEdge·포토닉스의 수주잔고가 사상 최대라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "\"The Semtech team delivered another quarter of record financial results, driven by significant business growth across our broad data center portfolio and LoRa,\" said Hong Hou, president and chief executive officer. \"We expect that momentum to continue into Q4 and fiscal year 2028, broadly supported by the record backlog in our FiberEdge, CopperEdge and photonics solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-b2",
+              "statement": "회사는 이 제품군을 데이터센터·광네트워크용 집적회로와 포토닉스 제품으로 설명하며, 광 트랜시버용 게인 칩·광증폭기·DFB 레이저가 포함된다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Our photonic products include gain chips, semiconductor optical amplifiers, distributed feedback lasers for optical transceivers used across data center interconnects and intra-data center interconnects.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1-r1",
+              "statement": "3분기 매출은 4.23억 달러로 1년 전보다 58.4% 늘었고, 회사는 그 원인을 인프라·산업 시장의 수요 증가와 판매량 증가라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Net sales in the third quarter of fiscal year 2027 were $423.0 million, an increase of 58.4% compared to $267.0 million in the third quarter of fiscal year 2026, which was primarily driven by higher net sales from our infrastructure and industrial end markets due to stronger demand and increased sales volume.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r2",
+              "statement": "신호 집적 부문 매출이 1년 전보다 1.008억 달러 늘었는데, 그 가운데 데이터센터 매출 증가가 약 8,870만 달러였다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Net sales from Signal Integrity increased $100.8 million in the third quarter of fiscal year 2027 compared to the third quarter of fiscal year 2026, primarily driven by an approximately $88.7 million increase in data center sales, approximately $5.4 million increase in broadcast sales and approximately $4.7 million increase in telecommunications sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-r3",
+              "statement": "신호 집적 부문 매출은 3분기 1.824억 달러로 1년 전 8,161만 달러에서 124% 늘었고, 9개월 누적으로도 77% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Signal Integrity | $ | 182,418 | $ | 81,614 | 124 | % | $ | 410,594 | $ | 231,893 | 77 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1-p1",
+              "statement": "신호 집적 부문 매출총이익률은 3분기 69.8% 로 1년 전 65.1% 보다 올랐고, 회사는 제품 구성이 유리해진 덕이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Gross margin for our Signal Integrity segment was 69.8% in the third quarter of fiscal year 2027, compared to 65.1% in the third quarter of fiscal year 2026, primarily due to favorable product mix.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-p2",
+              "statement": "전사 매출총이익은 1년 전보다 1.092억 달러 늘어 2.477억 달러가 됐는데, 회사는 그 가운데 약 7,410만 달러가 데이터센터가 이끈 신호 집적 부문에서 왔다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "In the third quarter of fiscal year 2027, gross profit increased $109.2 million to $247.7 million from $138.5 million in the third quarter of fiscal year 2026. This increase was primarily driven by an approximately $74.1 million increase from Signal Integrity, which experienced higher sales led by data center sales due to stronger demand, an approximately $28.0 million increase from Analog Mixed Signal and Wireless, which experienced higher sales led by LoRa-enabled product sales and TVS product sales due to stronger demand and an approximately $6.9 million increase from IoT Systems and Connectivity, which experienced higher sales led by IoT Hardware due to price increases.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1-g1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 4분기 매출 4.8억 달러 ±500만 달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "Net sales | $ | 480.0 | +/- | $5.0 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-g2",
+              "statement": "회사 가이던스는 4분기 조정 영업이익률 33.3%, 조정 희석 주당순이익(일회성을 뺀 회사 기준 이익) 1.33달러다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "Adjusted operating margin* | 33.3% | +/- | 35 bps | ... Adjusted diluted earnings per share* | $ | 1.33 | +/- | $0.03 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1-c1",
+              "statement": "회사는 AI 관련 반도체로 수요가 몰리는 데 따른 실적 변동성과 일부 제품의 평균 판매가격이 빠르게 떨어져 온 전례를 위험으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "the volatility of our financial results or impact of the cyclical nature of our industry, including due to a growing concentration of demand in artificial intelligence-related semiconductors, during industry downturns or due to periodic economic uncertainty; the historical rapid decrease of the average selling prices of certain products",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1-c2",
+              "statement": "주문은 대부분 개별 구매주문서로 받고 많은 고객이 취소 조항을 넣는다고 회사가 적었다 — 사상 최대 수주잔고가 그대로 매출이 된다는 보장은 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Most of our sales to customers are made on the basis of individual customer purchase orders and many customers include cancellation provisions in their purchase orders.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "LoRa 무선 칩의 산업용 수요 — 스마트 시티·검침·자산 추적 등에 쓰이는 장거리 저전력 무선 제품",
+          "kind": "product",
+          "stage": "이익 기여 중",
+          "since": "",
+          "basis": [
+            {
+              "id": "d2-b1",
+              "statement": "회사 대표는 기록 실적의 두 축으로 데이터센터 제품군과 함께 LoRa 를 꼽았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "\"The Semtech team delivered another quarter of record financial results, driven by significant business growth across our broad data center portfolio and LoRa,\" said Hong Hou, president and chief executive officer.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2-r1",
+              "statement": "산업 시장 매출이 1년 전보다 6,110만 달러 늘었고, 회사는 그중 약 2,790만 달러가 산업용 LoRa 제품 매출 증가라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Net sales from our industrial end market increased $61.1 million in the third quarter of fiscal year 2027 compared to the third quarter of fiscal year 2026, primarily driven by an approximately $27.9 million increase in LoRa-enabled sales in industrial applications, approximately $19.1 million increase in IoT Hardware sales, approximately $7.2 million increase in industrial TVS product sales and approximately $5.4 million increase in broadcast sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-r2",
+              "statement": "아날로그·무선 부문 매출은 1년 전보다 3,680만 달러 늘었는데, LoRa 제품이 약 2,750만 달러, 과전압 보호(TVS) 제품이 약 1,210만 달러를 보탰다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Net sales from Analog Mixed Signal and Wireless increased $36.8 million in the third quarter of fiscal year 2027 compared to the third quarter of fiscal year 2026, primarily driven by an approximately $27.5 million increase in LoRa-enabled product sales and approximately $12.1 million increase in total TVS product sales, partially offset by an approximately $4.1 million decrease in proximity sensing product sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d2-p1",
+              "statement": "아날로그·무선 부문 매출총이익률은 63.0% 로 1년 전 58.0% 보다 올랐고, 회사는 제품 구성이 유리해진 덕이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Gross margin for our Analog Mixed Signal and Wireless segment was 63.0% in the third quarter of fiscal year 2027, compared to 58.0% in the third quarter of fiscal year 2026, primarily due to favorable product mix.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d2-g1",
+              "statement": "회사 대표는 이 성장세가 4분기와 다음 회계연도(2028년)까지 이어질 것으로 본다고 적었다 — LoRa 별 전망치는 공시에 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "\"We expect that momentum to continue into Q4 and fiscal year 2028, broadly supported by the record backlog in our FiberEdge, CopperEdge and photonics solutions.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2-c1",
+              "statement": "회사는 최근 경기·금리·무역정책 불확실성이 최종 고객 수요를 흔들어 유통 채널 재고가 높아졌다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "In recent periods, macroeconomic factors such as market volatility, inflationary pressures, elevated interest rates, geopolitical tensions, recessionary concerns and changes in trade policy have caused uncertainty in end customer demand, which resulted in elevated channel inventories.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2-c2",
+              "statement": "같은 부문의 근접 센싱 제품 매출은 1년 전보다 약 410만 달러 줄어 LoRa·TVS 증가분을 일부 깎았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "Net sales from our high-end consumer end market decreased $2.6 million in the third quarter of fiscal year 2027 compared to the third quarter of fiscal year 2026, primarily driven by an approximately $4.1 million decrease in proximity sensing product sales, partially offset by an approximately $2.1 million increase in consumer TVS product sales.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "저마진 셀룰러 모듈 사업 매각 계약 — 대만 Compal 에 약 6,200만 달러 전액 현금으로 넘기는 사업 재편",
+          "kind": "contract",
+          "stage": "발표만",
+          "since": "2026-08",
+          "basis": [
+            {
+              "id": "d3-b1",
+              "statement": "회사는 2026년 8월 13일 셀룰러 모듈 사업을 Compal Electronics 에 약 6,200만 달러 전액 현금으로 매각하는 확정 계약을 맺었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "On August 13, 2026, the Company entered into a definitive agreement to sell its cellular module business to Compal Electronics, Inc. (\"Compal\") for approximately $62.0 million in an all-cash transaction, subject to customary adjustments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-b2",
+              "statement": "회사는 성장성과 마진 구조를 원하는 모습으로 맞추려고 인수·매각을 살피는 포트폴리오 점검을 계속하고 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "We are continuing to conduct a portfolio optimization review, a process that includes identifying potential acquisitions and divestitures, in an effort to align our portfolio with our strategic vision and preferred growth and margin profile.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3-r1",
+              "statement": "매각 대상 사업은 3분기에 매출 5,670만 달러, 조정 매출총이익 1,620만 달러를 냈다 — 거래가 끝나면 매출은 그만큼 빠진다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "3 Adjustment for net sales of $56.7 million and adjusted gross profit of $16.2 million related to business held for sale as of Q3'27",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d3-p1",
+              "statement": "3분기 조정 매출총이익률은 59.3% 였지만 매각 대상 사업을 뺀 기준으로는 64.0% 로, 이 사업이 마진을 4.7%p 끌어내리고 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "Adjusted gross margin (Non-GAAP) | 59.3 | % | Business held for sale 3 | 4.7 | % | Adjusted gross margin, excluding business held for sale (Non-GAAP) | 64.0 | % |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d3-g1",
+              "statement": "회사 가이던스는 4분기 조정 매출총이익률 58.9%, 매각 대상 사업을 뺀 기준 64.3% 다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "Adjusted gross margin* | 58.9% | +/- | 50 bps | Adjusted gross margin, excluding business held for sale * | 64.3% | +/- | 50 bps |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d3-c1",
+              "statement": "회사는 규제 승인을 비롯한 통상적 선행조건이 남아 있다고 적었고, 4분기 전망에는 이 사업 매출이 분기 전체로 들어 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 10-Q 경영진 설명",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                  "date": "2026-11-24",
+                  "quote": "The transaction remains subject to the satisfaction or waiver of customary closing conditions, including but not limited to receipt of certain regulatory approvals.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3-c2",
+              "statement": "회사는 진행 중인 셀룰러 모듈 사업 매각 등 인수·매각 실행의 어려움을 위험 요인으로 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "셈텍 실적 보도자료 (2026-11-23)",
+                  "publisher": "Semtech Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                  "date": "2026-11-23",
+                  "quote": "the difficulties associated with integrating ours and Sierra Wireless, Inc.'s businesses and operations successfully as well as difficulties executing other acquisitions or divestitures, including the pending divestiture of our cellular module business and attendant risks",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33이 본 세 분기(2025년 10월~2026년 4월)는 매출 증가율 12.7%→9.3%→15.9%, 순이익률 -1.1%→-10.9%→9.1% 로 세 지표가 한 방향으로 오르지 않았다. 그 뒤 두 분기에서 흐름이 확연히 바뀌었는데, 회사는 3분기 매출 4.23억 달러(1년 전보다 58.4% 증가)의 원인을 인프라·산업 시장의 수요와 판매량 증가라고 적고 데이터센터 약 8,870만 달러, 산업용 LoRa 약 2,790만 달러 증가를 꼽았다. 다만 가운데 분기(2026년 1월 끝)의 순손실 원인을 설명하는 공시 문장은 받은 자료에 없어, 코드 33의 들쭉날쭉함이 무엇 때문인지는 확인하지 못했다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1-1",
+            "statement": "회사는 FiberEdge·CopperEdge·포토닉스 제품의 수주잔고가 사상 최대라며, 데이터를 더 적은 전력으로 옮기려는 업계 수요가 자사를 신호 품질 문제의 협력자로 만든다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "셈텍 실적 보도자료 (2026-11-23)",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                "date": "2026-11-23",
+                "quote": "We expect that momentum to continue into Q4 and fiscal year 2028, broadly supported by the record backlog in our FiberEdge, CopperEdge and photonics solutions. We believe the industry’s increasing demand to move more data with less power positions Semtech as a trusted partner for the signal integrity challenges of each new generation of AI infrastructure.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [],
+        "marketStructure": [
+          {
+            "id": "q3-1",
+            "statement": "회사는 성장 가능성의 선행 지표로 설계 채택(디자인 윈)과 신제품 출시를 꼽으면서, 그것이 곧 수주로 이어지지는 않는다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "셈텍 10-Q 경영진 설명",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                "date": "2026-11-24",
+                "quote": "We use several metrics as indicators of future potential growth. The indicators that we believe correlate to potential future sales growth are design wins and new product releases.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3-2",
+            "statement": "회사는 소수의 고객 가운데 하나를 잃는 것과 소수의 공급·외주 업체에 의존하는 것을 위험으로 적었다 — 고객·공급 양쪽이 집중된 구조다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "셈텍 실적 보도자료 (2026-11-23)",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                "date": "2026-11-23",
+                "quote": "interruption or loss of supplies or services from the limited number of suppliers and subcontractors we rely upon; our suppliers' manufacturing capacity constraints or other supply chain disruptions ... the loss of any one of our small number of customers or failure to collect a receivable from them",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4-1",
+            "statement": "IoT 하드웨어 부문은 가격 인상으로 매출이 약 1,910만 달러 늘었고, 회사는 가격 인상이 부품 원가 상승을 상쇄해 이익률 36.8% 를 지켰다고 적었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "셈텍 10-Q 경영진 설명",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                "date": "2026-11-24",
+                "quote": "Net sales from IoT Systems and Connectivity increased $18.4 million in the third quarter of fiscal year 2027 compared to the third quarter of fiscal year 2026, primarily driven by an approximately $19.1 million increase in IoT Hardware sales resulting from price increases. … Gross margin for our IoT Systems and Connectivity segment was 36.8% in the third quarter of fiscal year 2027, compared to 36.6% in the third quarter of fiscal year 2026, remaining consistent due to price increases offsetting rising component costs.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4-2",
+            "statement": "회사는 신제품 개발에 돈을 더 쓰고 있다고 적었다 — 3분기 제품개발·엔지니어링 비용이 1,880만 달러 늘었고 그중 신제품 출시 비용이 180만 달러다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "셈텍 10-Q 경영진 설명",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                "date": "2026-11-24",
+                "quote": "Product development and engineering expenses increased $18.8 million in the third quarter of fiscal year 2027 compared to the third quarter of fiscal year 2026 primarily as a result of a $15.1 million net increase in staffing-related costs from higher headcount, share-based compensation and supplemental compensation, and a $1.8 million increase from new product introduction expenses.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5-1",
+            "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+            "evidence_level": "no_source",
+            "sources": [
+              {
+                "title": "셈텍 실적 보도자료 (2026-11-23)",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+                "date": "2026-11-23",
+                "quote": "\"Revenue growth and disciplined investment delivered record adjusted operating margin, adjusted EBITDA margin and adjusted diluted earnings per share, and we ended the quarter with a net leverage ratio below one times.\"",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ],
+            "statementOriginal": "재무책임자는 매출 증가와 절제된 투자가 사상 최대 조정 영업이익률·조정 EBITDA 이익률·조정 주당순이익을 만들었고 순차입배수가 1배 아래로 내려왔다고 적었다.",
+            "stripped": true
+          },
+          {
+            "id": "q5-2",
+            "statement": "이자비용은 차입금 상환 덕에 1년 전보다 2,540만 달러 줄어 3분기 160만 달러가 됐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "셈텍 10-Q 경영진 설명",
+                "publisher": "Semtech Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+                "date": "2026-11-24",
+                "quote": "Interest expense, including amortization and a write-off of deferred financing costs, decreased by $25.4 million to $1.6 million for the third quarter of fiscal year 2027, compared to $27.0 million for the third quarter of fiscal year 2026",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 AI 데이터센터 안에서 신호를 멀리·적은 전력으로 보내는 칩 묶음(FiberEdge·CopperEdge·포토닉스)이고, 회사 대표가 기록 실적의 원인으로 직접 지목한 축이다. 매출로는 신호 집적 부문이 3분기 1.824억 달러로 1년 전 8,161만 달러에서 124% 늘었고, 그 증가분 1.008억 달러 가운데 약 8,870만 달러가 데이터센터 매출 증가였다. 두 번째 축은 LoRa 무선 칩으로, 산업 시장 매출 증가 6,110만 달러 중 약 2,790만 달러가 여기서 나왔다. 이익에서는 두 부문 모두 제품 구성이 좋아져 신호 집적 69.8%(1년 전 65.1%), 아날로그·무선 63.0%(1년 전 58.0%) 로 매출총이익률이 올랐다. 전사 매출총이익 증가 1.092억 달러 가운데 약 7,410만 달러가 신호 집적, 약 2,800만 달러가 아날로그·무선에서 왔으니 이익 증가의 출처가 매출과 같은 곳이다. 세 번째는 사업 재편인데, 저마진 셀룰러 모듈 사업(3분기 매출 5,670만 달러)을 약 6,200만 달러에 넘기는 계약을 맺어 조정 매출총이익률 기준 59.3% 와 이를 뺀 64.0% 의 차이만큼 마진이 올라갈 자리가 생겼다. 기대 성장률은 회사 가이던스로, 4분기 매출 4.8억 달러 ±500만 달러와 조정 영업이익률 33.3%·조정 주당순이익 1.33달러이며 대표는 이 흐름이 2028 회계연도까지 간다고 적었다. 반대로 꺾을 수 있는 것은 회사가 직접 적은 위험들이다 — AI 반도체로 수요가 몰린 데 따른 변동성, 일부 제품 판매가격의 빠른 하락, 고객이 취소 조항을 넣는 개별 주문 구조, 높아진 유통 채널 재고, 규제 승인이 남은 매각 거래다. 고급 소비자 시장은 근접 센싱이 약 410만 달러 줄며 역성장했고, IoT 하드웨어 증가분은 가격 인상에서 온 것이라 제품의 힘과는 구분해 봐야 한다.",
+      "watch": [
+        "다음 분기 데이터센터 매출 증가액이 이번 약 8,870만 달러만큼 계속 나오는지 — 신호 집적 부문 매출과 함께 확인한다",
+        "신호 집적 부문 매출총이익률이 69.8% 위에서 유지되는지(제품 구성 효과가 일회성이었는지)",
+        "셀룰러 모듈 사업 매각이 4분기에 실제로 끝나 조정 매출총이익률이 매각 제외 기준 64% 대로 올라가는지",
+        "산업용 LoRa 증가분이 유지되는지, 그리고 회사가 말한 사상 최대 수주잔고가 취소 없이 매출로 전환되는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고(데이터센터 매출 10억 달러 언급이 있다는 기사 제목이 있었다)는 페이지가 열리지 않아 읽지 못했고, 국내 증권사 리포트와 원문 PDF 는 자료에 없었다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-11-24",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-23)",
+          "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000045/smtc-10252026x8k991.htm",
+          "filingDate": "2026-11-23"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-25)",
+          "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000028/smtc-07262026x8k991.htm",
+          "filingDate": "2026-08-25"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-24)",
+          "url": "https://www.sec.gov/Archives/edgar/data/88941/000008894126000048/smtc-20261025.htm",
+          "filingDate": "2026-11-24"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-04-26",
+            "revenueYoy": 15.9,
+            "netIncomeYoy": 37.3,
+            "netMargin": 9.1
+          },
+          {
+            "periodEnd": "2026-01-25",
+            "revenueYoy": 9.3,
+            "netIncomeYoy": -176.1,
+            "netMargin": -10.9
+          },
+          {
+            "periodEnd": "2025-10-26",
+            "revenueYoy": 12.7,
+            "netIncomeYoy": 62.3,
+            "netMargin": -1.1
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-04-26",
+          "revenue": 291018000,
+          "netIncome": 26563000,
+          "yoy": {
+            "revenue": 15.9,
+            "profit": -28.3,
+            "netIncome": 37.3,
+            "priorEnd": "2025-04-27"
+          }
+        },
+        {
+          "periodEnd": "2026-01-25",
+          "revenue": 274355000,
+          "netIncome": -29795000,
+          "yoy": {
+            "revenue": 9.3,
+            "profit": -186,
+            "netIncome": -176.1,
+            "priorEnd": "2025-01-26"
+          }
+        },
+        {
+          "periodEnd": "2025-10-26",
+          "revenue": 266971000,
+          "netIncome": -2862000,
+          "yoy": {
+            "revenue": 12.7,
+            "profit": 74.6,
+            "netIncome": 62.3,
+            "priorEnd": "2024-10-27"
+          }
+        },
+        {
+          "periodEnd": "2025-07-27",
+          "revenue": 257589000,
+          "netIncome": -27064000,
+          "yoy": {
+            "revenue": 19.6,
+            "profit": -308.4,
+            "netIncome": 84.1,
+            "priorEnd": "2024-07-28"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 45.99,
+        "saleNy": 37.85,
+        "epsCy": 117.3,
+        "epsNy": 84.6
+      }
+    },
+    "EXE": {
+      "ticker": "EXE",
+      "headline": "Twin Eagle 인수로 생긴 마케팅 사업이 이익 기여를 시작 — 가스 가격 약세가 상쇄",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "Twin Eagle 인수 — 천연가스 마케팅·물류 회사를 사서 '마케팅' 부문을 새로 만들었다",
+          "kind": "service",
+          "stage": "이익 기여 중",
+          "since": "2026-09",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사는 2026년 9월 16일 천연가스 마케팅·물류 서비스 회사 Twin Eagle 인수를 약 14억 달러에 완료했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "On September 16, 2026, we completed the acquisition of Twin Eagle, a provider of natural gas marketing and logistics services, through a merger with one of our wholly owned subsidiaries. The aggregate purchase price was approximately $1.4 billion, including purchase price adjustments.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "이 인수로 보고 부문이 하나에서 둘(탐사·생산과 마케팅)로 바뀌었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Following the Twin Eagle Acquisition we completed during the Current Quarter, we changed our reportable segment structure from one reportable segment to two reportable segments: Exploration and Production (“E&P”) and Marketing. Prior-period information has been recast to conform to the current-period presentation.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 마케팅 매출은 9.27억 달러로 1년 전 같은 분기 6.66억 달러에서 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Consolidated marketing revenues | $ | 927 | $ | 666 | $ | 2,820 | $ | 2,364 | ",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "회사는 3분기 마케팅 매출 증가가 주로 Twin Eagle 인수 완료 뒤 거래 활동이 늘어난 결과라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Marketing revenues and expenses increased in the Current Quarter compared to the Prior Quarter primarily as a result of increased activity following the close of the Twin Eagle Acquisition. Optimization efforts and increases in marketed volumes also contributed to an increase in marketing revenues and expenses.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "마케팅 부문 영업이익은 3분기 9,400만 달러로 1년 전 6,200만 달러에서 늘었고, 9개월 누적은 3.71억 달러로 1.84억 달러에서 늘었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Marketing | 94 | 62 | 371 | 184 | ",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "회사 기준 마케팅 조정 EBITDA(일회성·부문 간 수수료를 뺀 회사 기준 이익 지표)는 3분기 3,500만 달러로 1년 전 700만 달러에서 늘었고, 9개월 누적은 1.5억 달러로 1년 전 500만 달러 적자에서 흑자로 돌아섰다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                  "date": "2026-10-27",
+                  "quote": "Marketing Adjusted EBITDA (Non-GAAP) | $ | 35 | $ | 7 | $ | 150 | $ | (5) | ",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p3",
+              "statement": "다만 3분기에는 인수 관련 비용 약 2,200만 달러가 먼저 들어갔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "During the Current Quarter and Current Period, we recognized approximately $22 million of costs related to the Twin Eagle Acquisition, which included transaction fees, consulting and legal fees and other fees related to the transaction.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1g1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)로는 4분기 마케팅 EBITDA 가 8,000만 달러이며, 회사는 이것이 9월에 끝난 Twin Eagle 인수 효과를 반영한 수치라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                  "date": "2026-10-27",
+                  "quote": "Expand Energy has reported $150 million of marketing adjusted EBITDA (1) for the nine months ended September 30, 2026. During the fourth quarter, the Company expects $80 million of marketing EBITDA, reflecting the impact of the Twin Eagle acquisition (the \"Twin Eagle Acquisition\"), which closed in September 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사는 Twin Eagle 인수의 효과와 통합 자체를 실적이 전망과 달라질 수 있는 위험으로 공시에 올려 두었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                  "date": "2026-10-27",
+                  "quote": "• the results, effects and benefits of the Twin Eagle Acquisition, future opportunities for the Company, other plans with respect to the Twin Eagle Acquisition, and the anticipated impact of the Twin Eagle Acquisition on the Company’s results of operations, financial position, growth opportunities and competitive position;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "마케팅은 매출이 커도 비용이 거의 같이 커지는 사업으로, 3분기 마케팅 비용은 8.88억 달러로 매출 9.27억 달러에 근접했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Consolidated marketing revenues | $ | 927 | $ | 666 | $ | 2,820 | $ | 2,364 | \nConsolidated marketing expenses | $ | 888 | $ | 659 | $ | 2,658 | $ | 2,369 | ",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "장기 LNG 인수 계약과 구조적 수요 증가 — 2031년 시작 예정인 Delfin FLNG 1 액화 계약, 그리고 데이터센터 전력·산업용 수요",
+          "kind": "industry",
+          "stage": "발표만",
+          "since": "2026-04",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 2026년 4월 22일 Delfin FLNG 1 LLC 와 장기 액화 인수 계약을 맺었고, 연 약 1.15백만 톤 규모를 헨리허브 가격으로 사들이며 계약 시작 목표는 2031년이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "On April 22, 2026, we executed a Sales and Purchase Agreement (“SPA”) for long-term liquefaction offtake with Delfin FLNG 1 LLC. Under the SPA, we will purchase approximately 1.15 MTPA of LNG from Delfin FLNG 1 LLC at a Henry Hub price with a contract targeted start date in 2031. The previously announced SPAs with Delfin and Gunvor Group Ltd have been terminated.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "회사는 장기적으로 신규 LNG 수출 설비·산업용 수요·데이터센터 확장에 따른 전력 수요가 시장을 빡빡하게 만들어 추가 공급이 필요해질 것으로 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Over the longer term, we expect structural demand growth, led by new LNG export capacity, industrial demand, and power demand from data center expansion, to tighten the market and increase the need for incremental supply. We also expect these factors to contribute to greater price volatility.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 2026년 1~9월 동안 포근한 날씨와 강한 생산이 천연가스 가격을 눌렀다고 적었다 — 수요 이야기가 아직 가격에 반영되지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "Domestically, mild weather and strong production weighed on natural gas prices during the first nine months of 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "경영진 교체 — 새 CEO Daniel E. Brown(2026-10-26 취임)과 새 CFO Marcel Teunissen(2026-04-06 선임)",
+          "kind": "management",
+          "stage": "발표만",
+          "since": "2026-10",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "이사회는 2026년 10월 16일 Daniel E. Brown 을 사장 겸 최고경영자로 선임했고 효력은 10월 26일이다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "On October 16, 2026, the Board of Directors of the Company appointed Daniel E. Brown, as President and Chief Executive Officer, effective October 26, 2026. In connection with the appointment, Mr. Brown was also elected to serve on our Board of Directors, effective October 26, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "2026년에는 2월에 임시 최고경영자 선임, 4월에 신임 최고재무책임자 선임이 이어졌다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                  "date": "2026-10-27",
+                  "quote": "On February 6, 2026, the Board of Directors of the Company appointed Michael Wichterich, Chairman of the Board, as Interim President and Chief Executive Officer, replacing Domenic J. Dell’Osso, Jr., effective immediately. \nOn April 6, 2026, the Board of Directors of the Company appointed Marcel Teunissen, as Executive Vice President and Chief Financial Officer, effective immediately.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d3g1",
+              "statement": "새 최고경영자는 회사를 북미 최대 통합 가스 기업으로 확립하고 지금의 가스 시장 변동성을 수익으로 바꾸겠다는 방향을 제시했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                  "publisher": "Expand Energy (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                  "date": "2026-10-27",
+                  "quote": "“With our diversified scale, investment-grade balance sheet and coast-to-coast customer access, Expand Energy is uniquely positioned to monetize the volatility we see in the gas market today, provide advantaged supply to premium markets and capitalize on the demand growth we expect in the future,” said President and Chief Executive Officer Danny Brown.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": []
+        }
+      ],
+      "growthLink": "코드 33 은 가속이 아니라 둔화를 보여 준다 — 매출 증가율이 100.2% → -19.8% → 10.8% 로, 순이익률은 26.4% → 17.6% → 15.8% 로 내려왔다. 1분기 급증은 새로운 동력이 아니라 겨울 폭풍 Fern 이 만든 가스 가격 급등이었고, 회사는 9개월 매출 증가분 가운데 5.47억 달러가 이 가격 효과라고 적었다. 3분기에 매출 증가율이 다시 플러스로 돌아선 부분은 Twin Eagle 인수 뒤 늘어난 마케팅 거래와 신규 유정 물량에서 왔다고 회사가 직접 설명한다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "회사는 Twin Eagle 인수로 마케팅 사업을 미국과 캐나다 전역으로 넓혀 천연가스 가치사슬 안에서의 범위를 확장했다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                "date": "2026-10-27",
+                "quote": "The recent Twin Eagle Acquisition has expanded our marketing operations across the United States as well as Canada, extending our reach throughout North America within the natural gas value chain.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 하루 순생산량 기준 미국 최대 천연가스 생산업체라고 밝히고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                "date": "2026-10-27",
+                "quote": "As the largest natural gas producer in the U.S., based on net daily production, Expand Energy is focused on responsibly developing an abundant supply of natural gas, oil and NGL to expand energy access for all.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "3분기 순생산량은 하루 7.54 Bcfe(92%가 천연가스)로, 리그 11기를 돌려 46공을 시추하고 59공을 생산에 넣은 결과다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                "date": "2026-10-27",
+                "quote": "Expand Energy operated an average of 11 rigs during the third quarter, drilling 46 wells and turning 59 wells in line, resulting in net production of approximately 7.54 Bcfe/d (92% natural gas), including 6.9 Bcf/d of natural gas, 17 MBbls/d of oil and 87 MBbls/d of natural gas liquids.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 가스·석유 탐사·생산 업계의 경쟁 자체를 실적 변동 위험으로 적고 있어, 소수 기업이 지배하는 구조라고 볼 근거는 공시에 없다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                "date": "2026-10-27",
+                "quote": "• competition in the natural gas and oil exploration and production industry;",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "다만 회사는 S&P·피치·무디스에서 모두 투자등급을 받고 있고, 피치는 2026년 5월 6일 등급을 BBB- 에서 BBB 로 올렸다 — 자금 조달 조건에서 규모의 이점이 있다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                "date": "2026-10-27",
+                "quote": "We have investment grade ratings with S&P Global Ratings (“S&P”), Fitch Ratings (“Fitch”) and Moody’s Ratings (“Moody’s”). S&P has an issuer-level rating of ‘BBB-’ on our unsecured debt and an issuer credit rating of ‘BBB-’, with a stable outlook. Moody’s has a rating of Baa3 on our senior unsecured notes, with a stable outlook. On May 6, 2026, Fitch upgraded the credit rating on our revolver credit rating as well as our senior notes from ‘BBB-’, to ‘BBB’ and maintains a stable outlook.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 운영 효율, 마케팅·상업 활동, 재무 규율로 마진을 개선하는 데 집중한다고 전략을 설명한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                "date": "2026-10-27",
+                "quote": "We continue to focus on improving margins through operating efficiencies, marketing and commercial efforts and financial discipline, while improving our safety and sustainability performance.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "가격 하락에 대비해 2027년 말까지 예상 가스 물량의 절반 넘는 부분에 헤지를 걸어 두고, 칼라 구조로 가격 상승에도 상한까지 참여한다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                "date": "2026-10-27",
+                "quote": "Our hedge positions partially protect our estimated future cash flows from commodity price movements, providing downside protection on more than half of our projected natural gas volumes through the end of 2027, while our collar and three-way collar structures allow us to participate in price increases up to their ceiling prices.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "단위 비용은 오히려 올랐다 — 집송·처리·수송비가 3분기에 7,000만 달러, 9개월에 2.68억 달러 늘었고 회사는 요율 인상과 신규 유정 물량, 연간 수수료 인상, NG3 파이프라인 가동을 원인으로 들었다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 10-Q 경영진 설명 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+                "date": "2026-10-27",
+                "quote": "Gathering, processing and transportation expenses during the Current Quarter and Current Period increased $70 million and $268 million compared to the Prior Quarter and Prior Period, respectively. These increases were primarily related to increased rates across all of our operating areas as well as increased volumes due to new well production, annual fee escalations and the NG3 pipeline going into service.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "자본 투자는 2026년 전체로 리그 11~12기, 약 30억 달러 수준으로 유지하고 하루 생산량은 7.45~7.55 Bcfe 를 목표로 한다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "익스팬드 에너지 3분기 실적 보도자료 (2026-10-27)",
+                "publisher": "Expand Energy (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+                "date": "2026-10-27",
+                "quote": "For the full year 2026, Expand Energy expects to run 11 – 12 rigs and has updated its capital investment guidance to approximately $3 billion. Average daily production is expected to be approximately 7.45 – 7.55 Bcfe/d.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 사업 하나가 통째로 늘어난 것이다. 회사는 2026년 9월 16일 천연가스 마케팅·물류 회사 Twin Eagle 을 약 14억 달러에 사들였고, 그 결과 보고 부문이 탐사·생산 하나에서 탐사·생산과 마케팅 둘로 바뀌었다. 매출에서는 3분기 마케팅 매출이 9.27억 달러로 1년 전 6.66억 달러에서 늘었고, 회사는 이 증가가 주로 인수 완료 뒤 거래 활동이 늘어난 결과라고 직접 설명한다. 이익에서도 마케팅 부문 영업이익이 9,400만 달러로 1년 전 6,200만 달러에서 늘었고, 회사 기준 마케팅 조정 EBITDA 는 9개월 누적 1.5억 달러로 1년 전 500만 달러 적자에서 흑자로 돌아섰다. 다만 3분기에는 인수 관련 비용 약 2,200만 달러가 먼저 반영됐고, 마케팅은 매출이 커지면 비용도 거의 같이 커지는 사업이라 3분기 마케팅 비용이 8.88억 달러였다. 기대치로는 회사 가이던스(회사가 내놓은 전망)가 4분기 마케팅 EBITDA 8,000만 달러로, 인수 효과가 온기로 들어오는 첫 분기다. 두 번째 동력인 2031년 시작 예정의 Delfin FLNG 1 장기 LNG 계약과 데이터센터·산업용 수요는 아직 발표 단계이고 지금 매출과 연결되는 숫자가 없다. 10월 26일 취임한 새 최고경영자도 아직 숫자로 확인할 것이 없다. 꺾을 수 있는 것은 가격이다 — 회사 스스로 2026년 1~9월 동안 포근한 날씨와 강한 생산이 가스 가격을 눌렀다고 적었고, 인수 통합 작업 자체도 공시상 위험으로 올라 있다.",
+      "watch": [
+        "4분기에 회사가 가이던스로 제시한 마케팅 EBITDA 8,000만 달러가 실제로 나오는지 — Twin Eagle 이 온기로 반영되는 첫 분기다",
+        "마케팅 부문 영업이익이 3분기 9,400만 달러에서 더 늘어나는지, 아니면 매출만 커지고 이익은 제자리인지",
+        "탐사·생산 부문 영업이익이 가스 가격 약세 속에서 어떻게 움직이는지 — 마케팅 증가분이 그 감소를 메우는지",
+        "2027년 생산·자본 가이던스와 헤지 비중 — 가격 하락 방어가 2027년 이후로도 이어지는지"
+      ],
+      "sourceGap": "국내 증권사 리포트와 원문 PDF 가 없었고, 3분기 실적 발표 콜 원고는 기사 제목만 있어 원문을 읽지 못했다 — 마케팅 부문에서 Twin Eagle 단독 기여액과 2027년 가이던스는 확인하지 못했다",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-10-27",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-10-27)",
+          "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+          "filingDate": "2026-10-27"
+        },
+        {
+          "label": "실적 보도자료 (2026-07-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000046/exe-ex_991x20260630x8kxpr.htm",
+          "filingDate": "2026-07-28"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-10-27)",
+          "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm",
+          "filingDate": "2026-10-27"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 10.8,
+            "netIncomeYoy": -5.1,
+            "netMargin": 15.8
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": -19.8,
+            "netIncomeYoy": -46.1,
+            "netMargin": 17.6
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 100.2,
+            "netIncomeYoy": 565.5,
+            "netMargin": 26.4
+          }
+        ],
+        "rising": {
+          "revenue": false,
+          "netIncome": false,
+          "netMargin": false
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 3286000000,
+          "netIncome": 519000000,
+          "yoy": {
+            "revenue": 10.8,
+            "profit": -11.7,
+            "netIncome": -5.1,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 2960000000,
+          "netIncome": 522000000,
+          "yoy": {
+            "revenue": -19.8,
+            "profit": -47.9,
+            "netIncome": -46.1,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 4397000000,
+          "netIncome": 1159000000,
+          "yoy": {
+            "revenue": 100.2,
+            "profit": 671.3,
+            "netIncome": 565.5,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 3272000000,
+          "netIncome": 553000000,
+          "yoy": {
+            "revenue": 63.5,
+            "profit": 293,
+            "netIncome": 238.6,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 11.65,
+        "saleNy": 4.65,
+        "epsCy": 42.21,
+        "epsNy": -11.19
+      }
+    },
+    "WPM": {
+      "ticker": "WPM",
+      "headline": "BHP 안타미나 은 스트림(43억 달러)이 생산 13% 증가를 끌고 있다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "BHP 안타미나 은 스트림 — 페루 안타미나 광산에서 BHP 몫 은을 선급금 43억 달러에 사들여, 휘턴의 은 수취 비율을 33.75%에서 67.5%로 두 배로 올린 계약",
+          "kind": "contract",
+          "stage": "이익 기여 중",
+          "since": "2026-02",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "2026년 2월 회사는 BHP에 선급금 43억 달러를 내고 안타미나 은 스트림을 추가로 사들인다고 발표했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "안타미나 추가 은 스트림 취득 보도자료 (2026-02-16)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                  "date": "2026-02-16",
+                  "quote": "WPMI will pay BHP total upfront cash consideration of $4.3 billion (the \"Deposit\") on closing",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "거래가 끝나면 휘턴은 안타미나에서 나오는 은 전체의 67.5%를 받는다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "안타미나 추가 은 스트림 취득 보도자료 (2026-02-16)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                  "date": "2026-02-16",
+                  "quote": "Upon closing, Wheaton will receive a combined 67.5% of all the silver produced from Antamina",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b3",
+              "statement": "이 계약은 2026년 4월 1일 종결됐고, 회사는 그날 선급금 43억 달러를 지급했다고 알렸다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "BHP 안타미나 은 스트림 종결 보도자료 (2026-04-01)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956926000263/ex991.htm",
+                  "date": "2026-04-01",
+                  "quote": "In exchange, WPMI has made the upfront payment of US$4.3 billion and will make ongoing",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 금 환산 생산량은 23만 1천 온스로 1년 전보다 13% 늘었는데, 회사는 그 주된 이유로 이 BHP 안타미나 계약을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Delivered attributable gold equivalent production³ (\"GEOs\") of 231,000 ounces in the third quarter of 2026, a 13% increase … primarily due to the acquisition of the precious metals purchase agreement with BHP Group Limited for its 33.75% portion of the silver produced at Antamina",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "안타미나 추가 은 스트림 취득 보도자료 (2026-02-16)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                  "date": "2026-02-16",
+                  "quote": "expected average attributable silver production of approximately 6.0 Moz of silver per year for the first five years",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "회사는 이 스트림에서 첫 5년 동안 연평균 은 600만 온스가 들어올 것으로 본다.",
+              "stripped": true
+            },
+            {
+              "id": "d1r3",
+              "statement": "회사는 안타미나가 2030년에는 전체 금 환산 생산량의 약 18%를 맡는 두 번째로 큰 자산이 될 것으로 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "안타미나 추가 은 스트림 취득 보도자료 (2026-02-16)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                  "date": "2026-02-16",
+                  "quote": "the mine is expected to contribute roughly 18% of total gold equivalent production by 2030, solidifying its position as Wheaton's second-largest asset",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "3분기 현금 영업마진은 금 환산 온스당 3,466달러로 1년 전보다 39% 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "This resulted in a cash operating margin¹ of $3,466 per GEO³ sold, an increase of 39% as compared with the third quarter of 2025",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1p2",
+              "statement": "선급금을 낸 뒤 은을 받을 때마다 내는 돈은 은 현물가격의 20%로 고정돼 있어, 은값이 오르면 마진이 그대로 벌어진다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "BHP 안타미나 은 스트림 종결 보도자료 (2026-04-01)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956926000263/ex991.htm",
+                  "date": "2026-04-01",
+                  "quote": "will make ongoing payments for the silver ounces delivered equal to 20% of the spot price of silver.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                },
+                {
+                  "title": "안타미나 추가 은 스트림 취득 보도자료 — 지급 비율 (2026-02-16)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                  "date": "2026-02-16",
+                  "quote": "Payable silver will be calculated using a fixed payable factor of 90.0%.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사 가이던스(회사가 내놓은 전망)는 2026년 금 환산 생산량 86만~94만 온스로, 이전 전망과 같다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 생산 가이던스 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "resulting in annual production of approximately 860,000 to 940,000 GEOs, unchanged from previous guidance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1e2",
+              "statement": "회사 가이던스는 2030년 생산량이 2025년보다 약 50% 늘어 120만 온스에 이르고, 2031~2035년에도 연평균 120만 온스를 유지한다고 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 장기 생산 전망 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Annual production is currently forecast to increase from 2025 levels by approximately 50% to 1,200,000 GEOs by 2030, with average annual production forecast to remain at 1,200,000 GEOs in years 2031 to 2035, also unchanged from previous guidance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "이 스트림은 누적 1억 온스를 받으면 수취 비율이 22.5%로 내려가도록 설계돼 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "BHP 안타미나 은 스트림 종결 보도자료 (2026-04-01)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956926000263/ex991.htm",
+                  "date": "2026-04-01",
+                  "quote": "WPMI will purchase the equivalent of BHP's 33.75% of the payable silver from the Antamina mine until a total of 100 million ounces has been delivered, at which point WPMI will purchase the equivalent of 22.5% of the payable silver for the life of mine.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "현재 확정된 안타미나 매장량은 2036년까지 채굴을 뒷받침하는 수준이어서, 그 뒤 생산은 추가 매장량 확인에 달려 있다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "안타미나 추가 은 스트림 취득 보도자료 — 매장량 (2026-02-16)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                  "date": "2026-02-16",
+                  "quote": "Current declared reserves are sufficient to support mining activities at Antamina until 2036.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "3분기 매출이 2억 9,500만 달러 늘어난 것은 주로 금 환산 실현가격이 36% 올라서였기 때문에, 금·은 가격이 꺾이면 매출도 같이 꺾인다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 매출 구성 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Revenue in Q3 2026 was $772 million (51% gold, 46% silver, 0.5% palladium and 2% cobalt), with the $295 million increase relative to the prior period being primarily due to a 36% increase in the average realized gold equivalent³ price",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c4",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 재무상태 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Balance Sheet: Cash balance of $146 million and debt outstanding under Term Loan and Revolving Credit Facility totaling $1.6 billion, resulting in total net debt of $1.5 billion.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "선급금 43억 달러를 치르면서 순차입금이 15억 달러로 남아 있어, 다음 대형 계약을 할 여력은 그만큼 줄었다.",
+              "stripped": true
+            }
+          ]
+        },
+        {
+          "what": "새 광산들의 첫 인도 개시 — Hemlo·Fenix·Platreef·Mineral Park가 생산에 들어왔고, Montage Gold의 Koné는 첫 금을 뽑았고 Hudbay는 Copper World 건설을 승인했다",
+          "kind": "contract",
+          "stage": "매출 발생 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 3분기 생산 증가의 나머지 요인으로 Hemlo·Fenix·Platreef·Mineral Park의 생산 개시를 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 생산 증가 원인 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "in addition to the continued realization of the Company's growth strategy with production from Hemlo, Fenix, Platreef, and Mineral Park. … Received first deliveries related to Ivanhoe's Platreef project in South Africa.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "같은 분기에 Montage Gold의 Koné에서 첫 금이 나왔고 Hudbay는 Copper World 건설을 승인했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 성장 파이프라인 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "First gold pour achieved at Montage Gold's Koné project in Côte d'Ivoire. … Hudbay approved the Copper World project in the U.S.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d2r1",
+              "statement": "3분기 판매량은 금 환산 19만 2,300 온스로 19% 늘었고, 회사는 주로 생산량이 늘어서라고 설명했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 경영진 설명(MD&A) — 판매량",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex992.htm",
+                  "date": "2026-11-05",
+                  "quote": "Sales volumes amounted to 192,300 GEOs, an increase of 19%, primarily the result of the higher production, coupled with relative changes to GEOs produced but not delivered.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2r2",
+              "statement": "9개월 누적 매출은 1년 전보다 79%, 12억 달러 늘어 26억 달러가 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 경영진 설명(MD&A) — 누적 매출",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex992.htm",
+                  "date": "2026-11-05",
+                  "quote": "Revenue increased 79% or $1.2 billion to $2.6 billion (49.3% gold, 48.5% silver, 0.4% palladium and 1.8% cobalt)",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d2e1",
+              "statement": "회사 가이던스는 이 신규 광산들이 더해져 2030년 생산량이 2025년보다 약 50% 늘어 120만 온스가 된다고 본다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 장기 생산 전망 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Annual production is currently forecast to increase from 2025 levels by approximately 50% to 1,200,000 GEOs by 2030, with average annual production forecast to remain at 1,200,000 GEOs in years 2031 to 2035, also unchanged from previous guidance.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "Koné는 아직 첫 금을 뽑은 단계이고 Copper World는 건설 승인 단계여서, 매출로 잡히기까지 시간이 걸린다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — 성장 파이프라인 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "We continued to see meaningful progress on our growth pipeline, with first gold pour at Montage Gold's Koné project and Hudbay's approval of construction at Copper World marking important milestones for two significant contributors to our near-term growth.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "경영진 교체 — 2012년 입사해 2025년 사장이 된 Haytham Hodaly가 2026년 3월 31일 CEO를 맡고, Randy Smallwood는 이사회 의장으로 물러났다",
+          "kind": "management",
+          "stage": "출시",
+          "since": "2026-02",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2026년 2월 5일 Hodaly를 사장 겸 CEO로 선임하고 3월 31일부터 맡긴다고 발표했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "경영진 교체 보도자료 (2026-02-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956926000106/ex991.htm",
+                  "date": "2026-02-05",
+                  "quote": "Haytham Hodaly, currently serving as President, will transition to President and CEO and join the Company's Board of Directors, effective March 31, 2026.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3b2",
+              "statement": "회사는 그가 110억 달러가 넘는 스트리밍 계약을 맺는 데 핵심 역할을 했다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "경영진 교체 보도자료 — 이력 (2026-02-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956926000106/ex991.htm",
+                  "date": "2026-02-05",
+                  "quote": "Mr. Hodaly has played a pivotal role in executing more than $11 billion in streaming transactions, significantly advancing the Company's growth trajectory",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [],
+          "expectedGrowth": [
+            {
+              "id": "d3e1",
+              "statement": "신임 CEO는 3분기 실적에서 연간 생산 가이던스를 달성할 위치에 있다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "2026년 3분기 실적 보도자료 — CEO 발언 (2026-11-05)",
+                  "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                  "date": "2026-11-05",
+                  "quote": "Wheaton delivered another solid quarter, building on record year-to-date performance, and remains very well positioned to achieve our annual production guidance",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": []
+        }
+      ],
+      "growthLink": "코드 33(최근 3분기 매출·이익 증가율·순이익률이 각각 오르고 있는지)은 이번에 계산되지 않았다 — 분기 재무 자료가 비어 있었다. 대신 회사가 직접 밝힌 숫자를 보면 3분기 매출은 7.72억 달러, 9개월 누적 매출은 1년 전보다 79% 늘어 26억 달러였다. 회사는 생산량 13% 증가의 주된 원인을 BHP 안타미나 계약이라고 썼지만, 매출이 2억 9,500만 달러 늘어난 더 큰 원인으로는 금 환산 실현가격 36% 상승을 들었다 — 새 계약은 수량을, 금속 가격은 금액을 밀어 올렸다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "새로 생긴 것은 BHP 안타미나 은 스트림으로, 안타미나 은 수취 비율을 33.75%에서 67.5%로 올렸다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026년 3분기 실적 보도자료 — 안타미나 비율 (2026-11-05)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                "date": "2026-11-05",
+                "quote": "BHP Antamina PMPA, which increased the Company's share of silver production at Antamina from 33.75% to 67.5%, effective April 1, 2026.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q1b",
+            "statement": "회사는 질 좋은 은 생산을 구하기가 점점 어려워지는 반면 산업용·안전자산 수요는 계속 늘고 있다고 업계 상황을 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "안타미나 추가 은 스트림 취득 보도자료 — 경영진 발언 (2026-02-16)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                "date": "2026-02-16",
+                "quote": "Quality silver production is becoming increasingly difficult to source while demand continues to rise for both critical industrial uses and for silver's safe haven qualities in today's economic environment.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사 몫 기준 페냐스키토 은 생산량은 3분기에 310만 온스로 1년 전보다 46% 늘어 분기 최고치였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026년 3분기 실적 보도자료 — 페냐스키토 (2026-11-05)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                "date": "2026-11-05",
+                "quote": "In Q3 2026, Peñasquito produced a record 3.1 million ounces of attributable silver, an increase of 46% relative to Q3 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "한 건에 선급금 43억 달러를 치러야 하는 거래여서, 이런 계약을 할 수 있는 회사는 많지 않다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "안타미나 추가 은 스트림 취득 보도자료 — 선급금 조달 (2026-02-16)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                "date": "2026-02-16",
+                "quote": "The upfront payment of $4.3 billion will be funded through a combination of existing liquidity and new financing.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "회사는 이런 규모·품질·수명을 가진 자산에 노출을 키우는 것은 드문 기회라고 표현했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "안타미나 추가 은 스트림 취득 보도자료 — 경영진 발언 (2026-02-16)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000127956926000133/ex991.htm",
+                "date": "2026-02-16",
+                "quote": "Deepening our exposure to an asset of this scale, quality and longevity is a unique and transformative opportunity for Wheaton.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "은을 받을 때 내는 돈을 현물가격의 20%로 고정해 두어, 3분기 현금 영업마진은 금 환산 온스당 3,466달러로 39% 올랐다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026년 3분기 실적 보도자료 — 현금 영업마진 (2026-11-05)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                "date": "2026-11-05",
+                "quote": "This resulted in a cash operating margin¹ of $3,466 per GEO³ sold, an increase of 39% as compared with the third quarter of 2025",
+                "verified": "ok",
+                "httpStatus": 200
+              },
+              {
+                "title": "BHP 안타미나 은 스트림 종결 보도자료 — 지급 조건 (2026-04-01)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1323404/000127956926000263/ex991.htm",
+                "date": "2026-04-01",
+                "quote": "will make ongoing payments for the silver ounces delivered equal to 20% of the spot price of silver.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "회사는 3분기에 El Domo 4,400만 달러, Marmato 4,200만 달러의 선급금을 집행하고 Cozamin 계약에 2,500만 달러를 더 넣기로 해, 받을 금속 물량을 계속 늘리고 있다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026년 3분기 실적 보도자료 — 선급금 집행 (2026-11-05)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                "date": "2026-11-05",
+                "quote": "El Domo: $44 million; and Marmato: $42 million … The Company agreed with Luca to amend the existing Cozamin PMPA to provide for an additional $25 million upfront cash consideration.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "회사는 Salobo 계약을 고쳐 Vale의 조립 부유선광(CPF) 설비 공정 목표 달성에 4,000만 달러를 두 번에 나눠 주기로 했다 — 광산 쪽 회수율을 올리는 투자다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026년 3분기 실적 보도자료 — Salobo 계약 변경 (2026-11-05)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                "date": "2026-11-05",
+                "quote": "During the quarter, the Company amended the Salobo PMPA to pay Vale $40 million in two installments in connection with the Coarse Particle Flotation (\"CPF\") project milestones.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "3분기에 회전대출 3억 7,200만 달러를 갚아 이자 부담을 줄였다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "2026년 3분기 실적 보도자료 — 차입금 상환 (2026-11-05)",
+                "publisher": "휘턴 프레셔스 메탈스 (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/0001323404/000119312526450320/d152875dex991.htm",
+                "date": "2026-11-05",
+                "quote": "Repaid $372 million of the revolving credit facility during the quarter",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로 생긴 것은 분명하다. 2026년 2월 회사는 BHP에 선급금 43억 달러를 내고 페루 안타미나 광산의 은을 더 사들이기로 했고, 4월 1일 계약이 종결되면서 은 수취 비율이 33.75%에서 67.5%로 두 배가 됐다. 3분기 금 환산 생산량 23만 1천 온스(1년 전보다 13% 증가)의 주된 원인이 바로 이 계약이라고 회사가 직접 썼고, 여기에 Hemlo·Fenix·Platreef·Mineral Park의 생산 개시가 더해졌다. 회사는 이 스트림에서 첫 5년 동안 연평균 은 600만 온스가 들어오고, 안타미나가 2030년에는 전체 금 환산 생산량의 약 18%를 맡는 두 번째로 큰 자산이 될 것으로 본다. 이익 쪽에서는 은을 받을 때 내는 돈이 현물가격의 20%로 고정돼 있어, 3분기 현금 영업마진이 금 환산 온스당 3,466달러로 39% 올랐다. 다만 숫자는 나눠 봐야 한다 — 생산량은 13%, 판매량은 19% 늘었지만 매출이 2억 9,500만 달러 늘어난 더 큰 원인은 금 환산 실현가격 36% 상승이었다. 기대 성장률은 회사 가이던스 기준으로 2026년 86만~94만 온스, 2030년에는 2025년보다 약 50% 늘어난 120만 온스다. 경영진도 바뀌었다 — 110억 달러가 넘는 스트리밍 계약을 주도했던 Haytham Hodaly가 2026년 3월 31일부터 CEO를 맡았다. 꺾을 수 있는 것은 셋이다. 안타미나 스트림은 누적 1억 온스를 받으면 비율이 22.5%로 내려가고, 확정 매장량은 2036년까지분이며, 선급금을 치르면서 순차입금 15억 달러가 남아 다음 대형 계약 여력이 줄었다. 무엇보다 매출의 절반 가까이를 은이 채우는 구조라 금속 가격이 내려오면 수량 성장만으로는 지금의 증가율을 지키기 어렵다.",
+      "watch": [
+        "2027년 생산 가이던스에서 안타미나 몫이 연 은 600만 온스 수준으로 올라오는지 — 첫 5년 평균 전망의 검증",
+        "4분기 생산량이 연간 가이던스 86만~94만 온스 범위에 들어오는지, 특히 Hemlo·Fenix·Platreef·Mineral Park의 인도량이 늘어나는지",
+        "금 환산 실현가격이 떨어진 분기에도 판매량 증가만으로 매출이 늘어나는지 — 가격이 아닌 수량이 성장을 끄는지 가리는 기준",
+        "Koné와 Copper World가 일정대로 매출에 들어오는지, 그리고 순차입금 15억 달러가 줄어드는 속도"
+      ],
+      "sourceGap": "분기 경영진 설명(MD&A)의 위험 요인 절(55쪽 이후)과 3분기 실적 발표 콜 원고 원문은 열지 못했고, 국내 증권사 리포트는 자료가 없었다",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": null,
+      "why": "신규",
+      "docs": [],
+      "code33": null,
+      "quarters": [],
+      "consensus": {
+        "saleCy": 53.85,
+        "saleNy": 9.39,
+        "epsCy": 48.56,
+        "epsNy": 8.6
+      }
+    },
+    "CDW": {
+      "ticker": "CDW",
+      "headline": "AI 인프라 수요가 매출 17.7% 증가를 이끌지만 마진은 140bp 내려갔다",
+      "nVerdict": "충족",
+      "drivers": [
+        {
+          "what": "기업의 AI 도입에 따른 AI 대응 인프라 수요 — 데이터 스토리지·서버가 매출 증가를 끌고 있다",
+          "kind": "industry",
+          "stage": "이익 기여 중",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d1b1",
+              "statement": "회사 최고경영자는 3분기 실적이 여러 고객군의 광범위한 강세와 기업의 AI 도입 확산에 힘입은 것이라고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "\"CDW delivered robust third quarter results, powered by broad-based strength across our diverse customer end-markets and strong momentum in enterprise AI adoption,\" said Christine A. Leahy, chair and chief executive officer, CDW.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1b2",
+              "statement": "10-Q 경영진 설명은 지금의 수요 흐름이 AI 대응 인프라·클라우드·데이터 현대화·보안·업무 자동화 투자로 이어지고 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "These trends are driving investment in AI-ready infrastructure, cloud and data modernization, cybersecurity solutions, and workflow automation technologies.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d1r1",
+              "statement": "3분기 매출은 67.55억 달러로 1년 전 57.37억 달러보다 17.7% 늘었고, 회사는 증가가 주로 데이터 스토리지·서버, 노트북·모바일 기기, 소프트웨어 수요에서 나왔다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "Net sales in the third quarter of 2026 were $6,755 million, compared to $5,737 million in the third quarter of 2025, an increase of 17.7 percent. … Customer demand drove Net sales growth primarily in data storage and servers, notebooks/mobile devices, and software.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r2",
+              "statement": "상업 부문 매출은 39.79억 달러로 20.8% 늘었고, 그 안에서 금융서비스 고객이 73.2%, 기업 고객이 16.8%, 헬스케어 고객이 9.3% 증가했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "Commercial segment Net sales of $3,979 million, 20.8 percent higher than 2025. Commercial results were driven by an increase in Net sales to Financial Services, Corporate, and Healthcare customers of 73.2 percent, 16.8 percent, and 9.3 percent, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1r3",
+              "statement": "10-Q 경영진 설명은 상업 부문 매출 증가분 6.85억 달러(20.8%)가 주로 금융서비스·기업 고객 채널의 데이터 스토리지·서버 수요 때문이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Net sales increased $685 million, or 20.8%, primarily due to increased customer demand in data storage and servers in financial services and corporate customer channels, notebooks/mobile devices and netcomm products in the corporate customer channel, and software in corporate and healthcare customer channels.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [
+            {
+              "id": "d1p1",
+              "statement": "근거 없음(출처에 없는 숫자라 제거됨)",
+              "evidence_level": "no_source",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Gross profit increased $130 million, or 10.3%, due to higher Net sales, partially offset by lower gross profit margin. Gross profit margin decreased 140 basis points to 20.5%, primarily driven by mix into and lower margin in cert ain product categories.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ],
+              "statementOriginal": "매출총이익은 1.3억 달러(10.3%) 늘었지만 매출총이익률은 140bp(0.01%p 단위) 떨어져 20.5% 가 됐고, 회사는 품목 믹스와 일부 품목의 낮은 마진 때문이라고 설명했다.",
+              "stripped": true
+            },
+            {
+              "id": "d1p2",
+              "statement": "상업 부문 영업이익은 6,100만 달러(18.1%) 늘었지만 같은 부문 매출총이익률은 120bp 내려 21.1% 가 됐고, 회사는 데이터 스토리지·서버와 네트워크 장비 믹스 탓이라고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Operating inco me increased $61 million, or 18.1% , primarily due to higher Gross profit dollars, partially offset by higher performance-based incentives. … Gross profit m argin decreased 120 basis points to 21.1%, which is primarily attributed to mix into and lower margin in data storage and servers and netcomm products.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [
+            {
+              "id": "d1e1",
+              "statement": "회사는 미국 IT 시장 성장률을 고정환율 기준 200~300bp 앞지를 수 있다는 자체 전망(가이던스)을 3분기에도 그대로 유지했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "Our ability to address customers’ needs across the full technology stack and lifecycle, together with our continued strategic investments, reinforces our confidence in our ability to outpace US IT addressable market growth by 200 to 300 basis points on a constant currency basis and drive sustainable long-term value for our customers and shareholders.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "counter": [
+            {
+              "id": "d1c1",
+              "statement": "회사는 AI 작업 수요가 몰리면서 공급 차질과 원가 상승이 생길 수 있다고 위험 요인에 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "potential disruptions in the supply of products from our suppliers, including capacity limitations and cost increases resulting from heightened demand related to artificial intelligence workloads;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c2",
+              "statement": "매출총이익률은 3분기 20.5% 로 1년 전 21.9% 보다 낮아져, 성장이 마진 낮은 품목에서 나오고 있음을 회사가 직접 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "Gross profit margin was 20.5 percent in the third quarter of 2026 compared to 21.9 percent in the third quarter of 2025. The decrease in Gross profit margin was primarily driven by mix into and lower margin in cert ain product categories.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d1c3",
+              "statement": "회사는 메모리 집약 제품 수요가 AI 확산으로 늘어 공급망과 가격 압력에 계속 영향을 줄 수 있다고 적었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "In addition, there has been increased demand for memory-intensive products driven by the rapid adoption of artificial intelligence (“AI”) applications and related data center investments. Collectively, these dynamics may continue to influence supply chains and drive pricing pressures, while the broader economic conditions may affect interest rates.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "데이터·AI 서비스 회사 Lovelytics 인수 — 2026년에 발행한 신규 채권 자금의 상당 부분을 여기에 썼다",
+          "kind": "contract",
+          "stage": "출시",
+          "since": "2026",
+          "basis": [
+            {
+              "id": "d2b1",
+              "statement": "회사는 3분기에 발행한 신규 선순위 채권 자금의 상당 부분을 Lovelytics Data LLC 와 관계사 인수에 쓴다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "The net proceeds from the New Notes issuance will be used to repay the 2.670% Senior Notes due 2026 at maturity in December 2026, with the remaining net proceeds available for general corporate purposes, including amounts used to fund a substantial portion of the acquisition of Lovelytics Data LLC and certain affiliated entities (collectively, “Lovelytics”).",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d2b2",
+              "statement": "올해 9개월 투자활동 현금흐름이 6.65억 달러 줄었는데, 회사는 주된 이유로 Lovelytics 인수 대금 유출을 들었다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Cash flows from investing activities decreased $665 million for the nine months ended September 30, 2026 compared to September 30, 2025. This decrease was primarily driven by cash outflow due to the acquisition of Lovelytics in 2026 and cash inflow from the maturity of the short-term investments in 2025.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [],
+          "profitImpact": [
+            {
+              "id": "d2p1",
+              "statement": "3분기 인수·통합 비용은 1,380만 달러로 1년 전 110만 달러에서 늘어, 판매·관리비(SG&A) 증가의 한 원인이 됐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "Acquisition and integration expenses | 13.8 | 1.1 | 16.4 | 6.0 | … Selling and administrative expenses were $896 million in the third quarter of 2026, compared to $812 million in the third quarter of 2025, representing an increase of 10.3 percent. The increase was primarily due to higher performance-based incentives, workplace optimization costs, and acquisition costs.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d2c1",
+              "statement": "회사는 인수한 회사를 제대로 통합하지 못할 위험을 위험 요인으로 적었고, 인수가 매출에 얼마를 보탰는지는 따로 밝히지 않았다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                  "date": "2026-11-04",
+                  "quote": "the costs and risks associated with, and the successful and timely execution and effects of, strategic investments or acquisitions or entry into joint ventures, including our ability to successfully integrate newly acquired businesses and align our investment efforts with our strategic goals;",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "what": "2026년 1월 1일 고객 대면 영업조직 재편 — 금융서비스를 독립 고객 채널로 둔 3개 보고 부문",
+          "kind": "management",
+          "stage": "매출 발생 중",
+          "since": "2026-01",
+          "basis": [
+            {
+              "id": "d3b1",
+              "statement": "회사는 2026년 1월 1일부터 고객 대면 영업조직을 재편해 상업·정부·교육 세 개 보고 부문으로 바꿨다고 밝혔다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Effective January 1, 2026, we realigned our customer-facing sales organization to better meet the evolving needs of our customer end markets. As a result, we have the following three reportable segments: Commercial, Government, and Education.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "revenueImpact": [
+            {
+              "id": "d3r1",
+              "statement": "독립 채널이 된 금융서비스 고객 매출은 3분기 5.715억 달러로 1년 전 3.30억 달러에서 73.2% 늘었고, 전체 매출 비중은 5.8% 에서 8.5% 로 올랐다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Financial Services | 571.5 | 8.5 | 330.0 | 5.8 | 241.5 | 73.2 |",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ],
+          "profitImpact": [],
+          "expectedGrowth": [],
+          "counter": [
+            {
+              "id": "d3c1",
+              "statement": "같은 금융서비스 고객 매출 증가율은 2분기에 1.8% 였다 — 3분기 급증이 이어지는 추세인지는 아직 알 수 없다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 2분기 실적 보도자료 (2026-08-05)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-2026630earningsrelease.htm",
+                  "date": "2026-08-05",
+                  "quote": "Commercial segment Net sales of $3,965 million, 9.2 percent higher than 2025. Commercial results were driven by an increase in Net sales to Corporate, Healthcare, and Financial Services customers of 10.7 percent, 9.1 percent, and 1.8 percent, respectively.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            },
+            {
+              "id": "d3c2",
+              "statement": "정부 부문은 매출이 늘었는데도 매출총이익이 1,200만 달러(6.2%) 줄어, 조직 재편이 공공 쪽 마진 하락을 막지는 못했다.",
+              "evidence_level": "sourced",
+              "sources": [
+                {
+                  "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                  "publisher": "CDW Corporation (SEC 공시)",
+                  "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                  "date": "2026-11-04",
+                  "quote": "Gross p rofit decreased $12 million, or 6.2%, due to lower gross profit margin, partially offset by higher Net sales. Gross profit margin decreased 330 basis points to 19.5%, which is primarily attributed to mix into and lower margin in certain product categories and lower margin in services.",
+                  "verified": "ok",
+                  "httpStatus": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "growthLink": "코드 33 으로 보면 매출 증가율이 9.2%(1분기) → 10%(2분기) → 17.7%(3분기) 로 가팔라졌고 순이익률도 4.1% → 4.2% → 4.6% 로 올랐다. 회사는 이 가속의 원인을 데이터 스토리지·서버와 소프트웨어 수요, 특히 금융서비스·기업 고객 채널이라고 10-Q 경영진 설명에 적었다. 다만 순이익 증가율은 4.7% → 1.2% → 6.5% 로 고르지 않은데, 회사 설명대로 매출총이익률이 140bp 내려갔고 성과급·직장 최적화·인수 비용이 함께 늘어 이익이 매출만큼 따라오지 못했다.",
+      "quality": {
+        "newProduct": [
+          {
+            "id": "q1a",
+            "statement": "회사는 AI·보안·소프트웨어·서비스를 묶어 고객의 목표에 맞춘 해법을 짜 왔다고 설명했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "We have orchestrated outcome-driven solutions that bring together AI, security, software, and services to help customers achieve their objectives.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketShare": [
+          {
+            "id": "q2a",
+            "statement": "회사는 미국 IT 시장 성장률을 고정환율 기준 200~300bp 앞지르겠다는 목표를 유지하고 있다 — 점유율을 늘리겠다는 뜻이다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                "date": "2026-11-04",
+                "quote": "Our ability to address customers’ needs across the full technology stack and lifecycle, together with our continued strategic investments, reinforces our confidence in our ability to outpace US IT addressable market growth by 200 to 300 basis points on a constant currency basis and drive sustainable long-term value for our customers and shareholders.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q2b",
+            "statement": "3분기에는 영국·캐나다 사업 매출도 8.80억 달러로 26.0% 늘어 미국 밖에서도 매출이 커졌다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                "date": "2026-11-04",
+                "quote": "Net sales for CDW’s UK and Canadian operations, combined as \"Other\" for financial reporting purposes, were $880 million, 26.0 percent higher than 2025.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "marketStructure": [
+          {
+            "id": "q3a",
+            "statement": "회사는 1,000개가 넘는 브랜드의 제품·서비스 10만 개 이상을 다루고 고객 대면 인력을 약 10,500명 두고 있다고 밝혔다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "We are vendor, technology, and consumption model unbiased, with a solutions portfolio including more than 100,000 products and services from more than 1,000 leading and emerging brands. Our solutions are delivered in physical, virtual, and cloud-based environments through approximately 10,500 customer-facing coworkers, including sellers, highly skilled specialists, and engineers.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q3b",
+            "statement": "다만 회사 스스로 점유율을 깎을 수 있는 상당한 경쟁을 위험 요인으로 적었다 — 소수가 지배하는 시장이라고는 말하지 않는다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                "date": "2026-11-04",
+                "quote": "substantial competition that could reduce our market share;",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "salesMargin": [
+          {
+            "id": "q4a",
+            "statement": "회사는 고객군 변화에 맞춰 영업조직을 재편해 상업·정부·교육 세 부문으로 바꿨다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 10-Q 경영진 설명 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+                "date": "2026-11-04",
+                "quote": "Effective January 1, 2026, we realigned our customer-facing sales organization to better meet the evolving needs of our customer end markets. As a result, we have the following three reportable segments: Commercial, Government, and Education.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q4b",
+            "statement": "최고경영자는 다양한 제품군과 서비스 중심 역량으로 바뀌는 기술 수요를 잡겠다고 2분기 실적 발표에서 말했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 2분기 실적 보도자료 (2026-08-05)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-2026630earningsrelease.htm",
+                "date": "2026-08-05",
+                "quote": "Our diversified portfolio, customer-centric strategy, and services-led capabilities position us well to capture evolving technology demand and drive long-term value creation.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ],
+        "costProductivity": [
+          {
+            "id": "q5a",
+            "statement": "3분기 직장 최적화 비용은 3,100만 달러, 9개월 누적 7,520만 달러였고 내용은 인력 감축과 임대 부동산 축소다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                "date": "2026-11-04",
+                "quote": "Workplace optimization (iii) | 31.0 | 2.7 | 75.2 | 15.5 | … (iii) Includes costs related to workforce reductions and charges related to the reduction of our real estate lease portfolio.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          },
+          {
+            "id": "q5b",
+            "statement": "최고재무책임자는 영업 레버리지와 자본 관리가 비GAAP(일회성을 뺀 회사 기준) 희석 주당순이익을 20% 넘게 늘리는 데 기여했다고 말했다.",
+            "evidence_level": "sourced",
+            "sources": [
+              {
+                "title": "CDW 3분기 실적 보도자료 (2026-11-04)",
+                "publisher": "CDW Corporation (SEC 공시)",
+                "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+                "date": "2026-11-04",
+                "quote": "\"Strong customer demand and disciplined execution drove double-digit growth in gross profit, while operating leverage and capital management contributed to more than 20 percent growth in non-GAAP net income per diluted share,\" said Albert J. Miralles, chief financial officer, CDW.",
+                "verified": "ok",
+                "httpStatus": 200
+              }
+            ]
+          }
+        ]
+      },
+      "narrative": "새로운 것은 기업의 AI 도입이 만든 인프라 수요다. 회사는 3분기 실적을 두고 여러 고객군의 광범위한 강세와 기업 AI 도입 확산 덕이라고 밝혔고, 수요가 몰린 품목으로 데이터 스토리지·서버, 노트북·모바일 기기, 소프트웨어를 들었다. 매출로는 3분기 67.55억 달러, 1년 전 57.37억 달러보다 17.7% 증가다. 특히 상업 부문이 39.79억 달러로 20.8% 늘었고 그 안의 금융서비스 고객 매출이 73.2% 급증해 전체 매출 비중이 5.8% 에서 8.5% 로 올랐다 — 올해 1월 영업조직을 재편해 금융서비스를 독립 채널로 둔 뒤의 변화다. 이익 쪽은 양면이다. 매출총이익은 1.3억 달러(10.3%) 늘었지만 매출총이익률은 140bp 내려 20.5% 가 됐고, 회사는 마진 낮은 품목으로 매출이 쏠린 탓이라고 설명했다. 코드 33 으로도 매출 증가율은 9.2% → 10% → 17.7% 로 가팔라졌지만 순이익 증가율은 4.7% → 1.2% → 6.5% 로 고르지 않다. 기대 성장률은 회사 가이던스 하나뿐으로, 미국 IT 시장 성장률을 고정환율 기준 200~300bp 앞지르겠다는 목표를 3분기에도 유지했다. 꺾을 수 있는 것은 마진이다 — 성장이 저마진 품목에서 나오고, 회사는 AI 작업 수요로 공급 차질과 원가 상승이 생길 수 있다고 위험 요인에 적었다. 데이터·AI 서비스 회사 Lovelytics 인수는 비용(3분기 인수·통합 비용 1,380만 달러)만 확인되고 매출 기여 수치는 아직 공개되지 않았다.",
+      "watch": [
+        "4분기에도 데이터 스토리지·서버 수요가 이어져 매출 증가율이 두 자릿수 중후반을 유지하는지",
+        "매출총이익률이 20.5% 에서 더 내려가는지, 서비스·소프트웨어 비중으로 되돌아오는지",
+        "금융서비스 고객 매출 증가율이 2분기 1.8% → 3분기 73.2% 처럼 한 분기 급증에 그치는지",
+        "Lovelytics 인수의 매출·이익 기여를 회사가 처음으로 숫자로 밝히는지"
+      ],
+      "sourceGap": "실적 발표 콜 원고와 국내 증권사 리포트를 받지 못해, 회사 가이던스 밖의 기대 성장률 근거는 확인하지 못했다.",
+      "factcheck": {
+        "verdict": "pass",
+        "removed": [],
+        "reasons": []
+      },
+      "status": "done",
+      "v": 2,
+      "researchedOn": "2026-11-27",
+      "asOf": "2026-11-04",
+      "why": "신규",
+      "docs": [
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930dividendrelease.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000113/cdw-2026930earningsrelease.htm",
+          "filingDate": "2026-11-04"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-2026630dividendrelease.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "실적 보도자료 (2026-08-05)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000062/cdw-2026630earningsrelease.htm",
+          "filingDate": "2026-08-05"
+        },
+        {
+          "label": "10-Q 경영진 설명 (2026-11-04)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000114/cdw-20260930.htm",
+          "filingDate": "2026-11-04"
+        }
+      ],
+      "code33": {
+        "rows": [
+          {
+            "periodEnd": "2026-09-30",
+            "revenueYoy": 17.7,
+            "netIncomeYoy": 6.5,
+            "netMargin": 4.6
+          },
+          {
+            "periodEnd": "2026-06-30",
+            "revenueYoy": 10,
+            "netIncomeYoy": 1.2,
+            "netMargin": 4.2
+          },
+          {
+            "periodEnd": "2026-03-31",
+            "revenueYoy": 9.2,
+            "netIncomeYoy": 4.7,
+            "netMargin": 4.1
+          }
+        ],
+        "rising": {
+          "revenue": true,
+          "netIncome": false,
+          "netMargin": true
+        },
+        "all": false
+      },
+      "quarters": [
+        {
+          "periodEnd": "2026-09-30",
+          "revenue": 6754500000,
+          "netIncome": 309800000,
+          "yoy": {
+            "revenue": 17.7,
+            "profit": 10.4,
+            "netIncome": 6.5,
+            "priorEnd": "2025-09-30"
+          }
+        },
+        {
+          "periodEnd": "2026-06-30",
+          "revenue": 6572200000,
+          "netIncome": 274400000,
+          "yoy": {
+            "revenue": 10,
+            "profit": 2,
+            "netIncome": 1.2,
+            "priorEnd": "2025-06-30"
+          }
+        },
+        {
+          "periodEnd": "2026-03-31",
+          "revenue": 5679800000,
+          "netIncome": 235400000,
+          "yoy": {
+            "revenue": 9.2,
+            "profit": 4,
+            "netIncome": 4.7,
+            "priorEnd": "2025-03-31"
+          }
+        },
+        {
+          "periodEnd": "2025-12-31",
+          "revenue": 5511000000,
+          "netIncome": 279500000,
+          "yoy": {
+            "revenue": 6.3,
+            "profit": 5.4,
+            "netIncome": 5.8,
+            "priorEnd": "2024-12-31"
+          }
+        }
+      ],
+      "consensus": {
+        "saleCy": 12.74,
+        "saleNy": 5.63,
+        "epsCy": 12.78,
+        "epsNy": 10.18
       }
     }
   }

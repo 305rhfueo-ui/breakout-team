@@ -1,0 +1,168 @@
+{
+ "ticker": "BH",
+ "news": [
+  {
+   "title": "BH Crosses Below Key Moving Average Level",
+   "url": "https://www.nasdaq.com/articles/bh-crosses-below-key-moving-average-level",
+   "date": "2026-11-05",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Biglari Holdings (BH) Shares Cross Below 200 DMA",
+   "url": "https://www.nasdaq.com/articles/biglari-holdings-bh-shares-cross-below-200-dma",
+   "date": "2026-09-15",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "BH Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/bh-makes-notable-cross-below-critical-moving-average-0",
+   "date": "2026-06-17",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "BH Makes Notable Cross Below Critical Moving Average",
+   "url": "https://www.nasdaq.com/articles/bh-makes-notable-cross-below-critical-moving-average",
+   "date": "2026-04-09",
+   "publisher": "BNK Invest"
+  },
+  {
+   "title": "Insider Purchase: Chairman and CEO of $BH (BH) Buys 239 Shares",
+   "url": "https://www.nasdaq.com/articles/insider-purchase-chairman-and-ceo-bh-bh-buys-239-shares",
+   "date": "2024-12-17",
+   "publisher": "Quiver Quantitative"
+  },
+  {
+   "title": "Insider Purchase: Chairman and CEO of $BH (BH) Buys 2,167 Shares",
+   "url": "https://www.nasdaq.com/articles/insider-purchase-chairman-and-ceo-bh-bh-buys-2167-shares",
+   "date": "2024-12-10",
+   "publisher": "Quiver Quantitative"
+  }
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "filingDate": "2026-11-06",
+   "reportDate": "2026-11-06",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026071734/bh-20261106.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-08-07",
+   "reportDate": "2026-08-07",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026054846/bh-20260807.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-05-08",
+   "reportDate": "2026-05-08",
+   "items": [
+    "2.02",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026032884/bh-20260508.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-04-10",
+   "reportDate": "2026-04-08",
+   "items": [
+    "5.07"
+   ],
+   "itemsKo": [
+    "주주총회 표결"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026024565/bh-20260408.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2026-03-02",
+   "reportDate": "2026-02-28",
+   "items": [
+    "2.02",
+    "7.01",
+    "9.01"
+   ],
+   "itemsKo": [
+    "실적 발표",
+    "Reg FD 공시",
+    "재무제표·첨부"
+   ],
+   "isEarnings": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828026012988/bh-20260228.htm",
+   "description": "8-K"
+  },
+  {
+   "form": "8-K",
+   "filingDate": "2025-11-21",
+   "reportDate": "2025-11-21",
+   "items": [
+    "7.01"
+   ],
+   "itemsKo": [
+    "Reg FD 공시"
+   ],
+   "isEarnings": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1726173/000162828025053527/bh-20251121.htm",
+   "description": "8-K"
+  }
+ ],
+ "financials": null,
+ "krReports": null,
+ "site": {
+  "targetStatus": false,
+  "saleCy": null,
+  "saleNy": null,
+  "epsCy": null,
+  "epsNy": null,
+  "cyTrend": null,
+  "nyTrend": null,
+  "newHigh52": false,
+  "bbCenterBrk5d": true,
+  "fs": {
+   "sale": [
+    7.86,
+    2.57,
+    9.61
+   ],
+   "ni": [
+    -21.61,
+    "적자축소",
+    "적자확대"
+   ],
+   "opm": [
+    5.78,
+    -4.25,
+    -1.74
+   ],
+   "updated": "2026-09-11 05:54:33"
+  }
+ }
+}
