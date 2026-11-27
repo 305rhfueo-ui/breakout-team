@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-26T22:10:05.484Z",
+  "updated": "2026-11-27T13:00:12.124Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -7,6 +7,21 @@ window.HOLDINGS_DATA = {
       "ticker": "PLTR",
       "side": "long",
       "items": [
+        {
+          "type": "news",
+          "title": "A Palantir Co-Founder Bought $122 Million of the Stock on Nov. 20. Here's What I Think of Palantir Stock Now.",
+          "url": "https://www.nasdaq.com/articles/palantir-co-founder-bought-122-million-stock-nov-20-heres-what-i-think-palantir-stock-now",
+          "date": "2026-11-27",
+          "publisher": "The Motley Fool",
+          "ko": "팔란티어 공동창업자 틸, 1.22억 달러어치 주식 매수",
+          "tone": "good",
+          "isNew": true,
+          "headline": "팔란티어 공동창업자 틸, 1.22억 달러어치 주식 매수",
+          "easy": "팔란티어 공동창업자 피터 틸이 11월 20일 1억 2,200만 달러어치 주식을 샀다. 기사에 따르면 8월에 세워둔 거래 계획에 따른 매수이며, 당시 주가는 175달러 근처였다. 본문은 확인하지 못해 제목과 요약 범위만 정리했다.",
+          "whyMatters": "내부자 매수는 참고 신호가 될 수 있지만, 미리 짜 둔 거래 계획에 따른 것이라 시점 판단의 근거로는 제한적이다. 보유자라면 이 점을 감안해 볼 만하다.",
+          "quote": null,
+          "read": false
+        },
         {
           "type": "news",
           "title": "Palantir Is Down 25% From Its High. Is It a Bargain or Still Overvalued?",
@@ -55,15 +70,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
-          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegx.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegq.pdf",
           "date": "2026-11-23",
           "publisher": "한화증권 신승윤",
-          "ko": "팔란티어 3분기 매출·EPS가 시장 예상 웃돌았다",
+          "ko": "팔란티어 분기 매출 23.1억 달러, 시장 예상 상회",
           "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어 3분기 매출·EPS가 시장 예상 웃돌았다",
-          "easy": "증권사 리포트에 따르면 팔란티어 매출은 23.1억 달러(전년比 +95.9%)로 컨센서스 21.7억 달러를 넘었다. 조정 EPS도 0.44달러로 컨센서스 0.41달러보다 높았다. 상업 부문(+113.3%)과 정부 부문(+81.7%)이 모두 크게 늘었고, 4분기 매출 가이던스 중간값은 26.5억 달러로 제시됐다.",
-          "whyMatters": "실적이 예상을 웃돌고 연간 가이던스도 제시된 만큼 보유자에게는 우호적인 재료다. 다만 이것이 주가 상승으로 이어질지는 기사에 나오지 않았다.",
+          "isNew": true,
+          "headline": "팔란티어 분기 매출 23.1억 달러, 시장 예상 상회",
+          "easy": "증권사 리포트에 따르면 팔란티어의 분기 매출은 23.1억 달러로 전년 대비 95.9% 늘어 컨센서스 21.7억 달러를 넘었다. 조정 EPS는 0.44달러로 컨센서스 0.41달러보다 높았다. 가이던스는 4분기 매출 26.5억 달러, 2026년 연간 매출 85.3억 달러다.",
+          "whyMatters": "매출과 이익이 모두 예상을 웃돌고 가이던스도 제시돼 보유 포지션에는 우호적인 내용이다. 다만 주가 반응은 기대치와 밸류에이션에 따라 달라질 수 있다.",
           "quote": null,
           "read": false
         },
