@@ -1,98 +1,98 @@
 window.MOVERS_DATA = {
-  "updated": "2026-11-25T15:32:23.246Z",
-  "basis": "11/25 10:30 ET 기준",
+  "updated": "2026-11-27T15:33:47.106Z",
+  "basis": "11/27 10:30 ET 기준",
   "exact": true,
-  "amtMinK": 10000,
+  "amtMinK": 30000,
   "themes": [],
-  "groups": [],
+  "groups": [
+    {
+      "industry": "Computer Hardware",
+      "ko": "컴퓨터 하드웨어",
+      "tickers": [
+        "SNDK",
+        "DELL",
+        "STX"
+      ]
+    }
+  ],
   "items": [
     {
-      "ticker": "HPQ",
-      "nameKo": "HP",
-      "nameEn": "HP INCORPORATION",
-      "ratePct": 11.13,
-      "price": 31.05,
-      "amountUsd": 179210322,
+      "ticker": "ANT",
+      "nameKo": "앤트로픽",
+      "nameEn": "ANTHROPIC PBC",
+      "ratePct": 8.44,
+      "price": 89.78,
+      "amountUsd": 3455709949,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "실적 발표 뒤 바클레이즈 등 목표주가 상향",
-        "detail": "HP가 10월 마감 분기(4분기) 실적을 내놓은 뒤 주가가 올랐다. 바클레이즈가 목표주가를 $24로 올렸고(기존 $23), 이 소식에 주가가 10.4% 올랐다는 기사가 있다. 같은 날 BofA는 $21에서 $24, 골드만삭스는 $21에서 $22, 씨티는 $25에서 $29로 목표가를 올렸다. 다만 BofA는 '언더퍼폼(시장 대비 부진)' 의견을 유지했다. PC 마진 압박과 신중한 실적 전망이 부담이라는 기사도 있어 주의가 필요하다.",
-        "quote": "On Wednesday, Nov. 25, the shares rose 10.4% after Barclays raised its price target to $24.00, as the S&P 500 fell 2.8%.",
-        "quoteFrom": 1,
-        "others": [],
-        "refs": [
-          1,
-          3,
-          4,
-          5,
-          6,
-          7
-        ]
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 1,
+            "line": "상장 1주도 안 돼 공모가 83달러 아래로 내려갔고, 연 매출 800억 달러 런레이트와 4,480억 달러 컴퓨트 약정이 쟁점이라는 분석"
+          },
+          {
+            "n": 4,
+            "line": "상장 이후 직원 약 5,100명이 백만장자가 됐다는 CNBC 보도"
+          }
+        ],
+        "refs": []
       },
       "news": [
         {
-          "title": "HP (HPQ) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
-          "url": "https://www.nasdaq.com/articles/hp-hpq-q4-earnings-how-key-metrics-compare-wall-street-estimates",
-          "date": "2026-11-25",
-          "publisher": "Zacks"
+          "title": "Anthropic's Dario and Daniela Amodei may have just made a $560 million misstep",
+          "url": "https://finance.yahoo.com/markets/article/anthropics-dario-and-daniela-amodei-may-have-just-made-a-560-million-misstep-141338993.html",
+          "date": "2026-11-27",
+          "publisher": "Yahoo Finance"
         },
         {
-          "title": "HP (HPQ) Stock Is Up 10.4% Today: Barclays Raises Price Target to $24",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-hpq-stock-10-4-150045887.html",
+          "title": "How to buy Anthropic at a discount with less risk",
+          "url": "https://www.cnbc.com/2026/11/25/how-to-buy-anthropic-at-a-discount-with-less-risk.html",
           "date": "2026-11-25",
-          "publisher": "GuruFocus.com"
+          "publisher": "CNBC"
         },
         {
-          "title": "Invest in the Laptops, Mainframes and Network Switches for Passive Income: $90,000 Across These 3 Tech Hardware Stocks Pays More Than $2,600 a Year",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/invest-laptops-mainframes-network-switches-144607217.html",
+          "title": "Anthropic teeters at $1 trillion market cap. Why it may stabilize from here",
+          "url": "https://www.cnbc.com/2026/11/25/anthropic-stock-ipo-analyst-outlook.html",
           "date": "2026-11-25",
-          "publisher": "24/7 Wall St."
+          "publisher": "CNBC"
         },
         {
-          "title": "BofA Securities Adjusts HP Price Target to $24 From $21, Maintains Underperform Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-hp-price-135001467.html",
+          "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+          "url": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
           "date": "2026-11-25",
-          "publisher": "MT Newswires"
+          "publisher": "CNBC"
         },
         {
-          "title": "Barclays Adjusts HP Price Target to $24 From $23",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-adjusts-hp-price-target-125937737.html",
+          "title": "About 5,100 Anthropic employees are paper millionaires after its IPO",
+          "url": "https://www.cnbc.com/2026/11/25/anthropic-ipo-employee-millionaires-sudden-wealth.html",
           "date": "2026-11-25",
-          "publisher": "MT Newswires"
+          "publisher": "CNBC"
         },
         {
-          "title": "Goldman Sachs Adjusts HP Price Target to $22 From $21",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-hp-price-124756655.html",
+          "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
+          "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
           "date": "2026-11-25",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Citigroup Adjusts Price Target on HP to $29 From $25",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-adjusts-price-target-hp-123244107.html",
-          "date": "2026-11-25",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "HP Shares Decline 1.65% as PC Margin Pressure and Cautious Earnings Outlook Overshadow Quarterly Beat",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-shares-decline-1-65-112105776.html",
-          "date": "2026-11-25",
-          "publisher": "InvestorsHub"
+          "publisher": "CNBC"
         }
       ]
     },
     {
-      "ticker": "NRSN",
-      "nameKo": "뉴로센스 테라퓨틱스",
-      "nameEn": "NEUROSENSE THERAPEUTICS LTD",
-      "ratePct": 102.27,
-      "price": 2.225,
-      "amountUsd": 90381907,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "SNDK",
+      "nameKo": "샌디스크",
+      "nameEn": "SANDISK CORP",
+      "ratePct": 11.91,
+      "price": 82.375,
+      "amountUsd": 2384606163,
+      "industry": "Computer Hardware",
+      "industryKo": "컴퓨터 하드웨어",
       "story": {
-        "headline": "ALS 2b상 임상서 뇌기능 바이오마커 유의미한 효과",
-        "detail": "뉴라라이트가 뉴로센스의 ALS(루게릭병) 2b상 임상 'PARADIGM'에서 자사 바이오마커(질병 상태를 보여주는 생체 지표) 플랫폼으로 긍정적 결과를 얻었다고 발표했다. 치료군과 비교군 사이에 뇌기능 악화 정도가 통계적으로 유의미하게 갈렸다고 한다. 다만 바이오마커 결과는 보조 지표여서 실제 치료 효과는 별개로 봐야 한다.",
+        "headline": "한 달 새 절반 넘게 급락한 뒤 반등",
+        "detail": "샌디스크 주가는 한 달 만에 절반 넘게 급락했지만 매출은 급증하고 애널리스트 전망치는 계속 올라가는 상황이다. 고객 계약의 한 조항이 반등의 지속 여부를 가를 수 있다는 분석이 나왔다. 오늘 상승을 직접 설명한 기사는 없다.",
         "quote": "",
         "quoteFrom": -1,
         "others": [],
@@ -102,27 +102,417 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "NeuraLight's Precision Brain Function Biomarkers Detect Statistically Significant Treatment Effect in NeuroSense's Phase 2b ALS Clinical Trial",
-          "url": "https://finance.yahoo.com/healthcare/articles/neuralights-precision-brain-function-biomarkers-130000288.html",
-          "date": "2026-11-25",
-          "publisher": "PR Newswire"
+          "title": "Why SanDisk’s Path to $170 in 2027 Hinges on One Test of Its Multi-Year Contracts",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-sandisk-path-170-2027-134522689.html",
+          "date": "2026-11-27",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "David Tepper, George Soros and 2 Other Famous Investors Own Micron. Here’s Who Bought and Sold Recently",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/david-tepper-george-soros-2-122549278.html",
+          "date": "2026-11-27",
+          "publisher": "TIKR"
         }
       ]
     },
     {
-      "ticker": "BNAI",
-      "nameKo": "브랜드 인게이지먼트 네트워크",
-      "nameEn": "BRAND ENGAGEMENT NETWORK INC",
-      "ratePct": 19.55,
-      "price": 7.95,
-      "amountUsd": 64505767,
+      "ticker": "DELL",
+      "nameKo": "델 테크놀로지스",
+      "nameEn": "DELL TECHNOLOGIES INC",
+      "ratePct": 5.61,
+      "price": 313.7141,
+      "amountUsd": 840664066,
+      "industry": "Computer Hardware",
+      "industryKo": "컴퓨터 하드웨어",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 2,
+            "line": "UBS가 목표주가를 500달러에서 365달러로 낮추고 중립 의견 유지"
+          },
+          {
+            "n": 4,
+            "line": "엔비디아의 아시아 4개국 출하 중단으로 델·슈퍼마이크로 압박"
+          }
+        ],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Supermicro’s $80 Billion Sales Ambition Could Change Its Stock Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/supermicro-80-billion-sales-ambition-150332233.html",
+          "date": "2026-11-27",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Jensen Huang Said Blackwell Racks Wouldn't Fit In A 'Pocket Or Backpack' But One Has Reportedly Turned Up in Shanghai",
+          "url": "https://finance.yahoo.com/technology/articles/jensen-huang-said-blackwell-racks-142941391.html",
+          "date": "2026-11-27",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "UBS Lowers Price Target on Dell Technologies to $365 From $500, Maintains Neutral Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-lowers-price-target-dell-140249240.html",
+          "date": "2026-11-27",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Top Big Data Stocks to Tap the Growing AI-Driven Opportunity",
+          "url": "https://finance.yahoo.com/technology/ai/articles/top-big-data-stocks-tap-132700343.html",
+          "date": "2026-11-27",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries",
+          "url": "https://finance.yahoo.com/technology/articles/dell-super-micro-under-pressure-122203030.html",
+          "date": "2026-11-27",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Will Rising AI Capex Alter the Free Cash Flow Outlook for Apple Stock?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/rising-ai-capex-alter-free-121600152.html",
+          "date": "2026-11-27",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Singapore Reportedly In Talks With US To Retain Advanced AI Chip Access As Washington Tightens Export Restrictions",
+          "url": "https://finance.yahoo.com/technology/ai/articles/singapore-reportedly-talks-us-retain-105414781.html",
+          "date": "2026-11-27",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "Walmart is crushing SpaceX. Only one is a bargain",
+          "url": "https://www.cnbc.com/2026/11/27/walmart-costco-valuations-ai-stocks.html",
+          "date": "2026-11-27",
+          "publisher": "CNBC"
+        }
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "nameKo": "루멘텀 홀딩스",
+      "nameEn": "LUMENTUM HLDGS INC",
+      "ratePct": 5.96,
+      "price": 505,
+      "amountUsd": 423537945,
+      "industry": "Communication Equipment",
+      "industryKo": "통신장비",
+      "story": {
+        "headline": "마벨 실적 호조에 광통신·AI 반도체주 동반 강세",
+        "detail": "루멘텀을 직접 언급한 기사는 아니어서 연관성은 정황이다. 직접 설명한 기사는 없다.",
+        "quote": "Shares of Marvell Technology (NASDAQ:MRVL) surged 7. 3% in pre-market trading on Friday after the semiconductor manufacturer reported third-quarter fiscal 2027 results that exceeded Wall Street expectations.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0
+        ]
+      },
+      "news": [
+        {
+          "title": "Why Is Marvell Technology Stock Surging Today?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-stock-surging-115215377.html",
+          "date": "2026-11-27",
+          "publisher": "InvestorsHub"
+        },
+        {
+          "title": "What's Happening To Marvell's Cash Gap With Broadcom",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/whats-happening-marvells-cash-gap-151526078.html",
+          "date": "2026-11-26",
+          "publisher": "Trefis"
+        }
+      ]
+    },
+    {
+      "ticker": "COHR",
+      "nameKo": "코히어런트",
+      "nameEn": "COHERENT CORP",
+      "ratePct": 11.17,
+      "price": 218.11,
+      "amountUsd": 341905092,
+      "industry": "Scientific & Technical Instruments",
+      "industryKo": "과학·기술 측정기기",
+      "story": {
+        "headline": "이사 대규모 매수와 20억 달러 자사주 매입 승인",
+        "detail": "코히어런트 이사가 3거래일 동안 약 5,000만 달러어치 주식을 샀다는 보도가 나왔고, 회사는 20억 달러 규모 자사주 매입을 승인했다. 6월 고점의 절반 아래에서 이사가 1,520만 달러를 매수했다는 기사도 있다. 모건스탠리의 2027년 광통신 유망주 5위에 꼽혔고, 클라우드 업체의 광전송 장비 구매가 3분기에 크게 늘었다는 자료도 나왔다. 다만 AI 수요 호조에도 현금흐름은 마이너스라는 점은 주의할 부분이다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          3,
+          4
+        ]
+      },
+      "news": [
+        {
+          "title": "Coherent Targets $250 Million in Quarterly PhotonLink Sales. Can Capacity Keep Up?",
+          "url": "https://finance.yahoo.com/technology/articles/coherent-targets-250-million-quarterly-040735182.html",
+          "date": "2026-11-27",
+          "publisher": "Insider Monkey"
+        },
+        {
+          "title": "Coherent’s Director Has Now Bought $50 Million of COHR Stock in 3 Trading Days",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-director-now-bought-50-172222627.html",
+          "date": "2026-11-26",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Can Optical Circuit Switching Become Fabrinet's Next Growth Driver?",
+          "url": "https://finance.yahoo.com/technology/articles/optical-circuit-switching-become-fabrinets-121200862.html",
+          "date": "2026-11-26",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Coherent (COHR) Authorizes A $2.0b Buyback, Is The 47% Undervaluation Case Intact?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-authorizes-2-0b-201459636.html",
+          "date": "2026-11-25",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Coherent Director Stephen Pagliuca Just Bought $15.2 Million of Stock at Less Than Half Its June High",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-director-stephen-pagliuca-just-090309266.html",
+          "date": "2026-11-25",
+          "publisher": "TIKR"
+        }
+      ]
+    },
+    {
+      "ticker": "STX",
+      "nameKo": "시게이트 테크놀로지 홀딩스",
+      "nameEn": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+      "ratePct": 5,
+      "price": 495.94,
+      "amountUsd": 232965831,
+      "industry": "Computer Hardware",
+      "industryKo": "컴퓨터 하드웨어",
+      "story": {
+        "headline": "급락 뒤 저평가 인식, 직접 이유는 불명",
+        "detail": "시게이트는 직전 분기 매출이 61% 늘었는데도 3개월간 40% 가까이 하락했다. 장기 계약과 낮은 선행 멀티플(주가를 예상 이익으로 나눈 배수)을 들어 저평가라는 분석이 나왔고, 경기 순환 함정일 수 있다는 경고도 있다. 오늘 상승을 직접 설명한 기사는 없다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 2,
+            "line": "웨스턴디지털도 한 달간 20% 급락, 월가 일각은 큰 상승 여력 전망"
+          }
+        ],
+        "refs": [
+          1
+        ]
+      },
+      "news": [
+        {
+          "title": "3 AI Stocks With Revenue Growth Up To 34%",
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-stocks-revenue-growth-141014567.html",
+          "date": "2026-11-27",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Seagate Technology Got Hammered By Multiple Compression, Falling 40% in 3 Months: This Renowned Wall Street Desk Targets 185% Gains Following Earnings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-technology-got-hammered-multiple-174550363.html",
+          "date": "2026-11-26",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Western Digital Plummets 20% Over a Month: This Wall Street Team Now Predicts 230% Gains After Earnings Re-Rating",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-plummets-20-over-154535354.html",
+          "date": "2026-11-26",
+          "publisher": "24/7 Wall St."
+        }
+      ]
+    },
+    {
+      "ticker": "NU",
+      "nameKo": "누 홀딩스",
+      "nameEn": "NU HOLDINGS LTD",
+      "ratePct": 6.8,
+      "price": 13.2,
+      "amountUsd": 212928038,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "3분기 매출 급증·적자 축소",
-        "detail": "브랜드 인게이지먼트 네트워크가 3분기 실적을 발표했다. 매출은 $1.96 million으로 1년 전 $60,000에서 크게 늘었고, 매출총이익은 $1.35 million(마진 69%)이었다. 순손실은 $1.26 million으로 직전 2분기 $3.36 million, 1년 전 $2.48 million보다 줄었다. 이 성장과 적자 축소가 주가 급등 배경으로 보도됐다. 다만 매출 규모 자체가 아직 작다.",
-        "quote": "Revenue increased to $1.96 million from $60,000 a year earlier; gross profit was $1.35 million, representing a 69% gross margin; and net loss narrowed to $1.26 million from $3.36 million in the second quarter and $2.48 million a year earlier.",
-        "quoteFrom": 1,
+        "headline": "회사 소식 없이 프리마켓부터 급등",
+        "detail": "누 홀딩스는 11월 27일 프리마켓에서 회사 관련 뚜렷한 소식 없이 8.3% 올랐다. 최근 3분기 실적은 양호하다는 평가가 있었으나 시장 반응은 엇갈렸다. 직접 설명한 기사는 없다.",
+        "quote": "On Friday, Nov. 27, Nu Holdings rose 8.3% in premarket trading without company-specific news.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0,
+          1,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "Nu Holdings (NU) Stock Jumps 8.3% Premarket Without Company News",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-nu-stock-jumps-120019786.html",
+          "date": "2026-11-27",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Nu Holdings (NU): Why Investors Gave the Stock a Mixed Reception Despite Strong Results?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-nu-why-investors-170952971.html",
+          "date": "2026-11-26",
+          "publisher": "Insider Monkey"
+        },
+        {
+          "title": "Nu Holdings (NU) Posts Strong Third Quarter Results, Is It Still A Bargain?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nu-holdings-nu-posts-strong-051641801.html",
+          "date": "2026-11-26",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Nu Holdings Scales in Mexico: Can It Unlock New Revenue Streams?",
+          "url": "https://www.nasdaq.com/articles/nu-holdings-scales-mexico-can-it-unlock-new-revenue-streams",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "MercadoLibre Grew Revenue 45% as Operating Income Fell 6%. Is It “a Gift at These Prices”?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mercadolibre-grew-revenue-45-operating-125715621.html",
+          "date": "2026-11-24",
+          "publisher": "TIKR"
+        }
+      ]
+    },
+    {
+      "ticker": "SHOP",
+      "nameKo": "쇼피파이",
+      "nameEn": "SHOPIFY INC",
+      "ratePct": 6.03,
+      "price": 141.44,
+      "amountUsd": 178880158,
+      "industry": "Software - Application",
+      "industryKo": "응용 소프트웨어",
+      "story": {
+        "headline": "",
+        "detail": "기사로는 이유를 찾지 못했다",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [
+          {
+            "n": 1,
+            "line": "ETF가 화요일 쇼피파이 주식 1,930만 달러어치 순매수"
+          },
+          {
+            "n": 2,
+            "line": "반등으로 적정 가치 논쟁 재점화"
+          }
+        ],
+        "refs": []
+      },
+      "news": [
+        {
+          "title": "Crosslist, a Leading Cross-listing App, Launches TikTok Shop Integration, Letting Sellers Publish Existing Listings in Minutes",
+          "url": "https://finance.yahoo.com/small-business/articles/crosslist-leading-cross-listing-app-164500597.html",
+          "date": "2026-11-26",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "ETFs Are Buying Shopify (SHOP) on Tuesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-shopify-shop-tuesday-110151756.html",
+          "date": "2026-11-26",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Shopify (NasdaqGS:SHOP) Rebound Rekindles The Debate Over Its Fair Value",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-nasdaqgs-shop-rebound-rekindles-100844802.html",
+          "date": "2026-11-26",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "True North Social Expands Its Beauty Marketing Agency Practice for Skincare, Cosmetics and Hair Care",
+          "url": "https://finance.yahoo.com/media-advertising/articles/true-north-social-expands-beauty-181500197.html",
+          "date": "2026-11-25",
+          "publisher": "GlobeNewswire"
+        }
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "nameKo": "로켓 랩",
+      "nameEn": "ROCKET LAB CORPORATION",
+      "ratePct": 5.48,
+      "price": 49.595,
+      "amountUsd": 158147941,
+      "industry": "Aerospace & Defense",
+      "industryKo": "항공우주·방산",
+      "story": {
+        "headline": "뉴트론 5억 1,500만 달러 수주와 101번째 발사 성공",
+        "detail": "로켓랩이 2027년 데뷔 예정인 뉴트론 로켓의 발사 주문 5억 1,500만 달러를 확보했다는 보도가 나왔다. 또 101번째 일렉트론 발사를 성공해 올해만 22번째 비행을 기록했고, 고객사 신스펙티브는 2031년까지 47회 발사를 예약했다. 주가가 약 1년 만의 최저 수준까지 떨어졌던 터라 반등 성격이 있을 수 있다.",
+        "quote": "Synspective has booked 47 Rocket Lab launches through 2031, adding long-dated visibility to the launch provider's commercial pipeline.",
+        "quoteFrom": 0,
+        "others": [],
+        "refs": [
+          0,
+          3,
+          6
+        ]
+      },
+      "news": [
+        {
+          "title": "Rocket Lab (RKLB) Completed Its 101st Electron Launch",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-completed-101st-151036962.html",
+          "date": "2026-11-27",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "SpaceX Cratered 13.5% This Month: Near 300% Returns to Materialize at Today’s Price According to this Pro Analyst",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-cratered-13-5-month-121502912.html",
+          "date": "2026-11-27",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "Rocket Lab Completes 101st Electron Rocket Launch, Deploying Satellite to Low-Earth Orbit",
+          "url": "https://finance.yahoo.com/technology/articles/rocket-lab-completes-101st-electron-121031631.html",
+          "date": "2026-11-27",
+          "publisher": "MT Newswires"
+        },
+        {
+          "title": "Rocket Lab Secures $515 Million in Neutron Launch Orders Ahead of 2027 Debut",
+          "url": "https://finance.yahoo.com/technology/articles/rocket-lab-secures-515-million-113935296.html",
+          "date": "2026-11-27",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "Huge News For Rocket Lab Stock Investors",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/huge-news-rocket-lab-stock-111320135.html",
+          "date": "2026-11-27",
+          "publisher": "GuruFocus.com"
+        },
+        {
+          "title": "MISSION SUCCESS: Rocket Lab Launches 101st Electron Mission",
+          "url": "https://finance.yahoo.com/technology/articles/mission-success-rocket-lab-launches-013800463.html",
+          "date": "2026-11-27",
+          "publisher": "GlobeNewswire"
+        },
+        {
+          "title": "Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-stock-just-fell-154302327.html",
+          "date": "2026-11-26",
+          "publisher": "Motley Fool"
+        }
+      ]
+    },
+    {
+      "ticker": "AEM",
+      "nameKo": "애그니코 이글 마인스",
+      "nameEn": "AGNICO EAGLE MINES LTD",
+      "ratePct": 5.36,
+      "price": 169.835,
+      "amountUsd": 126943680,
+      "industry": "Gold",
+      "industryKo": "금",
+      "story": {
+        "headline": "금 생산 20~30% 확대 계획과 금광주 관심",
+        "detail": "시장 급락에 대비한 금광주로 추천한 기사도 있었다. 다만 채굴 비용 상승이 부담이다. 오늘 상승을 직접 설명한 기사는 없다.",
+        "quote": "Agnico Eagle Mines (NYSE: AEM) is targeting a 20%–30% increase in annual gold production into the 2030s, backed by four major projects that could add between 1.3 million and 1.5 million ounces of annual output.",
+        "quoteFrom": 0,
         "others": [],
         "refs": [
           0,
@@ -131,215 +521,75 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "Brand Engagement Network Shares Surge 23.3% Following Strong Revenue Growth and Narrower Quarterly Loss",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/brand-engagement-network-shares-surge-131305256.html",
-          "date": "2026-11-25",
-          "publisher": "InvestorsHub"
+          "title": "Agnico Eagle Bets on Massive Gold Expansion Despite Rising Mining Costs",
+          "url": "https://finance.yahoo.com/markets/commodities/articles/agnico-eagle-bets-massive-gold-190217024.html",
+          "date": "2026-11-26",
+          "publisher": "Oilprice.com"
         },
         {
-          "title": "Brand Engagement Network Reports Third Quarter 2026 Results",
-          "url": "https://finance.yahoo.com/technology/ai/articles/brand-engagement-network-reports-third-113500495.html",
-          "date": "2026-11-23",
-          "publisher": "PR Newswire"
+          "title": "Worried About a Market Crash? 2 Gold Mining Stocks to Buy Before 2026 Ends.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/worried-market-crash-2-gold-155002025.html",
+          "date": "2026-11-26",
+          "publisher": "Motley Fool"
         }
       ]
     },
     {
-      "ticker": "KSS",
-      "nameKo": "콜스",
-      "nameEn": "KOHLS CORPORATION",
-      "ratePct": 7.34,
-      "price": 27.19,
-      "amountUsd": 34729841,
+      "ticker": "XP",
+      "nameKo": "XP",
+      "nameEn": "XP INC",
+      "ratePct": 20.19,
+      "price": 17.295,
+      "amountUsd": 111129023,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "동일점포 매출 반등, 연간 전망 상향",
-        "detail": "콜스가 3분기 동일점포 매출(1년 이상 운영한 매장 기준)이 1.2% 늘며 성장세로 돌아섰고 연간 전망을 올렸다. 연간 순매출과 동일점포 매출 전망은 '보합~0.5% 증가'로, 기존 '1.5% 감소~보합'에서 상향됐다. 이 점이 주가 상승 요인으로 보인다. BofA도 목표가를 $16에서 $19로 올렸다. 다만 연말 프로모션, 연료비 상승, 지출 증가가 마진을 압박할 수 있다.",
-        "quote": "The US department store group now expects full-year net sales and comparable sales to be flat to up 0.5%, compared with its previous forecast for a decline of 1.5% to flat.",
-        "quoteFrom": 3,
-        "others": [
-          {
-            "n": 2,
-            "line": "주가가 50일 이동평균선을 되찾았다는 기사."
-          }
-        ],
+        "headline": "",
+        "detail": "XP가 15억 브라질 헤알 규모 자사주 매입 프로그램을 발표했다. 프리마켓에서는 19.5% 뛰었으나, 해당 보도는 회사 소식 없이 올랐다고 적었다. 상승폭이 커서 변동성에 유의해야 한다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
         "refs": [
           0,
-          1,
-          3
+          1
         ]
       },
       "news": [
         {
-          "title": "Kohl's Q3 Earnings Call Details Higher Outlook and Holiday Costs",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kohls-q3-earnings-call-details-140000208.html",
-          "date": "2026-11-25",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "BofA Securities Adjusts Price Target on Kohl's to $19 From $16",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-price-target-135815881.html",
-          "date": "2026-11-25",
-          "publisher": "MT Newswires"
-        },
-        {
-          "title": "Kohl's (KSS) Just Reclaimed the 50-Day Moving Average",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kohls-kss-just-reclaimed-50-133003085.html",
-          "date": "2026-11-25",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Kohl’s raises 2026 outlook after return to comparable sales growth",
-          "url": "https://finance.yahoo.com/news/kohl-raises-2026-outlook-return-095104469.html",
-          "date": "2026-11-25",
-          "publisher": "Retail Insight Network"
-        },
-        {
-          "title": "Kohl's Comparable Sales Rose 1.2% After Falling 0.9% Last Quarter. Here's What Changed.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kohls-comparable-sales-rose-1-090820078.html",
-          "date": "2026-11-25",
-          "publisher": "Motley Fool"
-        },
-        {
-          "title": "Kohl’s Corp. (KSS) Delivers a Long-Awaited Surprise to Investors",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kohl-corp-kss-delivers-long-021418171.html",
-          "date": "2026-11-25",
-          "publisher": "Insider Monkey"
-        },
-        {
-          "title": "Kohl's (KSS) Q3 2026 Earnings Call Transcript",
-          "url": "https://www.nasdaq.com/articles/kohls-kss-q3-2026-earnings-call-transcript",
-          "date": "2026-11-24",
+          "title": "XP: 3 Key Takeaways for Long-Term Investors",
+          "url": "https://www.nasdaq.com/articles/xp-3-key-takeaways-long-term-investors",
+          "date": "2026-11-27",
           "publisher": "The Motley Fool"
         },
         {
-          "title": "Upcoming Dividend Run For KSS?",
-          "url": "https://www.nasdaq.com/articles/upcoming-dividend-run-kss",
-          "date": "2026-11-24",
-          "publisher": "BNK Invest"
+          "title": "XP (XP) Stock Jumps 19.5% Premarket Without Company News",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/xp-xp-stock-jumps-19-120021545.html",
+          "date": "2026-11-27",
+          "publisher": "GuruFocus.com"
         }
       ]
     },
     {
-      "ticker": "NXAT",
-      "nameKo": "넥서스 어드밴스드 테크놀로지스",
-      "nameEn": "NEXUS ADVANCED TECHNOLOGIES INC",
-      "ratePct": 49.91,
-      "price": 0.6356,
-      "amountUsd": 29466464,
-      "industry": null,
-      "industryKo": null,
+      "ticker": "CHTR",
+      "nameKo": "차터 커뮤니케이션스",
+      "nameEn": "CHARTER COMMUNICATIONS INC",
+      "ratePct": 6.03,
+      "price": 156.1499,
+      "amountUsd": 108819304,
+      "industry": "Telecom Services",
+      "industryKo": "통신 서비스",
       "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "BTDR",
-      "nameKo": "비트디어 테크놀로지스 그룹",
-      "nameEn": "BITDEER TECHNOLOGIES GROUP",
-      "ratePct": 5.94,
-      "price": 2.945,
-      "amountUsd": 28708820,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": [
-        {
-          "title": "B. Riley Cuts Price Target on Bitdeer Technologies Group to $12 From $19, Keeps Buy Rating",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/b-riley-cuts-price-target-124727344.html",
-          "date": "2026-11-23",
-          "publisher": "MT Newswires"
-        }
-      ]
-    },
-    {
-      "ticker": "OMH",
-      "nameKo": "오마이홈",
-      "nameEn": "OHMYHOME LIMITED",
-      "ratePct": 10.19,
-      "price": 4.11,
-      "amountUsd": 28431961,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "RAYA",
-      "nameKo": "에라약 파워 솔루션 그룹",
-      "nameEn": "ERAYAK POWER SOLUTION GROUP INC",
-      "ratePct": 51.64,
-      "price": 0.6443,
-      "amountUsd": 27840094,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "ALGS",
-      "nameKo": "앨리고스 테라퓨틱스",
-      "nameEn": "ALIGOS THERAPEUTICS INC",
-      "ratePct": 87.93,
-      "price": 2.8001,
-      "amountUsd": 25571849,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
-    },
-    {
-      "ticker": "BZ",
-      "nameKo": "칸준(ADR)",
-      "nameEn": "KANZHUN LTD SPON EACH ADR REP 2 ORD SHS",
-      "ratePct": 8.63,
-      "price": 13.84,
-      "amountUsd": 24775551,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "3분기 실적 호조와 $5억 자사주 매입 발표",
-        "detail": "칸준이 3분기 실적을 내놓았다. 주당순이익은 예상을 9.38% 웃돌았고 매출은 0.63% 밑돌았다. 매출은 11.7% 늘었고 $500 million 규모 자사주 매입 프로그램도 새로 발표했다. 이런 점이 주가를 끌어올린 것으로 보인다. 다만 채용 수요 약화로 4분기 성장은 더 느릴 것으로 전망했다.",
-        "quote": "KANZHUN (NASDAQ:BZ) reported an 11.7% increase in third-quarter revenue, but forecast slower growth for the fourth quarter as recruitment demand weakened.",
+        "headline": "20억 달러 비용 절감 계획과 콕스 인수 재조명",
+        "detail": "차터는 3분기 매출 149억 2,200만 달러를 냈고 비락(시장의 예상) 외에 63억 2,600만 달러의 비현금 영업권 손상으로 순손실 23억 9,700만 달러를 기록했다. 18개월에 걸쳐 연간 20억 달러의 운영비를 줄이는 계획을 밝혔고, 콕스 인수 시너지도 별도로 기대한다. 개인투자자 관심이 크게 늘며 이틀 연속 상승했다는 보도도 있다. 애널리스트 시각은 엇갈린다.",
+        "quote": "The company is targeting US$2b in annualized operating expense reductions over 18 months, on top of planned Cox related synergies, signalling a sharp focus on cost discipline...",
         "quoteFrom": 1,
-        "others": [],
+        "others": [
+          {
+            "n": 0,
+            "line": "브로드밴드 전망 두고 애널리스트 의견 엇갈려"
+          }
+        ],
         "refs": [
-          0,
           1,
           2,
           3
@@ -347,56 +597,97 @@ window.MOVERS_DATA = {
       },
       "news": [
         {
-          "title": "KANZHUN LIMITED Sponsored ADR (BZ) Beats Q3 Earnings Estimates",
-          "url": "https://www.nasdaq.com/articles/kanzhun-limited-sponsored-adr-bz-beats-q3-earnings-estimates",
+          "title": "Charter Communications (CHTR) Stock Fair Value Moves Lower As Analysts Split On Broadband Outlook",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-chtr-stock-fair-140938652.html",
+          "date": "2026-11-27",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Why Charter Communications Stock Is Back In Focus After $2 Billion Cost Saving Plan",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-charter-communications-stock-back-191436804.html",
+          "date": "2026-11-26",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "Charter Communications (CHTR) Jumps After Cox Deal, Is It Still Cheap?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-chtr-jumps-cox-160904399.html",
+          "date": "2026-11-26",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "CHTR Stock Posts 2nd Consecutive Day Of Gains: Retail Turns Bullish — 'The Gift That Keeps On Giving'",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/chtr-stock-posts-2nd-consecutive-015435899.html",
+          "date": "2026-11-26",
+          "publisher": "Stocktwits"
+        },
+        {
+          "title": "SpaceX Drops $738 Million of Federal Subsidies to Give Dishes “at No Cost to New Subscribers”",
+          "url": "https://finance.yahoo.com/technology/articles/spacex-drops-738-million-federal-154227688.html",
           "date": "2026-11-25",
-          "publisher": "Zacks"
+          "publisher": "TIKR"
         },
         {
-          "title": "KANZHUN Q3 Earnings Call Highlights",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-q3-earnings-call-highlights-151436438.html",
-          "date": "2026-11-25",
-          "publisher": "MarketBeat"
+          "title": "Did Comcast's Dividends Make Up For Its Stock Drop?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/did-comcasts-dividends-stock-drop-172027431.html",
+          "date": "2026-11-24",
+          "publisher": "Trefis"
         },
         {
-          "title": "Kanzhun Ltd (BZ) (Q3 2026) Earnings Call Highlights: Record Margins, $500 Million Buyback, and ...",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-ltd-bz-q3-2026-142039576.html",
-          "date": "2026-11-25",
-          "publisher": "GuruFocus.com"
-        },
-        {
-          "title": "KANZHUN LIMITED Announces Adoption of New Share Repurchase Program",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-limited-announces-adoption-share-111500016.html",
-          "date": "2026-11-25",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "KANZHUN LIMITED Announces Third Quarter 2026 Unaudited Financial Results",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/kanzhun-limited-announces-third-quarter-111000447.html",
-          "date": "2026-11-25",
-          "publisher": "GlobeNewswire"
-        },
-        {
-          "title": "SurgePays, Inc. (SURG) Reports Q3 Loss, Tops Revenue Estimates",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/surgepays-inc-surg-reports-q3-224502285.html",
-          "date": "2026-11-23",
-          "publisher": "Zacks"
-        },
-        {
-          "title": "Analysts Estimate Rubrik, Inc. (RBRK) to Report a Decline in Earnings: What to Look Out for",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-estimate-rubrik-inc-rbrk-140001870.html",
-          "date": "2026-11-23",
-          "publisher": "Zacks"
+          "title": "Charter Communications Stock: Analyst Estimates & Ratings",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/charter-communications-stock-analyst-estimates-114131284.html",
+          "date": "2026-11-24",
+          "publisher": "Barchart"
         }
       ]
     },
     {
-      "ticker": "APUS",
-      "nameKo": "아피메즈 파머슈티컬스 US",
-      "nameEn": "APIMEDS PHARMACEUTICALS US INC",
-      "ratePct": 35.06,
-      "price": 3.1199,
-      "amountUsd": 13410257,
+      "ticker": "PBR",
+      "nameKo": "페트로브라스(ADR)",
+      "nameEn": "PETROLEO BRASILEIRO SA PETROBRAS SPON ADS EACH R",
+      "ratePct": 5.61,
+      "price": 16.95,
+      "amountUsd": 104341132,
+      "industry": null,
+      "industryKo": null,
+      "story": {
+        "headline": "1,220억 달러 투자 계획과 추가 배당 여력 제시",
+        "detail": "페트로브라스는 2027~2031년 1,220억 달러 투자 계획을 밝히고, 이전 계획보다 100억 달러 더 배당할 여지가 있다고 했다. JP모건은 영업 전망은 강해졌지만 주주에게 돌아갈 현금은 기대보다 적다며 부정적 반응을 예상했다. 오늘 상승과의 직접 연관은 분명하지 않다.",
+        "quote": "",
+        "quoteFrom": -1,
+        "others": [],
+        "refs": [
+          1,
+          2
+        ]
+      },
+      "news": [
+        {
+          "title": "Ultrapar Outperforms Petrobras YTD: Why PBR Still Has the Edge",
+          "url": "https://www.nasdaq.com/articles/ultrapar-outperforms-petrobras-ytd-why-pbr-still-has-edge",
+          "date": "2026-11-26",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Petrobras Unveils $122 Billion Plan, Sees Potential for $10 Billion More in Dividends",
+          "url": "https://finance.yahoo.com/energy/articles/petrobras-unveils-122-billion-plan-011316877.html",
+          "date": "2026-11-25",
+          "publisher": "MarketBeat"
+        },
+        {
+          "title": "JPMorgan expects negative market reaction to Petrobras five-year plan",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-expects-negative-market-reaction-211059565.html",
+          "date": "2026-11-24",
+          "publisher": "TipRanks"
+        }
+      ]
+    },
+    {
+      "ticker": "BBD",
+      "nameKo": "방쿠 브라데스쿠 우선주(ADR)",
+      "nameEn": "BANCO BRADESCO SA SPONS ADR EACH REPR 1 PRF NPV",
+      "ratePct": 18.31,
+      "price": 2.875,
+      "amountUsd": 99546156,
       "industry": null,
       "industryKo": null,
       "story": {
@@ -410,42 +701,70 @@ window.MOVERS_DATA = {
       "news": []
     },
     {
-      "ticker": "WHLR",
-      "nameKo": "휠러 리얼 에스테이트 인베스트먼트 트러스트",
-      "nameEn": "WHEELER REAL ESTATE INVESTMENT TRUST INC",
-      "ratePct": 37.49,
-      "price": 0.4474,
-      "amountUsd": 11057878,
+      "ticker": "IONQ",
+      "nameKo": "아이온큐",
+      "nameEn": "IONQ INC",
+      "ratePct": 5.78,
+      "price": 24.9,
+      "amountUsd": 89080397,
       "industry": null,
       "industryKo": null,
       "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
+        "headline": "급락 뒤 반등, 직접 이유는 불명",
+        "detail": "자체 QKD(양자 암호 키 분배) 시스템이 IDEMIA 검증을 통과했다는 소식도 나왔다. 주가는 올해 거의 절반으로 줄어든 상태여서 반등 성격이 있을 수 있다. 직접 설명한 기사는 없다.",
         "quote": "",
         "quoteFrom": -1,
         "others": [],
-        "refs": []
+        "refs": [
+          0,
+          2,
+          3
+        ]
       },
-      "news": []
-    },
-    {
-      "ticker": "SVRE",
-      "nameKo": "세이버원 2014(ADS)",
-      "nameEn": "SAVERONE 2014 LTD SPON ADS EACH REP 43200 ORD(RE",
-      "ratePct": 18.44,
-      "price": 1.3384,
-      "amountUsd": 8955830,
-      "industry": null,
-      "industryKo": null,
-      "story": {
-        "headline": "",
-        "detail": "기사로는 이유를 찾지 못했다",
-        "quote": "",
-        "quoteFrom": -1,
-        "others": [],
-        "refs": []
-      },
-      "news": []
+      "news": [
+        {
+          "title": "IonQ's QKD Systems Pass IDEMIA Validation for Critical Communications",
+          "url": "https://www.nasdaq.com/articles/ionqs-qkd-systems-pass-idemia-validation-critical-communications",
+          "date": "2026-11-27",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "Here's How QBTS' Dual-Platform Roadmap Broadens Market Opportunities",
+          "url": "https://finance.yahoo.com/technology/ai/articles/heres-qbts-dual-platform-roadmap-131900749.html",
+          "date": "2026-11-27",
+          "publisher": "Zacks"
+        },
+        {
+          "title": "IonQ Has Delivered 6 Consecutive Record Quarters. The Bull Case Is Getting Stronger",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-delivered-6-consecutive-record-121741914.html",
+          "date": "2026-11-26",
+          "publisher": "24/7 Wall St."
+        },
+        {
+          "title": "IonQ Stock Has The Bull Case Changed After Raised Revenue Guidance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-stock-bull-case-changed-061727547.html",
+          "date": "2026-11-26",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "What Do IonQ (IONQ) Quantum Sensing Wins Mean For Its Broader Growth Story?",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ionq-ionq-quantum-sensing-wins-051527062.html",
+          "date": "2026-11-26",
+          "publisher": "Simply Wall St."
+        },
+        {
+          "title": "How Much More Could You Lose In IonQ Stock?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/much-more-could-lose-ionq-235538709.html",
+          "date": "2026-11-25",
+          "publisher": "Trefis"
+        },
+        {
+          "title": "The Zacks Analyst Blog Highlights IonQ, Rigetti and Quantum Computing",
+          "url": "https://www.nasdaq.com/articles/zacks-analyst-blog-highlights-ionq-rigetti-and-quantum-computing",
+          "date": "2026-11-24",
+          "publisher": "Zacks"
+        }
+      ]
     }
   ]
 };
