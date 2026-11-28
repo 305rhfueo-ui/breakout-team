@@ -1,0 +1,341 @@
+{
+  "date": "2026-11-28",
+  "count": 34,
+  "tickers": [
+    "APP",
+    "MRNA",
+    "KOD",
+    "INSM",
+    "KYMR",
+    "TMDX",
+    "ANF",
+    "MGRT",
+    "GKOS",
+    "CHTR",
+    "ELF",
+    "CAR",
+    "KNSA",
+    "ALGT",
+    "EPAM",
+    "WING",
+    "ECO",
+    "RYTM",
+    "ZS",
+    "SN",
+    "MIRM",
+    "TXG",
+    "QLYS",
+    "PRAX",
+    "CRL",
+    "OKTA",
+    "BCO",
+    "MANE",
+    "HNGE",
+    "SKY",
+    "GRAL",
+    "DNTH",
+    "RNG",
+    "SIG"
+  ],
+  "criteria": {
+    "topPct": 2,
+    "adrMin": 4,
+    "requireMa150": true
+  },
+  "themes": [
+    {
+      "key": "Industry:Biotechnology",
+      "level": "Industry",
+      "name": "Biotechnology",
+      "count": 9,
+      "sharePct": 26.5,
+      "tickers": [
+        "MRNA",
+        "KOD",
+        "INSM",
+        "KYMR",
+        "RYTM",
+        "MIRM",
+        "PRAX",
+        "MANE",
+        "DNTH"
+      ],
+      "concentration": "high",
+      "periods": {
+        "m1": 6,
+        "m3": 5,
+        "m6": 4
+      }
+    },
+    {
+      "key": "Industry:Medical Devices",
+      "level": "Industry",
+      "name": "Medical Devices",
+      "count": 3,
+      "sharePct": 8.8,
+      "tickers": [
+        "TMDX",
+        "GKOS",
+        "TXG"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 1,
+        "m3": 1,
+        "m6": 2
+      }
+    },
+    {
+      "key": "Industry:Software - Infrastructure",
+      "level": "Industry",
+      "name": "Software - Infrastructure",
+      "count": 3,
+      "sharePct": 8.8,
+      "tickers": [
+        "ZS",
+        "QLYS",
+        "OKTA"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 3
+      }
+    },
+    {
+      "key": "Industry:Information Technology Services",
+      "level": "Industry",
+      "name": "Information Technology Services",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "MGRT",
+        "EPAM"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 2,
+        "m3": 2,
+        "m6": 1
+      }
+    },
+    {
+      "key": "Industry:Diagnostics & Research",
+      "level": "Industry",
+      "name": "Diagnostics & Research",
+      "count": 2,
+      "sharePct": 5.9,
+      "tickers": [
+        "CRL",
+        "GRAL"
+      ],
+      "concentration": "low",
+      "periods": {
+        "m1": 0,
+        "m3": 1,
+        "m6": 2
+      }
+    }
+  ],
+  "byPeriod": {
+    "m1": [
+      "APP",
+      "INSM",
+      "KYMR",
+      "TMDX",
+      "MGRT",
+      "CHTR",
+      "CAR",
+      "ALGT",
+      "EPAM",
+      "RYTM",
+      "MIRM",
+      "PRAX",
+      "BCO",
+      "SKY",
+      "DNTH"
+    ],
+    "m3": [
+      "MRNA",
+      "KOD",
+      "INSM",
+      "KYMR",
+      "ANF",
+      "MGRT",
+      "GKOS",
+      "EPAM",
+      "WING",
+      "ZS",
+      "SN",
+      "MANE",
+      "GRAL",
+      "SIG"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "INSM",
+      "KYMR",
+      "ANF",
+      "MGRT",
+      "GKOS",
+      "ELF",
+      "KNSA",
+      "ECO",
+      "ZS",
+      "SN",
+      "TXG",
+      "QLYS",
+      "CRL",
+      "OKTA",
+      "HNGE",
+      "GRAL",
+      "RNG"
+    ]
+  },
+  "cross": {
+    "persistent": [
+      "INSM",
+      "KYMR",
+      "MGRT"
+    ],
+    "newEntrants": [
+      "APP",
+      "TMDX",
+      "CHTR",
+      "CAR",
+      "ALGT",
+      "RYTM",
+      "MIRM",
+      "PRAX",
+      "BCO",
+      "SKY",
+      "DNTH"
+    ],
+    "midTerm": [
+      "MRNA",
+      "KOD",
+      "ANF",
+      "GKOS",
+      "WING",
+      "ZS",
+      "SN",
+      "MANE",
+      "GRAL",
+      "SIG"
+    ],
+    "fading": [
+      "ELF",
+      "KNSA",
+      "ECO",
+      "TXG",
+      "QLYS",
+      "CRL",
+      "OKTA",
+      "HNGE",
+      "RNG"
+    ]
+  },
+  "lists": {
+    "dollar": [
+      "MU",
+      "TSLA",
+      "INTC",
+      "DELL",
+      "PLTR",
+      "MRVL",
+      "SKHY",
+      "NBIS",
+      "QCOM",
+      "BE",
+      "COHR",
+      "WDC",
+      "LITE",
+      "STX",
+      "APP",
+      "SHOP",
+      "ANET",
+      "MPWR",
+      "ALAB",
+      "TER"
+    ],
+    "m1": [
+      "APP",
+      "INSM",
+      "TMDX",
+      "KYMR",
+      "CHTR",
+      "CAR",
+      "ALGT",
+      "CVCO",
+      "RYTM",
+      "MGRT",
+      "MIRM",
+      "NXST",
+      "CLX",
+      "IDXX",
+      "PRAX",
+      "IPAR",
+      "BCO",
+      "SKY",
+      "PLMR",
+      "DNTH",
+      "EPAM",
+      "REGN"
+    ],
+    "m3": [
+      "KOD",
+      "MRNA",
+      "KYMR",
+      "MGRT",
+      "GKOS",
+      "FCN",
+      "CROX",
+      "EPAM",
+      "WING",
+      "ZS",
+      "PVH",
+      "SN",
+      "ANF",
+      "CRAI",
+      "INSM",
+      "IDXX",
+      "CRVL",
+      "MANE",
+      "GRAL",
+      "EXPO",
+      "PTC",
+      "SIG"
+    ],
+    "m6": [
+      "MRNA",
+      "KOD",
+      "KYMR",
+      "ANF",
+      "GKOS",
+      "ELF",
+      "KNSA",
+      "MGRT",
+      "ECO",
+      "SN",
+      "TXG",
+      "QLYS",
+      "ZS",
+      "PAYC",
+      "INSM",
+      "CRL",
+      "OKTA",
+      "HNGE",
+      "THC",
+      "RNG",
+      "DOCU",
+      "GRAL"
+    ],
+    "all": [
+      "KYMR",
+      "MGRT",
+      "INSM"
+    ]
+  }
+}
