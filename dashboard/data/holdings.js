@@ -1,5 +1,5 @@
 window.HOLDINGS_DATA = {
-  "updated": "2026-11-27T22:10:08.177Z",
+  "updated": "2026-11-28T13:00:06.417Z",
   "source": "trades.json",
   "sourceUrl": "https://305rhfueo-ui.github.io/trading-journal/",
   "holdings": [
@@ -15,7 +15,7 @@ window.HOLDINGS_DATA = {
           "publisher": "The Motley Fool",
           "ko": "팔란티어, 폴란드 국방부와 3억 달러 AI 계약",
           "tone": "good",
-          "isNew": true,
+          "isNew": false,
           "headline": "팔란티어, 폴란드 국방부와 3억 달러 AI 계약",
           "easy": "팔란티어가 폴란드 국방부와 3억 달러 규모의 AI 국방 계약을 체결했다는 소식에 금요일 주가가 올랐다. 기사 본문은 확인하지 못해 계약의 세부 내용이나 기간, 주가 상승폭은 알 수 없다. 해외 정부 대상 국방 AI 매출이 늘 수 있다는 기대가 반영된 것으로 보인다.",
           "whyMatters": "주가가 올라야 이익인 보유 포지션에는 유리한 소식이다. 다만 본문이 없어 계약의 실제 매출 기여 시점과 규모는 확인되지 않았다.",
@@ -85,15 +85,15 @@ window.HOLDINGS_DATA = {
         {
           "type": "report",
           "title": "[팔란티어 테크 (NAS:PLTR)] AI 도입을 실적으로 증명",
-          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegq.pdf",
+          "url": "https://rreport.einfomax.co.kr/report/eqmzimgzlgkgeglgcgxeegl.pdf",
           "date": "2026-11-23",
           "publisher": "한화증권 신승윤",
-          "ko": "팔란티어 분기 매출 23.1억 달러, 시장 예상 상회",
-          "tone": "good",
-          "isNew": false,
-          "headline": "팔란티어 분기 매출 23.1억 달러, 시장 예상 상회",
-          "easy": "증권사 리포트에 따르면 팔란티어의 분기 매출은 23.1억 달러로 전년 대비 95.9% 늘어 컨센서스 21.7억 달러를 넘었다. 조정 EPS는 0.44달러로 컨센서스 0.41달러보다 높았다. 가이던스는 4분기 매출 26.5억 달러, 2026년 연간 매출 85.3억 달러다.",
-          "whyMatters": "매출과 이익이 모두 예상을 웃돌고 가이던스도 제시돼 보유 포지션에는 우호적인 내용이다. 다만 주가 반응은 기대치와 밸류에이션에 따라 달라질 수 있다.",
+          "ko": null,
+          "tone": null,
+          "isNew": true,
+          "headline": null,
+          "easy": null,
+          "whyMatters": null,
           "quote": null,
           "read": false
         },
